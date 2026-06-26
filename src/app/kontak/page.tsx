@@ -104,8 +104,8 @@ export default function KontakPage() {
                 <div className="text-center">
                   <MapPin size={40} className="text-accent mx-auto mb-3" />
                   <div className="font-bold text-primary mb-1">Bakti Kawan Sejahtera</div>
-                  <div className="text-secondary text-sm">Jl. Contoh No. 123</div>
-                  <div className="text-secondary text-sm">Jakarta Timur, DKI Jakarta 13000</div>
+                  <div className="text-secondary text-sm">RT.1/RW.4, Tarikolot, Kec. Citeureup</div>
+                  <div className="text-secondary text-sm">Kabupaten Bogor, Jawa Barat 16810</div>
                 </div>
               </div>
 

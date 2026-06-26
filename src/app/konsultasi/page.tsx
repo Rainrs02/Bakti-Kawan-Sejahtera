@@ -13,7 +13,7 @@ import ConsultationForm from '@/components/organisms/ConsultationForm'
 const CONTACT_INFO = [
   { icon: Phone, label: 'WhatsApp / Telepon', value: '+62 812 0000 0001', href: `https://wa.me/${WA_ADMIN_NUMBER}` },
   { icon: Mail, label: 'Email', value: 'info@servicealkes.com', href: 'mailto:info@servicealkes.com' },
-  { icon: MapPin, label: 'Alamat', value: 'Jl. Contoh No. 123, Jakarta Timur, DKI Jakarta 13000', href: '#' },
+  { icon: MapPin, label: 'Alamat', value: 'RT.1/RW.4, Tarikolot, Kec. Citeureup, Kabupaten Bogor, Jawa Barat 16810', href: '#' },
   { icon: Clock, label: 'Jam Operasional', value: 'Sen–Jum 08.00–17.00 | Sabtu 08.00–14.00\nEmergency 24/7', href: '#' },
 ]
 
