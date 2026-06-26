@@ -15,7 +15,7 @@ const TIMELINE = [
   { year: '2008', event: 'Ekspansi layanan ke furniture kantor dan komersial' },
   { year: '2012', event: 'Membuka workshop besar dan rekrut 50+ teknisi bersertifikasi' },
   { year: '2016', event: 'Cakupan nasional — melayani proyek di 15+ provinsi' },
-  { year: '2019', event: 'Kemitraan dengan distributor spare part OEM terkemuka' },
+  { year: '2019', event: 'Kemitraan dengan distributor spare part berkualitas terkemuka' },
   { year: '2022', event: 'Milestone 5000+ proyek berhasil diselesaikan' },
   { year: '2024', event: 'Pengembangan sistem digital untuk koordinasi teknisi nasional' },
 ]
@@ -141,7 +141,7 @@ export default function TentangPage() {
               <ul className="space-y-2">
                 {[
                   'Memberikan layanan service furniture berkualitas tinggi dengan harga transparan',
-                  'Menggunakan spare part OEM untuk hasil yang tahan lama dan aman',
+                  'Menggunakan spare part berkualitas untuk hasil yang tahan lama dan aman',
                   'Merespons setiap kebutuhan klien dengan cepat dan profesional',
                   'Terus berinovasi untuk meningkatkan kualitas layanan',
                 ].map((item) => (

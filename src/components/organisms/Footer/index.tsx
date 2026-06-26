@@ -102,7 +102,7 @@ export default function Footer() {
 
             <p className="text-white/90 text-sm leading-relaxed mb-6 max-w-xs">
               Penyedia layanan service furniture alat kesehatan, kantor, dan komersial profesional.
-              Teknisi bersertifikasi, spare part OEM, garansi tertulis. Melayani seluruh Indonesia.
+              Teknisi bersertifikasi, spare part berkualitas, garansi tertulis. Melayani seluruh Indonesia.
             </p>
 
             {/* Contact Info */}

@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     default: 'Bakti Kawan Sejahtera — Service Furniture Alkes Profesional',
   },
   description:
-    'PT Bakti Kawan Sejahtera: service furniture alat kesehatan, kantor, dan komersial. Teknisi bersertifikasi, spare part OEM, garansi tertulis. Fast response Jabodetabek, melayani seluruh Indonesia.',
+    'PT Bakti Kawan Sejahtera: service furniture alat kesehatan, kantor, dan komersial. Teknisi bersertifikasi, spare part berkualitas, garansi tertulis. Fast response Jabodetabek, melayani seluruh Indonesia.',
   keywords: [
     'service alkes',
     'service furniture rumah sakit',

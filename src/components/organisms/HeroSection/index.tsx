@@ -85,7 +85,7 @@ export default function HeroSection() {
 
             {/* Subheadline */}
             <p className="text-lg text-white/80 leading-relaxed mb-8 max-w-xl animate-fade-up delay-200">
-              Teknisi bersertifikasi, spare part OEM berkualitas, dan garansi tertulis
+              Teknisi bersertifikasi, spare part berkualitas, dan garansi tertulis
               3–12 bulan. Fast response untuk Jabodetabek, melayani seluruh Indonesia.
             </p>
 

@@ -95,7 +95,7 @@ export const FAQS: FAQItem[] = [
     id: '14',
     category: 'Kualitas & Spare Part',
     question: 'Spare part yang digunakan apakah original/OEM?',
-    answer: 'Kami mengutamakan spare part OEM (Original Equipment Manufacturer) berkualitas tinggi. Untuk beberapa komponen, kami menggunakan spare part aftermarket premium yang telah diuji kualitasnya. Jenis spare part selalu dikomunikasikan dalam penawaran.',
+    answer: 'Kami mengutamakan spare part berkualitas tinggi. Untuk beberapa komponen, kami menggunakan spare part aftermarket premium yang telah diuji kualitasnya. Jenis spare part selalu dikomunikasikan dalam penawaran.',
   },
   {
     id: '15',

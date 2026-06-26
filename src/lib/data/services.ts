@@ -73,7 +73,7 @@ Guna menjamin keamanan jangka panjang, kami hanya menggunakan suku cadang berkua
       },
       {
         question: 'Spare part yang digunakan apakah original?',
-        answer: 'Ya, kami menggunakan spare part OEM (Original Equipment Manufacturer) berkualitas tinggi. Kami bekerja sama langsung dengan distributor spare part terpercaya untuk memastikan kualitas dan keaslian.',
+        answer: 'Ya, kami menggunakan spare part berkualitas tinggi. Kami bekerja sama langsung dengan distributor spare part terpercaya untuk memastikan kualitas dan keaslian.',
       },
       {
         question: 'Apakah ada garansi setelah perbaikan?',
@@ -87,7 +87,7 @@ Guna menjamin keamanan jangka panjang, kami hanya menggunakan suku cadang berkua
     gallery: [],
     relatedSlugs: ['service-troli-emergency', 'service-nurse-station', 'service-meja-periksa'],
     metaTitle: 'Service Bed Pasien Profesional | Bakti Kawan Sejahtera Jakarta',
-    metaDescription: 'Jasa service dan perbaikan bed pasien rumah sakit, klinik, puskesmas. Teknisi bersertifikasi, spare part OEM, garansi tertulis. Fast response Jabodetabek. Hubungi kami sekarang!',
+    metaDescription: 'Jasa service dan perbaikan bed pasien rumah sakit, klinik, puskesmas. Teknisi bersertifikasi, spare part berkualitas, garansi tertulis. Fast response Jabodetabek. Hubungi kami sekarang!',
     image: '/images/services/bed-pasien.png',
     imageAlt: 'Teknisi PT Bakti Kawan Sejahtera sedang melakukan perbaikan bed pasien rumah sakit',
   },
