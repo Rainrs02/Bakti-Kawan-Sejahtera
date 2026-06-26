@@ -36,7 +36,7 @@ const CATEGORIES = [
     description: 'Cafe, Restoran, Hotel & Retail',
     count: 4,
     href: '/layanan/kategori/komersial',
-    imageSrc: '/images/gallery/bed-pasien-after.png',
+    imageSrc: '/images/services/sofa-cafe.png',
     accent: '#171717',
     featured: false,
     services: ['Sofa Cafe', 'Booth Seating', 'Furniture Hotel', 'Display Retail'],
