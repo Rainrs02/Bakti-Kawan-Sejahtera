@@ -8,6 +8,7 @@ const JABODETABEK = ['Jakarta', 'Bogor', 'Depok', 'Tangerang', 'Bekasi']
 const OTHER_CITIES = [
   'Bandung', 'Surabaya', 'Medan', 'Semarang', 'Makassar',
   'Yogyakarta', 'Palembang', 'Pekanbaru', 'Balikpapan', 'Manado',
+  'Denpasar', 'Banjarmasin', 'Pontianak', 'Ambon', 'Jayapura'
 ]
 
 const COVERAGE_FEATURES = [

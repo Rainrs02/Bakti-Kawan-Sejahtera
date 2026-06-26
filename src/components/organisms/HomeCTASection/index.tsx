@@ -56,7 +56,7 @@ export default function HomeCTASection() {
             '✓ Konsultasi Gratis',
             '✓ Survey Gratis',
             '✓ Harga Transparan',
-            '✓ Garansi Tertulis',
+            '✓ Bergaransi',
             '✓ Teknisi Bersertifikasi',
           ].map((item) => (
             <span key={item} className="flex items-center gap-1.5 text-white/80">

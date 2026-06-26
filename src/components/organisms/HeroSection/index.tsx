@@ -10,7 +10,7 @@ import { COMPANY_STATS } from '@/lib/data/partners'
 const BADGES = [
   { icon: '✓', text: 'Teknisi Bersertifikasi', color: 'text-green-400' },
   { icon: '✓', text: 'Fast Response Jabodetabek', color: 'text-accent' },
-  { icon: '✓', text: 'Bergaransi Tertulis', color: 'text-blue-400' },
+  { icon: '✓', text: 'Bergaransi', color: 'text-blue-400' },
   { icon: '✓', text: 'Seluruh Indonesia', color: 'text-purple-400' },
 ]
 
@@ -85,7 +85,7 @@ export default function HeroSection() {
 
             {/* Subheadline */}
             <p className="text-lg text-white/80 leading-relaxed mb-8 max-w-xl animate-fade-up delay-200">
-              Teknisi bersertifikasi, spare part berkualitas, dan garansi tertulis
+              Teknisi bersertifikasi, spare part berkualitas, dan garansi
               3–12 bulan. Fast response untuk Jabodetabek, melayani seluruh Indonesia.
             </p>
 

@@ -39,13 +39,23 @@ export default function IndonesiaMap() {
   // Coordinates for center of Indonesia
   const position: [number, number] = [-2.5489, 118.0149]
 
-  // Key locations
   const locations = [
     { name: 'Jabodetabek (Pusat)', pos: [-6.2088, 106.8456], desc: 'Kantor Pusat & Tim Fast Response' },
     { name: 'Surabaya', pos: [-7.2504, 112.7688], desc: 'Coverage Area' },
     { name: 'Medan', pos: [3.5952, 98.6722], desc: 'Coverage Area' },
     { name: 'Makassar', pos: [-5.1477, 119.4327], desc: 'Coverage Area' },
-    { name: 'Balikpapan', pos: [-1.2379, 116.8529], desc: 'Coverage Area' }
+    { name: 'Balikpapan', pos: [-1.2379, 116.8529], desc: 'Coverage Area' },
+    { name: 'Bandung', pos: [-6.9147, 107.6098], desc: 'Coverage Area' },
+    { name: 'Semarang', pos: [-6.9667, 110.4167], desc: 'Coverage Area' },
+    { name: 'Yogyakarta', pos: [-7.7956, 110.3695], desc: 'Coverage Area' },
+    { name: 'Palembang', pos: [-2.9909, 104.7566], desc: 'Coverage Area' },
+    { name: 'Pekanbaru', pos: [0.5071, 101.4451], desc: 'Coverage Area' },
+    { name: 'Denpasar', pos: [-8.6500, 115.2167], desc: 'Coverage Area' },
+    { name: 'Banjarmasin', pos: [-3.3167, 114.5901], desc: 'Coverage Area' },
+    { name: 'Pontianak', pos: [-0.0263, 109.3425], desc: 'Coverage Area' },
+    { name: 'Manado', pos: [1.4748, 124.8421], desc: 'Coverage Area' },
+    { name: 'Ambon', pos: [-3.6954, 128.1814], desc: 'Coverage Area' },
+    { name: 'Jayapura', pos: [-2.5337, 140.7181], desc: 'Coverage Area' }
   ]
 
   return (

@@ -28,8 +28,8 @@ const DEFAULT_PROCESS = [
   },
   {
     step: 5,
-    title: 'Garansi Tertulis',
-    description: 'Setiap pekerjaan dilengkapi garansi tertulis 3-12 bulan. Kepuasan Anda adalah prioritas kami.',
+    title: 'Bergaransi',
+    description: 'Setiap pekerjaan dilengkapi garansi 3-12 bulan. Kepuasan Anda adalah prioritas kami.',
     icon: 'shield-check',
   },
 ]
@@ -50,12 +50,12 @@ export const SERVICES: ServiceData[] = [
 
 Teknisi kami memiliki sertifikasi resmi dan keahlian mendalam untuk memperbaiki berbagai jenis ranjang medis, mulai dari tipe manual (1 crank, 2 crank, 3 crank), bed elektrik otomatis, hingga ranjang ruang ICU dengan sistem hidrolik yang rumit. Kami mengatasi masalah seperti actuator elektrik mati, kebocoran oli hidrolik, crank manual dol/macet, karat pada rangka, hingga kerusakan roda dan sistem pengunci (central lock system).
 
-Guna menjamin keamanan jangka panjang, kami hanya menggunakan suku cadang berkualitas OEM yang orisinal. Layanan kami meliputi perbaikan struktural (welding & alignment), refurbishment jok matras dengan medical-grade anti-bacterial vinyl, pengecatan ulang anti-karat (powder coating), serta kalibrasi fungsi keseluruhan. Setiap pekerjaan kami lengkapi dengan garansi tertulis 3-12 bulan untuk ketenangan pikiran Anda.`,
+Guna menjamin keamanan jangka panjang, kami hanya menggunakan suku cadang berkualitas OEM yang orisinal. Layanan kami meliputi perbaikan struktural (welding & alignment), refurbishment jok matras dengan medical-grade anti-bacterial vinyl, pengecatan ulang anti-karat (powder coating), serta kalibrasi fungsi keseluruhan. Setiap pekerjaan kami lengkapi dengan garansi 3-12 bulan untuk ketenangan pikiran Anda.`,
     benefits: [
       'Teknisi bersertifikasi dengan pengalaman 10+ tahun',
       'Spare part berkualitas OEM original',
       'Fast response Jabodetabek (layanan cepat)',
-      'Garansi tertulis 3-12 bulan',
+      'Garansi 3-12 bulan',
       'Penanganan bed manual, electric, dan ICU',
       'Perbaikan on-site di lokasi fasilitas kesehatan',
       'Harga transparan tanpa biaya tersembunyi',
@@ -77,7 +77,7 @@ Guna menjamin keamanan jangka panjang, kami hanya menggunakan suku cadang berkua
       },
       {
         question: 'Apakah ada garansi setelah perbaikan?',
-        answer: 'Setiap perbaikan yang kami lakukan disertai garansi tertulis 3-12 bulan, tergantung jenis pekerjaan. Jika ada masalah dalam periode garansi, kami akan memperbaikinya tanpa biaya tambahan.',
+        answer: 'Setiap perbaikan yang kami lakukan disertai garansi 3-12 bulan, tergantung jenis pekerjaan. Jika ada masalah dalam periode garansi, kami akan memperbaikinya tanpa biaya tambahan.',
       },
       {
         question: 'Berapa estimasi biaya service bed pasien?',
@@ -87,7 +87,7 @@ Guna menjamin keamanan jangka panjang, kami hanya menggunakan suku cadang berkua
     gallery: [],
     relatedSlugs: ['service-troli-emergency', 'service-nurse-station', 'service-meja-periksa'],
     metaTitle: 'Service Bed Pasien Profesional | Bakti Kawan Sejahtera Jakarta',
-    metaDescription: 'Jasa service dan perbaikan bed pasien rumah sakit, klinik, puskesmas. Teknisi bersertifikasi, spare part berkualitas, garansi tertulis. Fast response Jabodetabek. Hubungi kami sekarang!',
+    metaDescription: 'Jasa service dan perbaikan bed pasien rumah sakit, klinik, puskesmas. Teknisi bersertifikasi, spare part berkualitas, garansi. Fast response Jabodetabek. Hubungi kami sekarang!',
     image: '/images/services/bed-pasien.png',
     imageAlt: 'Teknisi PT Bakti Kawan Sejahtera sedang melakukan perbaikan bed pasien rumah sakit',
   },
@@ -213,7 +213,7 @@ Pengerjaan dapat dilakukan langsung di lokasi klinik Anda (on-site service) agar
     gallery: [],
     relatedSlugs: ['service-bed-pasien', 'service-meja-operasi', 'service-nurse-station'],
     metaTitle: 'Service Meja Periksa Klinik & RS | Bakti Kawan Sejahtera',
-    metaDescription: 'Layanan service meja periksa pasien: examination table manual & elektrik, meja ginekologi. Teknisi berpengalaman, penggantian busa berkualitas. Garansi tertulis.',
+    metaDescription: 'Layanan service meja periksa pasien: examination table manual & elektrik, meja ginekologi. Teknisi berpengalaman, penggantian busa berkualitas. Garansi.',
     image: '/images/services/meja-periksa.png',
     imageAlt: 'Bed periksa pasien klinik dengan pelapis kulit sintetis putih bersih yang nyaman',
   },
@@ -820,7 +820,7 @@ export const CATEGORY_PAGES_DATA: CategoryPageData[] = [
     image: '/images/services/bed-pasien.png',
     imageAlt: 'Teknisi profesional merapikan bed pasien di rumah sakit',
     metaTitle: 'Jasa Service & Perbaikan Alat Kesehatan RS | Bakti Kawan Sejahtera',
-    metaDescription: 'Layanan service furniture alat kesehatan & ranjang rumah sakit. Perbaikan bed pasien manual/elektrik, meja operasi, troli emergency. Garansi tertulis 3-12 bulan.',
+    metaDescription: 'Layanan service furniture alat kesehatan & ranjang rumah sakit. Perbaikan bed pasien manual/elektrik, meja operasi, troli emergency. Garansi 3-12 bulan.',
     customServiceTitle: 'Butuh Service Alat Kesehatan Lain yang Tidak Terdaftar?',
     customServiceDescription: 'Kami melayani perbaikan dan pembuatan kustom berbagai furniture medis lainnya di luar menu utama (seperti ranjang bersalin/obgyn bed, tiang infus kustom, meja lab stainless steel, lemari farmasi ganda, dll). Hubungi tim kami untuk konsultasi spesifikasi teknis dan estimasi biaya gratis.'
   },

@@ -102,7 +102,7 @@ export default function Footer() {
 
             <p className="text-white/90 text-sm leading-relaxed mb-6 max-w-xs">
               Penyedia layanan service furniture alat kesehatan, kantor, dan komersial profesional.
-              Teknisi bersertifikasi, spare part berkualitas, garansi tertulis. Melayani seluruh Indonesia.
+              Teknisi bersertifikasi, spare part berkualitas, garansi. Melayani seluruh Indonesia.
             </p>
 
             {/* Contact Info */}
@@ -243,7 +243,7 @@ export default function Footer() {
 
             {/* Trust Badges */}
             <div className="mt-8 space-y-2">
-              {['✔ Teknisi Bersertifikasi', '✔ Spare Part OEM', '✔ Garansi Tertulis', '✔ Fast Response 24/7'].map((badge) => (
+              {['✔ Teknisi Bersertifikasi', '✔ Spare Part OEM', '✔ Bergaransi', '✔ Fast Response 24/7'].map((badge) => (
                 <div key={badge} className="text-xs text-white/80 flex items-center gap-2">
                   <span className="text-accent">{badge.slice(0, 1)}</span>
                   <span>{badge.slice(2)}</span>

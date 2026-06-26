@@ -23,7 +23,7 @@ const TIMELINE = [
 const VALUES = [
   { icon: '🎯', title: 'Profesional', desc: 'Setiap pekerjaan kami tangani dengan standar tertinggi dan keahlian yang teruji.' },
   { icon: '⚡', title: 'Responsif', desc: 'Respons cepat dalam 15 menit. Kami memahami bahwa waktu adalah hal krusial.' },
-  { icon: '🛡️', title: 'Terpercaya', desc: 'Garansi tertulis di setiap pekerjaan. Kepuasan Anda adalah komitmen kami.' },
+  { icon: '🛡️', title: 'Terpercaya', desc: 'Garansi di setiap pekerjaan. Kepuasan Anda adalah komitmen kami.' },
   { icon: '💎', title: 'Berkualitas', desc: 'Spare part OEM dan bahan premium untuk hasil perbaikan yang tahan lama.' },
   { icon: '🤝', title: 'Integritas', desc: 'Harga transparan, tidak ada biaya tersembunyi. Kejujuran adalah fondasi kami.' },
   { icon: '🌟', title: 'Inovatif', desc: 'Terus berinovasi dalam teknologi dan metode untuk hasil service terbaik.' },
@@ -96,7 +96,7 @@ export default function TentangPage() {
                 </p>
                 <p>
                   Setiap pekerjaan kami lakukan dengan standar kualitas tertinggi — menggunakan spare
-                  part OEM berkualitas, teknisi terlatih, dan selalu memberikan garansi tertulis untuk
+                  part OEM berkualitas, teknisi terlatih, dan selalu memberikan garansi untuk
                   setiap pekerjaan.
                 </p>
               </div>

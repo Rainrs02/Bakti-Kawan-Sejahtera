@@ -31,7 +31,7 @@ export const FAQS: FAQItem[] = [
     id: '4',
     category: 'Layanan',
     question: 'Berapa lama garansi yang diberikan setelah service?',
-    answer: 'Garansi bervariasi sesuai jenis pekerjaan: 3-6 bulan untuk perbaikan komponen, 6-12 bulan untuk reupholstery dan renovasi, dan 12 bulan untuk pengerjaan besar. Semua garansi tertulis dalam dokumen resmi.',
+    answer: 'Garansi bervariasi sesuai jenis pekerjaan: 3-6 bulan untuk perbaikan komponen, 6-12 bulan untuk reupholstery dan renovasi, dan 12 bulan untuk pengerjaan besar. Semua garansi dalam dokumen resmi.',
   },
   // Wilayah
   {
@@ -76,7 +76,7 @@ export const FAQS: FAQItem[] = [
     id: '11',
     category: 'Proses Service',
     question: 'Apa saja tahapan proses service di Bakti Kawan Sejahtera?',
-    answer: '1) Konsultasi via WA/telepon, 2) Survey lapangan gratis, 3) Diagnosa dan penawaran harga, 4) Konfirmasi dan penjadwalan, 5) Pengerjaan oleh teknisi bersertifikasi, 6) QC dan serah terima, 7) Garansi tertulis diberikan.',
+    answer: '1) Konsultasi via WA/telepon, 2) Survey lapangan gratis, 3) Diagnosa dan penawaran harga, 4) Konfirmasi dan penjadwalan, 5) Pengerjaan oleh teknisi bersertifikasi, 6) QC dan serah terima, 7) Garansi diberikan.',
   },
   {
     id: '12',
