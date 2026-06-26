@@ -131,7 +131,7 @@ export default function Footer() {
                 <div className="w-8 h-8 rounded-lg bg-white/10 flex items-center justify-center flex-shrink-0 mt-0.5">
                   <MapPin size={14} />
                 </div>
-                <span>Jl. Contoh No. 123, Jakarta Timur,<br />DKI Jakarta 13000</span>
+                <span>RT.1/RW.4, Tarikolot, Kec. Citeureup,<br />Kabupaten Bogor, Jawa Barat 16810</span>
               </div>
               <div className="flex items-start gap-3 text-sm text-white/80">
                 <div className="w-8 h-8 rounded-lg bg-white/10 flex items-center justify-center flex-shrink-0 mt-0.5">

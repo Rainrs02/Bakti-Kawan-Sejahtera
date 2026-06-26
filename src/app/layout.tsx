@@ -94,10 +94,10 @@ export default function RootLayout({
     email: 'info@servicealkes.com',
     address: {
       '@type': 'PostalAddress',
-      streetAddress: 'Jl. Contoh No. 123',
-      addressLocality: 'Jakarta Timur',
-      addressRegion: 'DKI Jakarta',
-      postalCode: '13000',
+      streetAddress: 'RT.1/RW.4, Tarikolot, Kec. Citeureup',
+      addressLocality: 'Kabupaten Bogor',
+      addressRegion: 'Jawa Barat',
+      postalCode: '16810',
       addressCountry: 'ID',
     },
     geo: {
