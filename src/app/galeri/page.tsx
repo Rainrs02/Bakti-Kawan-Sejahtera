@@ -10,14 +10,14 @@ export const metadata: Metadata = {
 }
 
 const GALLERY_IMAGES = [
-  { src: '/images/hero/hero-teknisi.png', alt: 'Teknisi memperbaiki bed pasien', category: 'Alkes' },
-  { src: '/images/hero/hero-ambulance.png', alt: 'Interior ambulance setelah renovasi', category: 'Alkes' },
-  { src: '/images/gallery/bed-pasien-after.png', alt: 'Bed pasien setelah service', category: 'Alkes' },
-  { src: '/images/hero/hero-workshop.png', alt: 'Workshop profesional', category: 'Workshop' },
-  { src: '/images/services/nurse-station.png', alt: 'Nurse station modern', category: 'Alkes' },
-  { src: '/images/team/team-photo.png', alt: 'Tim teknisi profesional', category: 'Tim' },
-  { src: '/images/hero/hero-teknisi.png', alt: 'Proses perbaikan', category: 'Proses' },
-  { src: '/images/gallery/bed-pasien-after.png', alt: 'Hasil service berkualitas', category: 'Alkes' },
+  { src: '/images/projects/project-6-after.jpg', alt: 'Interior ambulance', category: 'Ambulance' },
+  { src: '/images/projects/project-1-after.jpg', alt: 'Bed pasien setelah service', category: 'Alkes' },
+  { src: '/images/projects/project-2-after.jpg', alt: 'Service Sofa Kantor', category: 'Kantor' },
+  { src: '/images/projects/project-4-after.jpg', alt: 'Service Sofa Cafe', category: 'Komersial' },
+  { src: '/images/services/bed-pasien.png', alt: 'Bed pasien rumah sakit', category: 'Alkes' },
+  { src: '/images/services/sofa-kantor.png', alt: 'Service Sofa', category: 'Kantor' },
+  { src: '/images/services/sofa-cafe.png', alt: 'Service Sofa Premium', category: 'Komersial' },
+  { src: '/images/services/ambulance.png', alt: 'Renovasi Ambulance', category: 'Ambulance' },
 ]
 
 export default function GaleriPage() {
