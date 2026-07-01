@@ -3,6 +3,7 @@ import PageLayout from '@/components/templates/PageLayout'
 import Image from 'next/image'
 import Link from 'next/link'
 import { getWADirectLink } from '@/lib/utils/whatsapp'
+import { Phone } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Galeri | Bakti Kawan Service',
@@ -67,8 +68,8 @@ export default function GaleriPage() {
               <Link href="/konsultasi" className="btn btn-primary btn-lg glow-orange">
                 Konsultasi Gratis
               </Link>
-              <a href={getWADirectLink()} target="_blank" rel="noopener noreferrer" className="btn btn-secondary btn-lg">
-                Chat WhatsApp
+              <a href={getWADirectLink()} target="_blank" rel="noopener noreferrer" className="btn bg-whatsapp hover:bg-whatsapp/90 text-white border-none btn-lg flex items-center gap-2">
+                <Phone size={18} className="text-white" /> Chat WhatsApp
               </a>
             </div>
           </div>

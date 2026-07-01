@@ -161,9 +161,9 @@ export default async function ServiceDetailPage({ params }: ServicePageProps) {
                   href={getWADirectLink(`Halo, saya butuh informasi ${service.name}. Mohon bantuannya.`)} 
                   target="_blank" 
                   rel="noopener noreferrer" 
-                  className="btn btn-secondary border border-white/20 text-white hover:bg-white/10 btn-lg flex items-center gap-2"
+                  className="btn bg-whatsapp hover:bg-whatsapp/90 text-white border-none btn-lg flex items-center gap-2"
                 >
-                  <Phone size={18} className="text-accent" /> Chat WhatsApp
+                  <Phone size={18} className="text-white" /> Chat WhatsApp
                 </a>
               </div>
             </div>
