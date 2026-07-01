@@ -47,7 +47,7 @@ export function getWADirectLink(customMessage?: string): string {
     return `https://wa.me/${WA_ADMIN_NUMBER}?text=${encodeURIComponent(customMessage)}`
   }
   const defaultMessage = encodeURIComponent(
-    'Halo Bakti Kawan Sejahtera, saya ingin konsultasi mengenai layanan service furniture. Mohon informasinya. Terima kasih.'
+    'Halo Bakti Kawan Service, saya ingin konsultasi mengenai layanan service furniture. Mohon informasinya. Terima kasih.'
   )
   return `https://wa.me/${WA_ADMIN_NUMBER}?text=${defaultMessage}`
 }

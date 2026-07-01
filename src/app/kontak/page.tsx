@@ -5,8 +5,8 @@ import { MapPin, Phone, Mail, Clock, ArrowRight } from 'lucide-react'
 import { getWADirectLink, WA_ADMIN_NUMBER } from '@/lib/utils/whatsapp'
 
 export const metadata: Metadata = {
-  title: 'Kontak | Bakti Kawan Sejahtera',
-  description: 'Hubungi Bakti Kawan Sejahtera via WhatsApp, telepon, atau email. Fast response untuk Jabodetabek. Konsultasi gratis tersedia.',
+  title: 'Kontak | Bakti Kawan Service',
+  description: 'Hubungi Bakti Kawan Service via WhatsApp, telepon, atau email. Fast response untuk Jabodetabek. Konsultasi gratis tersedia.',
 }
 
 export default function KontakPage() {
@@ -103,7 +103,7 @@ export default function KontakPage() {
               <div className="rounded-3xl overflow-hidden border border-border bg-bg-section h-72 flex items-center justify-center mb-6">
                 <div className="text-center">
                   <MapPin size={40} className="text-accent mx-auto mb-3" />
-                  <div className="font-bold text-primary mb-1">Bakti Kawan Sejahtera</div>
+                  <div className="font-bold text-primary mb-1">Bakti Kawan Service</div>
                   <div className="text-secondary text-sm">RT.1/RW.4, Tarikolot, Kec. Citeureup</div>
                   <div className="text-secondary text-sm">Kabupaten Bogor, Jawa Barat 16810</div>
                 </div>

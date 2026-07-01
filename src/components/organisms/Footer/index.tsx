@@ -85,14 +85,14 @@ export default function Footer() {
               <div className="relative w-12 h-12 bg-white rounded-xl p-1">
                 <Image
                   src="/images/logo/logo.png"
-                  alt="Bakti Kawan Sejahtera"
+                  alt="Bakti Kawan Service"
                   fill
                   className="object-contain p-1"
                 />
               </div>
               <div>
                 <div className="font-display font-bold text-white text-base leading-tight">
-                  Bakti Kawan Sejahtera
+                  Bakti Kawan Service
                 </div>
                 <div className="text-accent text-xs font-semibold tracking-widest uppercase">
                   servicealkes.com
@@ -258,7 +258,7 @@ export default function Footer() {
       <div className="border-t border-white/10">
         <div className="container-main py-5">
           <div className="flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-white/90">
-            <p>© {currentYear} PT Bakti Kawan Sejahtera. Seluruh hak cipta dilindungi.</p>
+            <p>© {currentYear} PT Bakti Kawan Service. Seluruh hak cipta dilindungi.</p>
             <div className="flex gap-4">
               <Link href="/privacy-policy" className="hover:text-white/80 transition-colors">Kebijakan Privasi</Link>
               <Link href="/sitemap.xml" className="hover:text-white/80 transition-colors">Sitemap</Link>

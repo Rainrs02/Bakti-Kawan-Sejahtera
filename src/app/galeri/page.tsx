@@ -5,8 +5,8 @@ import Link from 'next/link'
 import { getWADirectLink } from '@/lib/utils/whatsapp'
 
 export const metadata: Metadata = {
-  title: 'Galeri | Bakti Kawan Sejahtera',
-  description: 'Galeri foto hasil service furniture alkes, kantor, dan komersial dari Bakti Kawan Sejahtera. Lihat kualitas pekerjaan kami.',
+  title: 'Galeri | Bakti Kawan Service',
+  description: 'Galeri foto hasil service furniture alkes, kantor, dan komersial dari Bakti Kawan Service. Lihat kualitas pekerjaan kami.',
 }
 
 const GALLERY_IMAGES = [

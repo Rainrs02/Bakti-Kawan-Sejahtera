@@ -5,7 +5,7 @@ import { Calendar, Clock, Tag, ArrowRight } from 'lucide-react'
 import { getBlogPosts } from '@/lib/data/blog-posts'
 
 export const metadata: Metadata = {
-  title: 'Blog & Artikel | Bakti Kawan Sejahtera',
+  title: 'Blog & Artikel | Bakti Kawan Service',
   description: 'Artikel informatif tentang perawatan furniture alkes, tips service, regulasi sanitasi, dan panduan maintenance untuk fasilitas kesehatan dan bisnis.',
 }
 

@@ -12,7 +12,7 @@ export const FAQS: FAQItem[] = [
   {
     id: '1',
     category: 'Layanan',
-    question: 'Apa saja jenis furniture yang bisa di-service oleh Bakti Kawan Sejahtera?',
+    question: 'Apa saja jenis furniture yang bisa di-service oleh Bakti Kawan Service?',
     answer: 'Kami melayani service furniture alat kesehatan (bed pasien, troli, meja operasi, dll), furniture kantor (sofa, kursi, lemari, meja), dan furniture komersial (cafe, restoran, hotel, retail). Total ada 19+ jenis layanan yang tersedia.',
   },
   {
@@ -37,7 +37,7 @@ export const FAQS: FAQItem[] = [
   {
     id: '5',
     category: 'Wilayah Layanan',
-    question: 'Wilayah mana saja yang dilayani Bakti Kawan Sejahtera?',
+    question: 'Wilayah mana saja yang dilayani Bakti Kawan Service?',
     answer: 'Kami berbasis di Jabodetabek (Jakarta, Bogor, Depok, Tangerang, Bekasi) dengan fast response dan penjadwalan survey cepat. Kami juga melayani seluruh Indonesia dengan sistem koordinasi teknisi dan mitra lokal.',
   },
   {
@@ -75,7 +75,7 @@ export const FAQS: FAQItem[] = [
   {
     id: '11',
     category: 'Proses Service',
-    question: 'Apa saja tahapan proses service di Bakti Kawan Sejahtera?',
+    question: 'Apa saja tahapan proses service di Bakti Kawan Service?',
     answer: '1) Konsultasi via WA/telepon, 2) Survey lapangan gratis, 3) Diagnosa dan penawaran harga, 4) Konfirmasi dan penjadwalan, 5) Pengerjaan oleh teknisi bersertifikasi, 6) QC dan serah terima, 7) Garansi diberikan.',
   },
   {

@@ -7,7 +7,7 @@ import { PROJECTS } from '@/lib/data/projects'
 import { getWADirectLink } from '@/lib/utils/whatsapp'
 
 export const metadata: Metadata = {
-  title: 'Portfolio Proyek | Bakti Kawan Sejahtera',
+  title: 'Portfolio Proyek | Bakti Kawan Service',
   description: 'Portfolio proyek service furniture alkes dan komersial: before & after, studi kasus, berbagai klien. Bukti nyata kualitas pekerjaan kami.',
 }
 

@@ -80,7 +80,7 @@ export default function Navbar() {
               <div className="relative w-10 h-10 md:w-12 md:h-12">
                 <Image
                   src="/images/logo/logo.png"
-                  alt="Bakti Kawan Sejahtera"
+                  alt="Bakti Kawan Service"
                   fill
                   className="object-contain"
                   priority

@@ -17,11 +17,11 @@ const spaceGrotesk = Space_Grotesk({
 export const metadata: Metadata = {
   metadataBase: new URL('https://servicealkes.com'),
   title: {
-    template: '%s | Bakti Kawan Sejahtera',
-    default: 'Bakti Kawan Sejahtera — Service Furniture Alkes Profesional',
+    template: '%s | Bakti Kawan Service',
+    default: 'Bakti Kawan Service — Service Furniture Alkes Profesional',
   },
   description:
-    'PT Bakti Kawan Sejahtera: service furniture alat kesehatan, kantor, dan komersial. Teknisi bersertifikasi, spare part berkualitas, garansi. Fast response Jabodetabek, melayani seluruh Indonesia.',
+    'PT Bakti Kawan Service: service furniture alat kesehatan, kantor, dan komersial. Teknisi bersertifikasi, spare part berkualitas, garansi. Fast response Jabodetabek, melayani seluruh Indonesia.',
   keywords: [
     'service alkes',
     'service furniture rumah sakit',
@@ -31,18 +31,18 @@ export const metadata: Metadata = {
     'reupholstery sofa kantor',
     'service kursi kantor jakarta',
     'service furniture klinik',
-    'bakti kawan sejahtera',
+    'Bakti Kawan Service',
     'servicealkes.com',
   ],
-  authors: [{ name: 'PT Bakti Kawan Sejahtera', url: 'https://servicealkes.com' }],
-  creator: 'PT Bakti Kawan Sejahtera',
-  publisher: 'PT Bakti Kawan Sejahtera',
+  authors: [{ name: 'PT Bakti Kawan Service', url: 'https://servicealkes.com' }],
+  creator: 'PT Bakti Kawan Service',
+  publisher: 'PT Bakti Kawan Service',
   openGraph: {
     type: 'website',
     locale: 'id_ID',
     url: 'https://servicealkes.com',
-    siteName: 'Bakti Kawan Sejahtera',
-    title: 'Service Furniture Alkes Profesional | Bakti Kawan Sejahtera',
+    siteName: 'Bakti Kawan Service',
+    title: 'Service Furniture Alkes Profesional | Bakti Kawan Service',
     description:
       'Layanan service furniture alkes, kantor, dan komersial. Teknisi bersertifikasi, garansi, fast response Jabodetabek.',
     images: [
@@ -50,13 +50,13 @@ export const metadata: Metadata = {
         url: '/images/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'Bakti Kawan Sejahtera — Service Furniture Profesional',
+        alt: 'Bakti Kawan Service — Service Furniture Profesional',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Bakti Kawan Sejahtera — Service Furniture Alkes Profesional',
+    title: 'Bakti Kawan Service — Service Furniture Alkes Profesional',
     description: 'Layanan service furniture alkes, kantor, dan komersial profesional. Fast response Jabodetabek.',
     images: ['/images/og-image.jpg'],
   },
@@ -84,8 +84,8 @@ export default function RootLayout({
   const structuredData = {
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
-    name: 'PT Bakti Kawan Sejahtera',
-    alternateName: 'Bakti Kawan Sejahtera',
+    name: 'PT Bakti Kawan Service',
+    alternateName: 'Bakti Kawan Service',
     url: 'https://servicealkes.com',
     logo: 'https://servicealkes.com/images/logo.png',
     image: 'https://servicealkes.com/images/og-image.jpg',

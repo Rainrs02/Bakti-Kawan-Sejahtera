@@ -6,7 +6,7 @@ import { ArrowRight } from 'lucide-react'
 import { SERVICES } from '@/lib/data/services'
 
 export const metadata: Metadata = {
-  title: 'Semua Layanan Service Furniture | Bakti Kawan Sejahtera',
+  title: 'Semua Layanan Service Furniture | Bakti Kawan Service',
   description: 'Layanan service furniture alat kesehatan, kantor, dan komersial. 19+ jenis layanan, teknisi bersertifikasi, garansi. Fast response Jabodetabek.',
 }
 

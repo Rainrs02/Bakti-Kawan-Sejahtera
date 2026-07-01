@@ -11,9 +11,9 @@ import PartnerSection from '@/components/organisms/PartnerSection'
 import HomeCTASection from '@/components/organisms/HomeCTASection'
 
 export const metadata: Metadata = {
-  title: 'Service Furniture Alkes Profesional | Bakti Kawan Sejahtera',
+  title: 'Service Furniture Alkes Profesional | Bakti Kawan Service',
   description:
-    'PT Bakti Kawan Sejahtera: service furniture alat kesehatan, kantor, dan komersial. Teknisi bersertifikasi, spare part berkualitas, garansi. Fast response Jabodetabek, melayani seluruh Indonesia.',
+    'PT Bakti Kawan Service: service furniture alat kesehatan, kantor, dan komersial. Teknisi bersertifikasi, spare part berkualitas, garansi. Fast response Jabodetabek, melayani seluruh Indonesia.',
 }
 
 export default function HomePage() {

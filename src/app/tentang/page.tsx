@@ -6,8 +6,8 @@ import { CheckCircle, Target, Eye, ArrowRight } from 'lucide-react'
 import { COMPANY_STATS } from '@/lib/data/partners'
 
 export const metadata: Metadata = {
-  title: 'Tentang Kami | Bakti Kawan Sejahtera',
-  description: 'PT Bakti Kawan Sejahtera — 20+ tahun melayani service furniture alkes, kantor, dan komersial. Kenali visi, misi, tim, dan nilai-nilai perusahaan kami.',
+  title: 'Tentang Kami | Bakti Kawan Service',
+  description: 'PT Bakti Kawan Service — 20+ tahun melayani service furniture alkes, kantor, dan komersial. Kenali visi, misi, tim, dan nilai-nilai perusahaan kami.',
 }
 
 const TIMELINE = [
@@ -44,7 +44,7 @@ export default function TentangPage() {
               <span className="gradient-text">Bekerja dengan Presisi</span>
             </h1>
             <p className="text-white/80 text-xl leading-relaxed mb-8">
-              PT Bakti Kawan Sejahtera didirikan tahun 2004 dengan misi sederhana: memberikan layanan
+              PT Bakti Kawan Service didirikan tahun 2004 dengan misi sederhana: memberikan layanan
               service furniture yang benar-benar profesional dan dapat dipercaya untuk fasilitas
               kesehatan dan bisnis di Indonesia.
             </p>
@@ -85,7 +85,7 @@ export default function TentangPage() {
               <h2 className="text-display-lg text-primary mb-6">Dua Dekade Membangun Kepercayaan</h2>
               <div className="space-y-4 text-secondary leading-relaxed">
                 <p>
-                  Bakti Kawan Sejahtera lahir dari kesadaran bahwa fasilitas kesehatan di Indonesia
+                  Bakti Kawan Service lahir dari kesadaran bahwa fasilitas kesehatan di Indonesia
                   membutuhkan mitra service furniture yang benar-benar dapat diandalkan. Di tahun 2004,
                   kami memulai dari workshop kecil di Jakarta Timur dengan 5 orang teknisi.
                 </p>
@@ -104,7 +104,7 @@ export default function TentangPage() {
             <div className="relative h-80 lg:h-[420px] rounded-3xl overflow-hidden shadow-2xl">
               <Image
                 src="/images/team/team-photo.png"
-                alt="Tim profesional Bakti Kawan Sejahtera"
+                alt="Tim profesional Bakti Kawan Service"
                 fill
                 className="object-cover"
               />

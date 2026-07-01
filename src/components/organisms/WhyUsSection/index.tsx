@@ -61,7 +61,7 @@ export default function WhyUsSection() {
             <div className="relative rounded-3xl overflow-hidden flex-1 min-h-64">
               <Image
                 src="/images/team/team-photo.png"
-                alt="Tim teknisi profesional Bakti Kawan Sejahtera"
+                alt="Tim teknisi profesional Bakti Kawan Service"
                 fill
                 className="object-cover"
                 sizes="(max-width: 768px) 100vw, 33vw"
@@ -81,7 +81,7 @@ export default function WhyUsSection() {
             <div className="bg-accent text-white rounded-2xl p-5">
               <div className="text-3xl font-serif mb-2 opacity-60">"</div>
               <p className="text-sm leading-relaxed mb-3 font-medium">
-                Bakti Kawan Sejahtera adalah mitra terpercaya kami. Respons cepat, teknisi profesional,
+                Bakti Kawan Service adalah mitra terpercaya kami. Respons cepat, teknisi profesional,
                 dan hasil pekerjaan selalu memuaskan.
               </p>
               <div className="text-xs text-white/90 font-semibold">

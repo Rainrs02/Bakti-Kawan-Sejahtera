@@ -74,7 +74,7 @@ Tidak semua masalah bisa diselesaikan oleh staf internal. Hubungi teknisi profes
 - Deformasi struktural pada rangka
 - Masalah yang berulang meski sudah diperbaiki
 
-**PT Bakti Kawan Sejahtera** siap membantu dengan layanan service bed pasien profesional. Tim teknisi bersertifikasi kami dengan pengalaman 20+ tahun siap memberikan solusi terbaik untuk fasilitas kesehatan Anda.
+**PT Bakti Kawan Service** siap membantu dengan layanan service bed pasien profesional. Tim teknisi bersertifikasi kami dengan pengalaman 20+ tahun siap memberikan solusi terbaik untuk fasilitas kesehatan Anda.
 
 [Hubungi kami sekarang untuk konsultasi gratis →](/konsultasi)
 
@@ -88,13 +88,13 @@ Buat jadwal perawatan rutin sekarang, dan pertimbangkan kontrak maintenance berk
     category: 'Tips & Panduan',
     tags: ['bed pasien', 'perawatan alkes', 'rumah sakit', 'preventive maintenance', 'furniture medis'],
     author: {
-      name: 'Tim Bakti Kawan Sejahtera',
+      name: 'Tim Bakti Kawan Service',
       avatar: '/images/team/author-default.jpg',
       role: 'Tim Teknis BKS',
     },
     publishedAt: '2024-11-20',
     readingTime: 7,
-    metaTitle: 'Panduan Perawatan Bed Pasien Rumah Sakit yang Benar | Bakti Kawan Sejahtera',
+    metaTitle: 'Panduan Perawatan Bed Pasien Rumah Sakit yang Benar | Bakti Kawan Service',
     metaDescription: 'Panduan lengkap perawatan bed pasien RS: jadwal harian, mingguan, bulanan. Tanda kerusakan & kapan harus panggil teknisi. Tips dari ahli service alkes berpengalaman.',
   },
 
@@ -183,7 +183,7 @@ Saat memilih jasa reupholstery, perhatikan:
 4. **Pengalaman** — sudah berapa lama beroperasi?
 5. **Kejelasan harga** — apakah penawaran transparan dan detail?
 
-**PT Bakti Kawan Sejahtera** menyediakan layanan reupholstery sofa kantor dan komersial dengan ratusan pilihan material, pengerjaan oleh jahit berpengalaman, dan garansi 12 bulan. Konsultasi material sample tersedia gratis.
+**PT Bakti Kawan Service** menyediakan layanan reupholstery sofa kantor dan komersial dengan ratusan pilihan material, pengerjaan oleh jahit berpengalaman, dan garansi 12 bulan. Konsultasi material sample tersedia gratis.
 
 [Konsultasi gratis sekarang →](/konsultasi)
 
@@ -197,7 +197,7 @@ Kunci suksesnya adalah memilih penyedia jasa yang berpengalaman, menggunakan mat
     category: 'Tips & Panduan',
     tags: ['reupholstery', 'sofa kantor', 'furniture kantor', 'hemat biaya', 'tips kantor'],
     author: {
-      name: 'Tim Bakti Kawan Sejahtera',
+      name: 'Tim Bakti Kawan Service',
       avatar: '/images/team/author-default.jpg',
       role: 'Tim Teknis BKS',
     },
@@ -312,7 +312,7 @@ Cover furniture medis harus diganti ketika:
 
 Standar sanitasi furniture medis bukan sekadar regulasi — ini adalah perlindungan nyata untuk pasien dan tenaga kesehatan. Investasi dalam perawatan dan penggantian cover furniture medis secara berkala jauh lebih murah dibanding biaya pengobatan satu kasus infeksi nosokomial.
 
-**PT Bakti Kawan Sejahtera** menyediakan layanan penggantian cover furniture medis dengan material medical grade bersertifikasi, memastikan furniture di fasilitas Anda selalu memenuhi standar sanitasi tertinggi.
+**PT Bakti Kawan Service** menyediakan layanan penggantian cover furniture medis dengan material medical grade bersertifikasi, memastikan furniture di fasilitas Anda selalu memenuhi standar sanitasi tertinggi.
 
 [Konsultasi kebutuhan cover furniture medis Anda →](/konsultasi)
     `,
@@ -320,7 +320,7 @@ Standar sanitasi furniture medis bukan sekadar regulasi — ini adalah perlindun
     category: 'Regulasi & Compliance',
     tags: ['sanitasi alkes', 'infection control', 'rumah sakit', 'furniture medis', 'compliance', 'PPI'],
     author: {
-      name: 'Tim Bakti Kawan Sejahtera',
+      name: 'Tim Bakti Kawan Service',
       avatar: '/images/team/author-default.jpg',
       role: 'Tim Teknis BKS',
     },
