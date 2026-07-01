@@ -14,7 +14,6 @@ const navLinks = [
   { label: 'Tentang', href: '/tentang' },
   { label: 'Layanan', href: '/layanan', hasMegaMenu: true },
   { label: 'Galeri', href: '/galeri' },
-  { label: 'Proyek', href: '/proyek' },
   { label: 'Blog', href: '/blog' },
   { label: 'FAQ', href: '/faq' },
   { label: 'Kontak', href: '/kontak' },

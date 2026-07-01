@@ -33,8 +33,7 @@ const SERVICES_KOMERSIAL = [
 
 const QUICK_LINKS = [
   { label: 'Tentang Kami', href: '/tentang' },
-  { label: 'Galeri', href: '/galeri' },
-  { label: 'Portfolio Proyek', href: '/proyek' },
+  { label: 'Semua Layanan', href: '/layanan' },
   { label: 'Blog & Artikel', href: '/blog' },
   { label: 'FAQ', href: '/faq' },
   { label: 'Kontak', href: '/kontak' },

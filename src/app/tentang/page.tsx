@@ -52,9 +52,6 @@ export default function TentangPage() {
               <Link href="/konsultasi" className="btn btn-primary btn-lg glow-orange">
                 Konsultasi Gratis <ArrowRight size={18} />
               </Link>
-              <Link href="/proyek" className="btn btn-secondary border-white/20 text-white hover:bg-white/10 btn-lg">
-                Lihat Portfolio
-              </Link>
             </div>
           </div>
         </div>
