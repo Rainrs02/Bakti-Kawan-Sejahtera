@@ -36,7 +36,7 @@ const STEPS = [
     number: '05',
     icon: ShieldCheck,
     title: 'Bergaransi',
-    desc: 'Serah terima dengan garansi 3–12 bulan. Kepuasan Anda jaminan kami.',
+    desc: 'Serah terima dengan garansi 3 bulan. Kepuasan Anda jaminan kami.',
     highlight: 'Garansi 3–12 Bln',
   },
 ]

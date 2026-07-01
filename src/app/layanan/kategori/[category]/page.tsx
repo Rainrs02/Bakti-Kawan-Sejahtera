@@ -250,7 +250,7 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
           <section className="grid sm:grid-cols-3 gap-6 pt-4 border-t border-border">
             {[
               { title: 'Teknisi Berpengalaman', desc: 'Semua pengerjaan ditangani oleh teknisi ahli bersertifikasi resmi.' },
-              { title: 'Garansi 3-12 Bulan', desc: 'Setiap perbaikan dilindungi garansi resmi pasca-service.' },
+              { title: 'Garansi 3 bulan', desc: 'Setiap perbaikan dilindungi garansi resmi pasca-service.' },
               { title: 'Material Berkualitas', desc: 'Menggunakan spare part original OEM dan pelapis berstandar industri.' }
             ].map((badge) => (
               <div key={badge.title} className="flex gap-3 items-start">

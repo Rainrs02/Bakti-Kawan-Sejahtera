@@ -42,7 +42,7 @@ export const TESTIMONIALS: Testimonial[] = [
     institution: 'Klinik Sehat Bersama',
     avatar: '/images/testimonials/avatar-3.jpg',
     rating: 5,
-    text: 'Nurse station kami yang sudah 5 tahun terlihat baru lagi setelah direnovasi oleh tim BKS. Hasilnya melebihi ekspektasi, dan harganya sangat kompetitif. Garansi 12 bulan yang diberikan juga membuat kami tenang.',
+    text: 'Nurse station kami yang sudah 5 tahun terlihat baru lagi setelah direnovasi oleh tim BKS. Hasilnya melebihi ekspektasi, dan harganya sangat kompetitif. Garansi 3 bulan yang diberikan juga membuat kami tenang.',
     service: 'Service Nurse Station',
     date: '2024-09-08',
   },

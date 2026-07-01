@@ -31,7 +31,7 @@ export const FAQS: FAQItem[] = [
     id: '4',
     category: 'Layanan',
     question: 'Berapa lama garansi yang diberikan setelah service?',
-    answer: 'Garansi bervariasi sesuai jenis pekerjaan: 3-6 bulan untuk perbaikan komponen, 6-12 bulan untuk reupholstery dan renovasi, dan 12 bulan untuk pengerjaan besar. Semua garansi dalam dokumen resmi.',
+    answer: 'Garansi yang diberikan untuk semua jenis pekerjaan adalah 3 bulan. Semua garansi tercatat dalam dokumen resmi.',
   },
   // Wilayah
   {

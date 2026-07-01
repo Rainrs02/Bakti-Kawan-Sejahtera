@@ -186,7 +186,7 @@ export default async function ServiceDetailPage({ params }: ServicePageProps) {
                   <span className="w-2.5 h-2.5 rounded-full bg-green-500 animate-pulse" />
                   <span className="text-xs font-bold tracking-widest text-accent uppercase">Teknisi On-Site</span>
                 </div>
-                <p className="text-sm font-medium text-white/90">Garansi Layanan 3–12 Bulan Tertulis</p>
+                <p className="text-sm font-medium text-white/90">Garansi Layanan 3 bulan Tertulis</p>
               </div>
             </div>
           </div>
@@ -298,7 +298,7 @@ export default async function ServiceDetailPage({ params }: ServicePageProps) {
 
                 <div className="mt-8 pt-8 border-t border-white/10 space-y-4 relative z-10">
                   {[
-                    { icon: Shield, text: 'Garansi 3–12 Bulan Tertulis' },
+                    { icon: Shield, text: 'Garansi 3 bulan Tertulis' },
                     { icon: Clock, text: 'Respons Cepat < 15 Menit' },
                     { icon: Wrench, text: 'Teknisi Bersertifikasi Resmi' },
                   ].map(({ icon: Icon, text }) => (

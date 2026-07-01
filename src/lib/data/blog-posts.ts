@@ -171,7 +171,7 @@ Pilihan material untuk reupholstery sangat luas — dari fabric ekonomis hingga 
 Reupholstery adalah pilihan yang lebih ramah lingkungan. Mengurangi limbah furniture dan konsumsi sumber daya untuk produksi baru.
 
 ### 4. Garansi
-Pengerjaan reupholstery profesional biasanya dilengkapi garansi 12 bulan untuk jahitan dan material.
+Pengerjaan reupholstery profesional biasanya dilengkapi garansi 3 bulan untuk jahitan dan material.
 
 ## Tips Memilih Penyedia Reupholstery
 
@@ -183,7 +183,7 @@ Saat memilih jasa reupholstery, perhatikan:
 4. **Pengalaman** — sudah berapa lama beroperasi?
 5. **Kejelasan harga** — apakah penawaran transparan dan detail?
 
-**PT Bakti Kawan Service** menyediakan layanan reupholstery sofa kantor dan komersial dengan ratusan pilihan material, pengerjaan oleh jahit berpengalaman, dan garansi 12 bulan. Konsultasi material sample tersedia gratis.
+**PT Bakti Kawan Service** menyediakan layanan reupholstery sofa kantor dan komersial dengan ratusan pilihan material, pengerjaan oleh jahit berpengalaman, dan garansi 3 bulan. Konsultasi material sample tersedia gratis.
 
 [Konsultasi gratis sekarang →](/konsultasi)
 
