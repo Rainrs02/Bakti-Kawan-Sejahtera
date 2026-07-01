@@ -148,8 +148,8 @@ export default function Footer() {
             {/* Social Media */}
             <div className="flex gap-3">
               {[
-                { icon: Instagram, href: 'https://instagram.com/baktikawansejahtera', label: 'Instagram' },
-                { icon: Facebook, href: 'https://facebook.com/baktikawansejahtera', label: 'Facebook' },
+                { icon: Instagram, href: 'https://instagram.com/baktikawanservice', label: 'Instagram' },
+                { icon: Facebook, href: 'https://facebook.com/baktikawanservice', label: 'Facebook' },
                 { icon: Youtube, href: 'https://youtube.com', label: 'Youtube' },
               ].map(({ icon: Icon, href, label }) => (
                 <a

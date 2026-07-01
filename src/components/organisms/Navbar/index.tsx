@@ -95,7 +95,7 @@ export default function Navbar() {
                   Bakti Kawan
                 </div>
                 <div className="text-accent text-xs font-semibold tracking-wider uppercase">
-                  Sejahtera
+                  Service
                 </div>
               </div>
             </Link>
@@ -280,7 +280,7 @@ export default function Navbar() {
               </div>
               <div>
                 <div className="font-display font-bold text-sm text-primary">Bakti Kawan</div>
-                <div className="text-accent text-xs font-semibold tracking-wider uppercase">Sejahtera</div>
+                <div className="text-accent text-xs font-semibold tracking-wider uppercase">Service</div>
               </div>
             </Link>
             <button

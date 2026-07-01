@@ -138,8 +138,8 @@ export default function RootLayout({
     currenciesAccepted: 'IDR',
     paymentAccepted: 'Cash, Bank Transfer',
     sameAs: [
-      'https://www.instagram.com/baktikawansejahtera',
-      'https://www.facebook.com/baktikawansejahtera',
+      'https://www.instagram.com/baktikawanservice',
+      'https://www.facebook.com/baktikawanservice',
     ],
   }
 
