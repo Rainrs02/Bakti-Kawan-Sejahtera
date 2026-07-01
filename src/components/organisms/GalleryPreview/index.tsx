@@ -5,12 +5,12 @@ import Link from 'next/link'
 import { ArrowRight } from 'lucide-react'
 
 const GALLERY_ITEMS = [
-  { src: '/images/hero/hero-teknisi.png', alt: 'Teknisi memperbaiki bed pasien', aspect: 'tall' },
-  { src: '/images/hero/hero-ambulance.png', alt: 'Interior ambulance', aspect: 'square' },
-  { src: '/images/gallery/bed-pasien-after.png', alt: 'Bed pasien setelah service', aspect: 'square' },
-  { src: '/images/hero/hero-workshop.png', alt: 'Workshop profesional', aspect: 'wide' },
+  { src: '/images/hero/hero-teknisi.jpeg', alt: 'Teknisi memperbaiki bed pasien', aspect: 'tall' },
+  { src: '/images/hero/hero-ambulance.jpg', alt: 'Interior ambulance', aspect: 'square' },
+  { src: '/images/gallery/bed-pasien-after.jpeg', alt: 'Bed pasien setelah service', aspect: 'square' },
+  { src: '/images/hero/hero-workshop.jpeg', alt: 'Workshop profesional', aspect: 'wide' },
   { src: '/images/services/nurse-station.png', alt: 'Nurse station hasil renovasi', aspect: 'tall' },
-  { src: '/images/team/team-photo.png', alt: 'Tim teknisi', aspect: 'square' },
+  { src: '/images/team/team-photo.jpeg', alt: 'Tim teknisi', aspect: 'square' },
 ]
 
 export default function GalleryPreview() {

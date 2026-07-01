@@ -12,7 +12,7 @@ const CATEGORIES = [
     description: 'Rumah Sakit, Klinik, Puskesmas, Laboratorium',
     count: 10,
     href: '/layanan/kategori/alkes',
-    imageSrc: '/images/hero/hero-teknisi.png',
+    imageSrc: '/images/hero/hero-teknisi.jpeg',
     accent: '#F97316',
     featured: true,
     services: ['Bed Pasien', 'Meja Operasi', 'Troli Emergency', 'Nurse Station'],

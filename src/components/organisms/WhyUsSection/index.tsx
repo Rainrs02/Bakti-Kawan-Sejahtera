@@ -60,7 +60,7 @@ export default function WhyUsSection() {
           <div className="lg:col-span-1 flex flex-col gap-4">
             <div className="relative rounded-3xl overflow-hidden flex-1 min-h-64">
               <Image
-                src="/images/team/team-photo.png"
+                src="/images/team/team-photo.jpeg"
                 alt="Tim teknisi profesional Bakti Kawan Service"
                 fill
                 className="object-cover"

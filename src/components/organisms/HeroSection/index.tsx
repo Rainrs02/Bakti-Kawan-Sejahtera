@@ -131,7 +131,7 @@ export default function HeroSection() {
             {/* Main large image — technician */}
             <div className="absolute top-0 left-0 w-3/5 h-4/5 rounded-3xl overflow-hidden shadow-2xl">
               <Image
-                src="/images/hero/hero-teknisi.png"
+                src="/images/hero/hero-teknisi.jpeg"
                 alt="Teknisi profesional memperbaiki bed pasien"
                 fill
                 className="object-cover"
@@ -144,7 +144,7 @@ export default function HeroSection() {
             {/* Top right: ambulance */}
             <div className="absolute top-0 right-0 w-2/5 h-2/5 rounded-2xl overflow-hidden shadow-xl ml-2">
               <Image
-                src="/images/hero/hero-ambulance.png"
+                src="/images/hero/hero-ambulance.jpg"
                 alt="Interior ambulance profesional"
                 fill
                 className="object-cover"
@@ -155,7 +155,7 @@ export default function HeroSection() {
             {/* Bottom right: workshop */}
             <div className="absolute bottom-0 right-0 w-2/5 h-2/5 rounded-2xl overflow-hidden shadow-xl mt-2">
               <Image
-                src="/images/hero/hero-workshop.png"
+                src="/images/hero/hero-workshop.jpeg"
                 alt="Workshop spare part furniture"
                 fill
                 className="object-cover"

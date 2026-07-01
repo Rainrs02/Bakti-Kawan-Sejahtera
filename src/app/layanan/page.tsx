@@ -23,7 +23,7 @@ const getServiceImage = (slug: string) => {
     'service-sofa-cafe': '/images/services/sofa-cafe.png',
     'service-sofa-kantor': '/images/services/sofa-kantor.png',
   }
-  return images[slug] || '/images/services/teknisi-umum.png'
+  return images[slug] || '/images/services/teknisi-umum.jpeg'
 }
 
 export default function LayananPage() {

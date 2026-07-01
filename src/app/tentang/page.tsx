@@ -103,7 +103,7 @@ export default function TentangPage() {
             </div>
             <div className="relative h-80 lg:h-[420px] rounded-3xl overflow-hidden shadow-2xl">
               <Image
-                src="/images/team/team-photo.png"
+                src="/images/team/team-photo.jpeg"
                 alt="Tim profesional Bakti Kawan Service"
                 fill
                 className="object-cover"
