@@ -324,7 +324,7 @@ export const SERVICES: ServiceData[] = [
     relatedSlugs: ['service-cafe-restoran', 'service-furniture-rumah-besi'],
     metaTitle: 'Service Furniture Hotel & Trolley | Bakti Kawan Service',
     metaDescription: 'Perawatan headboard hotel, dipan, dan service trolley bellboy, laundry. Kontrak maintenance bergaransi 3 bulan.',
-    image: '/images/services/hotel.jpg',
+    image: '/images/services/hotel.png',
     imageAlt: 'Headboard kamar hotel dan trolley bellboy',
   },
   {
