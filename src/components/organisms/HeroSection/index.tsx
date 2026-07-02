@@ -128,10 +128,10 @@ export default function HeroSection() {
 
           {/* Right: Image Collage */}
           <div className="order-1 lg:order-2 relative h-80 sm:h-96 lg:h-[560px] animate-fade-in delay-200">
-            {/* Main large image — ambulance */}
+            {/* Main large image — largest */}
             <div className="absolute top-0 left-0 w-[58%] h-[60%] rounded-3xl overflow-hidden shadow-2xl">
               <Image
-                src="/images/gallery/produksi/Foto Teknisi (10).webp"
+                src="/images/gallery/produksi/Foto Teknisi (4).webp"
                 alt="Proses pengerjaan teknisi profesional"
                 fill
                 className="object-cover"
@@ -144,7 +144,7 @@ export default function HeroSection() {
             {/* Bottom left: new image */}
             <div className="absolute bottom-0 left-0 w-[58%] h-[35%] rounded-2xl overflow-hidden shadow-xl">
               <Image
-                src="/images/gallery/produksi/Foto Teknisi (4).webp"
+                src="/images/gallery/produksi/Foto Teknisi (10).webp"
                 alt="Tim teknisi Bakti Kawan Service"
                 fill
                 className="object-cover"
