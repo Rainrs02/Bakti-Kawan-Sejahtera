@@ -146,7 +146,7 @@ export const SERVICES: ServiceData[] = [
     relatedSlugs: ['service-lampu-rumah-sakit', 'service-bed-pasien'],
     metaTitle: 'Service Meja Operasi | Bakti Kawan Service',
     metaDescription: 'Service dan perbaikan meja operasi: hidrolik, elektrik, matras. teknisi berpengalaman. Garansi 3 bulan.',
-    image: '/images/services/meja-operasi.webp',
+    image: '/images/services/meja-operasi-new.webp',
     imageAlt: 'Meja operasi stainless steel modern',
   },
   {
