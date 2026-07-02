@@ -332,7 +332,7 @@ export const SERVICES: ServiceData[] = [
     name: 'Service Furniture Rumah Berbahan Besi (Bed/Lemari)',
     shortName: 'Furniture Rumah',
     category: 'komersial',
-    heroTitle: 'Service Furniture Rumah Logam / Besi',
+    heroTitle: 'Service Furniture Rumah Logam / Besi / Kayu',
     heroSubtitle: 'Perbaikan, pelurusan, dan pengecatan ulang ranjang tingkat besi, lemari pakaian besi, dan furniture baja ringan.',
     description: 'Mengatasi ranjang besi reyot, cat mengelupas, atau engsel lemari besi rumah tangga yang rusak.',
     longDescription: 'Furniture rumah berbahan logam (seperti ranjang besi, ranjang tingkat/bunk bed komersial untuk asrama/kos, lemari pakaian plat besi) terkenal kuat, namun dapat mengalami patah las, baut aus yang membuat ranjang berderit, atau karat pada area lembap. Teknisi kami sangat terampil melakukan pengelasan titik (spot welding), penggantian mur baut penguat struktur, hingga rekondisi estetika dengan pengerokan karat dan pengecatan ulang (repaint/spray) agar perabotan rumah besi Anda kuat menopang beban berat dan tampil segar kembali.',
