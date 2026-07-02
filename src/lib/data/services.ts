@@ -2,13 +2,13 @@
 import { ServiceData, CategoryPageData } from '@/types/service';
 
 const DEFAULT_PROCESS = [
-  { step: '1', title: 'Konsultasi 24 Jam', description: 'Diskusi awal keluhan via WA/telepon.' },
-  { step: '2', title: 'Survey Lapangan', description: 'Kunjungan teknisi untuk diagnosa masalah secara akurat di lokasi.' },
-  { step: '3', title: 'Estimasi Biaya', description: 'Pemberian penawaran harga transparan berdasarkan tingkat kerusakan dan kebutuhan spare part.' },
-  { step: '4', title: 'Penjadwalan', description: 'Penentuan waktu pengerjaan yang disesuaikan dengan jadwal operasional klien.' },
-  { step: '5', title: 'Proses Pengerjaan', description: 'Eksekusi perbaikan oleh teknisi bersertifikasi sesuai standar prosedur operasi.' },
-  { step: '6', title: 'Quality Control', description: 'Pengecekan akhir untuk memastikan fungsionalitas dan keamanan alat.' },
-  { step: '7', title: 'Serah Terima & Garansi', description: 'Penyerahan unit yang telah diperbaiki disertai sertifikat garansi.' },
+  { step: 1, title: 'Konsultasi 24 Jam', description: 'Diskusi awal keluhan via WA/telepon.', icon: 'Phone' },
+  { step: 2, title: 'Survey Lapangan', description: 'Kunjungan teknisi untuk diagnosa masalah secara akurat di lokasi.', icon: 'MapPin' },
+  { step: 3, title: 'Estimasi Biaya', description: 'Pemberian penawaran harga transparan berdasarkan tingkat kerusakan dan kebutuhan spare part.', icon: 'Calculator' },
+  { step: 4, title: 'Penjadwalan', description: 'Penentuan waktu pengerjaan yang disesuaikan dengan jadwal operasional klien.', icon: 'Calendar' },
+  { step: 5, title: 'Proses Pengerjaan', description: 'Eksekusi perbaikan oleh teknisi bersertifikasi sesuai standar prosedur operasi.', icon: 'Wrench' },
+  { step: 6, title: 'Quality Control', description: 'Pengecekan akhir untuk memastikan fungsionalitas dan keamanan alat.', icon: 'CheckCircle' },
+  { step: 7, title: 'Serah Terima & Garansi', description: 'Penyerahan unit yang telah diperbaiki disertai sertifikat garansi.', icon: 'Shield' },
 ];
 
 export const SERVICES: ServiceData[] = [
@@ -384,7 +384,7 @@ export const CATEGORY_PAGES_DATA: CategoryPageData[] = [
     metaTitle: 'Service & Reupholstery Furniture Kantor | Bakti Kawan Service',
     metaDescription: 'Jasa perbaikan dan ganti kulit sofa lobi, kursi kantor hidrolik, filing cabinet, meja rapat HPL/kayu. Hemat biaya operasional 40-60% dengan hasil bergaransi.',
     customServiceTitle: 'Memiliki Furniture Kantor Khusus atau Volume Besar?',
-    customServiceDescription: 'Kami menangani service kustom massal untuk furniture kantor khusus lainnya (seperti partisi sekat kubikal workstation, kursi auditorium lipat, Mobile File/Roll O\\'pack logam, credenza direksi, dll). Kami menyediakan layanan survey lapangan langsung ke kantor Anda di wilayah Jabodetabek.'
+    customServiceDescription: 'Kami menangani service kustom massal untuk furniture kantor khusus lainnya (seperti partisi sekat kubikal workstation, kursi auditorium lipat, Mobile File/Roll O\'pack logam, credenza direksi, dll). Kami menyediakan layanan survey lapangan langsung ke kantor Anda di wilayah Jabodetabek.'
   },
   {
     id: 'komersial',
@@ -400,4 +400,26 @@ export const CATEGORY_PAGES_DATA: CategoryPageData[] = [
     customServiceTitle: 'Butuh Custom Project / Renovasi Furniture Bisnis?',
     customServiceDescription: 'Kami menerima perbaikan kustom untuk elemen visual merchandising ritel dan hospitality lainnya (seperti showcase kaca toko, rak gantungan baju butik, lounge chair bar, meja resepsionis kasir, dll). Hubungi kami untuk penawaran kontrak maintenance berkala.'
   }
+];
+
+export const getServiceBySlug = (slug: string): ServiceData | undefined => {
+  return SERVICES.find(service => service.slug === slug);
+};
+
+export const getAllSlugs = (): string[] => {
+  return SERVICES.map(service => service.slug);
+};
+
+export const getCategoryPageData = (categoryId: string): CategoryPageData | undefined => {
+  return CATEGORY_PAGES_DATA.find(cat => cat.id === categoryId);
+};
+
+export const getServicesByCategory = (categoryId: string): ServiceData[] => {
+  return SERVICES.filter(service => service.category === categoryId);
+};
+
+export const SERVICE_CATEGORIES = [
+  { id: 'alkes', label: 'Alat Kesehatan' },
+  { id: 'kantor', label: 'Furniture Kantor' },
+  { id: 'komersial', label: 'Furniture Komersial' },
 ];
