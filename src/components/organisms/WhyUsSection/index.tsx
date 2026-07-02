@@ -85,7 +85,7 @@ export default function WhyUsSection() {
                 dan hasil pekerjaan selalu memuaskan.
               </p>
               <div className="text-xs text-white/90 font-semibold">
-                — Dr. Ahmad, RS Pusat Jakarta
+                — Bpk. Ahmad
               </div>
             </div>
           </div>
