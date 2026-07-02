@@ -5,12 +5,14 @@ import Link from 'next/link'
 import { ArrowRight } from 'lucide-react'
 
 const GALLERY_ITEMS = [
-  { src: '/images/hero/hero-teknisi.jpeg', alt: 'Teknisi memperbaiki bed pasien', aspect: 'tall' },
-  { src: '/images/hero/hero-ambulance.jpg', alt: 'Interior ambulance', aspect: 'square' },
-  { src: '/images/gallery/bed-pasien-after.jpeg', alt: 'Bed pasien setelah service', aspect: 'square' },
-  { src: '/images/hero/hero-workshop.jpeg', alt: 'Workshop profesional', aspect: 'wide' },
-  { src: '/images/services/nurse-station.png', alt: 'Nurse station hasil renovasi', aspect: 'tall' },
-  { src: '/images/team/team-photo.jpeg', alt: 'Tim teknisi', aspect: 'square' },
+  { src: '/images/hero/hero-ambulance.jpg', category: 'Ambulance', title: 'Interior ambulance', isTall: true },
+  { src: '/images/hero/hero-teknisi.jpeg', category: 'Kantor', title: 'Meja Bundar', isTall: false },
+  { src: '/images/services/bed-pasien.jpg', category: 'Alkes', title: 'Bed Pasien', isTall: false },
+  { src: '/images/services/cafe-restoran.jpg', category: 'Komersial', title: 'Sofa Cafe', isTall: true },
+  { src: '/images/gallery/alk-2.jpg', category: 'Alkes', title: 'Bed Pasien Ekstra', isTall: false },
+  { src: '/images/gallery/kom-2.jpg', category: 'Komersial', title: 'Kursi Komersial', isTall: false },
+  { src: '/images/gallery/amb-1.jpg', category: 'Ambulance', title: 'Karoseri Ambulance', isTall: false },
+  { src: '/images/gallery/kan-1.jpg', category: 'Kantor', title: 'Kursi Kantor', isTall: false },
 ]
 
 export default function GalleryPreview() {
@@ -42,31 +44,32 @@ export default function GalleryPreview() {
               key={i}
               href="/galeri"
               className={`relative overflow-hidden rounded-2xl group ${
-                i === 0 ? 'row-span-2 col-span-1' :
-                i === 3 ? 'col-span-2' :
-                i === 4 ? 'row-span-2 hidden md:block' :
-                ''
+                item.isTall ? 'row-span-2 col-span-1' : 'col-span-1'
               }`}
             >
               <div className={`w-full ${
-                i === 0 ? 'h-full min-h-[400px]' :
-                i === 3 ? 'h-48' :
-                i === 4 ? 'h-full min-h-[400px]' :
-                'h-48 md:h-56'
+                item.isTall ? 'h-full min-h-[400px]' : 'h-48 md:h-56'
               }`}>
                 <Image
                   src={item.src}
-                  alt={item.alt}
+                  alt={item.title}
                   fill
                   className="object-cover group-hover:scale-105 transition-transform duration-700"
                   sizes="(max-width: 768px) 50vw, 25vw"
                 />
-                <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors duration-300" />
+                <div className="absolute inset-0 bg-black/20 group-hover:bg-black/40 transition-colors duration-300" />
+                
+                {/* Top-left category badge */}
+                <div className="absolute top-4 left-4 z-10">
+                  <span className="text-[10px] sm:text-xs font-bold text-accent border border-accent bg-black/40 backdrop-blur-sm px-3 py-1 rounded-full">
+                    {item.category}
+                  </span>
+                </div>
 
-                {/* Hover overlay */}
-                <div className="absolute inset-0 flex items-end p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <span className="text-white text-xs font-semibold bg-black/50 backdrop-blur-sm px-3 py-1.5 rounded-full">
-                    {item.alt}
+                {/* Bottom-left title */}
+                <div className="absolute bottom-4 left-4 z-10">
+                  <span className="text-white text-xs sm:text-sm font-semibold drop-shadow-md">
+                    {item.title}
                   </span>
                 </div>
               </div>
