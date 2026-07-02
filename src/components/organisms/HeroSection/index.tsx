@@ -144,8 +144,8 @@ export default function HeroSection() {
             {/* Bottom left: new image */}
             <div className="absolute bottom-0 left-0 w-[58%] h-[35%] rounded-2xl overflow-hidden shadow-xl">
               <Image
-                src="/images/hero/hero-ambulance-3.webp"
-                alt="Perbaikan interior ambulance"
+                src="/images/gallery/produksi/Foto Teknisi (4).webp"
+                alt="Tim teknisi Bakti Kawan Service"
                 fill
                 className="object-cover"
                 sizes="(max-width: 768px) 60vw, 30vw"
@@ -166,7 +166,7 @@ export default function HeroSection() {
             {/* Bottom right: workshop */}
             <div className="absolute bottom-0 right-0 w-[38%] h-[50%] rounded-2xl overflow-hidden shadow-xl">
               <Image
-                src="/images/hero/hero-workshop.webp"
+                src="/images/hero/hero-ambulance-3.webp"
                 alt="Workshop spare part furniture"
                 fill
                 className="object-cover"
