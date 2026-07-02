@@ -54,7 +54,7 @@ export default function HomeCTASection() {
         <div className="flex flex-wrap justify-center gap-6 text-white/90 text-sm">
           {[
             '✓ Konsultasi Gratis',
-            '✓ Survey Gratis',
+            '✓ Survey Lokasi',
             '✓ Harga Transparan',
             '✓ Bergaransi',
             '✓ Teknisi Berpengalaman',

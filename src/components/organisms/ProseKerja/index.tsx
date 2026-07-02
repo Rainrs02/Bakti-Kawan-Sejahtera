@@ -14,8 +14,8 @@ const STEPS = [
   {
     number: '02',
     icon: MapPin,
-    title: 'Survey Gratis',
-    desc: 'Teknisi kami datang ke lokasi untuk survey dan diagnosa akurat. Gratis tanpa syarat.',
+    title: 'Survey Lokasi',
+    desc: 'Teknisi kami datang ke lokasi untuk survey dan diagnosa akurat kerusakan furniture Anda.',
     highlight: 'Respon Cepat Jabodetabek',
   },
   {
