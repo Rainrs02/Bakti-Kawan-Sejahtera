@@ -7,17 +7,15 @@ import { COMPANY_STATS } from '@/lib/data/partners'
 
 export const metadata: Metadata = {
   title: 'Tentang Kami | Bakti Kawan Service',
-  description: 'PT Bakti Kawan Service — 20+ tahun melayani service furniture alkes, kantor, dan komersial. Kenali visi, misi, tim, dan nilai-nilai perusahaan kami.',
+  description: 'PT Bakti Kawan Service — Melayani service furniture alkes, kantor, dan komersial. Kenali visi, misi, tim, dan nilai-nilai perusahaan kami.',
 }
 
 const TIMELINE = [
-  { year: '2004', event: 'Perusahaan didirikan dengan fokus service furniture alat kesehatan di Jakarta' },
-  { year: '2008', event: 'Ekspansi layanan ke furniture kantor dan komersial' },
-  { year: '2012', event: 'Membuka workshop besar dan rekrut 50+ teknisi bersertifikasi' },
-  { year: '2016', event: 'Cakupan nasional — melayani proyek di 15+ provinsi' },
-  { year: '2019', event: 'Kemitraan dengan distributor spare part berkualitas terkemuka' },
-  { year: '2022', event: 'Milestone 5000+ proyek berhasil diselesaikan' },
-  { year: '2024', event: 'Pengembangan sistem digital untuk koordinasi teknisi nasional' },
+  { year: '2020', event: 'Perusahaan didirikan dari workshop kecil di Jakarta Timur dengan 5 orang teknisi' },
+  { year: '2021', event: 'Ekspansi layanan ke furniture kantor dan komersial' },
+  { year: '2022', event: 'Membuka workshop besar dan rekrut 50+ teknisi bersertifikasi' },
+  { year: '2023', event: 'Cakupan nasional — melayani proyek di berbagai provinsi' },
+  { year: '2024', event: 'Milestone 1.000+ proyek berhasil diselesaikan' },
 ]
 
 const VALUES = [
@@ -44,7 +42,7 @@ export default function TentangPage() {
               <span className="gradient-text">Bekerja dengan Presisi</span>
             </h1>
             <p className="text-white/80 text-xl leading-relaxed mb-8">
-              PT Bakti Kawan Service didirikan tahun 2004 dengan misi sederhana: memberikan layanan
+              PT Bakti Kawan Service didirikan dengan misi sederhana: memberikan layanan
               service furniture yang benar-benar profesional dan dapat dipercaya untuk fasilitas
               kesehatan dan bisnis di Indonesia.
             </p>
@@ -79,15 +77,15 @@ export default function TentangPage() {
           <div className="grid lg:grid-cols-2 gap-12 items-center mb-20">
             <div>
               <div className="section-label mb-4">Cerita Kami</div>
-              <h2 className="text-display-lg text-primary mb-6">Dua Dekade Membangun Kepercayaan</h2>
+              <h2 className="text-display-lg text-primary mb-6">Membangun Kepercayaan</h2>
               <div className="space-y-4 text-secondary leading-relaxed">
                 <p>
                   Bakti Kawan Service lahir dari kesadaran bahwa fasilitas kesehatan di Indonesia
-                  membutuhkan mitra service furniture yang benar-benar dapat diandalkan. Di tahun 2004,
+                  membutuhkan mitra service furniture yang benar-benar dapat diandalkan. Di tahun 2020,
                   kami memulai dari workshop kecil di Jakarta Timur dengan 5 orang teknisi.
                 </p>
                 <p>
-                  Kini, dengan 150+ teknisi bersertifikasi dan pengalaman menangani 5.000+ proyek
+                  Kini, dengan 100+ teknisi bersertifikasi dan pengalaman menangani 1.000+ proyek
                   di seluruh Indonesia, kami telah menjadi salah satu penyedia layanan service furniture
                   alkes dan komersial terpercaya di Indonesia.
                 </p>
@@ -108,7 +106,7 @@ export default function TentangPage() {
               <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
               <div className="absolute bottom-6 left-6 right-6">
                 <div className="text-white font-display font-bold text-lg">Tim Kami</div>
-                <div className="text-white/90 text-sm">150+ Teknisi Bersertifikasi</div>
+                <div className="text-white/90 text-sm">100+ Teknisi Bersertifikasi</div>
               </div>
             </div>
           </div>

@@ -28,7 +28,7 @@ export default function HomeCTASection() {
         </h2>
 
         <p className="text-white/90 text-xl mb-10 max-w-2xl mx-auto leading-relaxed">
-          Konsultasi gratis, survey gratis, estimasi harga transparan. Tidak ada kewajiban
+          Konsultasi 24 jam, estimasi harga transparan. Tidak ada kewajiban
           sebelum Anda setuju. Tim teknisi bersertifikasi kami siap membantu.
         </p>
 

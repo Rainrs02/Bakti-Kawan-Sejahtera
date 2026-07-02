@@ -836,7 +836,7 @@ export const CATEGORY_PAGES_DATA: CategoryPageData[] = [
     metaTitle: 'Service & Reupholstery Furniture Kantor | Bakti Kawan Service',
     metaDescription: 'Jasa perbaikan dan ganti kulit sofa lobi, kursi kantor hidrolik, filing cabinet, meja rapat HPL/kayu. Hemat biaya operasional 40-60% dengan hasil bergaransi.',
     customServiceTitle: 'Memiliki Furniture Kantor Khusus atau Volume Besar?',
-    customServiceDescription: 'Kami menangani service kustom massal untuk furniture kantor khusus lainnya (seperti partisi sekat kubikal workstation, kursi auditorium lipat, Mobile File/Roll O\'pack logam, credenza direksi, dll). Kami menyediakan layanan survey gratis langsung ke kantor Anda di wilayah Jabodetabek.'
+    customServiceDescription: 'Kami menangani service kustom massal untuk furniture kantor khusus lainnya (seperti partisi sekat kubikal workstation, kursi auditorium lipat, Mobile File/Roll O\'pack logam, credenza direksi, dll). Kami menyediakan layanan survey lapangan langsung ke kantor Anda di wilayah Jabodetabek.'
   },
   {
     id: 'komersial',

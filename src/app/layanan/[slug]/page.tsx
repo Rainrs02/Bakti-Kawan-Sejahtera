@@ -280,7 +280,7 @@ export default async function ServiceDetailPage({ params }: ServicePageProps) {
                 <div className="absolute -right-16 -top-16 w-36 h-36 bg-accent/20 rounded-full blur-2xl" />
                 <h3 className="font-display font-bold text-2xl mb-3 relative z-10">Butuh {service.shortName}?</h3>
                 <p className="text-white/90 text-sm md:text-base mb-8 relative z-10 leading-relaxed">
-                  Konsultasi gratis, survey gratis. Teknisi bersertifikasi kami siap datang langsung ke lokasi Anda.
+                  Konsultasi 24 jam via WA/Telepon. Teknisi bersertifikasi kami siap datang langsung ke lokasi Anda.
                 </p>
                 <div className="space-y-4 relative z-10">
                   <Link href="/konsultasi" className="btn btn-primary w-full justify-center py-3 bg-accent hover:bg-accent-hover text-white rounded-xl font-bold transition-all text-center block">

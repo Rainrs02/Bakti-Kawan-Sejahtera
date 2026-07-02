@@ -19,7 +19,7 @@ export const FAQS: FAQItem[] = [
     id: '2',
     category: 'Layanan',
     question: 'Apakah ada layanan konsultasi gratis sebelum memutuskan service?',
-    answer: 'Ya! Kami menyediakan konsultasi gratis via WhatsApp, telepon, atau kunjungan langsung. Tim kami akan memberikan diagnosa awal dan estimasi biaya tanpa kewajiban apapun.',
+    answer: 'Ya! Kami menyediakan konsultasi 24 jam via WhatsApp dan telepon. Tim kami akan memberikan diagnosa awal dan estimasi biaya tanpa kewajiban apapun.',
   },
   {
     id: '3',
@@ -50,7 +50,7 @@ export const FAQS: FAQItem[] = [
     id: '7',
     category: 'Wilayah Layanan',
     question: 'Apakah ada biaya transportasi untuk teknisi ke lokasi saya?',
-    answer: 'Untuk wilayah Jabodetabek, survey gratis tanpa biaya transportasi. Untuk wilayah lain, biaya transportasi akan didiskusikan dan dicantumkan dalam penawaran yang transparan.',
+    answer: 'Untuk wilayah Jabodetabek, kami menyediakan layanan survey lapangan. Untuk wilayah lain, biaya transportasi akan didiskusikan dan dicantumkan dalam penawaran yang transparan.',
   },
   // Harga
   {
@@ -76,7 +76,7 @@ export const FAQS: FAQItem[] = [
     id: '11',
     category: 'Proses Service',
     question: 'Apa saja tahapan proses service di Bakti Kawan Service?',
-    answer: '1) Konsultasi via WA/telepon, 2) Survey lapangan gratis, 3) Diagnosa dan penawaran harga, 4) Konfirmasi dan penjadwalan, 5) Pengerjaan oleh teknisi bersertifikasi, 6) QC dan serah terima, 7) Garansi diberikan.',
+    answer: '1) Konsultasi 24 jam via WA/telepon, 2) Survey lapangan, 3) Diagnosa dan penawaran harga, 4) Konfirmasi dan penjadwalan, 5) Pengerjaan oleh teknisi bersertifikasi, 6) QC dan serah terima, 7) Garansi diberikan.',
   },
   {
     id: '12',

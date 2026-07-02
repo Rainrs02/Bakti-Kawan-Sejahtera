@@ -55,7 +55,7 @@ export default function Footer() {
                 Furniture Bermasalah?
               </h2>
               <p className="text-white/80 text-sm">
-                Konsultasi gratis, survey gratis, estimasi harga transparan.
+                Konsultasi 24 jam via WA, estimasi harga transparan.
               </p>
             </div>
             <div className="flex flex-wrap gap-3 flex-shrink-0">

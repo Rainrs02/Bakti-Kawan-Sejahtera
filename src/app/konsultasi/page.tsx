@@ -78,8 +78,8 @@ export default function KonsultasiPage() {
                 <h3 className="font-bold text-sm text-primary mb-4">Mengapa Konsultasi dengan Kami?</h3>
                 <ul className="space-y-2">
                   {[
-                    'Konsultasi benar-benar gratis',
-                    'Survey lapangan gratis',
+                    'Konsultasi 24 jam via WA/Telepon',
+                    'Survey lapangan',
                     'Estimasi harga transparan',
                     'Tanpa kewajiban apapun',
                     'Respons dalam 15 menit',
