@@ -131,7 +131,7 @@ export default function HeroSection() {
             {/* Main large image — largest */}
             <div className="absolute top-0 left-0 w-[58%] h-[60%] rounded-3xl overflow-hidden shadow-2xl">
               <Image
-                src="/images/gallery/produksi/Foto Teknisi (4).webp"
+                src="/images/gallery/produksi/Foto Teknisi (10).webp"
                 alt="Proses pengerjaan teknisi profesional"
                 fill
                 className="object-cover"
@@ -144,8 +144,8 @@ export default function HeroSection() {
             {/* Bottom left: new image */}
             <div className="absolute bottom-0 left-0 w-[58%] h-[35%] rounded-2xl overflow-hidden shadow-xl">
               <Image
-                src="/images/gallery/produksi/Foto Teknisi (10).webp"
-                alt="Tim teknisi Bakti Kawan Service"
+                src="/images/hero/hero-ambulance-3.webp"
+                alt="Perbaikan interior ambulance"
                 fill
                 className="object-cover"
                 sizes="(max-width: 768px) 60vw, 30vw"
