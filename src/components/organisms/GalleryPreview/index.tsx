@@ -14,7 +14,7 @@ const GALLERY_ITEMS = [
   { src: '/images/gallery/amb-1.webp', category: 'Ambulance', title: 'Karoseri Ambulance', isTall: false },
   { src: '/images/gallery/kan-1.webp', category: 'Kantor', title: 'Reception Desk', isTall: false },
   { src: '/images/gallery/produksi/Foto Teknisi (5).webp', category: 'Teknisi', title: 'Proses Pengerjaan', isTall: false },
-  { src: '/images/gallery/produksi/Foto Teknisi (6).webp', category: 'Teknisi', title: 'Tim Lapangan', isTall: false },
+  { src: '/images/gallery/produksi/Foto Teknisi (9).webp', category: 'Teknisi', title: 'Tim Lapangan', isTall: false },
 ]
 
 export default function GalleryPreview() {
