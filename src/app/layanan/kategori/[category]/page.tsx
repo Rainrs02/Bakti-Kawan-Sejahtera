@@ -69,7 +69,7 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
       "provider": {
         "@type": "LocalBusiness",
         "name": "PT Bakti Kawan Service",
-        "image": "https://servicealkes.com/images/logo/logo.png",
+        "image": "https://servicealkes.com/images/logo/logo.webp",
         "url": "https://servicealkes.com",
         "telephone": "+6281200000001",
         "priceRange": "$$",

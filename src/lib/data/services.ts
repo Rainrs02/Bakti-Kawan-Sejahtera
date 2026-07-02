@@ -6,7 +6,7 @@ const DEFAULT_PROCESS = [
   { step: 2, title: 'Survey Lapangan', description: 'Kunjungan teknisi untuk diagnosa masalah secara akurat di lokasi.', icon: 'MapPin' },
   { step: 3, title: 'Estimasi Biaya', description: 'Pemberian penawaran harga transparan berdasarkan tingkat kerusakan dan kebutuhan spare part.', icon: 'Calculator' },
   { step: 4, title: 'Penjadwalan', description: 'Penentuan waktu pengerjaan yang disesuaikan dengan jadwal operasional klien.', icon: 'Calendar' },
-  { step: 5, title: 'Proses Pengerjaan', description: 'Eksekusi perbaikan oleh teknisi bersertifikasi sesuai standar prosedur operasi.', icon: 'Wrench' },
+  { step: 5, title: 'Proses Pengerjaan', description: 'Eksekusi perbaikan oleh teknisi berpengalaman sesuai standar prosedur operasi.', icon: 'Wrench' },
   { step: 6, title: 'Quality Control', description: 'Pengecekan akhir untuk memastikan fungsionalitas dan keamanan alat.', icon: 'CheckCircle' },
   { step: 7, title: 'Serah Terima & Garansi', description: 'Penyerahan unit yang telah diperbaiki disertai sertifikat garansi.', icon: 'Shield' },
 ];
@@ -65,7 +65,7 @@ export const SERVICES: ServiceData[] = [
     relatedSlugs: ['service-meja-operasi', 'service-troli-alkes'],
     metaTitle: 'Service Bed Pasien Profesional | Bakti Kawan Service',
     metaDescription: 'Jasa perbaikan bed pasien manual dan elektrik. Ganti spare part, perbaikan motor, dan pengecatan ulang. Garansi 3 bulan.',
-    image: '/images/services/bed-pasien.jpg',
+    image: '/images/services/bed-pasien.webp',
     imageAlt: 'Teknisi memperbaiki bed pasien rumah sakit',
   },
   {
@@ -106,7 +106,7 @@ export const SERVICES: ServiceData[] = [
     relatedSlugs: ['service-bed-pasien', 'service-troli-alkes'],
     metaTitle: 'Service Furniture Ambulance | Bakti Kawan Service',
     metaDescription: 'Layanan service interior karoseri ambulance: tandu, bracket, kabinet medis. Teknisi berpengalaman. Garansi 3 bulan.',
-    image: '/images/services/ambulance.jpg',
+    image: '/images/services/ambulance.webp',
     imageAlt: 'Interior mobil ambulance dengan kabinet medis yang telah diperbaiki',
   },
   {
@@ -145,8 +145,8 @@ export const SERVICES: ServiceData[] = [
     gallery: [],
     relatedSlugs: ['service-lampu-rumah-sakit', 'service-bed-pasien'],
     metaTitle: 'Service Meja Operasi | Bakti Kawan Service',
-    metaDescription: 'Service dan perbaikan meja operasi: hidrolik, elektrik, matras. Teknisi bersertifikasi. Garansi 3 bulan.',
-    image: '/images/services/meja-operasi.jpg',
+    metaDescription: 'Service dan perbaikan meja operasi: hidrolik, elektrik, matras. teknisi berpengalaman. Garansi 3 bulan.',
+    image: '/images/services/meja-operasi.webp',
     imageAlt: 'Meja operasi stainless steel modern',
   },
   {
@@ -216,7 +216,7 @@ export const SERVICES: ServiceData[] = [
     relatedSlugs: ['service-lemari-alkes', 'service-ambulance'],
     metaTitle: 'Service Troli Alkes & Emergency | Bakti Kawan Service',
     metaDescription: 'Perbaikan roda, rel laci, dan rangka troli rumah sakit. Cepat, senyap, bergaransi 3 bulan.',
-    image: '/images/services/troli-alkes.jpg',
+    image: '/images/services/troli-alkes.webp',
     imageAlt: 'Perbaikan dan penyesuaian komponen troli medis',
   },
   {
@@ -271,7 +271,7 @@ export const SERVICES: ServiceData[] = [
     relatedSlugs: ['service-troli-alkes', 'service-meja-operasi'],
     metaTitle: 'Service Lemari Alkes & Obat | Bakti Kawan Service',
     metaDescription: 'Perbaikan pintu, kunci, rak lemari alat kesehatan, medicine cabinet. Garansi 3 bulan.',
-    image: '/images/services/lemari-alkes.jpg',
+    image: '/images/services/lemari-alkes.webp',
     imageAlt: 'Perbaikan lemari penyimpanan obat rumah sakit',
   },
   {
@@ -310,7 +310,7 @@ export const SERVICES: ServiceData[] = [
     relatedSlugs: ['service-meja-operasi', 'service-bed-pasien'],
     metaTitle: 'Service Lampu RS & Operasi | Bakti Kawan Service',
     metaDescription: 'Service lampu pemeriksaan, lengan lampu turun, kelistrikan lampu OK. Garansi 3 bulan.',
-    image: '/images/services/lampu-rumah-sakit.jpg',
+    image: '/images/services/lampu-rumah-sakit.webp',
     imageAlt: 'Lampu medis di ruang periksa',
   },
 
@@ -353,7 +353,7 @@ export const SERVICES: ServiceData[] = [
     relatedSlugs: ['service-meja-kantor', 'service-lemari-arsip'],
     metaTitle: 'Service Sofa & Kursi Kantor Jakarta | Bakti Kawan Service',
     metaDescription: 'Ganti kulit sofa, perbaikan hidrolik kursi kantor, roda macet. Hemat biaya, hasil rapi. Garansi 3 bulan.',
-    image: '/images/services/sofa-kursi-kantor.jpg',
+    image: '/images/services/sofa-kursi-kantor.webp',
     imageAlt: 'Sofa lobby kantor premium dan kursi kerja ergonomis',
   },
   {
@@ -393,7 +393,7 @@ export const SERVICES: ServiceData[] = [
     relatedSlugs: ['service-sofa-kursi-kantor', 'service-meja-kantor'],
     metaTitle: 'Service Lemari Arsip & Filing Cabinet | Bakti Kawan Service',
     metaDescription: 'Perbaikan laci macet, kunci patah, rel filing cabinet besi dan kayu. Garansi 3 bulan.',
-    image: '/images/services/lemari-arsip.png',
+    image: '/images/services/lemari-arsip.webp',
     imageAlt: 'Rel laci filing cabinet logam kantor yang diperbaiki',
   },
   {
@@ -433,7 +433,7 @@ export const SERVICES: ServiceData[] = [
     relatedSlugs: ['service-sofa-kursi-kantor', 'service-lemari-arsip'],
     metaTitle: 'Service Meja Meeting & Resepsionis | Bakti Kawan Service',
     metaDescription: 'Restorasi HPL, perbaikan meja goyang, refinishing meja meeting dan reception desk. Garansi 3 bulan.',
-    image: '/images/services/meja-kantor.jpg',
+    image: '/images/services/meja-kantor.webp',
     imageAlt: 'Meja meeting kayu panjang dan reception desk modern',
   },
 
@@ -474,7 +474,7 @@ export const SERVICES: ServiceData[] = [
     relatedSlugs: ['service-hotel', 'service-furniture-rumah-besi'],
     metaTitle: 'Service Furniture Restoran & Cafe | Bakti Kawan Service',
     metaDescription: 'Reupholstery sofa booth cafe, perbaikan kursi makan. Bahan tahan air, bisa kerja malam hari. Garansi 3 bulan.',
-    image: '/images/services/cafe-restoran.jpg',
+    image: '/images/services/cafe-restoran.webp',
     imageAlt: 'Sofa booth cafe dan kursi restoran yang telah diperbaiki',
   },
   {
@@ -515,7 +515,7 @@ export const SERVICES: ServiceData[] = [
     relatedSlugs: ['service-cafe-restoran', 'service-furniture-rumah-besi'],
     metaTitle: 'Service Furniture Hotel & Trolley | Bakti Kawan Service',
     metaDescription: 'Perawatan headboard hotel, dipan, dan service trolley bellboy, laundry. Kontrak maintenance bergaransi 3 bulan.',
-    image: '/images/services/hotel.png',
+    image: '/images/services/hotel.webp',
     imageAlt: 'Headboard kamar hotel dan trolley bellboy',
   },
   {
@@ -555,7 +555,7 @@ export const SERVICES: ServiceData[] = [
     relatedSlugs: ['service-hotel', 'service-cafe-restoran'],
     metaTitle: 'Service Furniture Rumah Logam & Kayu | Bakti Kawan Service',
     metaDescription: 'Perbaikan furniture rumah berbahan besi maupun kayu. Reparasi ranjang, sofa, kitchen set, meja, engsel, rel laci. Teknisi handal, garansi 3 bulan.',
-    image: '/images/services/furniture-rumah-besi.jpg',
+    image: '/images/services/furniture-rumah-besi.webp',
     imageAlt: 'Perbaikan ranjang besi dan furniture kayu rumah tangga',
   },
 ];
@@ -567,8 +567,8 @@ export const CATEGORY_PAGES_DATA: CategoryPageData[] = [
     icon: '🏥',
     heroTitle: 'Service Furniture Alat Kesehatan & Ranjang Rumah Sakit',
     heroSubtitle: 'Layanan reparasi, maintenance berkala, dan penyuplai spare part ranjang pasien, meja operasi, serta kompartemen medis bergaransi.',
-    longDescription: 'Divisi khusus alat kesehatan PT Bakti Kawan Service didedikasikan untuk memastikan seluruh furniture dan penunjang operasional medis di rumah sakit, klinik, puskesmas, dan laboratorium Anda selalu dalam kondisi prima. Kami memahami standar tinggi yang diperlukan di lingkungan medis, mulai dari tingkat sterilisasi permukaan, anti-korosi bahan stainless steel, hingga keandalan sistem gerak actuators dan hydraulics. Didukung oleh teknisi bersertifikasi dan berpengalaman 10+ tahun, kami siap melakukan diagnosis akurat dan perbaikan cepat di lokasi (on-site) maupun penanganan khusus di workshop kami.',
-    image: '/images/services/bed-pasien.jpg',
+    longDescription: 'Divisi khusus alat kesehatan PT Bakti Kawan Service didedikasikan untuk memastikan seluruh furniture dan penunjang operasional medis di rumah sakit, klinik, puskesmas, dan laboratorium Anda selalu dalam kondisi prima. Kami memahami standar tinggi yang diperlukan di lingkungan medis, mulai dari tingkat sterilisasi permukaan, anti-korosi bahan stainless steel, hingga keandalan sistem gerak actuators dan hydraulics. Didukung oleh teknisi berpengalaman dan berpengalaman 10+ tahun, kami siap melakukan diagnosis akurat dan perbaikan cepat di lokasi (on-site) maupun penanganan khusus di workshop kami.',
+    image: '/images/services/bed-pasien.webp',
     imageAlt: 'Teknisi profesional merapikan bed pasien di rumah sakit',
     metaTitle: 'Jasa Service & Perbaikan Alat Kesehatan RS | Bakti Kawan Service',
     metaDescription: 'Layanan service furniture alat kesehatan & ranjang rumah sakit. Perbaikan bed pasien manual/elektrik, meja operasi, troli emergency. Garansi 3 bulan.',
@@ -582,7 +582,7 @@ export const CATEGORY_PAGES_DATA: CategoryPageData[] = [
     heroTitle: 'Service & Restorasi Furniture Kantor Profesional',
     heroSubtitle: 'Jasa reupholstery (ganti kulit/kain) sofa, service kursi kerja hidrolik, perbaikan rel filing cabinet, dan refinishing meja rapat perkantoran.',
     longDescription: 'Membeli unit furniture kantor baru setiap kali ada kerusakan kecil adalah pengeluaran yang tidak perlu untuk perusahaan Anda. PT Bakti Kawan Service menghadirkan divisi perbaikan furniture kantor untuk menghemat anggaran operasional perusahaan hingga 40-60%. Kami melayani restorasi menyeluruh dari kursi direktur ergonomis, sofa lobi ruang tunggu, lemari arsip/filing cabinet logam, hingga refinishing meja meeting kayu premium. Kami melayani korporat, BUMN, perbankan, dan instansi pemerintahan dengan standar pengerjaan rapi dan bergaransi.',
-    image: '/images/services/sofa-kursi-kantor.jpg',
+    image: '/images/services/sofa-kursi-kantor.webp',
     imageAlt: 'Sofa lobby kantor premium yang rapi setelah restorasi',
     metaTitle: 'Service & Reupholstery Furniture Kantor | Bakti Kawan Service',
     metaDescription: 'Jasa perbaikan dan ganti kulit sofa lobi, kursi kantor hidrolik, filing cabinet, meja rapat HPL/kayu. Hemat biaya operasional 40-60% dengan hasil bergaransi.',
@@ -596,7 +596,7 @@ export const CATEGORY_PAGES_DATA: CategoryPageData[] = [
     heroTitle: 'Service Furniture Cafe, Restoran, & Hotel (Hospitality)',
     heroSubtitle: 'Jasa reupholstery sofa booth cafe, perbaikan kursi makan restoran, dipan tidur, dan headboard kamar hotel standar premium.',
     longDescription: 'Tampilan visual furniture adalah faktor penentu dalam bisnis kuliner dan hospitality. Sofa cafe yang sobek atau dipan hotel yang bergoyang dapat merusak kenyamanan pelanggan dan citra bisnis Anda. PT Bakti Kawan Service menawarkan jasa service dan reupholstery furniture komersial dengan kualitas jahitan kelas butik dan material tahan noda. Kami memahami pentingnya kelancaran usaha Anda, oleh karena itu kami menawarkan opsi waktu kerja malam hari (after-hours) agar pengerjaan tidak mengganggu omzet harian Anda.',
-    image: '/images/services/cafe-restoran.jpg',
+    image: '/images/services/cafe-restoran.webp',
     imageAlt: 'Booth seating sofa kulit cokelat elegan di cafe modern',
     metaTitle: 'Jasa Service & Reupholstery Furniture Cafe, Resto, Hotel | BKS',
     metaDescription: 'Reparasi dan reupholstery sofa booth cafe, kursi makan restoran, bedset kamar hotel. Kain tahan air/noda, pengerjaan cepat (opsi malam hari). Garansi 3 bulan.',

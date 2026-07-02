@@ -8,7 +8,7 @@ import { getWADirectLink } from '@/lib/utils/whatsapp'
 import { COMPANY_STATS } from '@/lib/data/partners'
 
 const BADGES = [
-  { icon: '✓', text: 'Teknisi Bersertifikasi', color: 'text-green-400' },
+  { icon: '✓', text: 'Teknisi Berpengalaman', color: 'text-green-400' },
   { icon: '✓', text: 'Fast Response Jabodetabek', color: 'text-accent' },
   { icon: '✓', text: 'Bergaransi', color: 'text-blue-400' },
   { icon: '✓', text: 'Seluruh Indonesia', color: 'text-purple-400' },
@@ -85,7 +85,7 @@ export default function HeroSection() {
 
             {/* Subheadline */}
             <p className="text-lg text-white/80 leading-relaxed mb-8 max-w-xl animate-fade-up delay-200">
-              Teknisi bersertifikasi, spare part berkualitas, dan garansi
+              teknisi berpengalaman, spare part berkualitas, dan garansi
               3 bulan. Fast response untuk Jabodetabek, melayani seluruh Indonesia.
             </p>
 
@@ -128,10 +128,10 @@ export default function HeroSection() {
 
           {/* Right: Image Collage */}
           <div className="order-1 lg:order-2 relative h-80 sm:h-96 lg:h-[560px] animate-fade-in delay-200">
-            {/* Main large image — technician */}
-            <div className="absolute top-0 left-0 w-3/5 h-4/5 rounded-3xl overflow-hidden shadow-2xl">
+            {/* Main large image — ambulance */}
+            <div className="absolute top-0 left-0 w-[58%] h-[60%] rounded-3xl overflow-hidden shadow-2xl">
               <Image
-                src="/images/hero/hero-ambulance.jpg"
+                src="/images/hero/hero-ambulance.webp"
                 alt="Interior ambulance profesional"
                 fill
                 className="object-cover"
@@ -141,10 +141,21 @@ export default function HeroSection() {
               <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent" />
             </div>
 
-            {/* Top right: ambulance */}
-            <div className="absolute top-0 right-0 w-2/5 h-2/5 rounded-2xl overflow-hidden shadow-xl ml-2">
+            {/* Bottom left: new image */}
+            <div className="absolute bottom-0 left-0 w-[58%] h-[35%] rounded-2xl overflow-hidden shadow-xl">
               <Image
-                src="/images/hero/hero-teknisi.jpeg"
+                src="/images/gallery/produksi/Foto Teknisi (4).webp"
+                alt="Tim teknisi Bakti Kawan Service"
+                fill
+                className="object-cover"
+                sizes="(max-width: 768px) 60vw, 30vw"
+              />
+            </div>
+
+            {/* Top right: teknisi */}
+            <div className="absolute top-0 right-0 w-[38%] h-[45%] rounded-2xl overflow-hidden shadow-xl">
+              <Image
+                src="/images/hero/hero-teknisi.webp"
                 alt="Teknisi profesional memperbaiki bed pasien"
                 fill
                 className="object-cover"
@@ -153,9 +164,9 @@ export default function HeroSection() {
             </div>
 
             {/* Bottom right: workshop */}
-            <div className="absolute bottom-0 right-0 w-2/5 h-2/5 rounded-2xl overflow-hidden shadow-xl mt-2">
+            <div className="absolute bottom-0 right-0 w-[38%] h-[50%] rounded-2xl overflow-hidden shadow-xl">
               <Image
-                src="/images/hero/hero-workshop.jpeg"
+                src="/images/hero/hero-workshop.webp"
                 alt="Workshop spare part furniture"
                 fill
                 className="object-cover"

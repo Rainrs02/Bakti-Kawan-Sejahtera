@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 const TIMELINE = [
   { year: '2020', event: 'Perusahaan didirikan dari workshop kecil di Kabupaten Bogor dengan 5 orang teknisi' },
   { year: '2021', event: 'Ekspansi layanan ke furniture kantor dan komersial' },
-  { year: '2022', event: 'Membuka workshop besar dan rekrut 50+ teknisi bersertifikasi' },
+  { year: '2022', event: 'Membuka workshop besar dan rekrut 50+ teknisi berpengalaman' },
   { year: '2023', event: 'Cakupan nasional — melayani proyek di berbagai provinsi' },
   { year: '2024', event: 'Milestone 1.000+ proyek berhasil diselesaikan' },
 ]
@@ -85,7 +85,7 @@ export default function TentangPage() {
                   kami memulai dari workshop kecil di Kabupaten Bogor dengan 5 orang teknisi.
                 </p>
                 <p>
-                  Kini, dengan 100+ teknisi bersertifikasi dan pengalaman menangani 1.000+ proyek
+                  Kini, dengan 100+ teknisi berpengalaman dan pengalaman menangani 1.000+ proyek
                   di seluruh Indonesia, kami telah menjadi salah satu penyedia layanan service furniture
                   alkes dan komersial terpercaya di Indonesia.
                 </p>
@@ -98,7 +98,7 @@ export default function TentangPage() {
             </div>
             <div className="relative h-80 lg:h-[420px] rounded-3xl overflow-hidden shadow-2xl">
               <Image
-                src="/images/team/team-photo.jpeg"
+                src="/images/team/team-photo.webp"
                 alt="Tim profesional Bakti Kawan Service"
                 fill
                 className="object-cover"
@@ -106,7 +106,7 @@ export default function TentangPage() {
               <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
               <div className="absolute bottom-6 left-6 right-6">
                 <div className="text-white font-display font-bold text-lg">Tim Kami</div>
-                <div className="text-white/90 text-sm">100+ Teknisi Bersertifikasi</div>
+                <div className="text-white/90 text-sm">100+ Teknisi Berpengalaman</div>
               </div>
             </div>
           </div>

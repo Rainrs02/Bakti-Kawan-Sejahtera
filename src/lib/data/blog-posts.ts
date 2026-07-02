@@ -42,7 +42,7 @@ Bed pasien mengalami beban kerja ekstrem setiap hari — digunakan oleh pasien d
 - Dokumentasikan kondisi dan catat di logbook pemeliharaan
 
 ### 6 Bulanan (Preventive Maintenance)
-- Pengecekan menyeluruh oleh teknisi bersertifikasi
+- Pengecekan menyeluruh oleh teknisi berpengalaman
 - Ganti komponen yang aus sebelum rusak total
 - Kalibrasi sistem electric (jika ada)
 - Update dokumentasi teknis
@@ -74,7 +74,7 @@ Tidak semua masalah bisa diselesaikan oleh staf internal. Hubungi teknisi profes
 - Deformasi struktural pada rangka
 - Masalah yang berulang meski sudah diperbaiki
 
-**PT Bakti Kawan Service** siap membantu dengan layanan service bed pasien profesional. Tim teknisi bersertifikasi kami dengan pengalaman 20+ tahun siap memberikan solusi terbaik untuk fasilitas kesehatan Anda.
+**PT Bakti Kawan Service** siap membantu dengan layanan service bed pasien profesional. Tim teknisi berpengalaman kami dengan pengalaman 20+ tahun siap memberikan solusi terbaik untuk fasilitas kesehatan Anda.
 
 [Hubungi kami sekarang untuk konsultasi gratis →](/konsultasi)
 
@@ -84,12 +84,12 @@ Investasi dalam perawatan rutin bed pasien adalah keputusan yang sangat cost-eff
 
 Buat jadwal perawatan rutin sekarang, dan pertimbangkan kontrak maintenance berkala dengan penyedia jasa terpercaya untuk ketenangan pikiran jangka panjang.
     `,
-    coverImage: '/images/blog/perawatan-bed-pasien.jpg',
+    coverImage: '/images/blog/perawatan-bed-pasien.webp',
     category: 'Tips & Panduan',
     tags: ['bed pasien', 'perawatan alkes', 'rumah sakit', 'preventive maintenance', 'furniture medis'],
     author: {
       name: 'Tim Bakti Kawan Service',
-      avatar: '/images/team/author-default.jpg',
+      avatar: '/images/team/author-default.webp',
       role: 'Tim Teknis BKS',
     },
     publishedAt: '2024-11-20',
@@ -193,12 +193,12 @@ Untuk furniture dengan rangka yang masih baik, reupholstery hampir selalu lebih 
 
 Kunci suksesnya adalah memilih penyedia jasa yang berpengalaman, menggunakan material berkualitas, dan memastikan ada garansi yang jelas.
     `,
-    coverImage: '/images/blog/reupholstery-vs-beli-baru.jpg',
+    coverImage: '/images/blog/reupholstery-vs-beli-baru.webp',
     category: 'Tips & Panduan',
     tags: ['reupholstery', 'sofa kantor', 'furniture kantor', 'hemat biaya', 'tips kantor'],
     author: {
       name: 'Tim Bakti Kawan Service',
-      avatar: '/images/team/author-default.jpg',
+      avatar: '/images/team/author-default.webp',
       role: 'Tim Teknis BKS',
     },
     publishedAt: '2024-10-10',
@@ -316,12 +316,12 @@ Standar sanitasi furniture medis bukan sekadar regulasi — ini adalah perlindun
 
 [Konsultasi kebutuhan cover furniture medis Anda →](/konsultasi)
     `,
-    coverImage: '/images/blog/sanitasi-furniture-alkes.jpg',
+    coverImage: '/images/blog/sanitasi-furniture-alkes.webp',
     category: 'Regulasi & Compliance',
     tags: ['sanitasi alkes', 'infection control', 'rumah sakit', 'furniture medis', 'compliance', 'PPI'],
     author: {
       name: 'Tim Bakti Kawan Service',
-      avatar: '/images/team/author-default.jpg',
+      avatar: '/images/team/author-default.webp',
       role: 'Tim Teknis BKS',
     },
     publishedAt: '2024-09-05',

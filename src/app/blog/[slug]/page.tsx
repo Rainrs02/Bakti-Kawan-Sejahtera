@@ -108,7 +108,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
               {/* CTA */}
               <div className="p-5 rounded-2xl bg-primary text-white sticky top-24">
                 <h3 className="font-bold text-base mb-2">Butuh Bantuan Service?</h3>
-                <p className="text-white/80 text-sm mb-4">Konsultasi gratis dengan teknisi bersertifikasi kami.</p>
+                <p className="text-white/80 text-sm mb-4">Konsultasi gratis dengan teknisi berpengalaman kami.</p>
                 <Link href="/konsultasi" className="btn btn-primary w-full justify-center text-sm mb-2">
                   Konsultasi Gratis
                 </Link>

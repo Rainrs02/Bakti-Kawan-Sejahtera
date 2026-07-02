@@ -7,7 +7,7 @@ import {
 } from 'lucide-react'
 
 const FEATURES = [
-  { icon: Award, title: 'Teknisi Bersertifikasi', desc: 'Terlatih & berpengalaman 10+ tahun di bidangnya' },
+  { icon: Award, title: 'Teknisi Berpengalaman', desc: 'Terlatih & berpengalaman 10+ tahun di bidangnya' },
   { icon: Package, title: 'Spare Part OEM', desc: 'Suku cadang original berkualitas tinggi' },
   { icon: Shield, title: 'Bergaransi', desc: 'Garansi 3 bulan untuk setiap pekerjaan' },
   { icon: Clock, title: 'Fast Response', desc: 'Respons cepat dalam 15 menit, penjadwalan survey cepat' },
@@ -60,7 +60,7 @@ export default function WhyUsSection() {
           <div className="lg:col-span-1 flex flex-col gap-4">
             <div className="relative rounded-3xl overflow-hidden flex-1 min-h-64">
               <Image
-                src="/images/team/team-photo.jpeg"
+                src="/images/team/team-photo.webp"
                 alt="Tim teknisi profesional Bakti Kawan Service"
                 fill
                 className="object-cover"
@@ -72,7 +72,7 @@ export default function WhyUsSection() {
                   Tim Profesional Kami
                 </div>
                 <div className="text-white/90 text-sm mt-1">
-                  150+ teknisi bersertifikasi siap melayani
+                  150+ teknisi berpengalaman siap melayani
                 </div>
               </div>
             </div>

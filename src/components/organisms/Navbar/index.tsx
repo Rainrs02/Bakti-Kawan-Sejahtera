@@ -78,7 +78,7 @@ export default function Navbar() {
             >
               <div className="relative w-10 h-10 md:w-12 md:h-12">
                 <Image
-                  src="/images/logo/logo.png"
+                  src="/images/logo/logo.webp"
                   alt="Bakti Kawan Service"
                   fill
                   className="object-contain"
@@ -275,7 +275,7 @@ export default function Navbar() {
               onClick={() => setMenuOpen(false)}
             >
               <div className="relative w-10 h-10">
-                <Image src="/images/logo/logo.png" alt="BKS" fill className="object-contain" />
+                <Image src="/images/logo/logo.webp" alt="BKS" fill className="object-contain" />
               </div>
               <div>
                 <div className="font-display font-bold text-sm text-primary">Bakti Kawan</div>

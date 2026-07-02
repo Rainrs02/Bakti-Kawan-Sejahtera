@@ -7,7 +7,7 @@ import { SERVICES } from '@/lib/data/services'
 
 export const metadata: Metadata = {
   title: 'Semua Layanan Service Furniture | Bakti Kawan Service',
-  description: 'Layanan service furniture alat kesehatan, kantor, dan komersial. 19+ jenis layanan, teknisi bersertifikasi, garansi. Fast response Jabodetabek.',
+  description: 'Layanan service furniture alat kesehatan, kantor, dan komersial. 19+ jenis layanan, teknisi berpengalaman, garansi. Fast response Jabodetabek.',
 }
 
 
@@ -33,7 +33,7 @@ export default function LayananPage() {
             <span className="gradient-text">Profesional</span>
           </h1>
           <p className="text-secondary text-xl max-w-2xl">
-            Dari alat kesehatan rumah sakit hingga furniture komersial premium. Semua ditangani teknisi bersertifikasi dengan garansi.
+            Dari alat kesehatan rumah sakit hingga furniture komersial premium. Semua ditangani teknisi berpengalaman dengan garansi.
           </p>
         </div>
       </div>

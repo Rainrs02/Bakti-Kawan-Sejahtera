@@ -76,7 +76,7 @@ export const FAQS: FAQItem[] = [
     id: '11',
     category: 'Proses Service',
     question: 'Apa saja tahapan proses service di Bakti Kawan Service?',
-    answer: '1) Konsultasi 24 jam via WA/telepon, 2) Survey lapangan, 3) Diagnosa dan penawaran harga, 4) Konfirmasi dan penjadwalan, 5) Pengerjaan oleh teknisi bersertifikasi, 6) QC dan serah terima, 7) Garansi diberikan.',
+    answer: '1) Konsultasi 24 jam via WA/telepon, 2) Survey lapangan, 3) Diagnosa dan penawaran harga, 4) Konfirmasi dan penjadwalan, 5) Pengerjaan oleh teknisi berpengalaman, 6) QC dan serah terima, 7) Garansi diberikan.',
   },
   {
     id: '12',

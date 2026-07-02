@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     default: 'Bakti Kawan Service — Service Furniture Alkes Profesional',
   },
   description:
-    'PT Bakti Kawan Service: service furniture alat kesehatan, kantor, dan komersial. Teknisi bersertifikasi, spare part berkualitas, garansi. Fast response Jabodetabek, melayani seluruh Indonesia.',
+    'PT Bakti Kawan Service: service furniture alat kesehatan, kantor, dan komersial. teknisi berpengalaman, spare part berkualitas, garansi. Fast response Jabodetabek, melayani seluruh Indonesia.',
   keywords: [
     'service alkes',
     'service furniture rumah sakit',
@@ -45,10 +45,10 @@ export const metadata: Metadata = {
     siteName: 'Bakti Kawan Service',
     title: 'Service Furniture Alkes Profesional | Bakti Kawan Service',
     description:
-      'Layanan service furniture alkes, kantor, dan komersial. Teknisi bersertifikasi, garansi, fast response Jabodetabek.',
+      'Layanan service furniture alkes, kantor, dan komersial. teknisi berpengalaman, garansi, fast response Jabodetabek.',
     images: [
       {
-        url: '/images/og-image.jpg',
+        url: '/images/og-image.webp',
         width: 1200,
         height: 630,
         alt: 'Bakti Kawan Service — Service Furniture Profesional',
@@ -59,7 +59,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Bakti Kawan Service — Service Furniture Alkes Profesional',
     description: 'Layanan service furniture alkes, kantor, dan komersial profesional. Fast response Jabodetabek.',
-    images: ['/images/og-image.jpg'],
+    images: ['/images/og-image.webp'],
   },
   robots: {
     index: true,
@@ -88,8 +88,8 @@ export default function RootLayout({
     name: 'PT Bakti Kawan Service',
     alternateName: 'Bakti Kawan Service',
     url: 'https://servicealkes.com',
-    logo: 'https://servicealkes.com/images/logo.png',
-    image: 'https://servicealkes.com/images/og-image.jpg',
+    logo: 'https://servicealkes.com/images/logo.webp',
+    image: 'https://servicealkes.com/images/og-image.webp',
     description: 'Layanan service dan perbaikan furniture alat kesehatan, kantor, dan komersial profesional di Jabodetabek dan seluruh Indonesia.',
     telephone: '+6281200000001',
     email: 'info@servicealkes.com',
@@ -153,7 +153,7 @@ export default function RootLayout({
         />
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <link rel="icon" href="/icon.svg" type="image/svg+xml" />
-        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.webp" />
         <link rel="manifest" href="/site.webmanifest" />
         
         {/* Google Analytics */}

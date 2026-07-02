@@ -83,7 +83,7 @@ export default function KonsultasiPage() {
                     'Estimasi harga transparan',
                     'Tanpa kewajiban apapun',
                     'Respons dalam 15 menit',
-                    'Teknisi bersertifikasi',
+                    'teknisi berpengalaman',
                   ].map(item => (
                     <li key={item} className="flex items-center gap-2 text-sm text-secondary">
                       <CheckCircle size={14} className="text-accent flex-shrink-0" />

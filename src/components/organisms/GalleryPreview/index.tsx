@@ -5,14 +5,14 @@ import Link from 'next/link'
 import { ArrowRight } from 'lucide-react'
 
 const GALLERY_ITEMS = [
-  { src: '/images/hero/hero-ambulance.jpg', category: 'Ambulance', title: 'Interior ambulance', isTall: true },
-  { src: '/images/hero/hero-teknisi.jpeg', category: 'Kantor', title: 'Meja Bundar', isTall: false },
-  { src: '/images/services/bed-pasien.jpg', category: 'Alkes', title: 'Bed Pasien', isTall: false },
-  { src: '/images/services/cafe-restoran.jpg', category: 'Komersial', title: 'Sofa Cafe', isTall: true },
-  { src: '/images/gallery/alk-2.jpg', category: 'Alkes', title: 'Bed Pasien Ekstra', isTall: false },
-  { src: '/images/gallery/kom-2.jpg', category: 'Komersial', title: 'Kursi Komersial', isTall: false },
-  { src: '/images/gallery/amb-1.jpg', category: 'Ambulance', title: 'Karoseri Ambulance', isTall: false },
-  { src: '/images/gallery/kan-1.jpg', category: 'Kantor', title: 'Kursi Kantor', isTall: false },
+  { src: '/images/hero/hero-ambulance.webp', category: 'Ambulance', title: 'Interior ambulance', isTall: true },
+  { src: '/images/hero/hero-teknisi.webp', category: 'Kantor', title: 'Meja Bundar', isTall: false },
+  { src: '/images/services/bed-pasien.webp', category: 'Alkes', title: 'Bed Pasien', isTall: false },
+  { src: '/images/services/cafe-restoran.webp', category: 'Komersial', title: 'Sofa Cafe', isTall: true },
+  { src: '/images/gallery/alk-2.webp', category: 'Alkes', title: 'Bed Pasien Ekstra', isTall: false },
+  { src: '/images/gallery/kom-2.webp', category: 'Komersial', title: 'Kursi Komersial', isTall: false },
+  { src: '/images/gallery/amb-1.webp', category: 'Ambulance', title: 'Karoseri Ambulance', isTall: false },
+  { src: '/images/gallery/kan-1.webp', category: 'Kantor', title: 'Kursi Kantor', isTall: false },
 ]
 
 export default function GalleryPreview() {

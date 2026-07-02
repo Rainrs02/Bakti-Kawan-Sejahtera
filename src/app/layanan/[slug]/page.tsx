@@ -72,7 +72,7 @@ export default async function ServiceDetailPage({ params }: ServicePageProps) {
     "provider": {
       "@type": "LocalBusiness",
       "name": "PT Bakti Kawan Service",
-      "image": "https://servicealkes.com/images/logo/logo.png",
+      "image": "https://servicealkes.com/images/logo/logo.webp",
       "url": "https://servicealkes.com",
       "telephone": "+6281200000001",
       "priceRange": "$$",
@@ -302,7 +302,7 @@ export default async function ServiceDetailPage({ params }: ServicePageProps) {
                 <div className="absolute -right-16 -top-16 w-36 h-36 bg-accent/20 rounded-full blur-2xl" />
                 <h3 className="font-display font-bold text-2xl mb-3 relative z-10">Butuh {service.shortName}?</h3>
                 <p className="text-white/90 text-sm md:text-base mb-8 relative z-10 leading-relaxed">
-                  Konsultasi 24 jam via WA/Telepon. Teknisi bersertifikasi kami siap datang langsung ke lokasi Anda.
+                  Konsultasi 24 jam via WA/Telepon. teknisi berpengalaman kami siap datang langsung ke lokasi Anda.
                 </p>
                 <div className="space-y-4 relative z-10">
                   <Link href="/konsultasi" className="btn btn-primary w-full justify-center py-3 bg-accent hover:bg-accent-hover text-white rounded-xl font-bold transition-all text-center block">
@@ -322,7 +322,7 @@ export default async function ServiceDetailPage({ params }: ServicePageProps) {
                   {[
                     { icon: Shield, text: 'Garansi 3 bulan Tertulis' },
                     { icon: Clock, text: 'Respons Cepat < 15 Menit' },
-                    { icon: Wrench, text: 'Teknisi Bersertifikasi Resmi' },
+                    { icon: Wrench, text: 'Teknisi Berpengalaman Resmi' },
                   ].map(({ icon: Icon, text }) => (
                     <div key={text} className="flex items-center gap-3 text-sm text-white/90">
                       <Icon size={18} className="text-accent flex-shrink-0" />

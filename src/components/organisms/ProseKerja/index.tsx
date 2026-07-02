@@ -29,7 +29,7 @@ const STEPS = [
     number: '04',
     icon: Wrench,
     title: 'Perbaikan Profesional',
-    desc: 'Teknisi bersertifikasi mengerjakan dengan spare part berkualitas dan peralatan modern.',
+    desc: 'teknisi berpengalaman mengerjakan dengan spare part berkualitas dan peralatan modern.',
     highlight: 'Spare Part OEM',
   },
   {

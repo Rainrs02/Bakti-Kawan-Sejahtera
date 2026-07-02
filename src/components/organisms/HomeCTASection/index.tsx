@@ -29,7 +29,7 @@ export default function HomeCTASection() {
 
         <p className="text-white/90 text-xl mb-10 max-w-2xl mx-auto leading-relaxed">
           Konsultasi 24 jam, estimasi harga transparan. Tidak ada kewajiban
-          sebelum Anda setuju. Tim teknisi bersertifikasi kami siap membantu.
+          sebelum Anda setuju. Tim teknisi berpengalaman kami siap membantu.
         </p>
 
         <div className="flex flex-wrap justify-center gap-4 mb-12">
@@ -57,7 +57,7 @@ export default function HomeCTASection() {
             '✓ Survey Gratis',
             '✓ Harga Transparan',
             '✓ Bergaransi',
-            '✓ Teknisi Bersertifikasi',
+            '✓ Teknisi Berpengalaman',
           ].map((item) => (
             <span key={item} className="flex items-center gap-1.5 text-white/80">
               <span className="text-accent">{item.split(' ')[0]}</span>
