@@ -33,6 +33,7 @@ export interface ServiceData {
   description: string;
   longDescription: string;
   benefits: string[];
+  serviceItems?: string[];
   process: ProcessStep[];
   faqs: FAQ[];
   gallery: GalleryItem[];

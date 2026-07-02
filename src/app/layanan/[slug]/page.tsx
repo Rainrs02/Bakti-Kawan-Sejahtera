@@ -230,6 +230,28 @@ export default async function ServiceDetailPage({ params }: ServicePageProps) {
                 </div>
               </section>
 
+              {/* Service Items */}
+              {service.serviceItems && service.serviceItems.length > 0 && (
+                <section aria-labelledby="section-items" className="pt-4">
+                  <h2 id="section-items" className="text-display-md text-primary mb-6 font-display font-bold">
+                    Jenis Barang yang Kami Service
+                  </h2>
+                  <p className="text-secondary mb-6 text-sm md:text-base">
+                    Berikut ini merupakan daftar barang atau perlengkapan yang dapat kami perbaiki. Kami juga melayani service barang di luar daftar berikut selama masih termasuk dalam kategori yang relevan.
+                  </p>
+                  <div className="grid sm:grid-cols-2 gap-3">
+                    {service.serviceItems.map((item, index) => (
+                      <div key={index} className="flex items-center gap-3 p-4 rounded-xl bg-white border border-border hover:border-accent/30 transition-colors shadow-sm">
+                        <div className="w-8 h-8 rounded-full bg-accent/10 flex items-center justify-center flex-shrink-0">
+                          <CheckCircle size={16} className="text-accent" />
+                        </div>
+                        <span className="text-secondary text-sm font-medium">{item}</span>
+                      </div>
+                    ))}
+                  </div>
+                </section>
+              )}
+
               {/* Process */}
               <section aria-labelledby="section-process">
                 <h2 id="section-process" className="text-display-md text-primary mb-8 font-display font-bold">
