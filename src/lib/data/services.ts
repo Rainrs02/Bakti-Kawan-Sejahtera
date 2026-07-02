@@ -1,813 +1,361 @@
-// lib/data/services.ts
-import type { ServiceData, CategoryPageData } from '@/types/service'
+// Data layanan yang diperbarui sesuai permintaan user
+import { ServiceData, CategoryPageData } from '@/types/service';
 
 const DEFAULT_PROCESS = [
-  {
-    step: 1,
-    title: 'Hubungi Kami',
-    description: 'Hubungi kami via WhatsApp, telepon, atau form konsultasi. Tim kami siap merespons dalam 15 menit.',
-    icon: 'phone',
-  },
-  {
-    step: 2,
-    title: 'Survey Gratis',
-    description: 'Teknisi berpengalaman kami akan datang ke lokasi Anda untuk survey dan diagnosis kerusakan secara akurat.',
-    icon: 'map-pin',
-  },
-  {
-    step: 3,
-    title: 'Penawaran Harga',
-    description: 'Kami memberikan estimasi biaya yang transparan dan kompetitif sebelum pekerjaan dimulai.',
-    icon: 'file-text',
-  },
-  {
-    step: 4,
-    title: 'Perbaikan Profesional',
-    description: 'Teknisi bersertifikasi kami melakukan perbaikan menggunakan spare part berkualitas dan peralatan modern.',
-    icon: 'wrench',
-  },
-  {
-    step: 5,
-    title: 'Bergaransi',
-    description: 'Setiap pekerjaan dilengkapi garansi 3 bulan. Kepuasan Anda adalah prioritas kami.',
-    icon: 'shield-check',
-  },
-]
+  { step: '1', title: 'Konsultasi 24 Jam', description: 'Diskusi awal keluhan via WA/telepon.' },
+  { step: '2', title: 'Survey Lapangan', description: 'Kunjungan teknisi untuk diagnosa masalah secara akurat di lokasi.' },
+  { step: '3', title: 'Estimasi Biaya', description: 'Pemberian penawaran harga transparan berdasarkan tingkat kerusakan dan kebutuhan spare part.' },
+  { step: '4', title: 'Penjadwalan', description: 'Penentuan waktu pengerjaan yang disesuaikan dengan jadwal operasional klien.' },
+  { step: '5', title: 'Proses Pengerjaan', description: 'Eksekusi perbaikan oleh teknisi bersertifikasi sesuai standar prosedur operasi.' },
+  { step: '6', title: 'Quality Control', description: 'Pengecekan akhir untuk memastikan fungsionalitas dan keamanan alat.' },
+  { step: '7', title: 'Serah Terima & Garansi', description: 'Penyerahan unit yang telah diperbaiki disertai sertifikat garansi.' },
+];
 
 export const SERVICES: ServiceData[] = [
-  // =============================================
-  // KATEGORI: ALKES (10 layanan)
-  // =============================================
+  // --- ALAT KESEHATAN ---
   {
     slug: 'service-bed-pasien',
     name: 'Service Bed Pasien',
     shortName: 'Bed Pasien',
     category: 'alkes',
-    heroTitle: 'Jasa Service Bed Pasien Rumah Sakit & Klinik | Profesional & Bergaransi',
-    heroSubtitle: 'Layanan reparasi, pemeliharaan, dan refurbishment bed pasien manual, elektrik, hingga ICU bed di Jabodetabek & seluruh Indonesia.',
-    description: 'Solusi terpercaya untuk perbaikan sistem mekanis, elektrikal, actuator, hidrolik, dan jok bed pasien rumah sakit.',
-    longDescription: `Ranjang pasien (bed pasien) merupakan aset vital di setiap fasilitas kesehatan. Kerusakan pada bed pasien dapat mengganggu kenyamanan dan keselamatan pasien, serta menghambat kinerja tenaga medis. PT Bakti Kawan Service hadir sebagai partner terpercaya untuk jasa service bed pasien secara profesional di Jabodetabek dan seluruh Indonesia.
-
-Teknisi kami memiliki sertifikasi resmi dan keahlian mendalam untuk memperbaiki berbagai jenis ranjang medis, mulai dari tipe manual (1 crank, 2 crank, 3 crank), bed elektrik otomatis, hingga ranjang ruang ICU dengan sistem hidrolik yang rumit. Kami mengatasi masalah seperti actuator elektrik mati, kebocoran oli hidrolik, crank manual dol/macet, karat pada rangka, hingga kerusakan roda dan sistem pengunci (central lock system).
-
-Guna menjamin keamanan jangka panjang, kami hanya menggunakan suku cadang berkualitas OEM yang orisinal. Layanan kami meliputi perbaikan struktural (welding & alignment), refurbishment jok matras dengan medical-grade anti-bacterial vinyl, pengecatan ulang anti-karat (powder coating), serta kalibrasi fungsi keseluruhan. Setiap pekerjaan kami lengkapi dengan garansi 3 bulan untuk ketenangan pikiran Anda.`,
+    heroTitle: 'Service Bed Pasien & Ranjang Medis Profesional',
+    heroSubtitle: 'Perbaikan mekanikal, elektrikal, dan pengecatan ulang bed pasien manual maupun elektrik untuk rumah sakit, klinik, dan perawatan homecare.',
+    description: 'Solusi terpercaya untuk perbaikan bed pasien. Mulai dari sistem hidrolik macet, motor elektrik mati, hingga rangka berkarat.',
+    longDescription: 'Ranjang pasien (hospital bed) yang rusak tidak hanya mengganggu kenyamanan, tetapi juga dapat membahayakan keselamatan pasien. Kami menyediakan layanan service komprehensif untuk bed pasien manual (engkol) maupun elektrik dari berbagai merek terkemuka. Layanan kami meliputi perbaikan sistem mekanik engkol yang macet atau berat, penggantian motor actuator dan remote control pada bed elektrik, perbaikan sistem hidrolik roda dan rem, hingga rekondisi total seperti sandblasting, pengecatan ulang anti-karat (powder coating), dan penggantian matras medis standar rumah sakit.',
     benefits: [
-      'Teknisi bersertifikasi dengan pengalaman 10+ tahun',
-      'Spare part berkualitas OEM original',
-      'Fast response Jabodetabek (layanan cepat)',
+      'Perbaikan bed manual (engkol 1, 2, 3)',
+      'Perbaikan bed elektrik (motor, remote, panel)',
+      'Penggantian roda (caster) standar medis',
+      'Pengecatan ulang (powder coating)',
+      'Penggantian matras anti-bakteri dan tahan air',
+      'Spare part berkualitas (OEM)',
       'Garansi 3 bulan',
-      'Penanganan bed manual, electric, dan ICU',
-      'Perbaikan on-site di lokasi fasilitas kesehatan',
-      'Harga transparan tanpa biaya tersembunyi',
-      'Layanan maintenance berkala tersedia',
     ],
     process: DEFAULT_PROCESS,
     faqs: [
-      {
-        question: 'Berapa lama proses perbaikan bed pasien biasanya?',
-        answer: 'Tergantung tingkat kerusakan. Perbaikan ringan (engsel, roda, rem) dapat diselesaikan dalam 1-2 jam di lokasi. Kerusakan berat pada sistem hydraulic atau electric membutuhkan 1-3 hari kerja.',
-      },
-      {
-        question: 'Apakah bisa service bed pasien di luar Jabodetabek?',
-        answer: 'Ya, kami melayani seluruh Indonesia. Untuk wilayah luar Jabodetabek, kami menyediakan layanan survey online/foto, kemudian penjadwalan teknisi atau kerjasama dengan teknisi mitra lokal.',
-      },
-      {
-        question: 'Spare part yang digunakan apakah original?',
-        answer: 'Ya, kami menggunakan spare part berkualitas tinggi. Kami bekerja sama langsung dengan distributor spare part terpercaya untuk memastikan kualitas dan keaslian.',
-      },
-      {
-        question: 'Apakah ada garansi setelah perbaikan?',
-        answer: 'Setiap perbaikan yang kami lakukan disertai garansi 3 bulan, tergantung jenis pekerjaan. Jika ada masalah dalam periode garansi, kami akan memperbaikinya tanpa biaya tambahan.',
-      },
-      {
-        question: 'Berapa estimasi biaya service bed pasien?',
-        answer: 'Biaya bervariasi tergantung jenis dan tingkat kerusakan. Kami memberikan estimasi harga gratis setelah survey. Hubungi kami untuk konsultasi awal tanpa biaya.',
-      },
+      { question: 'Apakah menerima service bed pasien elektrik merek impor?', answer: 'Ya, teknisi kami berpengalaman menangani bed elektrik impor seperti Paramount, Hill-Rom, LINET, dan merek lainnya, termasuk perbaikan sistem kelistrikannya.' },
     ],
     gallery: [],
-    relatedSlugs: ['service-troli-emergency', 'service-nurse-station', 'service-meja-periksa'],
-    metaTitle: 'Service Bed Pasien Profesional | Bakti Kawan Service Jakarta',
-    metaDescription: 'Jasa service dan perbaikan bed pasien rumah sakit, klinik, puskesmas. Teknisi bersertifikasi, spare part berkualitas, garansi. Fast response Jabodetabek. Hubungi kami sekarang!',
+    relatedSlugs: ['service-meja-operasi', 'service-troli-alkes'],
+    metaTitle: 'Service Bed Pasien Profesional | Bakti Kawan Service',
+    metaDescription: 'Jasa perbaikan bed pasien manual dan elektrik. Ganti spare part, perbaikan motor, dan pengecatan ulang. Garansi 3 bulan.',
     image: '/images/services/bed-pasien.jpg',
-    imageAlt: 'Teknisi PT Bakti Kawan Service sedang melakukan perbaikan bed pasien rumah sakit',
+    imageAlt: 'Teknisi memperbaiki bed pasien rumah sakit',
   },
-
   {
     slug: 'service-ambulance',
-    name: 'Service Furniture Ambulance',
-    shortName: 'Furniture Ambulance',
+    name: 'Service Furniture / Karoseri Ambulance',
+    shortName: 'Ambulance',
     category: 'alkes',
-    heroTitle: 'Service & Refurbishment Interior Ambulance | Standar Medis',
-    heroSubtitle: 'Reparasi stretcher, bracket pengunci tandu, kabinet medis, dan restrukturisasi interior ambulance agar selalu siap pakai.',
-    description: 'Perbaikan dan modifikasi interior kendaraan ambulance untuk memastikan fungsionalitas dan keamanan pasien selama mobilisasi.',
-    longDescription: `Kondisi interior dan furniture di dalam mobil ambulance harus selalu berada dalam kondisi 100% prima demi keselamatan pasien selama transportasi darurat. Guncangan di jalan menuntut semua kompartemen, terutama sistem pengunci stretcher dan bracket medis, berfungsi dengan presisi tinggi. PT Bakti Kawan Service menyediakan jasa reparasi dan refurbishment terlengkap untuk interior ambulance.
-
-Kami melayani perbaikan tandu stretcher (baik tipe lipat maupun automatic loading), penggantian pelapis matras dengan bahan vinyl standar medis yang anti-mikroba dan mudah didekontaminasi, perbaikan kabinet obat berbahan multiplex atau stainless steel, hingga penguatan bracket tabung oksigen dan dudukan gantungan infus.
-
-Dengan dukungan teknisi berpengalaman di bidang karoseri dan interior kendaraan medis, kami memastikan setiap modifikasi dan perbaikan memenuhi regulasi dinas kesehatan. Kami siap melakukan pekerjaan on-site di pool ambulance atau rumah sakit Anda untuk meminimalisir downtime operasional unit rescue.`,
+    heroTitle: 'Service Furniture & Interior Karoseri Ambulance',
+    heroSubtitle: 'Perbaikan kabinet, stretcher, dan modifikasi interior ambulance standar operasional puskesmas, klinik, dan RS.',
+    description: 'Kami memperbaiki interior ambulance Anda mulai dari tandu (stretcher), rel, kursi paramedis, hingga lemari penyimpanan oksigen.',
+    longDescription: 'Ambulance membutuhkan interior yang kokoh, higienis, dan ergonomis agar paramedis dapat bekerja cepat dalam kondisi darurat. Kami melayani perbaikan dan modifikasi interior karoseri ambulance yang rusak atau usang. Cakupan pekerjaan kami meliputi perbaikan mekanisme penguncian tandu (stretcher) dan base rel, pelapisan ulang kursi dokter dan paramedis dengan vinyl anti-darah, perkuatan struktur lemari medis dan kompartemen tabung oksigen, hingga penggantian lantai anti-slip dan lampu penerangan interior.',
     benefits: [
-      'Memenuhi standar keselamatan medis',
-      'Teknisi berpengalaman interior kendaraan medis',
-      'Spare part sesuai spesifikasi ambulance',
-      'Inspeksi keamanan menyeluruh',
-      'Service on-site di pool ambulance',
+      'Perbaikan rel dan pengunci stretcher',
+      'Reupholstery jok paramedis',
+      'Perkuatan kabinet medis dan rak oksigen',
+      'Penggantian lantai anti-slip',
+      'Perbaikan lampu interior medis',
+      'Pengerjaan cepat (meminimalkan waktu downtime kendaraan)',
       'Garansi 3 bulan',
-      'Sertifikat kelayakan tersedia',
-      'Konsultasi desain ulang interior',
     ],
     process: DEFAULT_PROCESS,
     faqs: [
-      {
-        question: 'Apa saja komponen ambulance yang bisa di-service?',
-        answer: 'Kami menangani tandu/stretcher, bracket mounting, kabinet obat dan alkes, kursi attendant, sistem pengikat pasien, pencahayaan interior, dan berbagai furniture interior ambulance lainnya.',
-      },
-      {
-        question: 'Apakah service bisa dilakukan di pool ambulance kami?',
-        answer: 'Ya, kami menyediakan layanan service on-site di lokasi Anda. Teknisi kami akan datang ke pool ambulance, RS, atau instansi Anda untuk meminimalisir gangguan operasional.',
-      },
-      {
-        question: 'Berapa lama downtime ambulance selama service?',
-        answer: 'Kami berusaha meminimalisir downtime. Perbaikan sedang biasanya 4-8 jam. Untuk renovasi interior total, estimasi 2-5 hari kerja. Kami juga bisa mengatur jadwal service di luar jam operasional.',
-      },
+      { question: 'Berapa lama pengerjaan interior ambulance?', answer: 'Tergantung tingkat kerusakan, namun untuk perbaikan ringan hingga menengah (kursi, engsel kabinet, rel stretcher) biasanya dapat diselesaikan dalam 1-3 hari kerja.' },
     ],
     gallery: [],
-    relatedSlugs: ['service-bed-pasien', 'service-troli-emergency', 'service-lemari-alkes'],
-    metaTitle: 'Service Furniture Ambulance Profesional | Bakti Kawan Service',
-    metaDescription: 'Layanan service furniture interior ambulance: tandu, bracket, kabinet medis. Teknisi berpengalaman, standar keselamatan medis. Fast response Jabodetabek. Hubungi kami!',
+    relatedSlugs: ['service-bed-pasien', 'service-troli-alkes'],
+    metaTitle: 'Service Furniture Ambulance | Bakti Kawan Service',
+    metaDescription: 'Layanan service interior karoseri ambulance: tandu, bracket, kabinet medis. Teknisi berpengalaman. Garansi 3 bulan.',
     image: '/images/services/ambulance.jpg',
-    imageAlt: 'Interior mobil ambulance dengan tandu stretcher dan kabinet medis yang telah diperbaiki',
+    imageAlt: 'Interior mobil ambulance dengan kabinet medis yang telah diperbaiki',
   },
-
   {
     slug: 'service-meja-operasi',
     name: 'Service Meja Operasi',
     shortName: 'Meja Operasi',
     category: 'alkes',
-    heroTitle: 'Jasa Service Meja Operasi (Surgical Table) Presisi Tinggi',
-    heroSubtitle: 'Perbaikan sistem elektrik, hidrolik, mekanik, remote control, dan kalibrasi sudut kemiringan meja operasi rumah sakit.',
-    description: 'Teknisi ahli untuk perbaikan meja operasi berbagai brand medis internasional dengan garansi presisi dan keamanan pasien.',
-    longDescription: `Meja operasi (operating table/surgical table) adalah perangkat dengan tingkat kerumitan mekanis dan hidrolik yang tinggi. Kerusakan kecil pada sistem penyesuaian sudut (tilt, lateral, trendelenburg) dapat sangat fatal saat tindakan bedah berlangsung. PT Bakti Kawan Service menghadirkan teknisi spesialis yang terlatih untuk melakukan diagnosa mendalam dan perbaikan meja operasi kamar bedah.
-
-Cakupan layanan kami meliputi perbaikan sistem hidrolik (kebocoran seal piston, penggantian oli hidrolik khusus), sistem elektrikal (actuator, control box, remote control kabel/wireless), restorasi struktur stainless steel anti-korosi (grade SUS 304), penggantian matras memory foam dengan pelapis anti-statis (antistatic vinyl), serta perbaikan aksesoris penunjang seperti armrest, headrest, dan leg holder.
-
-Kami melayani perbaikan untuk berbagai merek meja operasi terkemuka (seperti Maquet, Trumpf, Merivaara, Mizuho, dll). Seluruh pengerjaan diakhiri dengan proses kalibrasi ketat untuk memastikan akurasi posisi sesuai indikator derajat panel kontrol.`,
+    heroTitle: 'Service Meja Operasi (Operating Table)',
+    heroSubtitle: 'Perawatan dan perbaikan sistem hidrolik, elektrikal, dan mekanikal meja operasi agar selalu presisi.',
+    description: 'Mengatasi meja operasi yang tidak stabil, bocor hidrolik, atau error pada sistem penggerak otomatisnya.',
+    longDescription: 'Meja operasi merupakan alat paling krusial di ruang OK. PT Bakti Kawan Service menyediakan layanan perbaikan profesional untuk meja operasi mekanik hidrolik maupun elektro-hidrolik. Cakupan layanan kami meliputi perbaikan sistem hidrolik (kebocoran seal piston, penggantian oli hidrolik), sistem elektrikal (actuator, remote control), restorasi struktur stainless steel (anti-korosi), penggantian matras memori dengan pelapis anti-statis (antistatic vinyl), serta perbaikan aksesoris penunjang seperti armrest, headrest, dan leg holder.',
     benefits: [
-      'Teknisi spesialis peralatan bedah',
-      'Diagnostic tools modern',
-      'Perbaikan sistem hydraulic dan electric',
-      'Kalibrasi posisi dan angulasi',
-      'Spare part presisi tinggi',
-      'Laporan servis tertulis',
+      'Perbaikan sistem hidrolik dan pneumatik',
+      'Service motor penggerak dan remote',
+      'Penggantian matras anti-statis',
+      'Restorasi stainless steel',
+      'Kalibrasi posisi angulasi',
       'Garansi 3 bulan',
-      'Emergency service tersedia',
     ],
     process: DEFAULT_PROCESS,
     faqs: [
-      {
-        question: 'Merek meja operasi apa saja yang bisa di-service?',
-        answer: 'Kami berpengalaman menangani berbagai merek: Maquet, Trumpf, Merivaara, Schaerer, Brumaba, dan merek lokal. Hubungi kami untuk konfirmasi kompatibilitas merek Anda.',
-      },
-      {
-        question: 'Apakah kalibrasi ulang diperlukan setelah perbaikan?',
-        answer: 'Ya, setiap perbaikan pada sistem positioning dan hydraulic selalu diikuti kalibrasi ulang untuk memastikan akurasi dan keamanan. Kami menyediakan sertifikat kalibrasi.',
-      },
+      { question: 'Apakah kalibrasi ulang diperlukan setelah perbaikan?', answer: 'Ya, setiap perbaikan pada sistem hidrolik akan diikuti uji coba dan penyetelan agar pergerakan meja presisi sesuai panel kontrol.' },
     ],
     gallery: [],
-    relatedSlugs: ['service-lampu-pemeriksaan', 'service-nurse-station', 'service-meja-periksa'],
-    metaTitle: 'Service Meja Operasi Profesional | Bakti Kawan Service Jakarta',
-    metaDescription: 'Service dan perbaikan meja operasi: sistem hydraulic, electric, positioning. Teknisi bersertifikasi, berbagai merek internasional. Fast response Jabodetabek. Konsultasi gratis!',
+    relatedSlugs: ['service-lampu-rumah-sakit', 'service-bed-pasien'],
+    metaTitle: 'Service Meja Operasi | Bakti Kawan Service',
+    metaDescription: 'Service dan perbaikan meja operasi: hidrolik, elektrik, matras. Teknisi bersertifikasi. Garansi 3 bulan.',
     image: '/images/services/meja-operasi.jpg',
-    imageAlt: 'Meja operasi stainless steel modern di dalam ruang operasi rumah sakit',
+    imageAlt: 'Meja operasi stainless steel modern',
   },
-
   {
-    slug: 'service-meja-periksa',
-    name: 'Service Meja Periksa',
-    shortName: 'Meja Periksa',
+    slug: 'service-troli-alkes',
+    name: 'Service Troli Alkes',
+    shortName: 'Troli Alkes',
     category: 'alkes',
-    heroTitle: 'Service Meja Periksa Pasien (Examination Table) Klinik & RS',
-    heroSubtitle: 'Jasa perbaikan bed periksa manual, meja ginekologi (obgyn bed), dan meja tindakan medis dengan hasil rapi dan higienis.',
-    description: 'Layanan ganti kulit oscar, tambah busa, perbaikan engsel penyangga kepala, dan struktur rangka meja periksa pasien.',
-    longDescription: `Meja periksa pasien (examination table) yang robek, kotor, atau tidak stabil rangkanya dapat mengurangi rasa nyaman pasien serta merusak citra profesional klinik atau rumah sakit Anda. PT Bakti Kawan Service memberikan solusi cepat untuk service dan refurbishment meja periksa, meja tindakan, serta obgyn bed (meja ginekologi).
-
-Layanan kami meliputi penggantian busa dengan high-density foam yang tahan amblas, pelapisan ulang jok menggunakan kulit sintetis (vinyl/oscar) berkualitas tinggi yang anti-bakteri, tahan air, dan mudah dibersihkan menggunakan disinfektan. Kami juga memperbaiki engsel adjuster kemiringan kepala, pengelasan struktur besi yang keropos, penggantian kaki karet anti-selip, hingga modifikasi penambahan dudukan roll kertas pelapis.
-
-Pengerjaan dapat dilakukan langsung di lokasi klinik Anda (on-site service) agar tidak mengganggu operasional harian dokter dan perawat.`,
+    heroTitle: 'Service Troli Medis & Emergency Cart',
+    heroSubtitle: 'Reparasi roda macet, laci rusak, dan struktur bengkok pada troli emergency, troli instrumen, troli obat, dan mayo.',
+    description: 'Kami memperbaiki berbagai jenis troli rumah sakit agar fungsionalitas manuver dan penyimpanannya kembali optimal.',
+    longDescription: 'Mobilitas peralatan medis sangat bergantung pada troli yang lancar. Troli dengan roda macet, rangka miring, atau laci yang tidak bisa dikunci dapat menghambat kinerja perawat dan dokter. Kami melayani perbaikan segala jenis troli medis: Troli Emergency (Crash Cart), Troli Obat (Medicine Trolley), Troli Instrumen (Instrument Trolley), Troli Mayo, dan Troli Linen. Kami mengganti roda (caster) dengan jenis anti-bising (silent wheel) yang dilengkapi pengunci ganda, meluruskan rangka stainless steel, serta memperbaiki sistem rel laci dan central lock.',
     benefits: [
-      'Perbaikan meja periksa manual dan elektrik',
-      'Penggantian busa dan vinyl cover',
-      'Perbaikan sistem sandaran dan footrest',
-      'Service meja ginekologi khusus',
-      'Harga terjangkau dan transparan',
+      'Penggantian roda senyap (silent caster)',
+      'Perbaikan rel laci dan kunci sentral',
+      'Restorasi dan pengelasan rangka stainless',
+      'Service tiang infus bawaan troli',
+      'Pengerjaan cepat',
       'Garansi 3 bulan',
-      'Fast response untuk darurat',
-      'Konsultasi pemilihan bahan gratis',
     ],
     process: DEFAULT_PROCESS,
     faqs: [
-      {
-        question: 'Apakah bisa hanya ganti busa/jok saja?',
-        answer: 'Ya, kami menerima penggantian busa, foam, dan vinyl/leather cover saja. Kami memiliki berbagai pilihan bahan yang sesuai standar medis (mudah dibersihkan, antibacterial).',
-      },
+      { question: 'Apakah bisa ganti roda troli on-site (di RS)?', answer: 'Sangat bisa. Kami membawa kelengkapan roda caster medis berbagai ukuran untuk langsung dipasang di lokasi Anda.' },
     ],
     gallery: [],
-    relatedSlugs: ['service-bed-pasien', 'service-meja-operasi', 'service-nurse-station'],
-    metaTitle: 'Service Meja Periksa Klinik & RS | Bakti Kawan Service',
-    metaDescription: 'Layanan service meja periksa pasien: examination table manual & elektrik, meja ginekologi. Teknisi berpengalaman, penggantian busa berkualitas. Garansi.',
-    image: '/images/services/meja-periksa.png',
-    imageAlt: 'Bed periksa pasien klinik dengan pelapis kulit sintetis putih bersih yang nyaman',
-  },
-
-  {
-    slug: 'service-troli-emergency',
-    name: 'Service Troli Emergency',
-    shortName: 'Troli Emergency',
-    category: 'alkes',
-    heroTitle: 'Service Troli Emergency (Crash Cart) & Resusitasi',
-    heroSubtitle: 'Perbaikan sistem laci central lock, roda caster rem ganda, bracket defibrillator, dan tiang infus troli darurat.',
-    description: 'Perbaikan cepat troli emergency IGD dan ICU untuk memastikan kesiapan 100% dalam penanganan pasien kritis.',
-    longDescription: `Troli emergency atau crash cart adalah garda terdepan dalam menyelamatkan nyawa pasien di unit gawat darurat (IGD) atau ICU. Seluruh komponennya — mulai dari roda yang harus berputar mulus 360 derajat, laci yang harus terbuka instan saat ditarik, hingga sistem penguncian segel pengaman — wajib berfungsi tanpa celah. PT Bakti Kawan Service memprioritaskan layanan perbaikan troli emergency demi mendukung kesiapan medis Anda.
-
-Layanan perbaikan kami mencakup penyetelan ulang rel laci yang macet atau keluar jalur, perbaikan sistem penguncian central lock / break-away lock, penggantian roda caster medis dengan tipe polyurethane anti-bising dan anti-statis lengkap dengan double lock, perbaikan bracket defibrillator, tiang infus terintegrasi, serta papan resusitasi jantung (cpr board).
-
-Kami memahami urgensi alat ini, sehingga kami menawarkan waktu respons kilat dan estimasi pengerjaan penjadwalan cepat untuk perbaikan ringan di wilayah Jabodetabek.`,
-    benefits: [
-      'Prioritas layanan untuk alat emergency',
-      'Perbaikan laci dan sistem kunci',
-      'Service roda dan rem',
-      'Pengecatan dan refurbishment',
-      'Penggantian label dan marking',
-      'Inspeksi komprehensif',
-      'Garansi 3 bulan',
-      'Emergency call 24/7',
-    ],
-    process: DEFAULT_PROCESS,
-    faqs: [
-      {
-        question: 'Berapa lama waktu service troli emergency?',
-        answer: 'Perbaikan standar dapat diselesaikan dalam 2-4 jam. Untuk refurbishment total, membutuhkan 1-2 hari kerja. Kami memahami urgensi alat ini dan akan memprioritaskan pengerjaannya.',
-      },
-    ],
-    gallery: [],
-    relatedSlugs: ['service-troli-instrumen', 'service-nurse-station', 'service-lemari-alkes'],
-    metaTitle: 'Service Troli Emergency & Crash Cart | Bakti Kawan Service',
-    metaDescription: 'Service dan perbaikan troli emergency, crash cart, resuscitation trolley. Prioritas tinggi, respons cepat. Teknisi berpengalaman. Fast response Jabodetabek.',
+    relatedSlugs: ['service-lemari-alkes', 'service-ambulance'],
+    metaTitle: 'Service Troli Alkes & Emergency | Bakti Kawan Service',
+    metaDescription: 'Perbaikan roda, rel laci, dan rangka troli rumah sakit. Cepat, senyap, bergaransi 3 bulan.',
     image: '/images/services/troli-alkes.jpg',
-    imageAlt: 'Proses perbaikan dan penyesuaian komponen troli emergency di bengkel kerja',
+    imageAlt: 'Perbaikan dan penyesuaian komponen troli medis',
   },
-
-  {
-    slug: 'service-troli-instrumen',
-    name: 'Service Troli Instrumen',
-    shortName: 'Troli Instrumen',
-    category: 'alkes',
-    heroTitle: 'Jasa Service Troli Instrumen Stainless Steel RS',
-    heroSubtitle: 'Restorasi, poles stainless, perbaikan roda bising, dan pengelasan troli instrumen medis kamar operasi.',
-    description: 'Perbaikan troli instrumen medis, mayo stand, dan meja dorong obat berbahan stainless steel dengan standar sterilisasi tinggi.',
-    longDescription: `Troli instrumen medis yang digunakan di kamar operasi (OK) atau ruang sterilisasi (CSSD) dituntut bebas dari karat, retak, dan kotoran tersembunyi yang dapat menjadi sarang bakteri. PT Bakti Kawan Service menyediakan layanan reparasi khusus untuk troli instrumen stainless steel, mayo stand, serta bowl stand.
-
-Teknisi kami ahli dalam pengelasan argon (TIG welding) untuk memperbaiki sambungan besi stainless yang lepas tanpa meninggalkan celah tajam yang berbahaya bagi petugas medis. Kami juga melayani poles permukaan stainless steel menggunakan pasta khusus untuk mengembalikan lapisan pasif (passivation) yang mencegah korosi akibat paparan disinfektan kimiawi.
-
-Selain itu, kami mengganti roda caster berkarat atau bising dengan roda berkualitas tinggi bersertifikasi medis yang tidak merusak lantai epoxy rumah sakit.`,
-    benefits: [
-      'Perbaikan roda dan caster',
-      'Service engsel dan laci',
-      'Poles dan restorasi permukaan stainless',
-      'Penggantian tray dan aksesori',
-      'Standar kebersihan medis',
-      'Garansi 3 bulan',
-      'Konsultasi ergonomi',
-    ],
-    process: DEFAULT_PROCESS,
-    faqs: [
-      {
-        question: 'Apakah permukaan stainless bisa dipoles kembali?',
-        answer: 'Ya, kami memiliki layanan restorasi dan poles permukaan stainless steel yang dapat menghilangkan goresan ringan dan mengembalikan kilap asli. Untuk kerusakan berat, kami bisa melakukan penggantian panel.',
-      },
-    ],
-    gallery: [],
-    relatedSlugs: ['service-troli-emergency', 'service-meja-operasi', 'service-lemari-alkes'],
-    metaTitle: 'Service Troli Instrumen Medis | Bakti Kawan Service Jakarta',
-    metaDescription: 'Layanan service troli instrumen medis, mayo stand, instrument trolley. Standar kebersihan medis, restorasi stainless. Teknisi berpengalaman. Hubungi kami.',
-    image: '/images/services/meja-operasi.png',
-    imageAlt: 'Troli instrumen medis stainless steel steril di samping meja operasi',
-  },
-
   {
     slug: 'service-lemari-alkes',
     name: 'Service Lemari Alkes',
     shortName: 'Lemari Alkes',
     category: 'alkes',
-    heroTitle: 'Service & Modifikasi Lemari Alat Kesehatan (Medicine Cabinet)',
-    heroSubtitle: 'Reparasi pintu kaca lemari obat, sistem kunci pengaman narkotika, rak gantung, dan restorasi cat kabinet medis.',
-    description: 'Layanan service lemari penyimpanan instrumen, lemari obat steril, dan lemari narkotika dengan sistem pengaman ganda.',
-    longDescription: `Lemari alat kesehatan (alkes) dan lemari obat merupakan tempat penyimpanan krusial yang memerlukan standar keamanan dan higienitas tinggi. Pintu yang macet, kaca yang retak, atau kunci yang rusak dapat menghambat akses obat saat kondisi darurat atau bahkan melanggar standar akreditasi rumah sakit. PT Bakti Kawan Service menyediakan jasa perbaikan dan refurbishment lemari alkes secara tuntas.
-
-Kami menangani penggantian engsel pintu lemari, pemasangan kaca tempered baru, perbaikan rel laci geser, hingga kalibrasi atau upgrade kunci pengaman khusus untuk lemari narkotika/psikotropika (double lock system sesuai standar Kemenkes). Kami juga melayani pengecatan ulang menggunakan cat epoxy oven (powder coating) yang tahan terhadap cairan kimia antiseptik.
-
-Modifikasi penambahan sekat rak acrylic atau lampu LED internal juga dapat disesuaikan dengan kebutuhan ruang farmasi Anda.`,
+    heroTitle: 'Service Lemari Alkes & Medicine Cabinet',
+    heroSubtitle: 'Perbaikan lemari obat, lemari instrumen bedah, lemari narkotik, dan rak penyimpanan medis.',
+    description: 'Restorasi pintu kaca, kunci ganda, dan engsel lemari penyimpanan alat kesehatan Anda.',
+    longDescription: 'Penyimpanan obat dan instrumen medis membutuhkan keamanan ekstra dan standar kebersihan tinggi. Lemari alkes yang pintunya tidak presisi, kacanya pecah, atau kuncinya jebol merupakan risiko besar. Kami ahli memperbaiki Lemari Obat (Medicine Cabinet), Lemari Instrumen (Instrument Cabinet) bahan stainless/besi/kaca, dan Lemari Narkotik dengan pengamanan ganda. Layanan kami meliputi penggantian kaca temper, pemasangan kunci keamanan standar RS, perbaikan engsel, hingga pengecatan ulang rak logam agar bebas karat.',
     benefits: [
-      'Perbaikan pintu dan engsel',
-      'Service sistem kunci dan gembok',
-      'Penggantian rak dan divider',
-      'Pengecatan dan refurbishment',
-      'Standar kebersihan medis',
-      'Berbagai material tersedia',
+      'Perbaikan dan penggantian kunci pengaman',
+      'Penggantian kaca lemari',
+      'Perbaikan engsel pintu stainless/besi',
+      'Penambahan ambalan (rak) kaca/logam',
+      'Pengecatan ulang epoksi (anti karat)',
       'Garansi 3 bulan',
     ],
     process: DEFAULT_PROCESS,
     faqs: [
-      {
-        question: 'Bisa pesan lemari alkes custom?',
-        answer: 'Ya, selain service kami juga melayani pembuatan lemari alkes custom sesuai kebutuhan spesifik fasilitas Anda. Konsultasikan kebutuhan dimensi, material, dan konfigurasi rak dengan tim kami.',
-      },
+      { question: 'Bisa tambah sistem kunci digital di lemari lama?', answer: 'Ya, kami dapat melakukan retrofit atau pemasangan smart lock / double key pada lemari penyimpanan khusus (narkotik).' },
     ],
     gallery: [],
-    relatedSlugs: ['service-nurse-station', 'service-troli-instrumen', 'service-bed-pasien'],
-    metaTitle: 'Service Lemari Alkes & Medicine Cabinet | Bakti Kawan Service',
-    metaDescription: 'Layanan service lemari alat kesehatan, medicine cabinet, storage medis. Perbaikan pintu, kunci, rak. Standar kebersihan medis. Fast response Jabodetabek.',
+    relatedSlugs: ['service-troli-alkes', 'service-meja-operasi'],
+    metaTitle: 'Service Lemari Alkes & Obat | Bakti Kawan Service',
+    metaDescription: 'Perbaikan pintu, kunci, rak lemari alat kesehatan, medicine cabinet. Garansi 3 bulan.',
     image: '/images/services/lemari-alkes.jpg',
-    imageAlt: 'Teknisi sedang melakukan perbaikan lemari penyimpanan obat rumah sakit',
+    imageAlt: 'Perbaikan lemari penyimpanan obat rumah sakit',
   },
-
   {
-    slug: 'service-nurse-station',
-    name: 'Service Nurse Station',
-    shortName: 'Nurse Station',
+    slug: 'service-lampu-rumah-sakit',
+    name: 'Service Lampu Rumah Sakit',
+    shortName: 'Lampu RS',
     category: 'alkes',
-    heroTitle: 'Jasa Service & Renovasi Nurse Station (Meja Perawat)',
-    heroSubtitle: 'Refurbishment meja counter perawat, perbaikan laci rekam medis, instalasi jalur kabel data, dan peremajaan estetika.',
-    description: 'Layanan restorasi, perbaikan struktur, dan renovasi nurse station agar lebih ergonomis, fungsional, dan rapi.',
-    longDescription: `Nurse station adalah jantung dari setiap bangsal perawatan rumah sakit, tempat para perawat mengelola rekam medis dan memonitor pasien. Meja counter yang rusak, laci dokumen yang macet, atau kabel komputer yang berantakan sangat mengganggu efisiensi kerja. PT Bakti Kawan Service menghadirkan jasa service, restorasi, dan renovasi meja nurse station secara komprehensif.
-
-Kami memperbaiki struktur meja berbahan HPL, kayu solid, maupun solid surface yang retak atau terkelupas. Kami merapikan sistem manajemen kabel (cable management) untuk komputer dan perangkat medis, memperbaiki engsel laci rekam medis agar mudah diakses, serta memasang aksesoris ergonomis tambahan.
-
-Kami menawarkan waktu kerja fleksibel (termasuk pengerjaan malam hari/akhir pekan) guna memastikan tidak ada gangguan pada pelayanan pasien rawat inap rumah sakit Anda.`,
+    heroTitle: 'Service Lampu Pemeriksaan & Operasi',
+    heroSubtitle: 'Mengembalikan fokus cahaya dan kelancaran engsel lampu pemeriksaan, lampu tindakan, dan lampu OK.',
+    description: 'Kami menangani lengan lampu (arm) yang turun sendiri, modul lampu mati sebagian, hingga masalah keseimbangan kanopi.',
+    longDescription: 'Pencahayaan yang fokus dan stabil adalah kunci keberhasilan tindakan medis. Lampu rumah sakit (surgical light / examination lamp) sering mengalami kendala seperti lengan lampu (spring arm) yang aus sehingga lampu turun dengan sendirinya, reflektor yang kusam, atau bohlam halogen/LED yang meredup atau mati. Tim teknisi kami akan melakukan reparasi mekanisme pegas penyeimbang (balancer arm), penggantian bohlam khusus medis, perbaikan sistem kelistrikan dimmer (pengatur intensitas), serta penggantian handgrip steril.',
     benefits: [
-      'Perbaikan counter dan meja',
-      'Service laci and penyimpanan',
-      'Renovasi dan resizing',
-      'Pemasangan aksesoris ergonomis',
-      'Material pilihan berkualitas',
-      'Desain fungsional medis',
+      'Service engsel dan lengan penyeimbang (arm)',
+      'Perbaikan kelistrikan dan kabel putus',
+      'Penggantian bohlam LED/Halogen medis',
+      'Perbaikan roda pada model standing',
+      'Pengecekan intensitas cahaya',
       'Garansi 3 bulan',
-      'Konsultasi layout gratis',
     ],
     process: DEFAULT_PROCESS,
     faqs: [
-      {
-        question: 'Apakah bisa renovasi nurse station tanpa harus tutup total?',
-        answer: 'Ya, kami merancang jadwal pekerjaan untuk meminimalisir gangguan operasional. Renovasi bisa dilakukan bertahap atau saat shift malam. Diskusikan kebutuhan Anda dengan tim kami.',
-      },
+      { question: 'Lampu periksa saya sering turun sendiri (tidak menahan posisi), bisa diperbaiki?', answer: 'Ya, itu masalah umum pada pegas hidrolik (spring arm) lampu medis. Kami bisa menyetel ulang ketegangan per atau mengganti part penahannya agar posisi lampu kembali stabil.' },
     ],
     gallery: [],
-    relatedSlugs: ['service-lemari-alkes', 'service-reception-desk', 'service-meja-periksa'],
-    metaTitle: 'Service & Renovasi Nurse Station | Bakti Kawan Service Jakarta',
-    metaDescription: 'Layanan service dan renovasi nurse station rumah sakit. Perbaikan counter, laci, penambahan aksesoris ergonomis. Teknisi berpengalaman. Konsultasi gratis!',
-    image: '/images/services/nurse-station.png',
-    imageAlt: 'Desain nurse station rumah sakit yang bersih, modern, dan ergonomis setelah perbaikan',
-  },
-
-  {
-    slug: 'service-lampu-pemeriksaan',
-    name: 'Service Lampu Pemeriksaan',
-    shortName: 'Lampu Pemeriksaan',
-    category: 'alkes',
-    heroTitle: 'Service Lampu Pemeriksaan Medis (Examination & Surgical Light)',
-    heroSubtitle: 'Perbaikan examination lamp, minor surgical light, penggantian modul LED, perbaikan lengan fleksibel (arm mechanism) dan kelistrikan.',
-    description: 'Solusi perbaikan lampu tindakan medis dan examination lamp rumah sakit agar pencahayaan tetap fokus dan stabil.',
-    longDescription: `Pencahayaan yang redup atau lengan penyeimbang (spring arm) lampu pemeriksaan yang sering merosot ke bawah sangat mengganggu konsentrasi dokter saat melakukan tindakan medis atau pemeriksaan fisik pasien. PT Bakti Kawan Service memiliki teknisi yang ahli dalam service lampu pemeriksaan (examination lamp) dan lampu operasi (minor surgical light).
-
-Kami menangani penggantian bohlam halogen atau upgrade ke modul LED hemat energi berintensitas tinggi, perbaikan trafo/ballast kelistrikan yang korslet, penyetelan ulang tegangan pegas di dalam lengan penyeimbang agar lampu stabil di posisi yang diinginkan, serta penggantian saklar dan kabel spiral.
-
-Kami memastikan intensitas cahaya (lux) dan temperatur warna pasca-servis kembali optimal sesuai standar pemeriksaan klinis.`,
-    benefits: [
-      'Perbaikan sistem pencahayaan',
-      'Penggantian lampu dan LED modul',
-      'Service sendi dan arm mechanism',
-      'Kalibrasi intensitas cahaya',
-      'Perbaikan sistem listrik',
-      'Garansi 3 bulan',
-      'Spare part berbagai merek',
-    ],
-    process: DEFAULT_PROCESS,
-    faqs: [
-      {
-        question: 'Lampu shadowless bisa di-service juga?',
-        answer: 'Ya, kami berpengalaman menangani lampu shadowless untuk kamar operasi. Termasuk penggantian lampu halogen/LED, perbaikan arm dan sendi, serta kalibrasi distribusi cahaya.',
-      },
-    ],
-    gallery: [],
-    relatedSlugs: ['service-meja-operasi', 'service-lampu-fisioterapi', 'service-nurse-station'],
-    metaTitle: 'Service Lampu Pemeriksaan Medis | Bakti Kawan Service',
-    metaDescription: 'Layanan service lampu pemeriksaan medis, examination lamp, surgical light. Penggantian LED, kalibrasi cahaya. Teknisi bersertifikasi. Fast response Jabodetabek.',
+    relatedSlugs: ['service-meja-operasi', 'service-bed-pasien'],
+    metaTitle: 'Service Lampu RS & Operasi | Bakti Kawan Service',
+    metaDescription: 'Service lampu pemeriksaan, lengan lampu turun, kelistrikan lampu OK. Garansi 3 bulan.',
     image: '/images/services/lampu-rumah-sakit.jpg',
-    imageAlt: 'Lampu pemeriksaan medis dengan lengan fleksibel di ruang dokter',
+    imageAlt: 'Lampu medis di ruang periksa',
   },
 
+  // --- FURNITURE KANTOR ---
   {
-    slug: 'service-lampu-fisioterapi',
-    name: 'Service Lampu Fisioterapi',
-    shortName: 'Lampu Fisioterapi',
-    category: 'alkes',
-    heroTitle: 'Service Lampu Fisioterapi & Infrared Medis',
-    heroSubtitle: 'Reparasi lampu terapi infrared, UV, perbaikan timer otomatis, dimmer intensitas panas, dan kalibrasi radiasi aman.',
-    description: 'Jasa service lampu terapi infra merah klinik rehabilitasi medis dengan jaminan keamanan kelistrikan dan radiasi.',
-    longDescription: `Lampu fisioterapi infrared memancarkan radiasi panas yang meresap ke dalam jaringan otot untuk meredakan nyeri. Oleh karena itu, akurasi durasi timer dan kestabilan intensitas panas sangat penting agar kulit pasien tidak mengalami luka bakar (overheating). PT Bakti Kawan Service melayani jasa perbaikan lampu fisioterapi infrared berbagai model (mobile stand maupun table-top).
-
-Layanan kami meliputi penggantian elemen pemanas / bohlam infrared orisinal, perbaikan modul timer mekanik maupun digital yang tidak berfungsi, penyetelan dimmer control intensitas panas, perbaikan kabel daya dan grounding untuk menghindari kebocoran arus listrik, serta perbaikan roda stand mobile.
-
-Setiap unit diuji menggunakan alat pengukur radiasi termal pasca-reparasi demi keselamatan pasien.`,
-    benefits: [
-      'Perbaikan lampu infrared dan UV',
-      'Kalibrasi output dan intensitas',
-      'Penggantian komponen listrik',
-      'Service housing dan arm',
-      'Pengujian keamanan radiasi',
-      'Garansi 3 bulan',
-      'Konsultasi teknis gratis',
-    ],
-    process: DEFAULT_PROCESS,
-    faqs: [
-      {
-        question: 'Apakah ada pengujian keamanan setelah perbaikan?',
-        answer: 'Ya, setiap perbaikan lampu terapi kami lakukan pengujian output, intensitas, dan keamanan radiasi sebelum diserahkan. Kami menyediakan laporan pengujian tertulis.',
-      },
-    ],
-    gallery: [],
-    relatedSlugs: ['service-lampu-pemeriksaan', 'service-meja-periksa', 'service-nurse-station'],
-    metaTitle: 'Service Lampu Fisioterapi & Infrared | Bakti Kawan Service',
-    metaDescription: 'Layanan service lampu fisioterapi, infrared lamp, peralatan terapi cahaya. Kalibrasi output, pengujian keamanan. Teknisi berpengalaman. Hubungi kami sekarang.',
-    image: '/images/services/meja-periksa.png',
-    imageAlt: 'Alat lampu terapi infrared fisioterapi mobile stand di klinik rehabilitasi',
-  },
-
-  // =============================================
-  // KATEGORI: KANTOR (5 layanan)
-  // =============================================
-  {
-    slug: 'service-sofa-kantor',
-    name: 'Service Sofa Kantor',
-    shortName: 'Sofa Kantor',
+    slug: 'service-sofa-kursi-kantor',
+    name: 'Service Sofa dan Kursi Kantor',
+    shortName: 'Sofa & Kursi Kantor',
     category: 'kantor',
-    heroTitle: 'Jasa Service & Reupholstery Sofa Kantor Premium',
-    heroSubtitle: 'Reparasi sofa lobi, sofa ruang direktur, ganti kulit sintetis/kain fabric, tambah busa, dan perbaikan rangka kayu/besi.',
-    description: 'Solusi hemat mengembalikan kemewahan sofa kantor Anda dengan ratusan pilihan material premium fabric & leather.',
-    longDescription: `Sofa yang lusuh, robek, atau jebol di ruang tunggu direksi atau lobi kantor dapat merusak citra profesional perusahaan di mata klien penting. Mengeluarkan anggaran untuk membeli sofa baru tentu tidak perlu jika Anda bisa merestorasinya. PT Bakti Kawan Service adalah ahli reupholstery (ganti kulit) dan reparasi sofa kantor berkualitas premium.
-
-Kami menawarkan ratusan katalog contoh bahan pelapis berkualitas tinggi, mulai dari kain fabric tenun (seperti Ateja), suede mewah, hingga kulit sintetis (synthetic leather/oscar) premium yang tahan gores dan mudah dibersihkan. Layanan kami mencakup penggantian busa amblas dengan busa yellow foam super bergaransi anti-kempes, perbaikan anyaman karet (webbing) dan per/spring sofa yang putus, penguatan rangka kayu yang patah atau berayap, serta refinishing kaki kayu/besi sofa.
-
-Kami menyediakan layanan jemput-antar sofa untuk wilayah Jakarta, Bogor, Depok, Tangerang, dan Bekasi.`,
+    heroTitle: 'Service Sofa & Kursi Kantor Profesional',
+    heroSubtitle: 'Solusi reupholstery, perbaikan hidrolik, dan roda kursi kerja untuk kenyamanan operasional perusahaan Anda.',
+    description: 'Hemat biaya dengan memperbaiki kursi direktur, kursi staff, dan sofa lobi ruang tunggu yang rusak atau kusam.',
+    longDescription: 'Kursi kantor hidrolik yang ambles, roda macet, atau sofa lobi yang kulitnya mengelupas memberikan kesan tidak profesional dan mengganggu ergonomi karyawan. Daripada membeli baru dengan anggaran besar, PT Bakti Kawan Service menawarkan layanan service komprehensif. Kami melayani penggantian piston hidrolik, roda, armrest, dan mekanisme ayun (tilt mechanism) kursi kerja. Untuk sofa, kami melayani reupholstery (ganti kain/kulit oscar), penambahan busa, dan perbaikan rangka kayu/besi untuk sofa resepsionis, sofa tamu direksi, maupun kursi teater kantor.',
     benefits: [
-      'Ratusan pilihan material fabric dan leather',
-      'Reupholstery total atau partial',
-      'Perbaikan rangka dan spring',
-      'Penggantian busa dan padding',
-      'Restorasi kaki sofa',
-      'Pengambilan dan pengiriman tersedia',
-      'Garansi jahitan 3 bulan',
-      'Konsultasi material gratis',
-    ],
-    process: DEFAULT_PROCESS,
-    faqs: [
-      {
-        question: 'Lebih hemat mana: reupholstery atau beli sofa baru?',
-        answer: 'Reupholstery biasanya 40-60% lebih hemat dibanding membeli sofa baru dengan kualitas setara. Terlebih jika rangka sofa masih kokoh, reupholstery adalah pilihan paling cost-effective.',
-      },
-      {
-        question: 'Berapa lama proses reupholstery sofa kantor?',
-        answer: 'Tergantung ukuran dan kompleksitas. Sofa single seater: 2-3 hari. Sofa 3 seater: 3-5 hari. Sofa L-shape besar: 5-7 hari kerja. Untuk proyek massal, kami menyesuaikan jadwal.',
-      },
-    ],
-    gallery: [],
-    relatedSlugs: ['service-kursi-kantor', 'service-reception-desk', 'service-sofa-cafe'],
-    metaTitle: 'Service & Reupholstery Sofa Kantor Jakarta | Bakti Kawan Service',
-    metaDescription: 'Layanan service dan reupholstery sofa kantor, lobi, ruang tunggu. Ratusan pilihan material, garansi jahitan. Hemat 40-60% vs beli baru. Fast response Jabodetabek.',
-    image: '/images/services/sofa-kursi-kantor.jpg',
-    imageAlt: 'Sofa kulit minimalis abu-abu di lobi kantor yang mewah dan rapi setelah reupholstery',
-  },
-
-  {
-    slug: 'service-kursi-kantor',
-    name: 'Service Kursi Kantor',
-    shortName: 'Kursi Kantor',
-    category: 'kantor',
-    heroTitle: 'Service & Perbaikan Kursi Kantor Jakarta | Cepat & Hemat',
-    heroSubtitle: 'Jasa ganti hidrolik (piston gaslift) kursi turun sendiri, roda pecah, mekanik miring, tambah busa, dan reupholstery massal.',
-    description: 'Perbaikan kursi direktur, kursi kerja staf, dan kursi ergonomis jaring (mesh) dengan komponen universal berkualitas.',
-    longDescription: `Kursi kantor yang rusak seperti hidrolik bocor (kursi merosot sendiri saat diduduki), roda macet/pecah, atau sandaran tangan goyang sangat memengaruhi kenyamanan dan produktivitas staf Anda, bahkan dapat memicu nyeri punggung (ergonomic hazard). PT Bakti Kawan Service adalah solusi andalan untuk service kursi kantor di Jakarta dan sekitarnya.
-
-Kami memiliki stok suku cadang kursi kantor terlengkap, seperti gaslift hidrolik kelas heavy-duty (Class 4), roda nylon berputar lancar, mekanik ayunan (tilting mechanism), serta sandaran tangan (armrest). Kami juga melayani reupholstery (ganti kain/jaring mesh) kursi direktur dan kursi rapat dalam jumlah satuan maupun massal (proyek korporat).
-
-Untuk service massal di atas 10 unit, kami menyediakan layanan on-site di kantor Anda agar aktivitas operasional perusahaan Anda tetap berjalan tanpa hambatan.`,
-    benefits: [
-      'Penggantian piston gas cylinder',
-      'Perbaikan tilt mechanism',
-      'Penggantian roda/caster',
-      'Reupholstery fabric dan leather',
-      'Perbaikan sandaran tangan',
-      'Spare part universal tersedia',
+      'Ganti kulit/kain (Oscar, Fabric, Kulit Asli)',
+      'Penggantian spare part hidrolik dan roda',
+      'Perbaikan mekanisme sandaran',
+      'Service massal di lokasi kantor',
+      'Pilihan ratusan warna material',
       'Garansi 3 bulan',
-      'Service massal untuk perusahaan',
     ],
     process: DEFAULT_PROCESS,
     faqs: [
-      {
-        question: 'Apakah spare part kursi kantor tersedia untuk semua merek?',
-        answer: 'Kami memiliki stok spare part universal yang kompatibel dengan sebagian besar kursi kantor. Untuk merek premium tertentu (Humanscale, Herman Miller, dll), kami bisa membantu pengadaan spare part asli.',
-      },
-      {
-        question: 'Bisa service kursi dalam jumlah banyak sekaligus?',
-        answer: 'Ya, kami melayani service massal untuk perusahaan. Tersedia layanan on-site dimana teknisi kami datang ke kantor Anda untuk service banyak kursi sekaligus. Tersedia harga khusus untuk volume besar.',
-      },
+      { question: 'Bisa service dalam jumlah banyak sekaligus di kantor?', answer: 'Sangat bisa. Untuk volume besar (di atas 10 kursi), tim kami dapat datang dan melakukan pengerjaan langsung di ruang rapat atau workshop area kantor Anda tanpa mengganggu kerja karyawan.' },
     ],
     gallery: [],
-    relatedSlugs: ['service-sofa-kantor', 'service-meja-meeting', 'service-reception-desk'],
-    metaTitle: 'Service Kursi Kantor Profesional | Bakti Kawan Service Jakarta',
-    metaDescription: 'Layanan service kursi kantor: piston, roda, tilt mechanism, reupholstery. Spare part universal, service massal. Hemat biaya, hasil berkualitas. Hubungi kami!',
+    relatedSlugs: ['service-meja-kantor', 'service-lemari-arsip'],
+    metaTitle: 'Service Sofa & Kursi Kantor Jakarta | Bakti Kawan Service',
+    metaDescription: 'Ganti kulit sofa, perbaikan hidrolik kursi kantor, roda macet. Hemat biaya, hasil rapi. Garansi 3 bulan.',
     image: '/images/services/sofa-kursi-kantor.jpg',
-    imageAlt: 'Kursi kerja ergonomis jaring mesh hitam yang kokoh dan nyaman di ruang kerja kantor',
+    imageAlt: 'Sofa lobby kantor premium dan kursi kerja ergonomis',
   },
-
   {
     slug: 'service-lemari-arsip',
     name: 'Service Lemari Arsip',
     shortName: 'Lemari Arsip',
     category: 'kantor',
-    heroTitle: 'Service Lemari Arsip Besi & Filing Cabinet Kantor',
-    heroSubtitle: 'Perbaikan lemari arsip, filing cabinet logam/kayu, rel laci seret, ganti kunci hilang/rusak, dan restorasi cat keropos.',
-    description: 'Jasa service filing cabinet logam, mobile file roll o\'pack, dan lemari arsip kayu perkantoran.',
-    longDescription: `Lemari arsip dan filing cabinet besi yang macet lacinya sangat menjengkelkan ketika Anda harus mencari dokumen penting dengan cepat. Masalah kunci laci filing cabinet hilang atau patah juga mengancam keamanan dokumen rahasia perusahaan. PT Bakti Kawan Service melayani jasa perbaikan lemari arsip logam maupun kayu secara profesional.
-
-Kami menangani penyetelan ulang rel bantalan peluru (ball bearing slide) laci yang macet atau keluar jalur, pembongkaran dan penggantian silinder kunci laci sentral (central lock), pelurusan pintu lemari besi penyok, pengelasan engsel pintu lepas, hingga pengecatan ulang touch-up anti-karat.
-
-Kami juga melayani perbaikan sistem mekanik penggerak roda pada Mobile File (Roll O'Pack) ukuran besar.`,
+    heroTitle: 'Service Lemari Arsip & Filing Cabinet',
+    heroSubtitle: 'Memperlancar laci macet, memperbaiki sistem penguncian, dan rekondisi visual lemari dokumen besi maupun kayu.',
+    description: 'Jangan biarkan dokumen penting tersangkut atau tidak aman. Kami perbaiki lemari arsip Anda menjadi seperti baru.',
+    longDescription: 'Filing cabinet, lemari besi, locker karyawan, dan roll o\'pack (mobile file) adalah tulang punggung penyimpanan data perusahaan. Seiring waktu, rel laci bisa macet karena beban berat, kunci patah atau hilang, dan bodi logam penyok. Teknisi ahli kami siap menangani pelurusan rel besi, penggantian bearing (roda laci), pembuatan kunci master/penggantian slot kunci baru, hingga pengecatan ulang (touch-up paint) lemari arsip yang tergores, memastikan keamanan dan kerapian arsip Anda terjamin.',
     benefits: [
-      'Perbaikan sistem kunci dan gembok',
-      'Service rel dan laci macet',
-      'Penggantian handle dan aksesori',
-      'Pengecatan dan touch-up',
-      'Perbaikan engsel dan stopper',
+      'Perbaikan laci anjlok atau macet',
+      'Penggantian sistem kunci central lock',
+      'Service rel mekanik roll o\'pack',
+      'Pengecatan dan touch-up bodi logam',
+      'Penambahan perkuatan rak buku',
       'Garansi 3 bulan',
-      'Layanan pickup & delivery',
     ],
     process: DEFAULT_PROCESS,
     faqs: [
-      {
-        question: 'Apakah bisa duplikat kunci filing cabinet yang hilang?',
-        answer: 'Ya, kami menyediakan layanan penggantian silinder kunci secara utuh (lock replacement) agar Anda mendapatkan kunci baru yang aman dan presisi.'
-      }
+      { question: 'Kunci laci hilang dan lemari terkunci, bisa dibuka?', answer: 'Ya, kami menyediakan jasa buka kunci filing cabinet dan sekalian mengganti rumah kuncinya dengan yang baru.' },
     ],
     gallery: [],
-    relatedSlugs: ['service-meja-meeting', 'service-kursi-kantor', 'service-reception-desk'],
+    relatedSlugs: ['service-sofa-kursi-kantor', 'service-meja-kantor'],
     metaTitle: 'Service Lemari Arsip & Filing Cabinet | Bakti Kawan Service',
-    metaDescription: 'Layanan service lemari arsip dan filing cabinet: perbaikan kunci, laci, rel. Pengecatan dan touch-up. Teknisi berpengalaman. Fast response Jabodetabek.',
+    metaDescription: 'Perbaikan laci macet, kunci patah, rel filing cabinet besi dan kayu. Garansi 3 bulan.',
     image: '/images/services/lemari-arsip.jpg',
-    imageAlt: 'Mekanik sedang merapikan rel laci filing cabinet logam kantor',
+    imageAlt: 'Rel laci filing cabinet logam kantor yang diperbaiki',
   },
-
   {
-    slug: 'service-meja-meeting',
-    name: 'Service Meja Meeting',
-    shortName: 'Meja Meeting',
+    slug: 'service-meja-kantor',
+    name: 'Service Meja Kantor (Reception Desk, Meeting)',
+    shortName: 'Meja Kantor',
     category: 'kantor',
-    heroTitle: 'Jasa Restorasi & Service Meja Meeting (Meja Rapat)',
-    heroSubtitle: 'Refinishing permukaan kayu tergores/kusam, perbaikan kaki meja goyang, dan instalasi box cable management tanam.',
-    description: 'Restorasi meja rapat kayu jati, veneer, multiplex, HPL, dan pemasangan jalur kabel listrik/data meja modern.',
-    longDescription: `Meja rapat (meeting table) adalah focal point utama di ruang konferensi di mana keputusan-keputusan penting perusahaan diambil. Permukaan meja rapat yang kusam, tergores pulpen, bergelembung terkena air panas, atau struktur kaki meja bergoyang memberikan kesan buruk bagi klien atau mitra rapat. PT Bakti Kawan Service menawarkan jasa restorasi dan refinishing meja meeting premium.
-
-Kami ahli dalam perbaikan lapisan veneer kayu yang mengelupas, pemolesan ulang (polishing) melamik/polyurethane permukaan meja kayu solid agar mengkilap kembali, serta penempelan ulang bahan HPL yang copot. Kami juga melayani modifikasi modern seperti pembuatan lubang tanam dan pemasangan power outlet box (stopkontak & colokan LAN/HDMI pop-up) agar meja rapat bersih dari kabel yang berserakan.`,
+    heroTitle: 'Service Reception Desk & Meja Meeting',
+    heroSubtitle: 'Restorasi HPL mengelupas, perbaikan kaki meja goyang, dan manajemen kabel meja kerja perusahaan.',
+    description: 'Kami melayani refinishing dan perbaikan struktural untuk meja rapat direksi, meja staf, dan meja resepsionis.',
+    longDescription: 'Meja resepsionis (front desk) adalah wajah perusahaan Anda, dan meja meeting adalah tempat keputusan penting diambil. Kerusakan seperti lapisan HPL/veneer yang terkelupas, sudut kayu yang pecah, atau struktur meja yang melengkung dan goyang akan sangat mengurangi nilai estetika interior. Bakti Kawan Service melayani pengeleman dan penggantian ulang pelapis HPL/Tacosheet, perbaikan jalur kabel (cable grommet), perkuatan rangka meja kayu/besi, penambahan lampu LED aksen pada resepsionis, hingga modifikasi ukuran meja.',
     benefits: [
-      'Restorasi permukaan kayu dan veneer',
-      'Perbaikan kaki dan struktur',
-      'Penggantian edge banding',
-      'Polishing dan refinishing',
-      'Perbaikan cable management',
-      'Service aksesori meja',
+      'Penggantian pelapis HPL / Edging yang lepas',
+      'Refinishing / Plitur meja direksi kayu solid',
+      'Perbaikan sambungan meja goyang',
+      'Service laci keyboard & kabinet meja',
+      'Instalasi jalur kabel (cable management)',
       'Garansi 3 bulan',
     ],
     process: DEFAULT_PROCESS,
     faqs: [
-      {
-        question: 'Apakah meja yang berukuran sangat panjang bisa diperbaiki di tempat?',
-        answer: 'Tergantung tingkat kerusakan. Refinishing ringan, perbaikan kaki miring, dan pemasangan lubang kabel dapat dilakukan langsung di kantor Anda. Untuk refinishing semprot total, meja perlu kami bawa ke workshop.'
-      }
+      { question: 'Bisa ganti warna meja resepsionis agar sesuai logo baru perusahaan?', answer: 'Tentu. Kami bisa melepas pelapis lama dan menempelkan HPL baru dengan warna, serat kayu, atau corak yang sesuai dengan identitas korporat baru Anda.' },
     ],
     gallery: [],
-    relatedSlugs: ['service-kursi-kantor', 'service-lemari-arsip', 'service-reception-desk'],
-    metaTitle: 'Service & Restorasi Meja Meeting | Bakti Kawan Service Jakarta',
-    metaDescription: 'Layanan service meja meeting dan konferensi: restorasi permukaan, perbaikan struktur, polishing. Profesional dan bergaransi. Fast response Jabodetabek.',
+    relatedSlugs: ['service-sofa-kursi-kantor', 'service-lemari-arsip'],
+    metaTitle: 'Service Meja Meeting & Resepsionis | Bakti Kawan Service',
+    metaDescription: 'Restorasi HPL, perbaikan meja goyang, refinishing meja meeting dan reception desk. Garansi 3 bulan.',
     image: '/images/services/meja-kantor.jpg',
-    imageAlt: 'Meja meeting kayu panjang dengan finishing mengkilap dan manajemen kabel terintegrasi',
+    imageAlt: 'Meja meeting kayu panjang dan reception desk modern',
   },
 
+  // --- FURNITURE KOMERSIAL ---
   {
-    slug: 'service-reception-desk',
-    name: 'Service Reception Desk',
-    shortName: 'Reception Desk',
-    category: 'kantor',
-    heroTitle: 'Service & Refurbishment Meja Resepsionis (Reception Desk)',
-    heroSubtitle: 'Perbaikan counter HPL retak, pemasangan lampu LED strip aksen, pembuatan laci kasir, dan poles marmer solid surface.',
-    description: 'Jasa peremajaan meja resepsionis lobi utama kantor, klinik, dan hotel untuk kesan pertama yang profesional.',
-    longDescription: `Meja resepsionis adalah perwakilan visual pertama (first impression) yang dilihat oleh setiap pengunjung, tamu, atau calon klien yang memasuki kantor, klinik, atau hotel Anda. Meja resepsionis yang kusam, retak sudut HPL-nya, atau tidak rapi sistem penyimpanannya dapat menurunkan wibawa instansi. PT Bakti Kawan Service menyediakan jasa perbaikan dan peremajaan estetika meja resepsionis secara kustom.
-
-Cakupan kerja kami meliputi pengeleman ulang dan penggantian lembaran HPL luar yang retak, pemolesan permukaan counter berbahan solid surface atau marmer yang kusam dan tergores, pemasangan lampu LED backlight strip dekoratif tersembunyi untuk kesan modern-futuristik, serta pembuatan laci penyimpanan rekam medis/kasir tambahan lengkap dengan sistem kunci laci yang aman.`,
-    benefits: [
-      'Restorasi permukaan dan panel',
-      'Renovasi desain modern',
-      'Penggantian material pilihan',
-      'Pemasangan LED accent',
-      'Perbaikan laci dan storage',
-      'Material premium tersedia',
-      'Garansi 3 bulan',
-      'Desain 3D preview',
-    ],
-    process: DEFAULT_PROCESS,
-    faqs: [
-      {
-        question: 'Apakah bisa ganti model meja resepsionis yang sudah ada?',
-        answer: 'Ya, kami melayani redesain sebagian meja resepsionis agar tampil lebih modern tanpa harus membongkar seluruh meja lama (cost-effective facelift).'
-      }
-    ],
-    gallery: [],
-    relatedSlugs: ['service-nurse-station', 'service-sofa-kantor', 'service-meja-meeting'],
-    metaTitle: 'Service & Renovasi Reception Desk | Bakti Kawan Service',
-    metaDescription: 'Layanan service dan renovasi reception desk lobi kantor, hotel, klinik. Restorasi, redesain modern, material premium. Garansi 3 bulan. Konsultasi gratis!',
-    image: '/images/services/meja-kantor.jpg',
-    imageAlt: 'Meja resepsionis kayu minimalis dengan pencahayaan LED tersembunyi di lobi utama',
-  },
-
-  // =============================================
-  // KATEGORI: KOMERSIAL (4 layanan)
-  // =============================================
-  {
-    slug: 'service-sofa-cafe',
-    name: 'Service Sofa Cafe',
-    shortName: 'Sofa Cafe',
+    slug: 'service-cafe-restoran',
+    name: 'Service Furniture Cafe / Restoran',
+    shortName: 'Cafe / Restoran',
     category: 'komersial',
-    heroTitle: 'Jasa Reupholstery Sofa Cafe & Booth Seating Restoran',
-    heroSubtitle: 'Ganti kain jok sofa cafe robek, perbaikan busa kempes, kustomisasi booth bench panjang, material anti-noda premium.',
-    description: 'Perbaikan jok kulit sintetis cafe yang pecah-pecah dengan material berkualitas tinggi, pengerjaan cepat di luar jam buka.',
-    longDescription: `Di bisnis kuliner (F&B), kenyamanan tempat duduk berbanding lurus dengan lamanya pelanggan tinggal dan besarnya nominal pesanan mereka. Sofa cafe atau booth seating restoran yang kulitnya pecah-pecah, robek, atau busanya amblas hingga menyentuh rangka kayu akan membuat pelanggan kapok berkunjung kembali. PT Bakti Kawan Service menawarkan jasa reupholstery sofa cafe dan booth seating dengan kualitas jahitan kelas butik.
-
-Kami merekomendasikan material khusus F&B: kulit sintetis (oscar) heavy-duty tahan air dan noda saus, atau kain fabric dengan teknologi mudah dibersihkan (easy-clean fabric). Kami memperbaiki konstruksi rangka kayu sofa bench panjang, mengganti busa royal foam dengan tingkat keempukan (density) yang pas untuk duduk santai, serta merapikan kancing aksen (chesterfield style).
-
-Kami menawarkan opsi pengerjaan malam hari saat cafe tutup untuk meminimalkan kehilangan omzet bisnis Anda.`,
+    heroTitle: 'Service Sofa & Kursi Cafe / Restoran',
+    heroSubtitle: 'Reupholstery booth seating, perkuatan kursi makan kayu/besi, agar tempat makan Anda selalu nyaman dan instagramable.',
+    description: 'Mengatasi kursi patah dan sofa robek dengan bahan food-grade, tahan air (water-repellent) dan mudah dibersihkan.',
+    longDescription: 'Tingkat penggunaan (traffic) furniture di restoran dan cafe sangatlah tinggi. Sofa booth dan kursi makan sering terkena tumpahan makanan, robek, atau kaki kayunya reyot karena pemakaian yang ekstrem. Kami melayani penggantian material (reupholstery) menggunakan kulit sintetis premium tahan noda atau kain berpelapis teflon (mudah dibersihkan), injeksi ulang busa sandaran agar tetap empuk, serta lem/press ulang struktur rangka kayu dan pengelasan kursi bar (bar stool) besi agar tidak patah. Kami menyediakan jam pengerjaan after-hours agar operasional resto Anda tidak terganggu.',
     benefits: [
-      'Material tahan noda dan mudah dibersihkan',
-      'Ratusan pilihan warna dan tekstur',
-      'Perbaikan booth seating custom',
-      'Service kursi bar dan stool',
-      'Material food-safe tersedia',
-      'Pengerjaan cepat (minimalisir tutup)',
+      'Ganti kain/oscar (reupholstery) sofa booth & kursi',
+      'Material pilihan khusus hospitality (mudah dilap)',
+      'Reparasi rangka kursi kayu/besi yang reyot',
+      'Pengerjaan malam hari (tutup toko)',
+      'Perbaikan cat meja makan yang kusam',
       'Garansi 3 bulan',
-      'Konsultasi desain gratis',
     ],
     process: DEFAULT_PROCESS,
     faqs: [
-      {
-        question: 'Material apa yang direkomendasikan untuk cafe?',
-        answer: 'Kami merekomendasikan vinyl atau PVC leather yang tahan noda, mudah dibersihkan, dan tahan lama untuk penggunaan intensif. Tersedia berbagai warna dan tekstur yang sesuai dengan konsep cafe Anda.',
-      },
-      {
-        question: 'Apakah bisa dikerjakan saat cafe tutup (malam hari)?',
-        answer: 'Ya, kami menyediakan layanan pengerjaan di luar jam operasional untuk meminimalisir gangguan. Hubungi kami untuk mengatur jadwal yang sesuai.',
-      },
+      { question: 'Bisa service malam hari agar siang restoran tetap buka?', answer: 'Tentu. Kami sangat fleksibel dengan jam kerja komersial. Teknisi kami bisa bekerja shift malam setelah restoran Anda tutup.' },
     ],
     gallery: [],
-    relatedSlugs: ['service-furniture-restoran', 'service-sofa-kantor', 'service-furniture-hotel'],
-    metaTitle: 'Service & Reupholstery Sofa Cafe | Bakti Kawan Service Jakarta',
-    metaDescription: 'Layanan service sofa cafe, reupholstery kursi restoran. Material tahan noda, ratusan pilihan warna. Pengerjaan cepat, garansi 3 bulan. Hubungi kami!',
+    relatedSlugs: ['service-hotel', 'service-furniture-rumah-besi'],
+    metaTitle: 'Service Furniture Restoran & Cafe | Bakti Kawan Service',
+    metaDescription: 'Reupholstery sofa booth cafe, perbaikan kursi makan. Bahan tahan air, bisa kerja malam hari. Garansi 3 bulan.',
     image: '/images/services/cafe-restoran.jpg',
-    imageAlt: 'Booth seating sofa kulit coklat klasik yang elegan di dalam cafe modern',
+    imageAlt: 'Sofa booth cafe dan kursi restoran yang telah diperbaiki',
   },
-
   {
-    slug: 'service-furniture-restoran',
-    name: 'Service Furniture Restoran',
-    shortName: 'Furniture Restoran',
+    slug: 'service-hotel',
+    name: 'Service Furniture Hotel (Trolley & Room Set)',
+    shortName: 'Hotel',
     category: 'komersial',
-    heroTitle: 'Service Furniture Restoran, Bar & F&B Outlet',
-    heroSubtitle: 'Perbaikan kursi makan kayu/besi bergoyang, perbaikan dudukan bar stool miring, poles meja makan marmer/kayu.',
-    description: 'Jasa perbaikan meja makan, kursi kayu, kursi besi, dan stool restoran agar aman diduduki pelanggan.',
-    longDescription: `Penggunaan harian yang sangat intensif membuat kursi dan meja makan restoran rentan bergoyang atau patah pada sambungan kaki-kakinya. Kursi makan yang tidak kokoh sangat berbahaya karena dapat membuat pelanggan terjatuh dan memicu tuntutan hukum. PT Bakti Kawan Service menyediakan layanan perbaikan furniture restoran secara cepat dan massal.
-
-Kami melayani pengencangan sekrup dan pengeleman ulang sambungan kayu kursi makan yang longgar, pengelasan sambungan besi kursi bar stool yang retak, penggantian karet penahan kaki kursi agar tidak bising dan merusak lantai keramik, hingga pemolesan dan pelapisan ulang (varnishing/coating) meja makan kayu yang kusam akibat sering dilap cairan disinfektan.
-
-Kami siap melayani jaringan restoran waralaba (restaurant chain) dengan kontrak maintenance berkala yang ekonomis.`,
+    heroTitle: 'Service Furniture Hotel (Trolley & Room Set)',
+    heroSubtitle: 'Perawatan berkala headboard, dipan kamar, serta perbaikan trolley dorong hotel, bellboy, dan laundry.',
+    description: 'Mempertahankan standar bintang hotel Anda dengan menjaga furniture kamar dan perlengkapan operasional tetap mulus dan berfungsi baik.',
+    longDescription: 'Dalam bisnis perhotelan, setiap detail furniture menentukan bintang dan ulasan tamu. Kami menangani perawatan masal untuk kamar hotel, mulai dari reupholstery dipan tempat tidur (bed divan) dan sandaran kepala (headboard) yang kotor/mengelupas, perbaikan engsel nakas dan lemari pakaian, hingga refinishing meja rias. Selain itu, kami juga ahli mereparasi perlengkapan operasional krusial seperti Trolley Bellboy (troli bagasi), Housekeeping Trolley, dan Trolley Laundry (penggantian roda senyap, las struktur stainless, dan ganti kanvas tas linen).',
     benefits: [
-      'Reupholstery kursi dan booth',
-      'Perbaikan kaki meja dan kursi',
-      'Service bar stool dan high chair',
-      'Material food-grade tersedia',
-      'Pengerjaan massal untuk chain restoran',
-      'Jadwal fleksibel (non-operasional)',
+      'Reupholstery headboard dan dipan tempat tidur',
+      'Service trolley bellboy, laundry & housekeeping',
+      'Refinishing perabotan kamar (nakas, lemari)',
+      'Penggantian roda trolley khusus (non-marking)',
+      'Kerjasama maintenance tahunan',
       'Garansi 3 bulan',
     ],
     process: DEFAULT_PROCESS,
     faqs: [
-      {
-        question: 'Apakah meja yang berlubang/terbakar bisa mulus kembali?',
-        answer: 'Ya, tim kayu kami berpengalaman melakukan touch-up kayu dempul resin dan plitur ulang untuk menyamarkan cacat permukaan meja makan.'
-      }
+      { question: 'Apakah trolley bagasi yang rangkanya penyok bisa diluruskan?', answer: 'Ya, kami melayani kenteng, pelurusan, dan poles ulang struktur stainless/kuningan pada trolley bellboy agar terlihat elegan kembali.' },
     ],
     gallery: [],
-    relatedSlugs: ['service-sofa-cafe', 'service-furniture-hotel', 'service-furniture-retail'],
-    metaTitle: 'Service Furniture Restoran Profesional | Bakti Kawan Service',
-    metaDescription: 'Layanan service furniture restoran: kursi, meja, booth, bar stool. Reupholstery, perbaikan struktur. Jadwal fleksibel, harga kompetitif. Fast response Jakarta.',
-    image: '/images/services/cafe-restoran.jpg',
-    imageAlt: 'Set meja makan dan kursi kayu restoran yang kokoh setelah restorasi',
-  },
-
-  {
-    slug: 'service-furniture-hotel',
-    name: 'Service Furniture Hotel',
-    shortName: 'Furniture Hotel',
-    category: 'komersial',
-    heroTitle: 'Jasa Service & Refurbishment Furniture Hotel (Hospitality)',
-    heroSubtitle: 'Perbaikan bedroom set hotel (headboard, dipan, nakas), reupholstery lounge chair lobi, dan poles kayu premium.',
-    description: 'Layanan service furniture hotel dengan standar kualitas visual dan daya tahan tinggi standar hospitality.',
-    longDescription: `Di industri perhotelan, kenyamanan dan kemewahan visual adalah segalanya. Kamar hotel dengan dipan bergoyang, headboard kulit terkelupas, nakas yang lacinya seret, atau armchair lobi yang beroda rusak dapat langsung menurunkan penilaian rating hotel Anda di platform online (OTA). PT Bakti Kawan Service adalah partner tepercaya untuk refurbishment furniture hotel standar bintang 3 hingga bintang 5.
-
-Tim kami ahli merestorasi dipan (bed base/box spring), melapis ulang (reupholstery) headboard dengan kulit asli maupun sintetis berkualitas tinggi bersertifikasi tahan api (fire retardant), memoles kembali (refinishing) lemari pakaian wardrobe kayu kamar, nakas, dan meja kerja, serta merestorasi kursi santai lounge chair lobi utama.
-
-Kami bekerja sama dengan divisi housekeeping hotel Anda untuk menjadwalkan perbaikan blok per blok kamar (room-by-room staging) agar tingkat okupansi (occupancy rate) hotel Anda tetap terjaga maksimal selama masa perbaikan.`,
-    benefits: [
-      'Perbaikan bedroom set hotel',
-      'Service sofa dan kursi lobi',
-      'Renovasi furniture area publik',
-      'Material standar hospitality',
-      'Pengerjaan minimal gangguan tamu',
-      'Pemeliharaan berkala tersedia',
-      'Garansi 3 bulan',
-      'Kontrak maintenance tersedia',
-    ],
-    process: DEFAULT_PROCESS,
-    faqs: [
-      {
-        question: 'Apakah bisa service furniture kamar hotel tanpa mengganggu tamu?',
-        answer: 'Ya, kami merancang jadwal kerja yang mempertimbangkan operasional hotel. Biasanya dilakukan saat kamar vacant atau saat periode occupancy rendah. Tim kami bekerja efisien dan bersih.',
-      },
-    ],
-    gallery: [],
-    relatedSlugs: ['service-furniture-restoran', 'service-sofa-cafe', 'service-furniture-retail'],
-    metaTitle: 'Service Furniture Hotel & Hospitality | Bakti Kawan Service',
-    metaDescription: 'Layanan service furniture hotel: bedroom set, sofa lobi, area publik. Standar hospitality premium, minimal gangguan operasional. Kontrak maintenance tersedia.',
+    relatedSlugs: ['service-cafe-restoran', 'service-furniture-rumah-besi'],
+    metaTitle: 'Service Furniture Hotel & Trolley | Bakti Kawan Service',
+    metaDescription: 'Perawatan headboard hotel, dipan, dan service trolley bellboy, laundry. Kontrak maintenance bergaransi 3 bulan.',
     image: '/images/services/hotel.jpg',
-    imageAlt: 'Interior kamar tidur hotel mewah dengan headboard kulit rapi dan nakas kayu mengkilap',
+    imageAlt: 'Headboard kamar hotel dan trolley bellboy',
   },
-
   {
-    slug: 'service-furniture-retail',
-    name: 'Service Furniture Retail',
-    shortName: 'Furniture Retail',
+    slug: 'service-furniture-rumah-besi',
+    name: 'Service Furniture Rumah Berbahan Besi (Bed/Lemari)',
+    shortName: 'Furniture Besi',
     category: 'komersial',
-    heroTitle: 'Service Display Rack, Gondola, & Furniture Retail Toko',
-    heroSubtitle: 'Perbaikan showcase kaca display produk, counter meja kasir, rak gondola besi miring, dan visual merchandising fixture.',
-    description: 'Layanan service dan modifikasi display toko, butik, minimarket, showroom, dan supermarket.',
-    longDescription: `Visual merchandising yang menarik sangat bergantung pada kondisi fisik rak display dan meja kasir toko Anda. Rak gondola yang miring karena tidak kuat menahan beban produk, atau showcase kaca dengan pintu geser macet dapat mengurangi estetika display produk dan menurunkan minat beli pengunjung showroom/butik Anda. PT Bakti Kawan Service melayani jasa perbaikan furniture retail terlengkap.
-
-Kami memperbaiki rel pintu kaca geser (sliding glass display showcase), memasang strip lampu sorot LED produk tersembunyi, meluruskan tiang gondola besi penyok, memperkuat sambungan las rak besi, serta memperbaiki atau merenovasi area meja kasir (cashier counter) termasuk penambahan kompartemen penyimpanan uang kertas dan laci keyboard.
-
-Kami siap dipanggil untuk pengerjaan malam hari setelah toko tutup (after-hours service) guna memastikan tidak ada gangguan pada aktivitas belanja pelanggan Anda.`,
+    heroTitle: 'Service Furniture Rumah Logam / Besi',
+    heroSubtitle: 'Perbaikan, pelurusan, dan pengecatan ulang ranjang tingkat besi, lemari pakaian besi, dan furniture baja ringan.',
+    description: 'Mengatasi ranjang besi reyot, cat mengelupas, atau engsel lemari besi rumah tangga yang rusak.',
+    longDescription: 'Furniture rumah berbahan logam (seperti ranjang besi, ranjang tingkat/bunk bed komersial untuk asrama/kos, lemari pakaian plat besi) terkenal kuat, namun dapat mengalami patah las, baut aus yang membuat ranjang berderit, atau karat pada area lembap. Teknisi kami sangat terampil melakukan pengelasan titik (spot welding), penggantian mur baut penguat struktur, hingga rekondisi estetika dengan pengerokan karat dan pengecatan ulang (repaint/spray) agar perabotan rumah besi Anda kuat menopang beban berat dan tampil segar kembali.',
     benefits: [
-      'Perbaikan display rack dan gondola',
-      'Service showcase dan vitrine',
-      'Perbaikan meja kasir',
-      'Relayout dan penataan ulang',
-      'Pengecatan dan touch-up',
-      'Pemasangan signage dan label',
-      'Layanan massal untuk chain toko',
+      'Pengelasan struktur bed besi / bunk bed patah',
+      'Menghilangkan bunyi derit (squeaking) pada ranjang',
+      'Service engsel, kunci, laci lemari pakaian besi',
+      'Pembersihan karat dan pengecatan anti-karat',
+      'Perkuatan alas kasur logam',
       'Garansi 3 bulan',
     ],
     process: DEFAULT_PROCESS,
     faqs: [
-      {
-        question: 'Apakah bisa modifikasi kaca showcase yang pecah menjadi tempered glass?',
-        answer: 'Ya, kami sangat merekomendasikan dan melayani pemasangan tempered glass untuk showcase ritel demi faktor keamanan staff dan pembeli.'
-      }
+      { question: 'Ranjang tingkat besi di kos-kosan reyot dan bunyi, apakah bisa ditangani?', answer: 'Tentu. Kami akan melakukan perkuatan baut, penambahan siku las, dan pelapisan karet peredam agar ranjang stabil dan tidak berisik.' },
     ],
     gallery: [],
-    relatedSlugs: ['service-furniture-restoran', 'service-furniture-hotel', 'service-reception-desk'],
-    metaTitle: 'Service Furniture Retail & Toko | Bakti Kawan Service Jakarta',
-    metaDescription: 'Layanan service furniture retail: display rack, gondola, showcase, meja kasir. Perbaikan dan perawatan toko. Fast response Jabodetabek. Hubungi kami!',
+    relatedSlugs: ['service-hotel', 'service-cafe-restoran'],
+    metaTitle: 'Service Furniture Besi (Bed & Lemari) | Bakti Kawan Service',
+    metaDescription: 'Perbaikan ranjang besi berderit, lemari besi, pengelasan patah, pengecatan anti karat. Garansi 3 bulan.',
     image: '/images/services/furniture-rumah-besi.jpg',
-    imageAlt: 'Rak display kaca modern dengan sorot lampu LED yang menarik setelah perbaikan',
+    imageAlt: 'Ranjang tingkat besi asrama dan lemari logam',
   },
-]
-
-// Helper functions
-export function getServiceBySlug(slug: string): ServiceData | undefined {
-  return SERVICES.find((s) => s.slug === slug)
-}
-
-export function getServicesByCategory(category: string): ServiceData[] {
-  return SERVICES.filter((s) => s.category === category)
-}
-
-export function getAllSlugs(): string[] {
-  return SERVICES.map((s) => s.slug)
-}
+];
 
 export const CATEGORY_PAGES_DATA: CategoryPageData[] = [
   {
@@ -836,7 +384,7 @@ export const CATEGORY_PAGES_DATA: CategoryPageData[] = [
     metaTitle: 'Service & Reupholstery Furniture Kantor | Bakti Kawan Service',
     metaDescription: 'Jasa perbaikan dan ganti kulit sofa lobi, kursi kantor hidrolik, filing cabinet, meja rapat HPL/kayu. Hemat biaya operasional 40-60% dengan hasil bergaransi.',
     customServiceTitle: 'Memiliki Furniture Kantor Khusus atau Volume Besar?',
-    customServiceDescription: 'Kami menangani service kustom massal untuk furniture kantor khusus lainnya (seperti partisi sekat kubikal workstation, kursi auditorium lipat, Mobile File/Roll O\'pack logam, credenza direksi, dll). Kami menyediakan layanan survey lapangan langsung ke kantor Anda di wilayah Jabodetabek.'
+    customServiceDescription: 'Kami menangani service kustom massal untuk furniture kantor khusus lainnya (seperti partisi sekat kubikal workstation, kursi auditorium lipat, Mobile File/Roll O\\'pack logam, credenza direksi, dll). Kami menyediakan layanan survey lapangan langsung ke kantor Anda di wilayah Jabodetabek.'
   },
   {
     id: 'komersial',
@@ -852,32 +400,4 @@ export const CATEGORY_PAGES_DATA: CategoryPageData[] = [
     customServiceTitle: 'Butuh Custom Project / Renovasi Furniture Bisnis?',
     customServiceDescription: 'Kami menerima perbaikan kustom untuk elemen visual merchandising ritel dan hospitality lainnya (seperti showcase kaca toko, rak gantungan baju butik, lounge chair bar, meja resepsionis kasir, dll). Hubungi kami untuk penawaran kontrak maintenance berkala.'
   }
-]
-
-export function getCategoryPageData(categoryId: string): CategoryPageData | undefined {
-  return CATEGORY_PAGES_DATA.find((c) => c.id === categoryId)
-}
-
-export const SERVICE_CATEGORIES = {
-  alkes: {
-    id: 'alkes' as const,
-    label: 'Alat Kesehatan',
-    icon: '🏥',
-    description: 'Service furniture rumah sakit, klinik, puskesmas, dan laboratorium',
-    color: '#F97316',
-  },
-  kantor: {
-    id: 'kantor' as const,
-    label: 'Furniture Kantor',
-    icon: '🏢',
-    description: 'Service furniture perkantoran, korporat, dan institusi',
-    color: '#2B2B2B',
-  },
-  komersial: {
-    id: 'komersial' as const,
-    label: 'Furniture Komersial',
-    icon: '☕',
-    description: 'Service furniture cafe, restoran, hotel, dan retail',
-    color: '#171717',
-  },
-}
+];
