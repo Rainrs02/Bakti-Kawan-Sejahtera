@@ -12,7 +12,7 @@ const CATEGORIES = [
     description: 'Rumah Sakit, Klinik, Puskesmas, Laboratorium',
     count: 10,
     href: '/layanan/kategori/alkes',
-    imageSrc: '/images/services/bed-pasien.webp',
+    imageSrc: '/images/services/troli-emergency-cat.webp',
     accent: '#F97316',
     featured: false,
     services: ['Bed Pasien', 'Meja Operasi', 'Troli Emergency', 'Nurse Station'],
