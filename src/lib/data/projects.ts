@@ -49,7 +49,7 @@ export const PROJECTS: Project[] = [
     description: 'Renovasi total 3 unit nurse station di puskesmas. Perbaikan counter, penambahan storage, dan pengecatan ulang untuk tampilan yang lebih bersih dan profesional.',
     beforeImage: '/images/projects/project-3-before.jpg',
     afterImage: '/images/projects/project-3-after.jpg',
-    location: 'Jakarta Timur',
+    location: 'Kabupaten Bogor',
     duration: '5 hari',
     year: 2024,
     tags: ['nurse station', 'renovasi', 'puskesmas'],

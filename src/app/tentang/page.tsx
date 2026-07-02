@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 }
 
 const TIMELINE = [
-  { year: '2020', event: 'Perusahaan didirikan dari workshop kecil di Jakarta Timur dengan 5 orang teknisi' },
+  { year: '2020', event: 'Perusahaan didirikan dari workshop kecil di Kabupaten Bogor dengan 5 orang teknisi' },
   { year: '2021', event: 'Ekspansi layanan ke furniture kantor dan komersial' },
   { year: '2022', event: 'Membuka workshop besar dan rekrut 50+ teknisi bersertifikasi' },
   { year: '2023', event: 'Cakupan nasional — melayani proyek di berbagai provinsi' },
@@ -82,7 +82,7 @@ export default function TentangPage() {
                 <p>
                   Bakti Kawan Service lahir dari kesadaran bahwa fasilitas kesehatan di Indonesia
                   membutuhkan mitra service furniture yang benar-benar dapat diandalkan. Di tahun 2020,
-                  kami memulai dari workshop kecil di Jakarta Timur dengan 5 orang teknisi.
+                  kami memulai dari workshop kecil di Kabupaten Bogor dengan 5 orang teknisi.
                 </p>
                 <p>
                   Kini, dengan 100+ teknisi bersertifikasi dan pengalaman menangani 1.000+ proyek

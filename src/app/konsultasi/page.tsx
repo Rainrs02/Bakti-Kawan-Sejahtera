@@ -69,7 +69,7 @@ export default function KonsultasiPage() {
                 <div className="text-center text-muted text-sm">
                   <MapPin size={32} className="mx-auto mb-2 text-accent" />
                   <p className="font-medium text-primary">Google Maps</p>
-                  <p>Jakarta Timur, DKI Jakarta</p>
+                  <p>Kabupaten Bogor, Jawa Barat</p>
                 </div>
               </div>
 

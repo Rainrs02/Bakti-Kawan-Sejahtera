@@ -136,7 +136,7 @@ export default function ConsultationForm({ initialCategory }: ConsultationFormPr
         <input
           id="lokasi"
           type="text"
-          placeholder="Jakarta Timur, DKI Jakarta"
+          placeholder="Kabupaten Bogor, Jawa Barat"
           className={`form-input ${errors.lokasi ? 'error' : ''}`}
           {...register('lokasi')}
         />
