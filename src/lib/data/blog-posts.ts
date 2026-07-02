@@ -3,6 +3,142 @@ import type { BlogPost } from '@/types/blog'
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'cara-menghilangkan-noda-kopi-sofa-cafe',
+    title: 'Cara Efektif Membersihkan Noda Kopi pada Sofa Cafe Anda',
+    excerpt: 'Sofa cafe yang terkena tumpahan kopi bisa merusak estetika dan kenyamanan pelanggan. Simak panduan praktis dari ahlinya untuk membersihkan noda membandel pada berbagai jenis material sofa.',
+    content: `
+# Cara Efektif Membersihkan Noda Kopi pada Sofa Cafe
+
+Bisnis F&B seperti cafe dan restoran memiliki risiko tinggi terkait tumpahan makanan dan minuman. Salah satu noda yang paling sering ditemui dan cukup sulit dihilangkan adalah noda kopi, terutama pada sofa *booth* atau kursi *lounge* berlapis kain (fabric) maupun kulit (leather/oscar).
+
+Membiarkan noda kopi terlalu lama tidak hanya merusak estetika interior, tetapi juga dapat menimbulkan bau tidak sedap yang mengganggu kenyamanan pengunjung. Berikut adalah panduan langkah demi langkah untuk menanganinya.
+
+## 1. Tindakan Pertama: Jangan Digosok!
+Saat tumpahan baru saja terjadi, hal pertama yang harus dilakukan adalah menyerap cairan menggunakan tisu dapur atau kain lap *microfiber* kering. 
+**Penting:** Jangan menggosok noda! Menggosok hanya akan membuat cairan kopi meresap lebih dalam ke serat kain atau busa di bawahnya. Cukup tepuk-tepuk perlahan hingga cairan terserap.
+
+## 2. Pembersihan pada Bahan Kulit Sintetis (Oscar)
+Kulit sintetis lebih mudah dibersihkan dibanding kain.
+- Campurkan air hangat dengan sedikit sabun cuci piring ringan.
+- Celupkan kain lembut ke dalam campuran tersebut, peras hingga lembap (tidak menetes).
+- Usap area bernoda dengan lembut.
+- Keringkan segera dengan lap bersih.
+
+## 3. Pembersihan pada Bahan Kain (Fabric)
+Untuk bahan kain, Anda membutuhkan larutan pembersih yang sedikit lebih kuat.
+- **Campuran:** 1 sendok makan sabun cuci piring cair + 1 sendok makan cuka putih + 2 cangkir air hangat.
+- Celupkan kain bersih ke dalam larutan dan tepuk-tepukkan pada noda kopi (dari arah luar noda ke dalam agar tidak menyebar).
+- Setelah noda pudar, gunakan spons basah (hanya air) untuk membilas sisa sabun.
+- Keringkan area tersebut menggunakan *hair dryer* dengan suhu rendah (cool setting) atau biarkan kering diangin-anginkan.
+
+## Kapan Waktunya Menggunakan Jasa Profesional?
+Jika noda kopi sudah mengering berhari-hari, menimbulkan jamur, atau material sofa Anda mulai retak dan mengelupas akibat sering dibersihkan dengan bahan kimia keras, maka ini saatnya memanggil profesional.
+
+PT Bakti Kawan Service menyediakan layanan cuci sofa komersial hingga *reupholstery* (ganti kulit/kain sofa). Kami menggunakan material yang *water-repellent* dan mudah dibersihkan, sangat cocok untuk kebutuhan cafe dan restoran dengan *traffic* tinggi.
+
+[Konsultasikan masalah sofa cafe Anda kepada tim ahli kami sekarang →](/konsultasi)
+`,
+    coverImage: '/images/gallery/cafe/Foto Cafe (3).webp',
+    category: 'Furniture Komersial',
+    tags: ["sofa cafe","tips kebersihan","noda kopi","maintenance resto","reupholstery"],
+    author: {
+      name: 'Tim Bakti Kawan Service',
+      avatar: '/images/team/author-default.webp',
+      role: 'Spesialis Furniture Komersial',
+    },
+    publishedAt: '2024-02-15',
+    readingTime: 4,
+    metaTitle: 'Cara Membersihkan Noda Kopi di Sofa Cafe | Bakti Kawan Service',
+    metaDescription: 'Panduan ahli membersihkan noda kopi di sofa cafe dan restoran. Jangan digosok! Pelajari cara efektif menangani noda pada bahan kain dan kulit sintetis.',
+  },
+  {
+    slug: 'pentingnya-service-berkala-meja-operasi',
+    title: 'Mengapa Meja Operasi (Operating Table) Wajib Diservice Secara Berkala?',
+    excerpt: 'Meja operasi adalah jantung dari ruang bedah. Kerusakan kecil pada sistem hidrolik atau elektrikal bisa berakibat fatal. Pelajari pentingnya jadwal maintenance rutin.',
+    content: `
+# Pentingnya Maintenance Rutin pada Meja Operasi
+
+Ruang operasi (OK) adalah area dengan tingkat stres dan urgensi tertinggi di rumah sakit. Dalam lingkungan ini, keandalan alat medis bukan sekadar kenyamanan, melainkan masalah hidup dan mati. Salah satu instrumen paling krusial yang sering luput dari perhatian *maintenance* harian adalah **Meja Operasi (Operating Table)**.
+
+## Komponen Kritis yang Rawan Kerusakan
+Meja operasi modern, baik yang tipe mekanik-hidrolik maupun elektro-hidrolik, terdiri dari puluhan komponen bergerak yang menahan beban ratusan kilogram setiap harinya. 
+
+1. **Sistem Hidrolik:** Rentan mengalami kebocoran seal (seal kit bocor) yang menyebabkan meja turun perlahan saat operasi berlangsung.
+2. **Sistem Elektrikal / Aktuator:** Kabel atau remote kontrol yang sering tertarik dapat putus di dalam, membuat meja macet tidak bisa diposisikan (Trendelenburg, Tilt, dll).
+3. **Matras Antistatis:** Sering sobek terkena instrumen tajam. Matras yang robek menjadi sarang bakteri mematikan dan cairan tubuh, sangat melanggar standar sanitasi.
+
+## Dampak Buruk Kurangnya Perawatan
+- **Risiko Keselamatan Pasien:** Meja yang anjlok tiba-tiba saat pembedahan saraf atau ortopedi bisa menyebabkan cedera permanen pada pasien.
+- **Pembengkakan Biaya:** Biaya penggantian blok hidrolik baru bisa mencapai puluhan hingga ratusan juta rupiah.
+- **Terganggunya Jadwal Operasi:** Kerusakan mendadak memaksa penundaan operasi, merugikan rumah sakit secara finansial dan reputasi.
+
+## Solusi: Kontrak Service Berkala
+Pengecekan (Preventive Maintenance) setidaknya setiap 3-6 bulan sangat direkomendasikan. Pemeriksaan ini mencakup kalibrasi ketinggian, penggantian oli hidrolik, pengecekan tegangan listrik, dan sterilisasi anti-korosi pada rangka *stainless steel*.
+
+**PT Bakti Kawan Service** memiliki teknisi spesialis alkes yang bersertifikat dan berpengalaman lebih dari 10 tahun menangani berbagai merek meja operasi. Kami menawarkan layanan perbaikan darurat (*on-call*) maupun kontrak pemeliharaan tahunan untuk menjamin ruang OK Anda selalu siap 24/7.
+
+[Dapatkan penawaran kontrak maintenance dari kami →](/konsultasi)
+`,
+    coverImage: '/images/services/meja-operasi-new.webp',
+    category: 'Alat Kesehatan',
+    tags: ["meja operasi","perawatan alkes","rumah sakit","maintenance","ruang bedah"],
+    author: {
+      name: 'Tim Bakti Kawan Service',
+      avatar: '/images/team/author-default.webp',
+      role: 'Teknisi Alkes Medis',
+    },
+    publishedAt: '2024-01-20',
+    readingTime: 5,
+    metaTitle: 'Pentingnya Maintenance Berkala Meja Operasi (Operating Table) | Bakti Kawan Service',
+    metaDescription: 'Meja operasi adalah jantung ruang bedah. Pelajari komponen apa saja yang rawan rusak, dampaknya, serta jadwal perawatan rutin yang direkomendasikan untuk keselamatan.',
+  },
+  {
+    slug: 'tren-reupholstery-sofa-kantor-2024',
+    title: 'Tren Reupholstery Sofa Kantor 2024: Solusi Hemat Budget Tampil Mewah',
+    excerpt: 'Jangan buru-buru membeli sofa lobi baru! Temukan bagaimana reupholstery dapat menghemat budget operasional perusahaan hingga 60% sekaligus memberikan tampilan modern.',
+    content: `
+# Tren Reupholstery Sofa Kantor 2024: Hemat Budget, Tampil Mewah
+
+Ruang tunggu (lobby) dan ruang direktur adalah representasi wajah perusahaan Anda. Sofa kulit yang mulai pecah-pecah, kusam, atau kempes tentu akan memberikan kesan kurang profesional di mata klien dan investor. 
+
+Namun, di tengah efisiensi anggaran (*budget cut*) yang diterapkan banyak perusahaan saat ini, membeli set furniture kantor baru senilai puluhan juta rupiah seringkali tidak disetujui oleh manajemen. Solusi paling cerdas dan sedang tren di tahun 2024 adalah **Reupholstery (Ganti Kulit/Kain Sofa)**.
+
+## Apa itu Reupholstery?
+Reupholstery bukan sekadar menambal bagian yang robek. Ini adalah proses peremajaan total di mana lapisan luar sofa (kulit/kain) dilepas, busa bagian dalam ditambah atau diganti (injeksi busa), rangka kayu/besi diperkuat kembali, dan akhirnya dibalut dengan material baru yang Anda pilih.
+
+## Keuntungan Melakukan Reupholstery
+
+### 1. Penghematan Hingga 60%
+Membeli sofa lobi premium baru dari merek ternama bisa menghabiskan biaya 15 - 30 Juta Rupiah. Dengan reupholstery, Anda hanya membayar biaya material dan jasa pengerjaan, yang biasanya hanya memakan 40% dari harga beli baru. 
+
+### 2. Kustomisasi Tanpa Batas
+Sofa bawaan pabrik biasanya hanya memiliki warna standar (hitam atau cokelat). Dengan reupholstery, Anda bisa memilih material dan warna yang persis sesuai dengan *Corporate Identity* (identitas warna logo) perusahaan Anda. 
+
+### 3. Ramah Lingkungan (Eco-Friendly)
+Mendaur ulang rangka sofa yang masih kokoh sangat mendukung program *Go Green* perusahaan dengan mengurangi limbah *furniture* (Zero Waste).
+
+## Material Paling Populer 2024
+- **Microfiber Leather:** Terasa seperti kulit asli, lebih sejuk, dan sangat tahan goresan.
+- **Kain Poliester Water-Repellent:** Tampilan *matte* yang elegan ala Skandinavia namun cairan akan menggelinding jatuh seperti di daun talas.
+
+Jangan biarkan sofa rusak merusak citra perusahaan. Hubungi **PT Bakti Kawan Service** untuk konsultasi gratis dan *survey* ke kantor Anda. Kami akan membawakan sampel bahan premium terbaik langsung ke meja Anda!
+
+[Jadwalkan survey lokasi dengan tim kami →](/konsultasi)
+`,
+    coverImage: '/images/gallery/kan-1.webp',
+    category: 'Furniture Kantor',
+    tags: ["sofa kantor","reupholstery","hemat budget","renovasi kantor","tren 2024"],
+    author: {
+      name: 'Tim Bakti Kawan Service',
+      avatar: '/images/team/author-default.webp',
+      role: 'Konsultan Interior',
+    },
+    publishedAt: '2024-03-05',
+    readingTime: 4,
+    metaTitle: 'Tren Reupholstery Sofa Kantor 2024: Hemat & Mewah | BKS',
+    metaDescription: 'Pilihan cerdas hemat budget operasional hingga 60%. Simak keuntungan reupholstery (ganti kulit) sofa lobi kantor dibanding membeli furniture baru di tahun 2024.',
+  },
+  {
     slug: 'panduan-perawatan-bed-pasien-rumah-sakit',
     title: 'Panduan Lengkap Perawatan Bed Pasien Rumah Sakit agar Awet dan Selalu Prima',
     excerpt: 'Bed pasien adalah aset vital fasilitas kesehatan. Pelajari cara perawatan rutin yang benar untuk memperpanjang umur pakai dan memastikan keselamatan pasien.',
