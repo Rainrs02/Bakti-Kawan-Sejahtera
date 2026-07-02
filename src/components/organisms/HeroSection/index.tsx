@@ -131,8 +131,8 @@ export default function HeroSection() {
             {/* Main large image — ambulance */}
             <div className="absolute top-0 left-0 w-[58%] h-[60%] rounded-3xl overflow-hidden shadow-2xl">
               <Image
-                src="/images/hero/hero-ambulance.webp"
-                alt="Interior ambulance profesional"
+                src="/images/gallery/produksi/Foto Teknisi (10).webp"
+                alt="Proses pengerjaan teknisi profesional"
                 fill
                 className="object-cover"
                 priority
@@ -155,8 +155,8 @@ export default function HeroSection() {
             {/* Top right: teknisi */}
             <div className="absolute top-0 right-0 w-[38%] h-[45%] rounded-2xl overflow-hidden shadow-xl">
               <Image
-                src="/images/hero/hero-teknisi.webp"
-                alt="Teknisi profesional memperbaiki bed pasien"
+                src="/images/hero/hero-komersial.webp"
+                alt="Furniture komersial selesai diperbaiki"
                 fill
                 className="object-cover"
                 sizes="(max-width: 768px) 40vw, 20vw"
