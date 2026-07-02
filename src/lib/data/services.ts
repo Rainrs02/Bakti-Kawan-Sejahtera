@@ -474,7 +474,7 @@ export const SERVICES: ServiceData[] = [
     relatedSlugs: ['service-hotel', 'service-furniture-rumah-besi'],
     metaTitle: 'Service Furniture Restoran & Cafe | Bakti Kawan Service',
     metaDescription: 'Reupholstery sofa booth cafe, perbaikan kursi makan. Bahan tahan air, bisa kerja malam hari. Garansi 3 bulan.',
-    image: '/images/services/cafe-restoran.webp',
+    image: '/images/gallery/cafe/Foto Cafe (1).webp',
     imageAlt: 'Sofa booth cafe dan kursi restoran yang telah diperbaiki',
   },
   {
@@ -596,7 +596,7 @@ export const CATEGORY_PAGES_DATA: CategoryPageData[] = [
     heroTitle: 'Service Furniture Cafe, Restoran, & Hotel (Hospitality)',
     heroSubtitle: 'Jasa reupholstery sofa booth cafe, perbaikan kursi makan restoran, dipan tidur, dan headboard kamar hotel standar premium.',
     longDescription: 'Tampilan visual furniture adalah faktor penentu dalam bisnis kuliner dan hospitality. Sofa cafe yang sobek atau dipan hotel yang bergoyang dapat merusak kenyamanan pelanggan dan citra bisnis Anda. PT Bakti Kawan Service menawarkan jasa service dan reupholstery furniture komersial dengan kualitas jahitan kelas butik dan material tahan noda. Kami memahami pentingnya kelancaran usaha Anda, oleh karena itu kami menawarkan opsi waktu kerja malam hari (after-hours) agar pengerjaan tidak mengganggu omzet harian Anda.',
-    image: '/images/services/cafe-restoran.webp',
+    image: '/images/gallery/cafe/Foto Cafe (9).webp',
     imageAlt: 'Booth seating sofa kulit cokelat elegan di cafe modern',
     metaTitle: 'Jasa Service & Reupholstery Furniture Cafe, Resto, Hotel | BKS',
     metaDescription: 'Reparasi dan reupholstery sofa booth cafe, kursi makan restoran, bedset kamar hotel. Kain tahan air/noda, pengerjaan cepat (opsi malam hari). Garansi 3 bulan.',

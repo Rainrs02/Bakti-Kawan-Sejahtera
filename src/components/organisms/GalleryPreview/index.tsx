@@ -6,13 +6,15 @@ import { ArrowRight } from 'lucide-react'
 
 const GALLERY_ITEMS = [
   { src: '/images/hero/hero-ambulance.webp', category: 'Ambulance', title: 'Interior ambulance', isTall: true },
-  { src: '/images/hero/hero-teknisi.webp', category: 'Kantor', title: 'Meja Bundar', isTall: false },
+  { src: '/images/gallery/cafe/Foto Cafe (2).webp', category: 'Komersial', title: 'Meja Cafe', isTall: false },
   { src: '/images/services/bed-pasien.webp', category: 'Alkes', title: 'Bed Pasien', isTall: false },
-  { src: '/images/services/cafe-restoran.webp', category: 'Komersial', title: 'Sofa Cafe', isTall: true },
+  { src: '/images/gallery/cafe/Foto Cafe (3).webp', category: 'Komersial', title: 'Sofa Booth Cafe', isTall: true },
   { src: '/images/gallery/alk-2.webp', category: 'Alkes', title: 'Bed Pasien Ekstra', isTall: false },
   { src: '/images/gallery/kom-2.webp', category: 'Komersial', title: 'Kursi Komersial', isTall: false },
   { src: '/images/gallery/amb-1.webp', category: 'Ambulance', title: 'Karoseri Ambulance', isTall: false },
   { src: '/images/gallery/kan-1.webp', category: 'Kantor', title: 'Kursi Kantor', isTall: false },
+  { src: '/images/gallery/produksi/Foto Teknisi (5).webp', category: 'Teknisi', title: 'Proses Pengerjaan', isTall: false },
+  { src: '/images/gallery/produksi/Foto Teknisi (6).webp', category: 'Teknisi', title: 'Tim Lapangan', isTall: false },
 ]
 
 export default function GalleryPreview() {

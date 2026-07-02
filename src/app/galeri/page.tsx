@@ -12,6 +12,46 @@ export const metadata: Metadata = {
 
 const GALLERY_IMAGES = [
   {
+    "src": "/images/gallery/cafe/Foto Cafe (9).webp",
+    "alt": "Cafe 9",
+    "category": "Furniture Komersial"
+  },
+  {
+    "src": "/images/gallery/cafe/Foto Cafe (1).webp",
+    "alt": "Cafe 1",
+    "category": "Furniture Komersial"
+  },
+  {
+    "src": "/images/gallery/cafe/Foto Cafe (2).webp",
+    "alt": "Cafe 2",
+    "category": "Furniture Komersial"
+  },
+  {
+    "src": "/images/gallery/cafe/Foto Cafe (3).webp",
+    "alt": "Cafe 3",
+    "category": "Furniture Komersial"
+  },
+  {
+    "src": "/images/gallery/cafe/Foto Cafe (4).webp",
+    "alt": "Cafe 4",
+    "category": "Furniture Komersial"
+  },
+  {
+    "src": "/images/gallery/cafe/Foto Cafe (5).webp",
+    "alt": "Cafe 5",
+    "category": "Furniture Komersial"
+  },
+  {
+    "src": "/images/gallery/cafe/Foto Cafe (7).webp",
+    "alt": "Cafe 7",
+    "category": "Furniture Komersial"
+  },
+  {
+    "src": "/images/gallery/cafe/Foto Cafe (8).webp",
+    "alt": "Cafe 8",
+    "category": "Furniture Komersial"
+  },
+  {
     "src": "/images/gallery/produksi/Foto Teknisi (1).webp",
     "alt": "Teknisi profesional 1",
     "category": "Foto Teknisi"

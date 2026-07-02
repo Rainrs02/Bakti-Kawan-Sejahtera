@@ -36,7 +36,7 @@ const CATEGORIES = [
     description: 'Cafe, Restoran, Hotel & Retail',
     count: 4,
     href: '/layanan/kategori/komersial',
-    imageSrc: '/images/services/cafe-restoran.webp',
+    imageSrc: '/images/gallery/cafe/Foto Cafe (9).webp',
     accent: '#171717',
     featured: false,
     services: ['Sofa Cafe', 'Booth Seating', 'Furniture Hotel', 'Display Retail'],
