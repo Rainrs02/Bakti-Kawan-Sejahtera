@@ -238,7 +238,7 @@ export const SERVICES: ServiceData[] = [
     relatedSlugs: ['service-sofa-kursi-kantor', 'service-meja-kantor'],
     metaTitle: 'Service Lemari Arsip & Filing Cabinet | Bakti Kawan Service',
     metaDescription: 'Perbaikan laci macet, kunci patah, rel filing cabinet besi dan kayu. Garansi 3 bulan.',
-    image: '/images/services/lemari-arsip.jpg',
+    image: '/images/services/lemari-arsip.png',
     imageAlt: 'Rel laci filing cabinet logam kantor yang diperbaiki',
   },
   {
