@@ -240,7 +240,7 @@ export default async function ServiceDetailPage({ params }: ServicePageProps) {
                     Berikut ini merupakan daftar barang atau perlengkapan yang dapat kami perbaiki. Kami juga melayani service barang di luar daftar berikut selama masih termasuk dalam kategori yang relevan.
                   </p>
                   <div className="grid sm:grid-cols-2 gap-3">
-                    {service.serviceItems.map((item, index) => (
+                    {[...service.serviceItems, 'Dan lain-lain'].map((item, index) => (
                       <div key={index} className="flex items-center gap-3 p-4 rounded-xl bg-white border border-border hover:border-accent/30 transition-colors shadow-sm">
                         <div className="w-8 h-8 rounded-full bg-accent/10 flex items-center justify-center flex-shrink-0">
                           <CheckCircle size={16} className="text-accent" />
