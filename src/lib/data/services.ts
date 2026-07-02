@@ -330,7 +330,7 @@ export const SERVICES: ServiceData[] = [
   {
     slug: 'service-furniture-rumah-besi',
     name: 'Service Furniture Rumah Berbahan Besi (Bed/Lemari)',
-    shortName: 'Furniture Besi',
+    shortName: 'Furniture Rumah',
     category: 'komersial',
     heroTitle: 'Service Furniture Rumah Logam / Besi',
     heroSubtitle: 'Perbaikan, pelurusan, dan pengecatan ulang ranjang tingkat besi, lemari pakaian besi, dan furniture baja ringan.',
