@@ -72,7 +72,6 @@ export default function TestimoniSection() {
                 </div>
                 <div>
                   <div className="font-semibold text-primary text-sm">{testimonial.name}</div>
-                  <div className="text-muted text-xs">{testimonial.role} · {testimonial.institution}</div>
                 </div>
               </div>
             </div>
