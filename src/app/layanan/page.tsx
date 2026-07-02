@@ -10,21 +10,7 @@ export const metadata: Metadata = {
   description: 'Layanan service furniture alat kesehatan, kantor, dan komersial. 19+ jenis layanan, teknisi bersertifikasi, garansi. Fast response Jabodetabek.',
 }
 
-const getServiceImage = (slug: string) => {
-  const images: Record<string, string> = {
-    'service-ambulance': '/images/services/ambulance.png',
-    'service-bed-pasien': '/images/services/bed-pasien.png',
-    'service-furniture-hotel': '/images/services/furniture-hotel.png',
-    'service-kursi-kantor': '/images/services/kursi-kantor.png',
-    'service-meja-operasi': '/images/services/meja-operasi.png',
-    'service-meja-periksa': '/images/services/meja-periksa.png',
-    'service-nurse-station': '/images/services/nurse-station.png',
-    'service-reception-desk': '/images/services/reception-desk.png',
-    'service-sofa-cafe': '/images/services/sofa-cafe.png',
-    'service-sofa-kantor': '/images/services/sofa-kantor.png',
-  }
-  return images[slug] || '/images/services/teknisi-umum.jpeg'
-}
+
 
 export default function LayananPage() {
   const alkesServices = SERVICES.filter(s => s.category === 'alkes')
@@ -79,7 +65,7 @@ export default function LayananPage() {
                   >
                     <div className="relative w-full h-40 bg-zinc-100 dark:bg-zinc-800">
                       <Image
-                        src={getServiceImage(service.slug)}
+                        src={service.image}
                         alt={service.name}
                         fill
                         className="object-cover group-hover:scale-105 transition-transform duration-500"
