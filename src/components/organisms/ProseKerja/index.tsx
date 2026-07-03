@@ -37,7 +37,7 @@ const STEPS = [
     icon: Truck,
     title: 'Serah Terima',
     desc: 'Pesanan dapat diambil ke Bengkel atau dikirim dengan ongkos kirim tertentu (Jika perbaikan dilakukan di Bengkel).',
-    highlight: 'Logistik',
+    highlight: 'Penyelesaian',
   },
   {
     number: '06',
