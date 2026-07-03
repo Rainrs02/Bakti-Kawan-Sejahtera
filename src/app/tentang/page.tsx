@@ -112,17 +112,29 @@ export default function TentangPage() {
                 </p>
               </div>
             </div>
-            <div className="relative h-80 lg:h-[420px] rounded-3xl overflow-hidden shadow-2xl">
-              <Image
-                src="/images/team/team-photo.webp"
-                alt="Tim profesional Bakti Kawan Service"
-                fill
-                className="object-cover"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
-              <div className="absolute bottom-6 left-6 right-6">
-                <div className="text-white font-display font-bold text-lg">Tim Kami</div>
-                <div className="text-white/90 text-sm">100+ Teknisi Berpengalaman</div>
+            <div className="relative h-96 lg:h-[480px]">
+              {/* Image 1 (Old) */}
+              <div className="absolute top-0 right-0 w-3/4 h-[75%] rounded-3xl overflow-hidden shadow-2xl">
+                <Image
+                  src="/images/team/team-photo-old.webp"
+                  alt="Tim profesional Bakti Kawan Service"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+              {/* Image 2 (New) */}
+              <div className="absolute bottom-0 left-0 w-2/3 h-[65%] rounded-3xl overflow-hidden shadow-2xl border-4 border-bg z-10 hover:-translate-y-2 transition-transform duration-300">
+                <Image
+                  src="/images/team/team-photo.webp"
+                  alt="Teknisi Bakti Kawan Service"
+                  fill
+                  className="object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
+                <div className="absolute bottom-4 left-4 lg:bottom-6 lg:left-6 lg:right-6">
+                  <div className="text-white font-display font-bold text-base lg:text-lg leading-tight">Tim Kami</div>
+                  <div className="text-white/90 text-xs lg:text-sm">100+ Teknisi Berpengalaman</div>
+                </div>
               </div>
             </div>
           </div>
