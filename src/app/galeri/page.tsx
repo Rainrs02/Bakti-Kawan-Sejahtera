@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import PageLayout from '@/components/templates/PageLayout'
 import Image from 'next/image'
 import Link from 'next/link'
+import GalleryGrid from '@/components/organisms/GalleryGrid'
 import { getWADirectLink } from '@/lib/utils/whatsapp'
 import { Phone } from 'lucide-react'
 
@@ -421,30 +422,8 @@ export default function GaleriPage() {
 
       <section className="section-padding bg-bg">
         <div className="container-main">
-          <div className="masonry-grid">
-            {GALLERY_IMAGES.map((img, i) => (
-              <div key={i} className="masonry-item group relative overflow-hidden rounded-2xl cursor-pointer">
-                <div className={`relative w-full ${i % 3 === 0 ? 'h-80' : i % 3 === 1 ? 'h-56' : 'h-64'} overflow-hidden`}>
-                  <Image
-                    src={img.src}
-                    alt={img.alt}
-                    fill
-                    className="object-cover group-hover:scale-105 transition-transform duration-700"
-                    sizes="(max-width: 768px) 50vw, 25vw"
-                  />
-                  <div className="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-colors duration-300" />
-                  <div className="absolute top-3 left-3">
-                    <span className="badge badge-dark text-xs">{img.category}</span>
-                  </div>
-                  <div className="absolute inset-0 flex items-end p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <span className="text-white text-sm font-semibold">{img.alt}</span>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-
-          <div className="mt-12 text-center">
+          <GalleryGrid images={GALLERY_IMAGES} />
+<div className="mt-12 text-center">
             <p className="text-muted mb-6">Ingin furniture Anda tampil seperti ini?</p>
             <div className="flex flex-wrap justify-center gap-4">
               <Link href="/konsultasi" className="btn btn-primary btn-lg glow-orange">
