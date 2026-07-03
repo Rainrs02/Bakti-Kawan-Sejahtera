@@ -54,13 +54,16 @@ export default function TentangPage() {
               </div>
             </div>
             {/* Logo BKS Prominent */}
-            <div className="w-48 h-48 lg:w-72 lg:h-72 relative shrink-0 drop-shadow-2xl opacity-90 hover:opacity-100 transition-opacity">
-              <div className="absolute inset-0 bg-white/5 blur-2xl rounded-full" />
+            <div className="w-56 h-56 lg:w-80 lg:h-80 relative shrink-0 drop-shadow-[0_0_30px_rgba(255,255,255,0.1)] transition-transform hover:scale-105 duration-500">
+              {/* Core light for dark logo visibility */}
+              <div className="absolute inset-0 bg-white/30 blur-[60px] rounded-full scale-75" />
+              {/* Outer orange aura */}
+              <div className="absolute inset-0 bg-accent/20 blur-[80px] rounded-full scale-110" />
               <Image
                 src="/images/logo/logo.webp"
                 alt="Logo Bakti Kawan Service"
                 fill
-                className="object-contain"
+                className="object-contain relative z-10 drop-shadow-xl"
                 priority
               />
             </div>
