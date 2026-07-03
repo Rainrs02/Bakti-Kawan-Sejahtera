@@ -8,8 +8,8 @@ import {
 
 const FEATURES = [
   { icon: Award, title: 'Teknisi Berpengalaman', desc: 'Terlatih & berpengalaman 10+ tahun di bidangnya' },
-  { icon: Package, title: 'Spare Part OEM', desc: 'Suku cadang original berkualitas tinggi' },
-  { icon: Shield, title: 'Bergaransi', desc: 'Garansi 3 bulan untuk setiap pekerjaan' },
+  { icon: Package, title: 'Standar & Premium', desc: 'Suku cadang original berkualitas tinggi' },
+  { icon: Shield, title: 'Bergaransi', desc: 'Garansi 3 bulan konstruksi, 1 bulan sparepart' },
   { icon: Clock, title: 'Fast Response', desc: 'Respons cepat dalam 15 menit, penjadwalan diagnosis cepat' },
   { icon: Wrench, title: '20+ Tahun Pengalaman', desc: 'Dipercaya ribuan fasilitas kesehatan & korporat' },
   { icon: Headphones, title: 'Support 24/7', desc: 'Tim kami siap membantu kapan pun Anda butuhkan' },
@@ -58,21 +58,34 @@ export default function WhyUsSection() {
 
           {/* Center: Team photo + quote */}
           <div className="lg:col-span-1 flex flex-col gap-4">
-            <div className="relative rounded-3xl overflow-hidden flex-1 min-h-64">
-              <Image
-                src="/images/team/team-photo.webp"
-                alt="Tim teknisi profesional Bakti Kawan Service"
-                fill
-                className="object-cover"
-                sizes="(max-width: 768px) 100vw, 33vw"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
-              <div className="absolute bottom-4 left-4 right-4">
-                <div className="text-white font-display font-bold text-lg leading-tight">
-                  Tim Profesional Kami
-                </div>
-                <div className="text-white/90 text-sm mt-1">
-                  150+ teknisi berpengalaman siap melayani
+            <div className="relative flex-1 min-h-[320px]">
+              {/* Image 1 (Old) */}
+              <div className="absolute top-0 right-0 w-3/4 h-[75%] rounded-3xl overflow-hidden shadow-lg border border-border/20">
+                <Image
+                  src="/images/team/team-photo-old.webp"
+                  alt="Tim teknisi profesional Bakti Kawan Service"
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 768px) 100vw, 33vw"
+                />
+              </div>
+              {/* Image 2 (New) */}
+              <div className="absolute bottom-0 left-0 w-2/3 h-[65%] rounded-3xl overflow-hidden shadow-xl border-4 border-bg z-10 hover:-translate-y-1 transition-transform duration-300">
+                <Image
+                  src="/images/team/team-photo.webp"
+                  alt="Tim profesional Bakti Kawan Service"
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 768px) 100vw, 33vw"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
+                <div className="absolute bottom-3 left-3 right-3 lg:bottom-4 lg:left-4 lg:right-4">
+                  <div className="text-white font-display font-bold text-sm lg:text-base leading-tight">
+                    Tim Profesional Kami
+                  </div>
+                  <div className="text-white/90 text-[10px] lg:text-xs mt-0.5">
+                    150+ teknisi berpengalaman
+                  </div>
                 </div>
               </div>
             </div>
