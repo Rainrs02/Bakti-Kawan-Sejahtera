@@ -1,6 +1,6 @@
 'use client'
 
-import { Phone, MapPin, ClipboardList, Wrench, ShieldCheck, Truck } from 'lucide-react'
+import { Phone, Search, ClipboardList, Wrench, ShieldCheck, Truck } from 'lucide-react'
 import Link from 'next/link'
 
 const STEPS = [
@@ -13,9 +13,9 @@ const STEPS = [
   },
   {
     number: '02',
-    icon: MapPin,
-    title: 'Diagnosis Kerusakan',
-    desc: 'Diagnosis kerusakan secara daring (via Video/WA) atau survei langsung ke lokasi Anda dengan biaya yang disepakati.',
+    icon: Search,
+    title: 'Analisis Kerusakan',
+    desc: 'Analisis kerusakan secara daring (via Video/WA) atau survei langsung ke lokasi Anda dengan biaya yang disepakati.',
     highlight: 'Respon Cepat',
   },
   {
