@@ -15,7 +15,7 @@ const COVERAGE_FEATURES = [
   {
     icon: Zap,
     title: 'Fast Response Jabodetabek',
-    desc: 'Diagnosis cepat & fleksibel, respons dalam 15 menit, teknisi siap seharian',
+    desc: 'Diagnosis cepat & fleksibel, respons cepat, teknisi siap seharian',
     color: 'text-accent',
     bg: 'bg-accent/10',
   },

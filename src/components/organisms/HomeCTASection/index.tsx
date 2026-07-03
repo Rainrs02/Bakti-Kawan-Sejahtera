@@ -24,7 +24,7 @@ export default function HomeCTASection() {
 
         <h2 className="text-display-xl text-white mb-4 max-w-3xl mx-auto">
           Furniture Anda Bermasalah?{' '}
-          <span className="gradient-text">Kami Siap dalam 15 Menit.</span>
+          <span className="gradient-text">Kami Siap Merespons Cepat.</span>
         </h2>
 
         <p className="text-white/90 text-xl mb-10 max-w-2xl mx-auto leading-relaxed">

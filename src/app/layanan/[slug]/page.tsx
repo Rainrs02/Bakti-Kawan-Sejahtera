@@ -321,7 +321,7 @@ export default async function ServiceDetailPage({ params }: ServicePageProps) {
                 <div className="mt-8 pt-8 border-t border-white/10 space-y-4 relative z-10">
                   {[
                     { icon: Shield, text: 'Garansi 3 bulan Tertulis' },
-                    { icon: Clock, text: 'Respons Cepat < 15 Menit' },
+                    { icon: Clock, text: 'Respons Sangat Cepat' },
                     { icon: Wrench, text: 'Teknisi Berpengalaman Resmi' },
                   ].map(({ icon: Icon, text }) => (
                     <div key={text} className="flex items-center gap-3 text-sm text-white/90">

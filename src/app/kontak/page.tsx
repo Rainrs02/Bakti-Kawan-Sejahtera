@@ -20,7 +20,7 @@ export default function KontakPage() {
             <span className="gradient-text">Membantu Anda</span>
           </h1>
           <p className="text-secondary text-xl max-w-2xl">
-            Pilih cara menghubungi yang paling nyaman untuk Anda. Tim kami siap merespons dalam 15 menit.
+            Pilih cara menghubungi yang paling nyaman untuk Anda. Tim kami siap merespons dengan cepat.
           </p>
         </div>
       </div>

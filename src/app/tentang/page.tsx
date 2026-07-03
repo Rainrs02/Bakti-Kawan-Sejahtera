@@ -20,7 +20,7 @@ const TIMELINE = [
 
 const VALUES = [
   { icon: '🎯', title: 'Profesional', desc: 'Setiap pekerjaan kami tangani dengan standar tertinggi dan keahlian yang teruji.' },
-  { icon: '⚡', title: 'Responsif', desc: 'Respons cepat dalam 15 menit. Kami memahami bahwa waktu adalah hal krusial.' },
+  { icon: '⚡', title: 'Responsif', desc: 'Respons cepat. Kami memahami bahwa waktu adalah hal krusial.' },
   { icon: '🛡️', title: 'Terpercaya', desc: 'Garansi di setiap pekerjaan. Kepuasan Anda adalah komitmen kami.' },
   { icon: '💎', title: 'Berkualitas', desc: 'Spare part standar & premium untuk hasil perbaikan yang tahan lama.' },
   { icon: '🤝', title: 'Integritas', desc: 'Harga transparan, tidak ada biaya tersembunyi. Kejujuran adalah fondasi kami.' },

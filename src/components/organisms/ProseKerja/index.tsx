@@ -8,8 +8,8 @@ const STEPS = [
     number: '01',
     icon: Phone,
     title: 'Hubungi Kami',
-    desc: 'Hubungi via WhatsApp, telepon, atau form konsultasi. Tim kami merespons dalam 15 menit.',
-    highlight: 'Respons 15 menit',
+    desc: 'Hubungi via WhatsApp, telepon, atau form konsultasi. Tim kami merespons dengan cepat.',
+    highlight: 'Respon Cepat',
   },
   {
     number: '02',
