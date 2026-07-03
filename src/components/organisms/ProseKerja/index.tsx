@@ -35,15 +35,15 @@ const STEPS = [
   {
     number: '05',
     icon: Truck,
-    title: 'Pengambilan / Pengiriman',
+    title: 'Serah Terima',
     desc: 'Pesanan dapat diambil ke Bengkel atau dikirim dengan ongkos kirim tertentu (Jika perbaikan dilakukan di Bengkel).',
     highlight: 'Logistik',
   },
   {
     number: '06',
     icon: ShieldCheck,
-    title: 'Serah Terima & Garansi',
-    desc: 'Serah terima dengan garansi 3 bulan konstruksi dan Struktur Produk dan 1 bulan sparepart Produk.',
+    title: 'Garansi',
+    desc: 'Garansi 3 bulan konstruksi dan Struktur Produk dan 1 bulan sparepart Produk.',
     highlight: 'Garansi 1-3 Bulan',
   },
 ]
