@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Image from 'next/image'
 import PageLayout from '@/components/templates/PageLayout'
 import Link from 'next/link'
 import { Calendar, Clock, Tag, ArrowRight } from 'lucide-react'
@@ -32,14 +33,15 @@ export default function BlogPage() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {posts.map((post) => (
               <Link key={post.slug} href={`/blog/${post.slug}`} className="card group flex flex-col">
-                <div className="h-48 bg-gradient-to-br from-bg-section to-bg-darker rounded-t-2xl flex items-center justify-center p-6 overflow-hidden relative">
-                  <div
-                    className="absolute inset-0 opacity-10"
-                    style={{
-                      backgroundImage: 'radial-gradient(circle at 30% 70%, #F97316 0%, transparent 60%)',
-                    }}
+                <div className="h-48 bg-bg-darker rounded-t-2xl overflow-hidden relative">
+                  <Image
+                    src={post.coverImage}
+                    alt={post.title}
+                    fill
+                    className="object-cover group-hover:scale-105 transition-transform duration-500"
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                   />
-                  <div className="text-4xl">📰</div>
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                 </div>
                 <div className="p-6 flex flex-col flex-1">
                   <div className="flex items-center gap-3 mb-3">

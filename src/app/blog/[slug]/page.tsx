@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
+import Image from 'next/image'
 import PageLayout from '@/components/templates/PageLayout'
 import Link from 'next/link'
 import { Calendar, Clock, ArrowLeft, Tag } from 'lucide-react'
@@ -76,7 +77,18 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
             </span>
           </div>
           <h1 className="text-display-lg text-primary mb-4">{post.title}</h1>
-          <p className="text-secondary text-xl leading-relaxed">{post.excerpt}</p>
+          <p className="text-secondary text-xl leading-relaxed mb-8">{post.excerpt}</p>
+          
+          <div className="relative w-full h-64 md:h-[400px] rounded-3xl overflow-hidden shadow-xl border border-border/50 mt-8">
+            <Image
+              src={post.coverImage}
+              alt={post.title}
+              fill
+              className="object-cover"
+              priority
+              sizes="(max-width: 1200px) 100vw, 1200px"
+            />
+          </div>
         </div>
       </div>
 
