@@ -32,7 +32,7 @@ ${data.pesan}
 
 ━━━━━━━━━━━━━━━━━━━━━━
 _Pesan ini dikirim otomatis dari servicealkes.com_
-_Mohon balas pesan ini untuk konfirmasi jadwal survey_`
+_Mohon balas pesan ini untuk konfirmasi jadwal_`
 
   return encodeURIComponent(message)
 }

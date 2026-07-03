@@ -104,7 +104,7 @@ export default function ProseKerja() {
             Mulai Proses Sekarang →
           </Link>
           <p className="text-white/90 text-sm mt-3">
-            Gratis konsultasi. Gratis survey. Tanpa kewajiban.
+            Gratis konsultasi awal. Tanpa kewajiban.
           </p>
         </div>
       </div>

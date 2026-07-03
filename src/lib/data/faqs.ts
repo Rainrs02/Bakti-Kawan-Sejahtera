@@ -38,7 +38,7 @@ export const FAQS: FAQItem[] = [
     id: '5',
     category: 'Wilayah Layanan',
     question: 'Wilayah mana saja yang dilayani Bakti Kawan Service?',
-    answer: 'Kami berbasis di Jabodetabek (Jakarta, Bogor, Depok, Tangerang, Bekasi) dengan fast response dan penjadwalan survey cepat. Kami juga melayani seluruh Indonesia dengan sistem koordinasi pengiriman atau kunjungan lapangan.',
+    answer: 'Kami berbasis di Jabodetabek (Jakarta, Bogor, Depok, Tangerang, Bekasi) dengan fast response dan penjadwalan diagnosis cepat. Kami juga melayani seluruh Indonesia dengan sistem koordinasi pengiriman atau kunjungan lapangan.',
   },
   {
     id: '6',

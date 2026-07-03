@@ -15,14 +15,14 @@ const COVERAGE_FEATURES = [
   {
     icon: Zap,
     title: 'Fast Response Jabodetabek',
-    desc: 'Survey cepat & fleksibel, respons dalam 15 menit, teknisi siap seharian',
+    desc: 'Diagnosis cepat & fleksibel, respons dalam 15 menit, teknisi siap seharian',
     color: 'text-accent',
     bg: 'bg-accent/10',
   },
   {
     icon: Globe,
     title: 'Cakupan Nasional',
-    desc: 'Survey online, koordinasi mitra teknisi lokal di 34 provinsi',
+    desc: 'Diagnosis online, koordinasi mitra teknisi lokal di 34 provinsi',
     color: 'text-blue-500',
     bg: 'bg-blue-50',
   },

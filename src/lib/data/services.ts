@@ -3,7 +3,7 @@ import { ServiceData, CategoryPageData } from '@/types/service';
 
 const DEFAULT_PROCESS = [
   { step: 1, title: 'Konsultasi 24 Jam', description: 'Diskusi awal keluhan via WA/telepon.', icon: 'Phone' },
-  { step: 2, title: 'Survey Lapangan', description: 'Kunjungan teknisi untuk diagnosa masalah secara akurat di lokasi.', icon: 'MapPin' },
+  { step: 2, title: 'Diagnosis Kerusakan', description: 'Diagnosis online (via Video/WA) atau kunjungan teknisi untuk analisa akurat.', icon: 'MapPin' },
   { step: 3, title: 'Estimasi Biaya', description: 'Pemberian penawaran harga transparan berdasarkan tingkat kerusakan dan kebutuhan spare part.', icon: 'Calculator' },
   { step: 4, title: 'Penjadwalan', description: 'Penentuan waktu pengerjaan yang disesuaikan dengan jadwal operasional klien.', icon: 'Calendar' },
   { step: 5, title: 'Proses Pengerjaan', description: 'Eksekusi perbaikan oleh teknisi berpengalaman sesuai standar prosedur operasi.', icon: 'Wrench' },
@@ -587,7 +587,7 @@ export const CATEGORY_PAGES_DATA: CategoryPageData[] = [
     metaTitle: 'Service & Reupholstery Furniture Kantor | Bakti Kawan Service',
     metaDescription: 'Jasa perbaikan dan ganti kulit sofa lobi, kursi kantor hidrolik, filing cabinet, meja rapat HPL/kayu. Hemat biaya operasional 40-60% dengan hasil bergaransi.',
     customServiceTitle: 'Memiliki Furniture Kantor Khusus atau Volume Besar?',
-    customServiceDescription: 'Kami menangani service kustom massal untuk furniture kantor khusus lainnya (seperti partisi sekat kubikal workstation, kursi auditorium lipat, Mobile File/Roll O\'pack logam, credenza direksi, dll). Kami menyediakan layanan survey lapangan langsung ke kantor Anda di wilayah Jabodetabek.'
+    customServiceDescription: 'Kami menangani service kustom massal untuk furniture kantor khusus lainnya (seperti partisi sekat kubikal workstation, kursi auditorium lipat, Mobile File/Roll O\'pack logam, credenza direksi, dll). Kami menyediakan layanan diagnosis kerusakan untuk kantor Anda di wilayah Jabodetabek.'
   },
   {
     id: 'komersial',

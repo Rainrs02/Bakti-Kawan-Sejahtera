@@ -42,7 +42,7 @@ Jika Anda mengutamakan **kemudahan perawatan maksimal**, pilihlah *Synthetic Lea
 
 Apakah sofa restoran Anda saat ini sudah kusam, sobek, atau penuh noda membandel? Anda tidak perlu membeli baru. **PT Bakti Kawan Service** menyediakan layanan *reupholstery* (ganti kulit sofa) dengan ratusan katalog material *stain-resistant* terbaik khusus untuk bisnis kuliner.
 
-[Hubungi tim kami untuk survey gratis ke lokasi Anda →](/konsultasi)
+[Hubungi tim kami untuk konsultasi gratis →](/konsultasi)
 `,
     coverImage: '/images/blog/blog-material-sofa.webp',
     category: 'Furniture Komersial',
@@ -327,9 +327,9 @@ Mendaur ulang rangka sofa yang masih kokoh sangat mendukung program *Go Green* p
 - **Microfiber Leather:** Terasa seperti kulit asli, lebih sejuk, dan sangat tahan goresan.
 - **Kain Poliester Water-Repellent:** Tampilan *matte* yang elegan ala Skandinavia namun cairan akan menggelinding jatuh seperti di daun talas.
 
-Jangan biarkan sofa rusak merusak citra perusahaan. Hubungi **PT Bakti Kawan Service** untuk konsultasi gratis dan *survey* ke kantor Anda. Kami akan membawakan sampel bahan premium terbaik langsung ke meja Anda!
+Jangan biarkan sofa rusak merusak citra perusahaan. Hubungi **PT Bakti Kawan Service** untuk konsultasi gratis. Kami akan membawakan sampel bahan premium terbaik langsung ke meja Anda!
 
-[Jadwalkan survey lokasi dengan tim kami →](/konsultasi)
+[Jadwalkan diagnosis dengan tim kami →](/konsultasi)
 `,
     coverImage: '/images/blog/blog-sofa-kantor.webp',
     category: 'Furniture Kantor',
@@ -404,7 +404,7 @@ Jangan tunda perbaikan jika Anda menemukan tanda-tanda berikut:
 
 Saat melakukan perbaikan, selalu gunakan spare part berkualitas:
 
-- **OEM (Original Equipment Manufacturer)**: Disarankan untuk komponen kritis seperti sistem hydraulic dan rem
+- **Sparepart Premium**: Disarankan untuk komponen kritis seperti sistem hydraulic dan rem
 - **Aftermarket Premium**: Bisa digunakan untuk komponen non-kritis dengan syarat kualitas terjamin
 - **Hindari spare part KW**: Berhemat di spare part berarti risiko kerusakan lebih cepat dan keselamatan pasien terkompromikan
 
@@ -513,7 +513,7 @@ Pilihan material untuk reupholstery sangat luas — dari fabric ekonomis hingga 
 Reupholstery adalah pilihan yang lebih ramah lingkungan. Mengurangi limbah furniture dan konsumsi sumber daya untuk produksi baru.
 
 ### 4. Garansi
-Pengerjaan reupholstery profesional biasanya dilengkapi garansi 3 bulan untuk jahitan dan material.
+Pengerjaan reupholstery profesional biasanya dilengkapi garansi 3 bulan konstruksi dan 1 bulan material/sparepart.
 
 ## Tips Memilih Penyedia Reupholstery
 
@@ -525,7 +525,7 @@ Saat memilih jasa reupholstery, perhatikan:
 4. **Pengalaman** — sudah berapa lama beroperasi?
 5. **Kejelasan harga** — apakah penawaran transparan dan detail?
 
-**PT Bakti Kawan Service** menyediakan layanan reupholstery sofa kantor dan komersial dengan ratusan pilihan material, pengerjaan oleh jahit berpengalaman, dan garansi 3 bulan. Konsultasi material sample tersedia gratis.
+**PT Bakti Kawan Service** menyediakan layanan reupholstery sofa kantor dan komersial dengan ratusan pilihan material, pengerjaan oleh jahit berpengalaman, dan garansi 3 bulan konstruksi dan 1 bulan sparepart. Konsultasi material sample tersedia gratis.
 
 [Konsultasi gratis sekarang →](/konsultasi)
 

@@ -10,7 +10,7 @@ const FEATURES = [
   { icon: Award, title: 'Teknisi Berpengalaman', desc: 'Terlatih & berpengalaman 10+ tahun di bidangnya' },
   { icon: Package, title: 'Spare Part OEM', desc: 'Suku cadang original berkualitas tinggi' },
   { icon: Shield, title: 'Bergaransi', desc: 'Garansi 3 bulan untuk setiap pekerjaan' },
-  { icon: Clock, title: 'Fast Response', desc: 'Respons cepat dalam 15 menit, penjadwalan survey cepat' },
+  { icon: Clock, title: 'Fast Response', desc: 'Respons cepat dalam 15 menit, penjadwalan diagnosis cepat' },
   { icon: Wrench, title: '20+ Tahun Pengalaman', desc: 'Dipercaya ribuan fasilitas kesehatan & korporat' },
   { icon: Headphones, title: 'Support 24/7', desc: 'Tim kami siap membantu kapan pun Anda butuhkan' },
 ]

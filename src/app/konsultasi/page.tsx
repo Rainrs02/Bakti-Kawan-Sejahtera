@@ -79,7 +79,7 @@ export default function KonsultasiPage() {
                 <ul className="space-y-2">
                   {[
                     'Konsultasi 24 jam via WA/Telepon',
-                    'Survey lapangan',
+                    'Diagnosis Kerusakan',
                     'Estimasi harga transparan',
                     'Tanpa kewajiban apapun',
                     'Respons dalam 15 menit',
