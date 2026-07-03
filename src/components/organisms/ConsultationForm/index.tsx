@@ -227,20 +227,17 @@ export default function ConsultationForm({ initialCategory }: ConsultationFormPr
         {errors.pesan && <p className="form-error">{errors.pesan.message}</p>}
       </div>
 
-      {/* Foto Upload */}
-      <div className="form-group">
-        <label className="form-label" htmlFor="foto">
-          Upload Foto Kerusakan <span className="text-muted font-normal">(Opsional)</span>
-        </label>
-        <label
-          htmlFor="foto"
-          className="flex flex-col items-center justify-center w-full h-32 rounded-xl border-2 border-dashed border-border hover:border-accent/40 bg-bg-section cursor-pointer transition-colors group"
-        >
-          <Upload size={24} className="text-muted group-hover:text-accent mb-2 transition-colors" />
-          <span className="text-sm text-secondary">Klik atau drag & drop foto di sini</span>
-          <span className="text-xs text-muted mt-1">PNG, JPG, WEBP (max 5MB)</span>
-          <input id="foto" type="file" accept="image/*" multiple className="hidden" {...register('foto')} />
-        </label>
+      {/* Persiapan Foto/Video Card */}
+      <div className="p-4 rounded-xl bg-accent-light border border-accent/20 flex gap-3 items-start">
+        <div className="w-8 h-8 rounded-full bg-accent/20 flex items-center justify-center shrink-0 mt-0.5">
+          <span className="text-accent text-sm">📸</span>
+        </div>
+        <div>
+          <h4 className="text-primary font-bold text-sm mb-1">Harap siapkan Foto & Video Kerusakan</h4>
+          <p className="text-secondary text-sm leading-relaxed">
+            Untuk mempercepat analisa tim kami, siapkan foto/video detail bagian yang rusak. Anda dapat mengirimkannya langsung melalui WhatsApp setelah mengklik tombol di bawah.
+          </p>
+        </div>
       </div>
 
       {/* Submit */}
