@@ -228,16 +228,13 @@ export default function ConsultationForm({ initialCategory }: ConsultationFormPr
       </div>
 
       {/* Persiapan Foto/Video Card */}
-      <div className="p-4 rounded-xl bg-accent-light border border-accent/20 flex gap-3 items-start">
-        <div className="w-8 h-8 rounded-full bg-accent/20 flex items-center justify-center shrink-0 mt-0.5">
-          <span className="text-accent text-sm">📸</span>
+      <div className="p-5 rounded-xl bg-accent-light border border-accent/30 flex items-center gap-4 text-left">
+        <div className="w-12 h-12 rounded-full bg-accent/20 flex items-center justify-center shrink-0">
+          <span className="text-2xl">📸</span>
         </div>
-        <div>
-          <h4 className="text-primary font-bold text-sm mb-1">Harap siapkan Foto & Video Kerusakan</h4>
-          <p className="text-secondary text-sm leading-relaxed">
-            Untuk mempercepat analisa tim kami, siapkan foto/video detail bagian yang rusak. Anda dapat mengirimkannya langsung melalui WhatsApp setelah mengklik tombol di bawah.
-          </p>
-        </div>
+        <h4 className="text-primary font-bold text-base leading-snug">
+          Harap siapkan Foto & Video Kerusakan kepada Admin untuk Analisa Detail Kerusakan.
+        </h4>
       </div>
 
       {/* Submit */}

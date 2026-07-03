@@ -15,7 +15,7 @@ const STEPS = [
     number: '02',
     icon: MapPin,
     title: 'Diagnosis Kerusakan',
-    desc: 'Diagnosis kerusakan secara daring (via Video/WA) atau survei langsung ke lokasi Anda.',
+    desc: 'Diagnosis kerusakan secara daring (via Video/WA) atau survei langsung ke lokasi Anda dengan biaya yang disepakati.',
     highlight: 'Respon Cepat',
   },
   {
@@ -35,8 +35,8 @@ const STEPS = [
   {
     number: '05',
     icon: ShieldCheck,
-    title: 'Bergaransi',
-    desc: 'Serah terima dengan garansi 3 bulan konstruksi dan 1 bulan sparepart.',
+    title: 'Serah Terima & Garansi',
+    desc: 'Pesanan dapat diambil ke Bengkel atau dikirim dengan ongkos kirim tertentu. Serah terima dengan garansi 3 bulan konstruksi dan Struktur Produk dan 1 bulan sparepart Produk.',
     highlight: 'Garansi 1-3 Bulan',
   },
 ]
