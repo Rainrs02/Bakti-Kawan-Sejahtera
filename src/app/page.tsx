@@ -26,7 +26,7 @@ export default function HomePage() {
       <ProseKerja />
       <GalleryPreview />
       <TestimoniSection />
-      <PartnerSection />
+      {/* <PartnerSection /> */}
       <HomeCTASection />
     </PageLayout>
   )
