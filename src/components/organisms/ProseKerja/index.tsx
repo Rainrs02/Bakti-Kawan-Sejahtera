@@ -1,6 +1,6 @@
 'use client'
 
-import { Phone, MapPin, ClipboardList, Wrench, ShieldCheck } from 'lucide-react'
+import { Phone, MapPin, ClipboardList, Wrench, ShieldCheck, Truck } from 'lucide-react'
 import Link from 'next/link'
 
 const STEPS = [
@@ -34,9 +34,16 @@ const STEPS = [
   },
   {
     number: '05',
+    icon: Truck,
+    title: 'Pengambilan / Pengiriman',
+    desc: 'Pesanan dapat diambil ke Bengkel atau dikirim dengan ongkos kirim tertentu (Jika perbaikan dilakukan di Bengkel).',
+    highlight: 'Logistik',
+  },
+  {
+    number: '06',
     icon: ShieldCheck,
     title: 'Serah Terima & Garansi',
-    desc: 'Pesanan dapat diambil ke Bengkel atau dikirim dengan ongkos kirim tertentu. Serah terima dengan garansi 3 bulan konstruksi dan Struktur Produk dan 1 bulan sparepart Produk.',
+    desc: 'Serah terima dengan garansi 3 bulan konstruksi dan Struktur Produk dan 1 bulan sparepart Produk.',
     highlight: 'Garansi 1-3 Bulan',
   },
 ]
@@ -64,7 +71,7 @@ export default function ProseKerja() {
         </div>
 
         {/* Steps — Horizontal scroll on mobile, grid on desktop */}
-        <div className="grid grid-cols-1 md:grid-cols-5 gap-6 md:gap-4 relative">
+        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-6 md:gap-4 relative">
           {/* Connector line (desktop) */}
           <div className="hidden md:block absolute top-10 left-[10%] right-[10%] h-px bg-gradient-to-r from-transparent via-accent/40 to-transparent z-0" />
 
