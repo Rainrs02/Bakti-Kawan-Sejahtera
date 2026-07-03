@@ -2,7 +2,7 @@
 import type { ConsultationFormData } from '@/types/consultation'
 
 // Nomor WA Admin (dummy — ganti dengan nomor asli)
-export const WA_ADMIN_NUMBER = '6281200000001'
+export const WA_ADMIN_NUMBER = '6285134353440'
 
 export function generateWAMessage(data: ConsultationFormData): string {
   const selectedServices = data.jenisLayanan || []

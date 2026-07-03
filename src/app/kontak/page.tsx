@@ -33,7 +33,7 @@ export default function KontakPage() {
                 {
                   icon: Phone,
                   label: 'WhatsApp (Direkomendasikan)',
-                  value: '+62 812 0000 0001',
+                  value: '+62 851 3435 3440',
                   desc: 'Respons tercepat. Kirim foto kerusakan langsung via WA.',
                   href: getWADirectLink(),
                   cta: 'Buka WhatsApp',
@@ -42,7 +42,7 @@ export default function KontakPage() {
                 {
                   icon: Phone,
                   label: 'Telepon',
-                  value: '+62 812 0000 0001',
+                  value: '+62 851 3435 3440',
                   desc: 'Senin–Jumat 08.00–17.00, Sabtu 08.00–14.00',
                   href: `tel:${WA_ADMIN_NUMBER}`,
                   cta: 'Telepon Sekarang',

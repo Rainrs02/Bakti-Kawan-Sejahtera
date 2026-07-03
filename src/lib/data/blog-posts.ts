@@ -3,6 +3,212 @@ import type { BlogPost } from '@/types/blog'
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'panduan-memilih-material-kain-tahan-noda-sofa-restoran',
+    title: 'Panduan Memilih Material Sofa Restoran yang Tahan Noda & Mudah Dibersihkan',
+    excerpt: 'Jangan salah pilih material! Kenali jenis-jenis kain pelapis sofa komersial yang anti-air, tahan noda makanan, dan awet digunakan untuk restoran ber-traffic tinggi.',
+    content: `
+# Panduan Memilih Material Sofa Restoran yang Tahan Noda
+
+Bagi pemilik bisnis restoran dan cafe, memilih *furniture* bukan sekadar urusan estetika. Kepraktisan dan daya tahan (durability) adalah faktor yang sama pentingnya. Sofa booth dan kursi makan (dining chair) adalah elemen interior yang paling rentan terhadap noda tumpahan kuah, minyak, saus, hingga minuman berwarna pekat seperti kopi dan wine.
+
+Salah memilih material pelapis (*upholstery*) bisa berakibat pada biaya pemeliharaan yang membengkak, bau tidak sedap di area makan, dan tampilan restoran yang terkesan jorok. 
+
+Berikut adalah panduan dari ahli kami dalam memilih material sofa komersial yang tepat:
+
+## 1. Kulit Sintetis (Synthetic Leather / Oscar)
+Ini adalah pilihan paling populer dan aman untuk bisnis F&B. 
+- **Kelebihan:** Sangat mudah dibersihkan. Cukup dilap menggunakan kain *microfiber* basah, noda minyak dan saus akan langsung hilang. Tidak menyerap cairan sehingga bebas bau apek.
+- **Kekurangan:** Bisa terasa panas jika restoran Anda *semi-outdoor* atau tidak menggunakan AC sentral yang dingin. Rentan terkelupas (peeling) jika sering terkena paparan sinar matahari langsung atau dibersihkan dengan bahan kimia keras.
+- **Tips:** Pilih grade kulit sintetis *heavy duty* atau *contract grade* yang dirancang khusus untuk komersial (tahan gesekan tinggi).
+
+## 2. Microfiber
+Microfiber adalah bahan sintetis dari campuran poliester dan nilon yang ditenun sangat rapat.
+- **Kelebihan:** Teksturnya selembut *suede* atau beludru, memberikan kesan mewah yang hangat. Karena tenunannya sangat rapat, cairan akan tertahan di permukaan (*water-repellent*) selama beberapa saat sebelum meresap, memberi Anda waktu untuk segera mengelapnya.
+- **Kekurangan:** Debu dan remah makanan kering lebih mudah menempel dibanding kulit sintetis. Perlu divakum secara rutin.
+
+## 3. Kain Pelapis High-Performance (Treated Fabric)
+Ini adalah kain (fabric) biasa yang telah diberikan lapisan pelindung kimia pabrikan (seperti Teflon atau Scotchgard).
+- **Kelebihan:** Menawarkan estetika kain yang bertekstur (seperti kanvas atau linen) namun memiliki kemampuan menolak air dan noda. Sangat cocok untuk restoran *fine dining* yang menginginkan nuansa *homey* dan elegan.
+- **Kekurangan:** Lapisan pelindung (*coating*) ini bisa luntur seiring waktu pencucian dan pemakaian. Perlu di-*recoat* secara berkala.
+
+## 4. Vinyl Komersial
+Bahan vinyl sering digunakan di restoran cepat saji (fast food) atau diner klasik.
+- **Kelebihan:** Ekstrem dalam menahan noda dan air. Sangat awet, anti-bakteri, dan tahan terhadap cairan pembersih disinfektan level rumah sakit.
+- **Kekurangan:** Tampilannya seringkali kurang mewah dan terasa kaku/licin saat diduduki.
+
+## Kesimpulan
+
+Jika Anda mengutamakan **kemudahan perawatan maksimal**, pilihlah *Synthetic Leather* kelas komersial. Namun, jika Anda mencari **estetika mewah tanpa mengorbankan durabilitas**, *Treated Fabric* atau *Microfiber* adalah pilihan investasi yang tepat.
+
+Apakah sofa restoran Anda saat ini sudah kusam, sobek, atau penuh noda membandel? Anda tidak perlu membeli baru. **PT Bakti Kawan Service** menyediakan layanan *reupholstery* (ganti kulit sofa) dengan ratusan katalog material *stain-resistant* terbaik khusus untuk bisnis kuliner.
+
+[Hubungi tim kami untuk survey gratis ke lokasi Anda →](/konsultasi)
+`,
+    coverImage: '/images/blog/blog-material-sofa.webp',
+    category: 'Furniture Komersial',
+    tags: ["sofa restoran","material sofa","stain resistant","reupholstery","furniture cafe"],
+    author: {
+      name: 'Tim Bakti Kawan Service',
+      avatar: '/images/team/author-default.webp',
+      role: 'Spesialis Furniture Komersial',
+    },
+    publishedAt: '2024-04-10',
+    readingTime: 5,
+    metaTitle: 'Tips Memilih Material Kain Anti Noda untuk Sofa Restoran | BKS',
+    metaDescription: 'Kenali jenis bahan pelapis sofa (upholstery) yang tahan noda, anti-air, dan mudah dibersihkan untuk cafe atau restoran Anda. Hemat biaya maintenance!',
+  },
+  {
+    slug: 'pentingnya-kalibrasi-perbaikan-roda-troli-emergency-igd',
+    title: 'Pentingnya Perbaikan dan Kalibrasi Troli Emergency di Ruang IGD',
+    excerpt: 'Di Ruang IGD, setiap detik sangat berharga. Troli emergency dengan laci macet atau roda seret bisa berakibat fatal. Ini alasan mengapa alkes ini butuh perhatian ekstra.',
+    content: `
+# Pentingnya Perbaikan Troli Emergency di Ruang IGD
+
+Instalasi Gawat Darurat (IGD) adalah garis depan pertahanan rumah sakit. Dalam situasi henti jantung (cardiac arrest) atau trauma berat, dokter dan perawat sangat bergantung pada satu unit alat mobilitas tinggi: **Troli Emergency (Crash Cart)**.
+
+Troli ini bukan sekadar lemari penyimpanan. Ini adalah unit *life-saving* berjalan yang berisi defibrilator, tabung oksigen, obat-obatan *resuscitation*, dan instrumen kritis lainnya.
+
+## Masalah Umum pada Troli Emergency yang Sering Diabaikan
+
+Karena frekuensi penggunaannya yang ekstrem dan sering didorong dengan tergesa-gesa, troli emergency sangat rentan mengalami kerusakan mekanis:
+
+### 1. Roda Macet atau Oblak (Caster Failure)
+Ini adalah masalah paling berbahaya. Roda troli (*caster*) dirancang untuk bermanuver cepat di lorong sempit. Jika *bearing* roda berkarat akibat sering dipel dengan cairan disinfektan kuat, atau terlilit benang/rambut, troli akan sulit dibelokkan atau terasa sangat berat saat didorong. Keterlambatan beberapa detik mencapai ranjang pasien bisa berakibat hilangnya nyawa.
+
+### 2. Rel Laci Tersangkut (Jammed Drawers)
+Saat perawat membutuhkan *Epinephrine* dalam hitungan detik, laci yang macet atau anjlok dari rel (*drawer slides*) akan memicu kepanikan. Rel teleskopik seringkali bengkok akibat laci didorong terlalu keras atau menahan beban *ampul* cairan yang melampaui kapasitasnya.
+
+### 3. Sistem Penguncian Sentral (Central Lock) Rusak
+Troli emergency wajib memiliki sistem penguncian *breakaway seal* atau kunci sentral (*central locking*) yang bisa dibuka serentak. Jika mekanisme tuas internal patah, laci bisa terbuka sendiri saat didorong, menjatuhkan isinya, atau sebaliknya: tidak bisa dibuka sama sekali.
+
+## Pentingnya Preventive Maintenance Berkala
+
+Sama halnya dengan mengkalibrasi monitor pasien, komponen mekanis troli emergency wajib diservice rutin:
+- **Pembersihan dan Pelumasan Roda:** Roda *polyurethane* anti-statis harus rutin dicek rotasinya dan dilumasi dengan pelumas khusus alkes.
+- **Kalibrasi Rel Laci:** Memastikan setiap laci meluncur mulus (smooth gliding) tanpa hambatan.
+- **Pengecekan Struktur Stainless Steel:** Memastikan tidak ada pengelasan yang retak pada rangka penyangga defibrilator dan tabung oksigen.
+
+PT Bakti Kawan Service memiliki rekam jejak panjang dalam merawat, memperbaiki, dan menyuplai *spare part* (termasuk roda *medical grade*) untuk troli alkes di berbagai rumah sakit terkemuka. Jangan tunggu sampai insiden fatal terjadi.
+
+[Pastikan armada Troli Emergency Anda dalam kondisi 100% prima bersama BKS →](/konsultasi)
+`,
+    coverImage: '/images/blog/blog-troli-igd.webp',
+    category: 'Alat Kesehatan',
+    tags: ["troli emergency","crash cart","perbaikan alkes","ruang IGD","rumah sakit"],
+    author: {
+      name: 'Tim Bakti Kawan Service',
+      avatar: '/images/team/author-default.webp',
+      role: 'Teknisi Medis',
+    },
+    publishedAt: '2024-05-22',
+    readingTime: 4,
+    metaTitle: 'Pentingnya Perbaikan Troli Emergency (Crash Cart) di IGD RS',
+    metaDescription: 'Roda macet dan laci tersangkut pada troli emergency IGD bisa berakibat fatal. Ketahui pentingnya preventive maintenance komponen mekanis alkes ini.',
+  },
+  {
+    slug: 'tips-merawat-kursi-direktur-kulit-asli',
+    title: 'Tips Merawat Kursi Direktur Kulit Asli Agar Tidak Cepat Pecah',
+    excerpt: 'Kursi direktur berbahan kulit asli (genuine leather) adalah investasi mahal. Ketahui cara perawatan yang benar agar kulit tetap lentur, bebas retak, dan awet puluhan tahun.',
+    content: `
+# Tips Merawat Kursi Direktur Kulit Asli
+
+Kursi eksekutif atau kursi direktur berbahan kulit asli (*genuine leather*) memberikan prestise, kenyamanan, dan aura profesional yang tidak tergantikan di ruang kerja. Berbeda dengan kulit sintetis, kulit asli adalah material berpori (porous) yang bisa "bernapas" dan beradaptasi dengan suhu tubuh. 
+
+Namun, jika tidak dirawat dengan benar, kulit asli bisa mengering, kehilangan kelembapannya, kaku, dan akhirnya pecah-pecah (cracking). Berikut adalah panduan merawat kursi direktur kulit Anda agar tetap awet dan terlihat mewah selama puluhan tahun.
+
+## 1. Jauhkan dari Paparan Sinar Matahari Langsung
+Sinar UV adalah musuh terbesar kulit asli. Paparan sinar matahari langsung setiap hari akan mempercepat pemudaran warna dan membuat kulit menjadi sangat kering. 
+- **Tips:** Posisikan meja kerja Anda sedemikian rupa agar kursi tidak terkena sinar matahari tajam dari jendela. Gunakan tirai (*blinds*) saat siang hari.
+
+## 2. Hindari Suhu Ruangan yang Terlalu Ekstrem
+Kulit asli tidak menyukai fluktuasi suhu yang drastis. Menempatkan kursi terlalu dekat dengan semburan angin AC secara langsung (atau di dekat pemanas) akan menghilangkan minyak alami (*natural oils*) pada pori-pori kulit. 
+- **Tips:** Jaga kelembapan ruangan di angka yang ideal.
+
+## 3. Bersihkan Debu Secara Rutin (Mingguan)
+Debu dan partikel kotoran mikroskopis bertindak seperti ampelas halus saat Anda duduk dan bergesekan dengan kursi. 
+- **Tips:** Gunakan kain *microfiber* kering atau mesin vakum dengan *attachment* sikat lembut untuk membersihkan sela-sela jahitan setidaknya seminggu sekali.
+
+## 4. Gunakan Leather Conditioner (Setiap 3-6 Bulan)
+Sama seperti kulit manusia, kulit kursi juga butuh *lotion*. Ini adalah rahasia utama mencegah pecah-pecah.
+- **Tips:** Aplikasikan *leather conditioner* berkualitas tinggi (berbahan dasar *beeswax* atau minyak alami yang aman). Oleskan merata, biarkan meresap selama 15 menit, lalu gosok ringan (*buff*) menggunakan lap bersih hingga mengkilap elegan.
+
+## 5. Tangani Tumpahan Cairan Secepatnya
+Meskipun beberapa kulit asli telah dilapisi pelindung tipis (*top coat*), cairan tetap bisa meresap dan meninggalkan noda permanen (*watermark*) jika dibiarkan terlalu lama. Tepuk-tepuk (*blot*) cairan segera dengan kain kering, jangan digosok bolak-balik.
+
+## Apa yang Harus Dilakukan Jika Sudah Terlanjur Pecah dan Sobek?
+
+Kulit yang sudah retak parah tidak bisa disembuhkan kembali dengan kondisioner. Namun, Anda tidak perlu membuang kursi eksekutif bernilai puluhan juta tersebut.
+
+PT Bakti Kawan Service menyediakan layanan **Reupholstery Premium**. Kami dapat mengganti panel kulit yang rusak menggunakan *genuine leather* impor berkualitas tinggi, memperbaiki mekanisme tuas hidrolik, dan menginjeksi ulang busa penyangga lumbar (*lumbar support*). 
+
+[Kembalikan kenyamanan kursi direktur Anda bersama tim ahli kami →](/konsultasi)
+`,
+    coverImage: '/images/blog/blog-kursi-direktur.webp',
+    category: 'Furniture Kantor',
+    tags: ["kursi direktur","perawatan kulit","genuine leather","kursi kantor","reupholstery"],
+    author: {
+      name: 'Tim Bakti Kawan Service',
+      avatar: '/images/team/author-default.webp',
+      role: 'Spesialis Furniture Kantor',
+    },
+    publishedAt: '2024-06-15',
+    readingTime: 4,
+    metaTitle: 'Cara Merawat Kursi Direktur Kulit Asli Agar Tidak Retak | BKS',
+    metaDescription: 'Panduan lengkap merawat kursi kantor eksekutif berbahan genuine leather. Tips penggunaan kondisioner kulit agar lentur, awet, dan bebas pecah-pecah.',
+  },
+  {
+    slug: 'keuntungan-jasa-service-furniture-malam-hari',
+    title: 'Keuntungan Service Furniture Malam Hari (After-Hours) untuk Mencegah Downtime',
+    excerpt: 'Renovasi dan service furniture tidak harus mengganggu operasional bisnis Anda. Temukan keuntungan layanan service After-Hours dari teknisi profesional.',
+    content: `
+# Keuntungan Service Furniture Malam Hari (After-Hours)
+
+Dalam dunia bisnis komersial, baik itu hotel, rumah sakit, restoran, maupun perkantoran *start-up*, ungkapan *"Waktu adalah Uang"* sangatlah berlaku. Proses renovasi, perbaikan, atau pemeliharaan aset interior seringkali ditunda-tunda hanya karena manajemen takut mengganggu kenyamanan pelanggan dan produktivitas karyawan.
+
+Tahukah Anda bahwa ada solusi tepat untuk masalah ini? Layanan **Service After-Hours (Malam Hari)** adalah rahasia banyak perusahaan besar dalam memelihara fasilitas mereka tanpa mengorbankan operasional siang hari (*Zero Downtime*).
+
+Berikut adalah berbagai keuntungannya:
+
+## 1. Operasional Bisnis Tidak Terganggu (Zero Downtime)
+Ini adalah keuntungan paling mutlak. 
+- **Restoran & Cafe:** Anda tidak perlu menutup sebagian area *dine-in* saat jam makan siang hanya untuk memperbaiki sofa booth. Teknisi masuk saat *closing* malam, dan esok paginya saat *open gate*, sofa sudah terpasang rapi seperti baru.
+- **Perkantoran:** Suara bor, palu, dan pergerakan barang tidak akan mengganggu staf yang sedang *meeting* penting atau fokus bekerja di kubikel.
+
+## 2. Kenyamanan dan Keselamatan Pelanggan Terjaga
+Pekerjaan perbaikan mebel komersial sering melibatkan pemindahan barang berat, lem kimia, debu gergaji, dan kabel berserakan. Mengerjakannya di malam hari memastikan pelanggan, tamu hotel, atau pasien di rumah sakit tidak terpapar risiko tersandung (hazard) maupun bau bahan kimia menyengat.
+
+## 3. Pengerjaan Lebih Cepat dan Fokus
+Di luar jam operasional gedung, mobilitas teknisi menjadi jauh lebih leluasa. 
+- *Loading* barang melalui lift barang (service elevator) tidak perlu antre panjang. 
+- Area kerja lebih lapang tanpa lalu lalang pengunjung.
+Hal ini membuat teknisi bisa bekerja lebih fokus dan menyelesaikan *project* jauh lebih cepat dari estimasi waktu siang hari.
+
+## 4. Keamanan Aset Data (Bagi Perkantoran)
+Memasukkan vendor dari luar saat jam sibuk kantor seringkali menimbulkan risiko keamanan terkait privasi data, dokumen di meja, atau layar komputer staf. Perbaikan *after-hours* biasanya dilakukan dalam pengawasan terpusat oleh pihak *security* gedung, memberikan ketenangan ekstra bagi manajemen.
+
+## Layanan After-Hours Fleksibel Bersama BKS
+
+PT Bakti Kawan Service memahami betul betapa krusialnya kelancaran bisnis Anda. Kami menawarkan **Layanan Fleksibel 24/7**, termasuk opsi *Night Service / After-Hours* tanpa mengganggu *cash flow* operasional Anda. 
+
+Baik itu *reupholstery* massal kursi teater, service partisi ruang rapat, maupun perbaikan ranjang rumah sakit. Tim kami yang terlatih siap bekerja secara senyap, rapi, dan bersih (Clean Desk Policy) sepanjang malam.
+
+[Konsultasikan kebutuhan perbaikan bebas gangguan (downtime-free) Anda sekarang →](/konsultasi)
+`,
+    coverImage: '/images/blog/blog-service-malam.webp',
+    category: 'Layanan Umum',
+    tags: ["service after-hours","zero downtime","renovasi kantor","service malam hari","BKS service"],
+    author: {
+      name: 'Tim Bakti Kawan Service',
+      avatar: '/images/team/author-default.webp',
+      role: 'Project Manager',
+    },
+    publishedAt: '2024-07-01',
+    readingTime: 4,
+    metaTitle: 'Keuntungan Service Furniture Malam Hari (After-Hours) | BKS',
+    metaDescription: 'Cegah downtime operasional bisnis Anda! Pelajari manfaat layanan service dan perbaikan furniture komersial pada malam hari (After-Hours) tanpa ganggu pelanggan.',
+  },
+
+  {
     slug: 'cara-menghilangkan-noda-kopi-sofa-cafe',
     title: 'Cara Efektif Membersihkan Noda Kopi pada Sofa Cafe Anda',
     excerpt: 'Sofa cafe yang terkena tumpahan kopi bisa merusak estetika dan kenyamanan pelanggan. Simak panduan praktis dari ahlinya untuk membersihkan noda membandel pada berbagai jenis material sofa.',
@@ -38,7 +244,7 @@ PT Bakti Kawan Service menyediakan layanan cuci sofa komersial hingga *reupholst
 
 [Konsultasikan masalah sofa cafe Anda kepada tim ahli kami sekarang →](/konsultasi)
 `,
-    coverImage: '/images/gallery/cafe/Foto Cafe (3).webp',
+    coverImage: '/images/blog/blog-sofa-cafe.webp',
     category: 'Furniture Komersial',
     tags: ["sofa cafe","tips kebersihan","noda kopi","maintenance resto","reupholstery"],
     author: {
@@ -79,7 +285,7 @@ Pengecekan (Preventive Maintenance) setidaknya setiap 3-6 bulan sangat direkomen
 
 [Dapatkan penawaran kontrak maintenance dari kami →](/konsultasi)
 `,
-    coverImage: '/images/services/meja-operasi-new.webp',
+    coverImage: '/images/blog/blog-meja-operasi.webp',
     category: 'Alat Kesehatan',
     tags: ["meja operasi","perawatan alkes","rumah sakit","maintenance","ruang bedah"],
     author: {
@@ -125,7 +331,7 @@ Jangan biarkan sofa rusak merusak citra perusahaan. Hubungi **PT Bakti Kawan Ser
 
 [Jadwalkan survey lokasi dengan tim kami →](/konsultasi)
 `,
-    coverImage: '/images/gallery/kan-1.webp',
+    coverImage: '/images/blog/blog-sofa-kantor.webp',
     category: 'Furniture Kantor',
     tags: ["sofa kantor","reupholstery","hemat budget","renovasi kantor","tren 2024"],
     author: {
@@ -220,7 +426,7 @@ Investasi dalam perawatan rutin bed pasien adalah keputusan yang sangat cost-eff
 
 Buat jadwal perawatan rutin sekarang, dan pertimbangkan kontrak maintenance berkala dengan penyedia jasa terpercaya untuk ketenangan pikiran jangka panjang.
     `,
-    coverImage: '/images/blog/perawatan-bed-pasien.webp',
+    coverImage: '/images/blog/blog-bed-pasien.webp',
     category: 'Tips & Panduan',
     tags: ['bed pasien', 'perawatan alkes', 'rumah sakit', 'preventive maintenance', 'furniture medis'],
     author: {
@@ -329,7 +535,7 @@ Untuk furniture dengan rangka yang masih baik, reupholstery hampir selalu lebih 
 
 Kunci suksesnya adalah memilih penyedia jasa yang berpengalaman, menggunakan material berkualitas, dan memastikan ada garansi yang jelas.
     `,
-    coverImage: '/images/blog/reupholstery-vs-beli-baru.webp',
+    coverImage: '/images/blog/blog-reupholstery-kantor.webp',
     category: 'Tips & Panduan',
     tags: ['reupholstery', 'sofa kantor', 'furniture kantor', 'hemat biaya', 'tips kantor'],
     author: {
@@ -452,7 +658,7 @@ Standar sanitasi furniture medis bukan sekadar regulasi — ini adalah perlindun
 
 [Konsultasi kebutuhan cover furniture medis Anda →](/konsultasi)
     `,
-    coverImage: '/images/blog/sanitasi-furniture-alkes.webp',
+    coverImage: '/images/blog/blog-sanitasi-alkes.webp',
     category: 'Regulasi & Compliance',
     tags: ['sanitasi alkes', 'infection control', 'rumah sakit', 'furniture medis', 'compliance', 'PPI'],
     author: {

@@ -115,7 +115,7 @@ export default function Footer() {
                 <div className="w-8 h-8 rounded-lg bg-white/10 flex items-center justify-center group-hover:bg-accent transition-colors">
                   <Phone size={14} />
                 </div>
-                +62 812 0000 0001
+                +62 851 3435 3440
               </a>
               <a
                 href="mailto:info@servicealkes.com"

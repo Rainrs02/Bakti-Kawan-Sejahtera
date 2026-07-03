@@ -240,7 +240,7 @@ export default function Navbar() {
                 className="flex items-center gap-2 text-sm font-medium text-secondary hover:text-primary transition-colors"
               >
                 <Phone size={15} />
-                <span className="hidden xl:inline">+62 812 0000 0001</span>
+                <span className="hidden xl:inline">+62 851 3435 3440</span>
               </a>
               <Link
                 href="/konsultasi"
@@ -370,7 +370,7 @@ export default function Navbar() {
               rel="noopener noreferrer"
               className="btn btn-secondary w-full justify-center"
             >
-              💬 WhatsApp: +62 812 0000 0001
+              💬 WhatsApp: +62 851 3435 3440
             </a>
             <Link
               href="/konsultasi"

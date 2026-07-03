@@ -74,7 +74,7 @@ export default async function ServiceDetailPage({ params }: ServicePageProps) {
       "name": "PT Bakti Kawan Service",
       "image": "https://servicealkes.com/images/logo/logo.webp",
       "url": "https://servicealkes.com",
-      "telephone": "+6281200000001",
+      "telephone": "+6285134353440",
       "priceRange": "$$",
       "address": {
         "@type": "PostalAddress",

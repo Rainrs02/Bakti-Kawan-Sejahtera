@@ -91,7 +91,7 @@ export default function RootLayout({
     logo: 'https://servicealkes.com/images/logo.webp',
     image: 'https://servicealkes.com/images/og-image.webp',
     description: 'Layanan service dan perbaikan furniture alat kesehatan, kantor, dan komersial profesional di Jabodetabek dan seluruh Indonesia.',
-    telephone: '+6281200000001',
+    telephone: '+6285134353440',
     email: 'info@servicealkes.com',
     address: {
       '@type': 'PostalAddress',
