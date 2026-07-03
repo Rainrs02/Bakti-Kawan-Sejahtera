@@ -22,7 +22,7 @@ const VALUES = [
   { icon: '🎯', title: 'Profesional', desc: 'Setiap pekerjaan kami tangani dengan standar tertinggi dan keahlian yang teruji.' },
   { icon: '⚡', title: 'Responsif', desc: 'Respons cepat dalam 15 menit. Kami memahami bahwa waktu adalah hal krusial.' },
   { icon: '🛡️', title: 'Terpercaya', desc: 'Garansi di setiap pekerjaan. Kepuasan Anda adalah komitmen kami.' },
-  { icon: '💎', title: 'Berkualitas', desc: 'Spare part OEM dan bahan premium untuk hasil perbaikan yang tahan lama.' },
+  { icon: '💎', title: 'Berkualitas', desc: 'Spare part standar & premium untuk hasil perbaikan yang tahan lama.' },
   { icon: '🤝', title: 'Integritas', desc: 'Harga transparan, tidak ada biaya tersembunyi. Kejujuran adalah fondasi kami.' },
   { icon: '🌟', title: 'Inovatif', desc: 'Terus berinovasi dalam teknologi dan metode untuk hasil service terbaik.' },
 ]
@@ -35,21 +35,34 @@ export default function TentangPage() {
         <div className="absolute inset-0 industrial-pattern opacity-20" />
         <div className="absolute inset-0 bg-gradient-to-br from-bg-darker via-secondary to-bg-darker" />
         <div className="container-main relative z-10">
-          <div className="max-w-3xl">
-            <div className="section-label mb-4">Tentang Kami</div>
-            <h1 className="text-display-xl text-white mb-6">
-              Melayani dengan Hati,{' '}
-              <span className="gradient-text">Bekerja dengan Presisi</span>
-            </h1>
-            <p className="text-white/80 text-xl leading-relaxed mb-8">
-              PT Bakti Kawan Service didirikan dengan misi sederhana: memberikan layanan
-              service furniture yang benar-benar profesional dan dapat dipercaya untuk fasilitas
-              kesehatan dan bisnis di Indonesia.
-            </p>
-            <div className="flex flex-wrap gap-4">
-              <Link href="/konsultasi" className="btn btn-primary btn-lg glow-orange">
-                Konsultasi Gratis <ArrowRight size={18} />
-              </Link>
+          <div className="flex flex-col lg:flex-row items-center gap-10">
+            <div className="max-w-3xl flex-1">
+              <div className="section-label mb-4">Tentang Kami</div>
+              <h1 className="text-display-xl text-white mb-6">
+                Melayani dengan Hati,{' '}
+                <span className="gradient-text">Bekerja dengan Presisi</span>
+              </h1>
+              <p className="text-white/80 text-xl leading-relaxed mb-8">
+                PT Bakti Kawan Service didirikan dengan misi sederhana: memberikan layanan
+                service furniture yang benar-benar profesional dan dapat dipercaya untuk fasilitas
+                kesehatan dan bisnis di Indonesia.
+              </p>
+              <div className="flex flex-wrap gap-4">
+                <Link href="/konsultasi" className="btn btn-primary btn-lg glow-orange">
+                  Konsultasi Gratis <ArrowRight size={18} />
+                </Link>
+              </div>
+            </div>
+            {/* Logo BKS Prominent */}
+            <div className="w-48 h-48 lg:w-72 lg:h-72 relative shrink-0 drop-shadow-2xl opacity-90 hover:opacity-100 transition-opacity">
+              <div className="absolute inset-0 bg-white/5 blur-2xl rounded-full" />
+              <Image
+                src="/images/logo/logo.webp"
+                alt="Logo Bakti Kawan Service"
+                fill
+                className="object-contain"
+                priority
+              />
             </div>
           </div>
         </div>
@@ -91,7 +104,7 @@ export default function TentangPage() {
                 </p>
                 <p>
                   Setiap pekerjaan kami lakukan dengan standar kualitas tertinggi — menggunakan spare
-                  part OEM berkualitas, teknisi terlatih, dan selalu memberikan garansi untuk
+                  part standar & premium berkualitas, teknisi terlatih, dan selalu memberikan garansi untuk
                   setiap pekerjaan.
                 </p>
               </div>

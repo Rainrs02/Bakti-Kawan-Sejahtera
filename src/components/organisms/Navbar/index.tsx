@@ -76,7 +76,7 @@ export default function Navbar() {
               className="flex items-center gap-3 flex-shrink-0"
               onClick={() => setMenuOpen(false)}
             >
-              <div className="relative w-10 h-10 md:w-12 md:h-12">
+              <div className="relative w-14 h-14 md:w-20 md:h-20">
                 <Image
                   src="/images/logo/logo.webp"
                   alt="Bakti Kawan Service"
@@ -88,12 +88,12 @@ export default function Navbar() {
               <div className="hidden sm:block">
                 <div
                   className={cn(
-                    'font-display font-bold text-base leading-tight transition-colors text-primary'
+                    'font-display font-bold text-lg md:text-xl leading-tight transition-colors text-primary'
                   )}
                 >
                   Bakti Kawan
                 </div>
-                <div className="text-accent text-xs font-semibold tracking-wider uppercase">
+                <div className="text-accent text-sm font-semibold tracking-wider uppercase">
                   Service
                 </div>
               </div>

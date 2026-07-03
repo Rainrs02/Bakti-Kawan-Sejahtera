@@ -14,9 +14,9 @@ const STEPS = [
   {
     number: '02',
     icon: MapPin,
-    title: 'Survey Lokasi',
-    desc: 'Teknisi kami datang ke lokasi untuk survey dan diagnosa akurat kerusakan furniture Anda.',
-    highlight: 'Respon Cepat Jabodetabek',
+    title: 'Diagnosis Kerusakan',
+    desc: 'Diagnosis kerusakan secara daring (via Video/WA) atau survei langsung ke lokasi Anda.',
+    highlight: 'Respon Cepat',
   },
   {
     number: '03',
@@ -30,14 +30,14 @@ const STEPS = [
     icon: Wrench,
     title: 'Perbaikan Profesional',
     desc: 'teknisi berpengalaman mengerjakan dengan spare part berkualitas dan peralatan modern.',
-    highlight: 'Spare Part OEM',
+    highlight: 'Standar & Premium',
   },
   {
     number: '05',
     icon: ShieldCheck,
     title: 'Bergaransi',
-    desc: 'Serah terima dengan garansi 3 bulan. Kepuasan Anda jaminan kami.',
-    highlight: 'Garansi 3–12 Bln',
+    desc: 'Serah terima dengan garansi 3 bulan konstruksi dan 1 bulan sparepart.',
+    highlight: 'Garansi 1-3 Bulan',
   },
 ]
 

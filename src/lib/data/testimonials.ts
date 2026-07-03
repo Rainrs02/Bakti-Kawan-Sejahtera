@@ -42,7 +42,7 @@ export const TESTIMONIALS: Testimonial[] = [
     institution: '',
     avatar: '/images/testimonials/avatar-3.webp',
     rating: 5,
-    text: 'Nurse station kami yang sudah 5 tahun terlihat baru lagi setelah direnovasi oleh tim BKS. Hasilnya melebihi ekspektasi, dan harganya sangat kompetitif. Garansi 3 bulan yang diberikan juga membuat kami tenang.',
+    text: 'Nurse station kami yang sudah 5 tahun terlihat baru lagi setelah direnovasi oleh tim BKS. Hasilnya melebihi ekspektasi, dan harganya sangat kompetitif. Garansi 3 bulan konstruksi, 1 bln sparepart yang diberikan juga membuat kami tenang.',
     service: 'Service Nurse Station',
     date: '2024-09-08',
   },
