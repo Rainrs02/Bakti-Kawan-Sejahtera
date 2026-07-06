@@ -69,7 +69,7 @@ export default function LayananPage() {
                         alt={service.name}
                         fill
                         className="object-cover group-hover:scale-105 transition-transform duration-500"
-                      />
+                       sizes="(max-width: 768px) 100vw, 50vw" />
                     </div>
                     <div className="p-5 flex flex-col flex-grow">
                       <h3 className="font-semibold text-primary group-hover:text-accent transition-colors mb-2">

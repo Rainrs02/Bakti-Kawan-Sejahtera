@@ -83,7 +83,7 @@ export default function Navbar() {
                   fill
                   className="object-contain"
                   priority
-                />
+                 sizes="(max-width: 768px) 100vw, 50vw" />
               </div>
               <div className="hidden sm:block">
                 <div
@@ -275,7 +275,7 @@ export default function Navbar() {
               onClick={() => setMenuOpen(false)}
             >
               <div className="relative w-10 h-10">
-                <Image src="/images/logo/logo.webp" alt="BKS" fill className="object-contain" />
+                <Image src="/images/logo/logo.webp" alt="BKS" fill className="object-contain"  sizes="(max-width: 768px) 100vw, 50vw" />
               </div>
               <div>
                 <div className="font-display font-bold text-sm text-primary">Bakti Kawan</div>

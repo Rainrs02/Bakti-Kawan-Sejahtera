@@ -41,7 +41,7 @@ export default function ProyekPage() {
                         alt={`Before - ${project.title}`}
                         fill
                         className="object-cover group-hover:scale-105 transition-transform duration-700"
-                      />
+                       sizes="(max-width: 768px) 100vw, 50vw" />
                       <div className="absolute top-2 left-2 bg-red-500 text-white text-xs font-bold px-2 py-0.5 rounded-full">
                         SEBELUM
                       </div>
@@ -52,7 +52,7 @@ export default function ProyekPage() {
                         alt={`After - ${project.title}`}
                         fill
                         className="object-cover group-hover:scale-105 transition-transform duration-700"
-                      />
+                       sizes="(max-width: 768px) 100vw, 50vw" />
                       <div className="absolute top-2 right-2 bg-green-500 text-white text-xs font-bold px-2 py-0.5 rounded-full">
                         SESUDAH
                       </div>

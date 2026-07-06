@@ -65,7 +65,7 @@ export default function TentangPage() {
                 fill
                 className="object-contain relative z-10 drop-shadow-xl"
                 priority
-              />
+               sizes="(max-width: 768px) 100vw, 50vw" />
             </div>
           </div>
         </div>
@@ -120,7 +120,7 @@ export default function TentangPage() {
                   alt="Tim profesional Bakti Kawan Service"
                   fill
                   className="object-cover"
-                />
+                 sizes="(max-width: 768px) 100vw, 50vw" />
               </div>
               {/* Image 2 (New) */}
               <div className="absolute bottom-0 left-0 w-2/3 h-[65%] rounded-3xl overflow-hidden shadow-2xl border-4 border-bg z-10 hover:-translate-y-2 transition-transform duration-300">
@@ -129,7 +129,7 @@ export default function TentangPage() {
                   alt="Teknisi Bakti Kawan Service"
                   fill
                   className="object-cover"
-                />
+                 sizes="(max-width: 768px) 100vw, 50vw" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
                 <div className="absolute bottom-4 left-4 lg:bottom-6 lg:left-6 lg:right-6">
                   <div className="text-white font-display font-bold text-base lg:text-lg leading-tight">Tim Kami</div>

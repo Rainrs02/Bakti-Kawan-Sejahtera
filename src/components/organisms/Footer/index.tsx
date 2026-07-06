@@ -87,7 +87,7 @@ export default function Footer() {
                   alt="Bakti Kawan Service"
                   fill
                   className="object-contain p-1"
-                />
+                 sizes="(max-width: 768px) 100vw, 50vw" />
               </div>
               <div>
                 <div className="font-display font-bold text-white text-base leading-tight">

@@ -148,6 +148,7 @@ export default function HeroSection() {
                 alt="Tim teknisi Bakti Kawan Service"
                 fill
                 className="object-cover"
+                priority
                 sizes="(max-width: 768px) 60vw, 30vw"
               />
             </div>
@@ -159,6 +160,7 @@ export default function HeroSection() {
                 alt="Furniture komersial selesai diperbaiki"
                 fill
                 className="object-cover"
+                priority
                 sizes="(max-width: 768px) 40vw, 20vw"
               />
             </div>
@@ -170,6 +172,7 @@ export default function HeroSection() {
                 alt="Workshop spare part furniture"
                 fill
                 className="object-cover"
+                priority
                 sizes="(max-width: 768px) 40vw, 20vw"
               />
               <div className="absolute inset-0 bg-gradient-to-br from-accent/20 to-transparent" />
