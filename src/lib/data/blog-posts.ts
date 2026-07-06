@@ -671,6 +671,127 @@ Standar sanitasi furniture medis bukan sekadar regulasi — ini adalah perlindun
     metaTitle: 'Standar Sanitasi Furniture Alkes Rumah Sakit: Panduan Compliance | BKS',
     metaDescription: 'Panduan standar sanitasi furniture alkes RS: regulasi Permenkes, material medical grade, prosedur disinfeksi, tanda furniture tidak layak. Compliance PPI yang benar.',
   },
+  {
+    slug: 'tips-memilih-kursi-tunggu-rumah-sakit',
+    title: 'Tips Memilih Kursi Tunggu Rumah Sakit yang Nyaman dan Higienis',
+    excerpt: 'Kursi tunggu rumah sakit bukan sekadar tempat duduk, tapi investasi kenyamanan dan kebersihan bagi pengunjung dan pasien.',
+    content: `
+# Memilih Kursi Tunggu Rumah Sakit yang Tepat
+
+Di fasilitas kesehatan, kenyamanan dan kebersihan merupakan prioritas utama. Kursi tunggu adalah titik pertama kontak bagi pasien dan pengunjung, menjadikannya elemen penting dalam pengalaman layanan kesehatan.
+
+## 1. Material yang Mudah Dibersihkan
+Pilihlah kursi dengan pelapis (upholstery) yang anti-mikroba dan mudah dilap dengan disinfektan. Bahan seperti vinyl kelas medis (medical-grade vinyl) sangat disarankan karena ketahanannya terhadap cairan dan bahan kimia pembersih.
+
+## 2. Desain Modular
+Kursi dengan desain modular memungkinkan fleksibilitas dalam penataan ruang tunggu, terutama untuk menjaga jarak fisik (physical distancing) jika diperlukan. Selain itu, kursi yang terpisah memudahkan perbaikan jika ada satu bagian yang rusak tanpa harus mengganti seluruh unit.
+
+## 3. Ergonomi dan Kenyamanan
+Menunggu bisa menjadi pengalaman yang melelahkan. Kursi dengan penyangga punggung (lumbar support) yang baik dan bantalan yang cukup tebal akan sangat membantu mengurangi kelelahan pengunjung.
+
+## 4. Rangka yang Kokoh
+Rangka baja (steel frame) berlapis powder-coating adalah standar yang baik karena kuat menahan beban berat, tidak mudah berkarat, dan awet bertahun-tahun dalam penggunaan konstan.
+
+Jika kursi tunggu di klinik atau rumah sakit Anda mulai terlihat usang, robek, atau kotor membandel, **PT Bakti Kawan Service** menawarkan layanan pembaruan (reupholstery) menggunakan bahan vinyl medis premium.
+
+[Konsultasikan kebutuhan furniture kesehatan Anda bersama tim kami.](/konsultasi)
+`,
+    coverImage: '/images/blog/blog-kursi-tunggu-rs.webp',
+    category: 'Furniture Medis',
+    tags: ['kursi tunggu', 'rumah sakit', 'higienis', 'furniture medis', 'upholstery'],
+    author: {
+      name: 'Tim Ahli BKS',
+      role: 'Medical Furniture Specialist',
+      avatar: '/images/team/team-photo.webp',
+    },
+    publishedAt: '2026-07-06T08:00:00Z',
+    readingTime: 4,
+    metaTitle: 'Tips Memilih Kursi Tunggu Rumah Sakit yang Nyaman | BKS',
+    metaDescription: 'Panduan lengkap dalam memilih material dan desain kursi tunggu rumah sakit yang higienis, ergonomis, dan tahan lama.',
+  },
+  {
+    slug: 'pentingnya-service-berkala-bed-pasien-elektrik',
+    title: 'Pentingnya Kalibrasi dan Service Berkala pada Tempat Tidur Pasien Elektrik',
+    excerpt: 'Jangan tunggu sampai macet saat keadaan darurat! Pahami mengapa perawatan rutin bed elektrik sangat krusial untuk keselamatan pasien.',
+    content: `
+# Service Berkala Bed Pasien Elektrik: Keharusan, Bukan Pilihan
+
+Bed elektrik (electric hospital bed) adalah salah satu perangkat paling krusial di ruang perawatan. Fungsi motoriknya yang memungkinkan pengaturan tinggi-rendah dan kemiringan (head/foot elevation) sangat membantu proses pemulihan pasien dan meringankan kerja perawat. 
+
+Namun, seperti halnya perangkat mekanik dan elektronik lainnya, bed ini membutuhkan perawatan berkala (preventive maintenance).
+
+## Mengapa Service Rutin Itu Penting?
+
+1. **Mencegah Kegagalan Motor Saat Darurat**
+   Bayangkan jika posisi kepala pasien perlu segera diatur untuk CPR, tetapi aktuator motor macet. Inspeksi rutin memastikan semua fungsi mekanis dan kelistrikan bekerja sempurna setiap saat.
+
+2. **Memperpanjang Umur Pakai (Lifespan)**
+   Bed elektrik adalah investasi mahal. Melumasi bagian sendi yang bergerak, membersihkan debu dari komponen elektronik, dan mengkalibrasi remote akan mencegah kerusakan prematur.
+
+3. **Mencegah Bahaya Sengatan Listrik**
+   Kabel yang terkelupas atau komponen yang korslet di lingkungan rumah sakit bisa berakibat fatal. Teknisi akan memastikan sistem kelistrikan bed terinsulasi dengan baik dan memenuhi standar keselamatan.
+
+4. **Kenyamanan Pasien**
+   Roda (castor) yang macet atau rel pengaman (side rails) yang longgar bisa membahayakan dan membuat pasien tidak nyaman. Perawatan mencakup pengecekan kekencangan baut dan kelancaran roda pengereman.
+
+**PT Bakti Kawan Service** memiliki teknisi bersertifikat yang berpengalaman menangani perbaikan dan kalibrasi berbagai merk bed elektrik rumah sakit di seluruh Indonesia.
+
+[Jadwalkan inspeksi rutin bed elektrik Anda hari ini.](/konsultasi)
+`,
+    coverImage: '/images/blog/blog-service-bed-elektrik.webp',
+    category: 'Service Alat Kesehatan',
+    tags: ['bed elektrik', 'tempat tidur pasien', 'service alkes', 'kalibrasi', 'maintenance'],
+    author: {
+      name: 'Budi Santoso',
+      role: 'Senior Technical Engineer',
+      avatar: '/images/team/team-photo.webp',
+    },
+    publishedAt: '2026-07-05T09:00:00Z',
+    readingTime: 5,
+    metaTitle: 'Pentingnya Service Berkala Bed Pasien Elektrik | BKS',
+    metaDescription: 'Cari tahu alasan mengapa tempat tidur pasien elektrik wajib diservis secara berkala untuk keselamatan dan efisiensi operasional.',
+  },
+  {
+    slug: 'cara-menghilangkan-noda-kursi-kantor-kulit',
+    title: 'Cara Aman Menghilangkan Noda Tinta dan Kopi pada Kursi Kantor Kulit',
+    excerpt: 'Tumpahan kopi atau coretan bolpoin di kursi kulit eksekutif? Jangan panik, ikuti langkah-langkah aman ini agar kursi kembali bersih tanpa merusak bahannya.',
+    content: `
+# Menghilangkan Noda Membandel di Kursi Kulit Eksekutif
+
+Kursi kantor berbahan kulit asli atau sintetis (leather/PU leather) memberikan kesan profesional dan prestisius. Sayangnya, noda tak terduga seperti tumpahan kopi di pagi hari atau coretan tinta pulpen bisa seketika merusak penampilannya.
+
+Membersihkan noda di permukaan kulit tidak bisa sembarangan; bahan kimia keras justru akan mengelupas dan membuat warna kulit pudar. Berikut adalah panduan amannya:
+
+## Mengatasi Tumpahan Kopi atau Teh
+1. **Segera Serap Cairan:** Jangan digosok! Segera ambil tisu tebal atau kain microfiber kering, lalu tepuk-tepuk (blot) genangan kopi hingga terserap sepenuhnya.
+2. **Gunakan Sabun Ringan:** Campurkan beberapa tetes sabun cuci piring lembut (mild dish soap) dengan air hangat.
+3. **Lap dengan Lembut:** Celupkan kain microfiber ke air sabun, peras hingga lembab (jangan basah kuyup), dan usapkan pada sisa noda kopi dengan gerakan melingkar yang lembut.
+4. **Keringkan Total:** Lap kembali dengan kain kering hingga permukaan kulit benar-benar kering.
+
+## Mengatasi Coretan Tinta Bolpoin
+Tinta adalah musuh utama kulit. Semakin lama dibiarkan, semakin meresap.
+1. **Alkohol Isopropil (Rubbing Alcohol):** Ini adalah senjata ampuh, namun gunakan dengan sangat hati-hati. Basahi ujung cotton bud dengan sedikit alkohol.
+2. **Tutulkan pada Tinta:** Jangan digosok melebar. Tutul-tutul (dab) secara perlahan tepat di atas tinta agar alkohol melarutkannya.
+3. **Bersihkan Sisanya:** Segera lap dengan kain basah biasa untuk menghilangkan residu alkohol agar tidak mengeringkan kulit.
+4. **Kondisioner Kulit:** Wajib mengoleskan *leather conditioner* setelah menggunakan alkohol untuk mengembalikan kelembapan alami kulit dan mencegah pecah-pecah.
+
+Jika noda sudah terlanjur meresap atau kursi kulit Anda sudah sobek dan kusam menahun, cara paling efisien adalah melakukan *reupholstery* (ganti kulit luar). **PT Bakti Kawan Service** menyediakan layanan rekondisi kursi direktur agar tampak seperti baru dari pabrik.
+
+[Hubungi admin untuk info ganti kulit kursi kantor.](/konsultasi)
+`,
+    coverImage: '/images/blog/blog-noda-kursi-kulit.webp',
+    category: 'Tips & Panduan',
+    tags: ['kursi kantor', 'kursi direktur', 'membersihkan noda', 'kulit sintetis', 'perawatan furniture'],
+    author: {
+      name: 'Tim Ahli BKS',
+      role: 'Interior Maintenance Expert',
+      avatar: '/images/team/team-photo.webp',
+    },
+    publishedAt: '2026-07-04T10:00:00Z',
+    readingTime: 4,
+    metaTitle: 'Cara Hilangkan Noda Kopi & Tinta di Kursi Kulit | BKS',
+    metaDescription: 'Panduan lengkap dan aman cara membersihkan tumpahan kopi dan coretan tinta pada kursi kantor berbahan kulit tanpa merusaknya.',
+  }
 ]
 
 export function getBlogPostBySlug(slug: string): BlogPost | undefined {

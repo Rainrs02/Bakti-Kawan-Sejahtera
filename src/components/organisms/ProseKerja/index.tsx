@@ -29,7 +29,7 @@ const STEPS = [
     number: '04',
     icon: Wrench,
     title: 'Perbaikan Profesional',
-    desc: 'teknisi berpengalaman mengerjakan dengan spare part berkualitas dan peralatan modern.',
+    desc: 'teknisi berpengalaman mengerjakan dengan spare part berkualitas dan peralatan modern. Perbaikan dapat dilakukan di lokasi atau dibawa ke bengkel tergantung tingkat kerusakan.',
     highlight: 'Standar & Premium',
   },
   {
