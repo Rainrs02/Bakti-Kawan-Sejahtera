@@ -64,22 +64,20 @@ export default function KonsultasiPage() {
                 </a>
               ))}
 
-              {/* Google Maps Link */}
-              <a 
-                href="https://maps.app.goo.gl/MX1SWw9WGVxNT6K39"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="rounded-2xl overflow-hidden border border-border h-48 bg-bg-section flex items-center justify-center hover:border-accent hover:shadow-md transition-all group cursor-pointer"
-              >
-                <div className="text-center text-muted text-sm group-hover:scale-105 transition-transform duration-300">
-                  <MapPin size={32} className="mx-auto mb-2 text-accent" />
-                  <p className="font-medium text-primary mb-1">Google Maps</p>
-                  <p>Kabupaten Bogor, Jawa Barat</p>
-                  <div className="text-accent text-xs mt-2 font-medium flex items-center justify-center gap-1 opacity-0 group-hover:opacity-100 transition-opacity">
-                    Buka di Google Maps <ArrowRight size={12} />
-                  </div>
-                </div>
-              </a>
+              {/* Google Maps Embed */}
+              <div className="rounded-2xl overflow-hidden border border-border h-48 bg-bg-section">
+                <iframe 
+                  src="https://maps.google.com/maps?q=Service%20Alkes%20(Bakti%20Kawan%20Service)&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                  width="100%" 
+                  height="100%" 
+                  style={{ border: 0 }} 
+                  allowFullScreen
+                  loading="lazy" 
+                  referrerPolicy="no-referrer-when-downgrade"
+                  title="Google Maps Service Alkes"
+                  className="w-full h-full grayscale-[20%] hover:grayscale-0 transition-all duration-300"
+                ></iframe>
+              </div>
 
               {/* Trust list */}
               <div className="p-5 rounded-2xl bg-bg-section border border-border">

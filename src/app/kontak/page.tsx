@@ -99,23 +99,20 @@ export default function KontakPage() {
             </div>
 
             <div>
-              {/* Map Link */}
-              <a 
-                href="https://maps.app.goo.gl/MX1SWw9WGVxNT6K39"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="rounded-3xl overflow-hidden border border-border bg-bg-section h-72 flex items-center justify-center mb-6 hover:border-accent hover:shadow-md transition-all group cursor-pointer"
-              >
-                <div className="text-center group-hover:scale-105 transition-transform duration-300">
-                  <MapPin size={40} className="text-accent mx-auto mb-3" />
-                  <div className="font-bold text-primary mb-1">Bakti Kawan Service</div>
-                  <div className="text-secondary text-sm">RT.1/RW.4, Tarikolot, Kec. Citeureup</div>
-                  <div className="text-secondary text-sm">Kabupaten Bogor, Jawa Barat 16810</div>
-                  <div className="text-accent text-sm mt-3 font-medium flex items-center justify-center gap-1 opacity-0 group-hover:opacity-100 transition-opacity">
-                    Buka di Google Maps <ArrowRight size={14} />
-                  </div>
-                </div>
-              </a>
+              {/* Map Embed */}
+              <div className="rounded-3xl overflow-hidden border border-border bg-bg-section h-72 mb-6">
+                <iframe 
+                  src="https://maps.google.com/maps?q=Service%20Alkes%20(Bakti%20Kawan%20Service)&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                  width="100%" 
+                  height="100%" 
+                  style={{ border: 0 }} 
+                  allowFullScreen
+                  loading="lazy" 
+                  referrerPolicy="no-referrer-when-downgrade"
+                  title="Google Maps Bakti Kawan Service"
+                  className="w-full h-full grayscale-[20%] hover:grayscale-0 transition-all duration-300"
+                ></iframe>
+              </div>
 
               <div className="p-6 rounded-2xl bg-primary text-white">
                 <h3 className="font-display font-bold text-xl mb-4">Konsultasi Lebih Lanjut?</h3>
