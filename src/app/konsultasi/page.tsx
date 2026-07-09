@@ -67,7 +67,7 @@ export default function KonsultasiPage() {
               {/* Google Maps Embed */}
               <div className="rounded-2xl overflow-hidden border border-border h-48 bg-bg-section">
                 <iframe 
-                  src="https://maps.google.com/maps?q=Service%20Alkes%20(Bakti%20Kawan%20Service)&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                  src="https://maps.google.com/maps?q=-6.4952084,106.8964937&t=&z=16&ie=UTF8&iwloc=&output=embed"
                   width="100%" 
                   height="100%" 
                   style={{ border: 0 }} 
