@@ -7,6 +7,7 @@ import { CheckCircle, Upload, ArrowRight, Send, ChevronDown } from 'lucide-react
 import { consultationSchema, JENIS_LAYANAN_OPTIONS, type ConsultationSchema } from '@/lib/validations/consultationSchema'
 import { getWALink } from '@/lib/utils/whatsapp'
 import { useConsultationStore } from '@/lib/store/consultationStore'
+import { X } from 'lucide-react'
 
 const groupedOptions = JENIS_LAYANAN_OPTIONS.reduce((acc, opt) => {
   if (!acc[opt.category]) acc[opt.category] = []
@@ -21,6 +22,9 @@ interface ConsultationFormProps {
 export default function ConsultationForm({ initialCategory }: ConsultationFormProps) {
   const [isSubmitted, setIsSubmitted] = useState(false)
   const [expandedSection, setExpandedSection] = useState<string | null>(initialCategory || 'Alat Kesehatan')
+  const [files, setFiles] = useState<File[]>([])
+  const [fileError, setFileError] = useState<string>('')
+  const [isUploading, setIsUploading] = useState(false)
   const { setFormData } = useConsultationStore()
 
   const {
@@ -38,11 +42,86 @@ export default function ConsultationForm({ initialCategory }: ConsultationFormPr
 
   const watchJenisLayanan = watch('jenisLayanan') || []
 
-  const onSubmit = (data: ConsultationSchema) => {
-    setFormData(data)
-    const waUrl = getWALink(data as any)
-    window.open(waUrl, '_blank')
-    setIsSubmitted(true)
+  const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const selectedFiles = e.target.files;
+    if (!selectedFiles || selectedFiles.length === 0) return;
+
+    let validFiles: File[] = [];
+    let errorMessage = "";
+
+    Array.from(selectedFiles).forEach(file => {
+      const isVideo = file.type.startsWith('video/');
+      const maxSize = isVideo ? 20 * 1024 * 1024 : 5 * 1024 * 1024;
+      
+      if (file.size > maxSize) {
+        errorMessage = `File ${file.name} terlalu besar. Maks. ${isVideo ? '20MB untuk Video' : '5MB untuk Foto/PDF'}.`;
+      } else {
+        validFiles.push(file);
+      }
+    });
+
+    if (errorMessage) {
+      setFileError(errorMessage);
+    } else {
+      setFileError('');
+    }
+
+    if (validFiles.length > 0) {
+      setFiles(prev => [...prev, ...validFiles]);
+    }
+    
+    e.target.value = ''; // Reset input
+  };
+
+  const handleRemoveFile = (index: number) => {
+    setFiles(prev => prev.filter((_, i) => i !== index));
+  };
+
+  const onSubmit = async (data: ConsultationSchema) => {
+    setIsUploading(true);
+    let uploadedFileUrls: string[] = [];
+
+    try {
+      if (files.length > 0) {
+        const cloudName = process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME;
+        const uploadPreset = process.env.NEXT_PUBLIC_CLOUDINARY_UPLOAD_PRESET;
+
+        if (!cloudName || !uploadPreset) {
+          console.error("Cloudinary credentials missing");
+        } else {
+          const uploadPromises = files.map(async (file) => {
+            const uploadData = new FormData();
+            uploadData.append("file", file);
+            uploadData.append("upload_preset", uploadPreset);
+            uploadData.append("folder", "bakti-kawan-sejahtera");
+
+            const cloudRes = await fetch(`https://api.cloudinary.com/v1_1/${cloudName}/auto/upload`, {
+              method: "POST",
+              body: uploadData,
+            });
+
+            if (!cloudRes.ok) {
+              throw new Error(`Failed to upload ${file.name}`);
+            }
+
+            const cloudData = await cloudRes.json();
+            return cloudData.secure_url;
+          });
+
+          uploadedFileUrls = await Promise.all(uploadPromises);
+        }
+      }
+
+      setFormData(data)
+      const waUrl = getWALink(data as any, uploadedFileUrls)
+      window.open(waUrl, '_blank')
+      setIsSubmitted(true)
+    } catch (error) {
+      console.error("Error during form submission:", error);
+      alert("Terjadi kesalahan saat mengunggah file. Silakan coba lagi.");
+    } finally {
+      setIsUploading(false);
+    }
   }
 
   if (isSubmitted) {
@@ -228,23 +307,48 @@ export default function ConsultationForm({ initialCategory }: ConsultationFormPr
       </div>
 
       {/* Persiapan Foto/Video Card */}
-      <div className="p-5 rounded-xl bg-accent-light border border-accent/30 flex items-center gap-4 text-left">
-        <div className="w-12 h-12 rounded-full bg-accent/20 flex items-center justify-center shrink-0">
-          <span className="text-2xl">📸</span>
-        </div>
-        <h4 className="text-primary font-bold text-base leading-snug">
-          Harap siapkan Foto & Video Kerusakan kepada Admin untuk Analisa Detail Kerusakan.
-        </h4>
+      <div className="form-group">
+        <label className="form-label" htmlFor="foto">Foto/Video/PDF Referensi (Opsional)</label>
+        
+        {files.length > 0 && (
+          <div className="mt-3 space-y-2 mb-4">
+            {files.map((file, index) => (
+              <div key={index} className="flex justify-between items-center p-3 rounded-xl border border-border bg-white shadow-sm">
+                <span className="text-sm truncate mr-2 text-secondary font-medium">{file.name}</span>
+                <button
+                  type="button"
+                  onClick={() => handleRemoveFile(index)}
+                  className="text-xs font-semibold px-2 py-1 rounded transition-colors text-red-500 hover:bg-red-50 flex items-center gap-1"
+                >
+                  <X size={14} /> Hapus
+                </button>
+              </div>
+            ))}
+          </div>
+        )}
+        
+        <label className="flex items-center justify-center p-6 mt-2 rounded-xl cursor-pointer transition-all bg-bg-section/55 border-2 border-dashed border-border hover:border-accent hover:bg-accent/5 group">
+          <Upload size={20} className="text-accent mr-3 group-hover:scale-110 transition-transform" />
+          <span className="text-sm font-medium text-primary">
+            Tambah Foto / Video / PDF
+          </span>
+          <input type="file" multiple className="hidden" accept="image/*,application/pdf,video/*" onChange={handleFileChange} />
+        </label>
+        {fileError && <p className="form-error mt-2">{fileError}</p>}
+        
+        <p className="text-xs text-muted mt-2">
+          Maks. 5MB untuk Foto/PDF, 20MB untuk Video. Harap siapkan Foto & Video Kerusakan kepada Admin untuk Analisa Detail Kerusakan.
+        </p>
       </div>
 
       {/* Submit */}
       <button
         type="submit"
-        disabled={isSubmitting}
+        disabled={isSubmitting || isUploading}
         className="btn btn-primary btn-lg w-full justify-center glow-orange disabled:opacity-60"
       >
-        {isSubmitting ? (
-          <>Memproses...</>
+        {isSubmitting || isUploading ? (
+          <>{isUploading ? 'Mengunggah File...' : 'Memproses...'}</>
         ) : (
           <>
             <Send size={18} />

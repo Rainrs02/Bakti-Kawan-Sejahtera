@@ -4,7 +4,7 @@ import type { ConsultationFormData } from '@/types/consultation'
 // Nomor WA Admin (dummy — ganti dengan nomor asli)
 export const WA_ADMIN_NUMBER = '6285134353440'
 
-export function generateWAMessage(data: ConsultationFormData): string {
+export function generateWAMessage(data: ConsultationFormData, fileUrls?: string[]): string {
   const selectedServices = data.jenisLayanan || []
   const formattedServices = selectedServices.map(svc => {
     if (svc.includes('Lainnya (Kustom)') && data.layananLainnya) {
@@ -15,6 +15,11 @@ export function generateWAMessage(data: ConsultationFormData): string {
 
   const jenisLayananLabel = formattedServices.length > 0 ? `\n- ${formattedServices}` : 'Belum dipilih'
   
+  let fileLinks = '';
+  if (fileUrls && fileUrls.length > 0) {
+    fileLinks = `\n📎 *Lampiran File:*\n${fileUrls.map((url, i) => `${i + 1}. ${url}`).join('\n')}\n`;
+  }
+
   const message = `*PERMINTAAN KONSULTASI GRATIS*
 *servicealkes.com*
 ━━━━━━━━━━━━━━━━━━━━━━
@@ -29,7 +34,7 @@ export function generateWAMessage(data: ConsultationFormData): string {
 
 💬 *Pesan/Deskripsi Kerusakan:*
 ${data.pesan}
-
+${fileLinks}
 ━━━━━━━━━━━━━━━━━━━━━━
 _Pesan ini dikirim otomatis dari servicealkes.com_
 _Mohon balas pesan ini untuk konfirmasi jadwal_`
@@ -37,8 +42,8 @@ _Mohon balas pesan ini untuk konfirmasi jadwal_`
   return encodeURIComponent(message)
 }
 
-export function getWALink(data: ConsultationFormData): string {
-  const message = generateWAMessage(data)
+export function getWALink(data: ConsultationFormData, fileUrls?: string[]): string {
+  const message = generateWAMessage(data, fileUrls)
   return `https://wa.me/${WA_ADMIN_NUMBER}?text=${message}`
 }
 
