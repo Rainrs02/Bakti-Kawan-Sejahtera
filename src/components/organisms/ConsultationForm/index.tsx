@@ -102,7 +102,8 @@ export default function ConsultationForm({ initialCategory }: ConsultationFormPr
               });
 
               if (!cloudRes.ok) {
-                console.error(`Failed to upload ${file.name}`);
+                const errorText = await cloudRes.text();
+                console.error(`Failed to upload ${file.name}:`, errorText);
                 return null;
               }
 
