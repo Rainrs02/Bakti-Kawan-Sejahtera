@@ -90,36 +90,47 @@ export default function ConsultationForm({ initialCategory }: ConsultationFormPr
           console.error("Cloudinary credentials missing");
         } else {
           const uploadPromises = files.map(async (file) => {
-            const uploadData = new FormData();
-            uploadData.append("file", file);
-            uploadData.append("upload_preset", uploadPreset);
-            uploadData.append("folder", "bakti-kawan-sejahtera");
-
-            const cloudRes = await fetch(`https://api.cloudinary.com/v1_1/${cloudName}/auto/upload`, {
-              method: "POST",
-              body: uploadData,
-            });
-
-            if (!cloudRes.ok) {
-              throw new Error(`Failed to upload ${file.name}`);
-            }
-
-            const cloudData = await cloudRes.json();
-            const originalUrl = cloudData.secure_url;
-            
             try {
-              const tinyUrlRes = await fetch(`https://tinyurl.com/api-create.php?url=${encodeURIComponent(originalUrl)}`);
-              if (tinyUrlRes.ok) {
-                return await tinyUrlRes.text();
+              const uploadData = new FormData();
+              uploadData.append("file", file);
+              uploadData.append("upload_preset", uploadPreset);
+              uploadData.append("folder", "bakti-kawan-sejahtera");
+
+              const cloudRes = await fetch(`https://api.cloudinary.com/v1_1/${cloudName}/auto/upload`, {
+                method: "POST",
+                body: uploadData,
+              });
+
+              if (!cloudRes.ok) {
+                console.error(`Failed to upload ${file.name}`);
+                return null;
               }
+
+              const cloudData = await cloudRes.json();
+              const originalUrl = cloudData.secure_url;
+              
+              try {
+                const tinyUrlRes = await fetch(`https://tinyurl.com/api-create.php?url=${encodeURIComponent(originalUrl)}`);
+                if (tinyUrlRes.ok) {
+                  return await tinyUrlRes.text();
+                }
+              } catch (err) {
+                console.error("TinyURL error:", err);
+              }
+              
+              return originalUrl;
             } catch (err) {
-              console.error("TinyURL error:", err);
+              console.error(`Error uploading ${file.name}:`, err);
+              return null;
             }
-            
-            return originalUrl;
           });
 
-          uploadedFileUrls = await Promise.all(uploadPromises);
+          const results = await Promise.all(uploadPromises);
+          uploadedFileUrls = results.filter((url): url is string => url !== null);
+          
+          if (uploadedFileUrls.length === 0 && files.length > 0) {
+            console.error("Semua file gagal diunggah.");
+          }
         }
       }
 
