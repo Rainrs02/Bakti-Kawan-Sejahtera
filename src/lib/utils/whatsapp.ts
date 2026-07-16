@@ -44,15 +44,15 @@ _Mohon balas pesan ini untuk konfirmasi jadwal_`
 
 export function getWALink(data: ConsultationFormData, fileUrls?: string[]): string {
   const message = generateWAMessage(data, fileUrls)
-  return `https://wa.me/${WA_ADMIN_NUMBER}?text=${message}`
+  return `https://api.whatsapp.com/send?phone=${WA_ADMIN_NUMBER}&text=${message}`
 }
 
 export function getWADirectLink(customMessage?: string): string {
   if (customMessage) {
-    return `https://wa.me/${WA_ADMIN_NUMBER}?text=${encodeURIComponent(customMessage)}`
+    return `https://api.whatsapp.com/send?phone=${WA_ADMIN_NUMBER}&text=${encodeURIComponent(customMessage)}`
   }
   const defaultMessage = encodeURIComponent(
     'Halo Bakti Kawan Service, saya ingin konsultasi mengenai layanan service furniture. Mohon informasinya. Terima kasih.'
   )
-  return `https://wa.me/${WA_ADMIN_NUMBER}?text=${defaultMessage}`
+  return `https://api.whatsapp.com/send?phone=${WA_ADMIN_NUMBER}&text=${defaultMessage}`
 }
