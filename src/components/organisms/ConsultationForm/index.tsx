@@ -105,7 +105,18 @@ export default function ConsultationForm({ initialCategory }: ConsultationFormPr
             }
 
             const cloudData = await cloudRes.json();
-            return cloudData.secure_url;
+            const originalUrl = cloudData.secure_url;
+            
+            try {
+              const tinyUrlRes = await fetch(`https://tinyurl.com/api-create.php?url=${encodeURIComponent(originalUrl)}`);
+              if (tinyUrlRes.ok) {
+                return await tinyUrlRes.text();
+              }
+            } catch (err) {
+              console.error("TinyURL error:", err);
+            }
+            
+            return originalUrl;
           });
 
           uploadedFileUrls = await Promise.all(uploadPromises);
