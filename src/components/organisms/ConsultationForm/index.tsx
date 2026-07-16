@@ -348,7 +348,8 @@ export default function ConsultationForm({ initialCategory }: ConsultationFormPr
         {fileError && <p className="form-error mt-2">{fileError}</p>}
         
         <p className="text-sm font-semibold text-accent mt-3">
-          Maks. 5MB untuk Foto/PDF, 20MB untuk Video. Harap siapkan Foto & Video Kerusakan kepada Admin untuk Analisa Detail Kerusakan.
+          Maks. 5MB untuk Foto/PDF, 20MB untuk Video. <br />
+          Harap lampirkan beberapa Foto & Video Kerusakan untuk analisa lebih lanjut
         </p>
       </div>
 

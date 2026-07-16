@@ -17,22 +17,22 @@ export function generateWAMessage(data: ConsultationFormData, fileUrls?: string[
   
   let fileLinks = '';
   if (fileUrls && fileUrls.length > 0) {
-    fileLinks = `\n📎 *Lampiran File:*\n${fileUrls.map((url, i) => `${i + 1}. ${url}`).join('\n')}\n`;
+    fileLinks = `\n📎 *Lampiran File*:\n${fileUrls.map((url, i) => `${i + 1}. ${url}`).join('\n')}\n`;
   }
 
   const message = `*PERMINTAAN KONSULTASI GRATIS*
 *servicealkes.com*
 ━━━━━━━━━━━━━━━━━━━━━━
 
-👤 *Nama:* ${data.nama}
-🏥 *Instansi/Perusahaan:* ${data.instansi}
-📧 *Email:* ${data.email}
-📱 *WhatsApp:* ${data.whatsapp}
+👤 *Nama*: ${data.nama}
+🏥 *Instansi/Perusahaan*: ${data.instansi}
+📧 *Email*: ${data.email}
+📱 *WhatsApp*: ${data.whatsapp}
 
-🔧 *Jenis Layanan:* ${jenisLayananLabel}
-📍 *Lokasi:* ${data.lokasi}
+🔧 *Jenis Layanan*: ${jenisLayananLabel}
+📍 *Lokasi*: ${data.lokasi}
 
-💬 *Pesan/Deskripsi Kerusakan:*
+💬 *Pesan/Deskripsi Kerusakan*:
 ${data.pesan}
 ${fileLinks}
 ━━━━━━━━━━━━━━━━━━━━━━
