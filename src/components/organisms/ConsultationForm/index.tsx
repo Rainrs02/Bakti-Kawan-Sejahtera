@@ -21,6 +21,7 @@ interface ConsultationFormProps {
 
 export default function ConsultationForm({ initialCategory }: ConsultationFormProps) {
   const [isSubmitted, setIsSubmitted] = useState(false)
+  const [finalFileUrls, setFinalFileUrls] = useState<string[]>([])
   const [expandedSection, setExpandedSection] = useState<string | null>(initialCategory || 'Alat Kesehatan')
   const [files, setFiles] = useState<File[]>([])
   const [fileError, setFileError] = useState<string>('')
@@ -136,6 +137,7 @@ export default function ConsultationForm({ initialCategory }: ConsultationFormPr
       }
 
       setFormData(data)
+      setFinalFileUrls(uploadedFileUrls)
       const waUrl = getWALink(data as any, uploadedFileUrls)
       window.open(waUrl, '_blank')
       setIsSubmitted(true)
@@ -159,7 +161,7 @@ export default function ConsultationForm({ initialCategory }: ConsultationFormPr
         </p>
         <div className="flex flex-col gap-3">
           <a
-            href={getWALink(getValues() as any)}
+            href={getWALink(getValues() as any, finalFileUrls)}
             target="_blank"
             rel="noopener noreferrer"
             className="btn btn-primary btn-lg w-full justify-center"
