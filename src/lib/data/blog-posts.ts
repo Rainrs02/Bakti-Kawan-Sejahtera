@@ -965,18 +965,11 @@ Dengan melakukan service, Anda tidak hanya menyelamatkan investasi alat, tetapi 
     metaTitle: 'Perawatan Preventif Troli Makanan RS untuk Standar Higiene | BKS',
     metaDescription: 'Pelajari pentingnya mencegah roda macet dan engsel rusak pada troli makanan rumah sakit dengan layanan preventive maintenance dan reparasi alkes.',
   }
-]
-
-export function getBlogPostBySlug(slug: string): BlogPost | undefined {
-  return BLOG_POSTS.find((p) => p.slug === slug)
-}
-
-export function getBlogPosts(): BlogPost[
-  ,{
+,{
     slug: 'panduan-perawatan-kursi-roda-rumah-sakit',
     title: 'Panduan Lengkap Service dan Pemeliharaan Kursi Roda di Rumah Sakit',
     excerpt: 'Kursi roda adalah sarana mobilitas utama bagi pasien. Pelajari cara merawat kursi roda agar tetap aman, nyaman, dan awet digunakan di lingkungan rumah sakit.',
-    content: \`
+    content: `
 # Panduan Lengkap Service dan Pemeliharaan Kursi Roda di Rumah Sakit
 
 Kursi roda merupakan salah satu instrumen mobilitas yang paling vital dan sering digunakan di lingkungan rumah sakit, klinik, maupun pusat rehabilitasi medis. Dari memindahkan pasien di Instalasi Gawat Darurat (IGD) hingga membantu pasien pasca-operasi untuk berjalan-jalan di area taman, kursi roda memikul beban kerja yang luar biasa setiap harinya. 
@@ -1033,7 +1026,7 @@ Pengecekan ringan bisa dilakukan oleh staf internal. Namun, untuk kerusakan yang
 Jangan biarkan armada kursi roda Anda berkarat di gudang hanya karena roda yang macet atau rem yang blong. Percayakan perbaikannya kepada kami! Apabila Anda juga memiliki masalah dengan troli logistik dan emergency, kami siap menanganinya melalui layanan [Service Troli Alkes](/layanan/service-troli-alkes). 
 
 [Hubungi kami hari ini untuk konsultasi gratis dan jadwalkan inspeksi alkes di fasilitas kesehatan Anda!](/konsultasi)
-\`,
+`,
     coverImage: '/images/blog/blog-kursi-roda.png',
     category: 'Alat Kesehatan',
     tags: ['kursi roda', 'service alkes', 'preventive maintenance', 'hospital mobility', 'perbaikan kursi roda'],
@@ -1046,13 +1039,12 @@ Jangan biarkan armada kursi roda Anda berkarat di gudang hanya karena roda yang 
     readingTime: 6,
     metaTitle: 'Panduan Service & Pemeliharaan Kursi Roda RS | BKS',
     metaDescription: 'Pelajari 4 komponen vital kursi roda rumah sakit yang wajib diinspeksi. Cegah kecelakaan pasien dengan service berkala dan reparasi alkes profesional.',
-  }
-\n
-  ,{
+  },
+  {
     slug: 'pentingnya-kebersihan-sofa-tunggu-klinik',
     title: 'Pentingnya Kebersihan dan Perawatan Sofa Tunggu di Klinik Kesehatan',
     excerpt: 'Sofa ruang tunggu klinik adalah titik pertama kontak pasien. Temukan alasan krusial mengapa material dan perawatan sofa ini berdampak langsung pada reputasi bisnis medis Anda.',
-    content: \`
+    content: `
 # Pentingnya Kebersihan dan Perawatan Sofa Tunggu di Klinik Kesehatan
 
 Kesan pertama (*first impression*) adalah segalanya. Ketika seorang pasien melangkahkan kakinya ke dalam klinik kesehatan, pusat kecantikan (klinik estetik), atau praktik dokter gigi Anda, hal pertama yang mereka interaksikan secara fisik bukanlah alat medis, melainkan sofa atau kursi di ruang tunggu (*waiting area*).
@@ -1094,7 +1086,7 @@ Selain itu, jika ruang tunggu Anda dilengkapi dengan kabinet obat kaca atau lema
 
 Ciptakan ruang tunggu yang menawan, menenangkan, dan paling penting: higienis untuk pasien kesayangan Anda. 
 [Klik di sini untuk mengatur jadwal survey gratis bersama tim konsultan BKS!](/konsultasi)
-\`,
+`,
     coverImage: '/images/blog/blog-sofa-tunggu.png',
     category: 'Furniture Medis',
     tags: ['sofa klinik', 'ruang tunggu', 'kebersihan klinik', 'medical grade vinyl', 'reupholstery sofa'],
@@ -1107,13 +1099,12 @@ Ciptakan ruang tunggu yang menawan, menenangkan, dan paling penting: higienis un
     readingTime: 7,
     metaTitle: 'Kebersihan & Perawatan Sofa Tunggu Klinik | Bakti Kawan Service',
     metaDescription: 'Kenapa kulit sofa ruang tunggu klinik cepat rusak? Pelajari tips merawatnya & manfaat mengganti material dengan bahan medical grade anti-mikroba dari BKS.',
-  }
-\n
-  ,{
+  },
+  {
     slug: 'cara-merawat-partisi-kantor-workstation',
     title: 'Cara Merawat Partisi Kantor (Workstation) Agar Tetap Bersih dan Awet',
     excerpt: 'Partisi meja kerja adalah elemen penting dalam konsep open-plan office. Simak trik merawat panel kain, kaca, dan aluminium kubikal kantor agar ruang kerja tetap produktif dan terlihat profesional.',
-    content: \`
+    content: `
 # Cara Merawat Partisi Kantor (Workstation) Agar Tetap Bersih dan Awet
 
 Konsep ruang kantor modern yang terbuka (*open-plan office*) sangat mengandalkan penggunaan partisi meja atau *workstation cubicle*. Selain berfungsi membatasi privasi antar karyawan agar tetap fokus, panel-panel partisi ini juga bertindak sebagai peredam kebisingan (*acoustic barrier*) dan menyembunyikan jalur kabel-kabel komputer yang berantakan (*cable management*).
@@ -1156,7 +1147,7 @@ Apakah Anda juga sedang merapikan sistem penyimpanan dokumen di belakang meja re
 
 Tingkatkan fokus dan semangat tim Anda melalui lingkungan kerja yang tertata apik layaknya kantor baru!
 [Diskusikan rencana perawatan furniture kantor Anda bersama konsultan ahli BKS sekarang.](/konsultasi)
-\`,
+`,
     coverImage: '/images/blog/blog-partisi-kantor.png',
     category: 'Furniture Kantor',
     tags: ['partisi kantor', 'workstation cubicle', 'perawatan kantor', 'cleaning fabric panel', 'service meja kantor'],
@@ -1169,13 +1160,12 @@ Tingkatkan fokus dan semangat tim Anda melalui lingkungan kerja yang tertata api
     readingTime: 6,
     metaTitle: 'Cara Merawat & Membersihkan Partisi Kantor (Cubicle) | BKS',
     metaDescription: 'Panduan lengkap merawat partisi panel kain, kaca akrilik, dan manajemen kabel workstation kantor agar awet. Solusi re-fabric partisi kubikal profesional.',
-  }
-\n
-  ,{
+  },
+  {
     slug: 'jenis-busa-sofa-kapan-ganti',
     title: 'Mengenal Jenis-Jenis Busa Sofa dan Kapan Waktunya Mengganti Busa',
     excerpt: 'Sofa yang kempes bisa membuat sakit punggung. Ketahui perbedaan busa Rebonded, Super, dan Memory Foam, serta kenali 5 tanda absolut bahwa sofa Anda membutuhkan suntikan busa baru.',
-    content: \`
+    content: `
 # Mengenal Jenis-Jenis Busa Sofa dan Kapan Waktunya Mengganti Busa
 
 Kulit atau kain sofa mungkin adalah hal pertama yang menarik perhatian mata Anda, tetapi tingkat kepadatan busa (Polyurethane Foam) di dalamnya adalah penentu utama kenyamanan dan kesehatan postur Anda. Banyak pemilik restoran, hotel, atau rumah tangga yang merasa kecewa ketika sofa baru mereka yang mahal mendadak "kempes" dan tenggelam hanya dalam kurun waktu beberapa bulan pemakaian.
@@ -1224,7 +1214,7 @@ Khusus untuk pebisnis kuliner yang sofa *booth*-nya sudah hancur lebur akibat pe
 
 Sofa yang kempes merugikan estetika dan nilai properti Anda. 
 [Segera konsultasikan kerusakan sofa dan kursi hidrolik Anda dengan mengeklik tautan ini!](/konsultasi)
-\`,
+`,
     coverImage: '/images/blog/blog-jenis-busa-sofa.png',
     category: 'Tips & Panduan',
     tags: ['busa sofa', 'rebonded foam', 'high resilience foam', 'reupholstery', 'ganti busa kursi'],
@@ -1237,8 +1227,257 @@ Sofa yang kempes merugikan estetika dan nilai properti Anda.
     readingTime: 7,
     metaTitle: 'Mengenal Jenis Busa Sofa (Rebonded/Super) & Kapan Waktunya Diganti',
     metaDescription: 'Pelajari perbedaan busa sofa Rebonded vs busa Super HR. Kenali 5 tanda busa kursi kempes dan saatnya melakukan injeksi busa (tambah busa) untuk kenyamanan.',
+  },
+{
+    slug: 'panduan-lengkap-pemeliharaan-service-bed-pasien-rs',
+    title: 'Panduan Lengkap Pemeliharaan dan Service Bed Pasien Rumah Sakit (Manual & Elektrik)',
+    excerpt: 'Ranjang pasien yang rusak mengancam keselamatan dan kenyamanan pemulihan. Temukan cara merawat bed pasien manual & elektrik serta kapan harus memanggil jasa service profesional.',
+    content: `
+# Panduan Lengkap Pemeliharaan dan Service Bed Pasien Rumah Sakit (Manual & Elektrik)
+
+Ranjang pasien atau hospital bed adalah salah satu peralatan medis paling krusial di lingkungan rumah sakit, klinik, dan fasilitas perawatan jangka panjang. Sebagai tempat di mana pasien menghabiskan sebagian besar waktu pemulihannya, bed pasien dituntut tidak hanya memberikan kenyamanan prima tetapi juga keamanan struktural yang mutlak. Kerusakan pada komponen bed pasien dapat secara langsung menghambat proses penyembuhan, memperlama waktu perawatan, hingga membahayakan keselamatan pasien dan tenaga medis yang mengoperasikannya.
+
+Secara umum, terdapat dua jenis ranjang pasien yang digunakan saat ini: bed pasien manual (yang dioperasikan menggunakan engkol tangan/crank) dan bed pasien elektrik (yang menggunakan motor listrik dan remote control). Keduanya memerlukan metode pemeliharaan (preventive maintenance) dan prosedur service yang spesifik agar masa pakainya optimal dan selalu siap digunakan dalam kondisi darurat.
+
+## Mengapa Pemeliharaan Bed Pasien Sangat Penting?
+
+Banyak manajemen fasilitas kesehatan yang mengabaikan pemeliharaan rutin bed pasien karena menganggapnya sebagai furniture sederhana. Padahal, bed pasien adalah alat kesehatan (alkes) aktif dengan bagian mekanis yang bergerak di bawah beban berat terus-menerus. Beberapa alasan mengapa perawatan berkala wajib dilakukan antara lain:
+
+1. **Keselamatan Pasien (Patient Safety):** Rel pengaman samping (side rails) yang longgar atau pengunci roda yang aus dapat menyebabkan pasien jatuh, yang berisiko memicu cedera serius hingga tuntutan hukum bagi rumah sakit.
+2. **Ergonomi Staf Medis:** Bed elektrik yang macet pada posisi rendah akan menyulitkan perawat dalam memindahkan atau memeriksa pasien. Staf medis terpaksa membungkuk secara tidak ergonomis yang dapat memicu cedera tulang belakang (low back pain).
+3. **Mencegah Kerusakan yang Lebih Besar:** Masalah kecil seperti as roda yang seret atau motor listrik yang mengeluarkan suara bising, jika didiamkan, dapat merambat menjadi kerusakan fatal pada sistem hidrolik atau modul kontrol (PCB) utama.
+4. **Kepatuhan Regulasi Akreditasi:** Standar akreditasi rumah sakit mewajibkan seluruh alkes pendukung pasien diinspeksi secara berkala dan memiliki catatan pemeliharaan yang terdokumentasi dengan baik.
+
+---
+
+## Panduan Perawatan Bed Pasien Manual
+
+Bed pasien manual mengandalkan sistem mekanis engkol (crank) untuk menaik-turunkan posisi kepala (backrest), kaki (legrest), maupun tinggi keseluruhan tempat tidur (hi-low). Perawatan utamanya berfokus pada pelumasan dan penyetelan mekanis:
+
+### 1. Pelumasan Sistem Engkol (Crank System)
+Roda gigi dan ulir engkol di bawah tempat tidur menahan gesekan yang sangat besar saat engkol diputar dalam kondisi terbebani pasien. 
+- **Tindakan:** Lakukan pelumasan minimal sebulan sekali menggunakan gemuk (grease) berkualitas tinggi atau pelumas silikon cair. Bersihkan sisa pelumas lama yang telah bercampur debu sebelum mengoleskan pelumas baru.
+- **Pengecekan:** Pastikan engkol dapat dilipat masuk kembali dengan sempurna setelah digunakan agar tidak menonjol keluar dan membentur kaki perawat yang lalu lalang.
+
+### 2. Pemeriksaan Roda dan Sistem Pengunci (Castors & Locking)
+Roda bed pasien manual harus dapat berputar dan berbelok dengan mulus ke segala arah.
+- **Tindakan:** Bersihkan roda dari lilitan rambut, benang, atau plastik yang menempel pada as roda. Semprotkan pelumas penembus karat jika roda terasa seret.
+- **Pengecekan:** Uji sistem pengereman (brakes). Aktifkan rem pada keempat roda lalu coba dorong bed pasien dengan kuat. Ranjang tidak boleh bergeser sedikit pun. Jika menggunakan sistem rem sentral (central lock), pastikan batang penghubung mekanisnya tidak bengkok.
+
+### 3. Inspeksi Sambungan Las dan Rangka Baja
+Rangka baja bed pasien menahan beban statis and dinamis setiap hari.
+- **Tindakan:** Lakukan inspeksi visual ke seluruh sambungan las, khususnya pada bagian lipatan mekanis di bawah kasur. Cari tanda-tanda retakan halus atau cat yang terkelupas akibat karat. Jika ditemukan retakan pada struktur utama, segera hentikan penggunaan ranjang dan jadwalkan pengelasan struktural.
+
+---
+
+## Panduan Perawatan Bed Pasien Elektrik
+
+Bed elektrik menggunakan aktuator motor linear (motorized actuator), kotak kontrol (control box), dan remote control (hand control/nurse station control). Kompleksitas kelistrikan ini memerlukan perhatian ekstra:
+
+### 1. Pemeliharaan Sistem Kabel dan Konektor (Cable Management)
+Kabel listrik yang terjepit di antara rangka logam yang bergerak adalah salah satu penyebab korsleting listrik tersering pada bed elektrik.
+- **Tindakan:** Rapikan kabel-kabel motor di bawah ranjang menggunakan ikatan kabel (cable ties) fleksibel. Pastikan kabel tidak tegang saat ranjang dinaikkan ke posisi maksimal (hi-low maximum).
+- **Pengecekan:** Periksa isolasi luar kabel dari tanda-tanda gigitan tikus atau gesekan rangka baja. Jika isolasi luar robek, segera ganti kabel tersebut.
+
+### 2. Kalibrasi Aktuator Motor Linear
+Aktuator adalah komponen yang mendorong mekanisme pengungkit ranjang.
+- **Tindakan:** Dengarkan suara motor saat bekerja. Suara berdecit tajam atau getaran yang tidak biasa menandakan motor bekerja terlalu keras akibat kekurangan pelumas internal atau as penggerak yang bengkok.
+- **Pengecekan:** Lakukan kalibrasi posisi sensor batas atas dan bawah (limit switches) agar motor berhenti bekerja secara otomatis saat posisi ekstrem tercapai, guna mencegah motor terbakar (*burnout*).
+
+### 3. Pemeliharaan Baterai Cadangan (Backup Battery)
+Sebagian besar bed elektrik modern dilengkapi baterai cadangan agar tetap bisa dioperasikan saat pemadaman listrik atau selama evakuasi pasien.
+- **Tindakan:** Uji kapasitas baterai setidaknya setiap 3 bulan sekali dengan mencabut kabel daya utama dari stopkontak dinding, kemudian operasikan semua fungsi ranjang menggunakan baterai. Jika baterai tidak mampu menaikkan posisi ranjang lebih dari 3 kali siklus penuh, segera ganti sel baterai dengan yang baru.
+
+---
+
+## Protokol Sanitasi dan Disinfeksi Bed Pasien
+
+Bed pasien sangat rentan terkontaminasi cairan tubuh pasien, obat-obatan, dan bakteri nosokomial. Prosedur sanitasi yang benar wajib diterapkan oleh staf kebersihan rumah sakit:
+- **Gunakan Cairan Disinfektan yang Tepat:** Bersihkan permukaan rangka bed menggunakan cairan disinfektan dengan konsentrasi yang disarankan (misalnya klorin encer atau alkohol). Hindari menyemprotkan cairan langsung ke area panel kontrol remote atau kotak modul kelistrikan untuk mencegah konsleting.
+- **Sanitasi Sela-Sela Rangka:** Lapisan debu dan noda sering menumpuk di sela-sela lipatan rangka penahan kasur. Gunakan sikat kecil berbulu lembut yang dibasahi disinfektan untuk menjangkau area sempit tersebut.
+
+---
+
+## Solusi Reparasi dan Service Bed Pasien Profesional
+
+Pemeliharaan harian dapat ditangani oleh tim sanitasi dan teknisi internal rumah sakit. Namun, ketika terjadi kerusakan serius pada modul elektronik, kerusakan sasis/rangka akibat tabrakan, aktuator mati total, atau jika bed pasien memerlukan kalibrasi akurasi pasca-reparasi berat, Anda membutuhkan bantuan dari tim teknisi spesialis alkes eksternal yang bersertifikat.
+
+**PT Bakti Kawan Service (BKS)** hadir sebagai mitra terpercaya Anda melalui layanan khusus [Service Bed Pasien dan Alkes](/layanan/service-bed-pasien). Kami memiliki keahlian mendalam dalam mendiagnosis kerusakan sistem elektrikal berbagai merk hospital bed ternama, melakukan pengelasan argon presisi pada sasis baja yang patah, meremajakan sistem aktuator motor, hingga memulihkan fungsi engkol manual yang macet.
+
+Tak hanya menangani bed pasien, tim teknisi kami yang berpengalaman juga siap membantu menjaga keandalan alkes mobilitas lainnya melalui layanan [Service Troli Alkes](/layanan/service-troli-alkes) untuk memastikan crash cart dan troli emergency Anda selalu siap pakai di IGD. Selain itu, kami juga menawarkan program pemeliharaan furniture penyimpanan klinis lewat layanan [Service Lemari Alkes](/layanan/service-lemari-alkes), serta perbaikan furniture ruang tunggu pasien via [Service Sofa & Kursi Kantor](/layanan/service-sofa-kursi-kantor).
+
+Jangan biarkan antrean pasien menumpuk karena puluhan bed pasien di rumah sakit Anda rusak dan terbengkalai di gudang. Hubungi kami sekarang untuk menjadwalkan kunjungan inspeksi dan service berkala demi keselamatan pasien Anda!
+
+[Konsultasikan Kebutuhan Service Bed Pasien Anda Bersama BKS Sekarang →](/konsultasi)
+`,
+    coverImage: '/images/blog/blog-service-bed-pasien.png',
+    category: 'Alat Kesehatan',
+    tags: ['service bed pasien', 'pemeliharaan alkes', 'bed rumah sakit', 'reparasi bed pasien', 'maintenance bed elektrik'],
+    author: {
+      name: 'Tim Ahli BKS',
+      role: 'Alkes Maintenance Engineer',
+      avatar: '/images/team/author-default.webp',
+    },
+    publishedAt: '2026-07-22T09:00:00Z',
+    readingTime: 7,
+    metaTitle: 'Panduan Lengkap Pemeliharaan & Service Bed Pasien RS | BKS',
+    metaDescription: 'Cara merawat bed pasien manual & elektrik rumah sakit. Tips merawat motor aktuator, engkol mekanis, roda, serta info jasa service bed pasien profesional.'
+  },
+  {
+    slug: 'standar-perawatan-dan-kalibrasi-lampu-operasi-rs',
+    title: 'Standar Perawatan, Pembersihan, dan Kalibrasi Lampu Operasi Rumah Sakit',
+    excerpt: 'Lampu operasi adalah penentu visibilitas kritis saat bedah. Pelajari standar pembersihan, perawatan kelistrikan, dan kalibrasi lux agar pencahayaan selalu optimal.',
+    content: `
+# Standar Perawatan, Pembersihan, dan Kalibrasi Lampu Operasi Rumah Sakit
+
+Di dalam ruang operasi (operating theatre), pencahayaan merupakan faktor kritis yang menentukan keberhasilan suatu tindakan bedah. Lampu operasi (surgical light) dirancang secara khusus untuk memancarkan cahaya dengan intensitas tinggi, minim bayangan (shadowless) dan suhu warna (color temperature) yang mendekati cahaya alami untuk memberikan visualisasi organ dan jaringan tubuh pasien secara akurat bagi dokter bedah.
+
+Sesaat saja lampu operasi meredup, berkedip (flickering), bergeser dari posisinya akibat engsel lengan (suspension arm) yang longgar, atau memancarkan panas berlebih, fokus tim bedah akan terganggu dan keselamatan pasien di atas meja operasi langsung dipertaruhkan. Oleh karena itu, penerapan standar perawatan, protokol pembersihan yang higienis, serta kalibrasi intensitas cahaya berkala adalah harga mati bagi setiap rumah sakit.
+
+## Mengenal Jenis-Jenis Lampu Operasi Modern
+
+Perkembangan teknologi medis telah menggeser penggunaan lampu operasi halogen konvensional ke teknologi LED (Light Emitting Diode). Memahami perbedaan keduanya sangat membantu dalam merancang strategi perawatan yang efisien:
+
+1. **Lampu Operasi Halogen:** Menggunakan filamen gas halogen. Cenderung menghasilkan panas lebih tinggi pada area kepala bedah, memiliki masa pakai bohlam yang relatif pendek (sekitar 1.000 hingga 3.000 jam), dan memerlukan penggantian bohlam secara rutin.
+2. **Lampu Operasi LED:** Mengonsumsi daya listrik jauh lebih hemat, memancarkan cahaya dingin (cool light) yang meminimalisir risiko jaringan tubuh pasien mengering akibat panas lampu, memiliki masa pakai sangat panjang (hingga 50.000 jam), dan memberikan kontrol suhu warna yang lebih fleksibel.
+
+---
+
+## Prosedur Pembersihan dan Sanitasi Higienis Lampu Operasi
+
+Sebagai perangkat yang menggantung tepat di atas meja operasi, lampu bedah harus dijaga kebersihannya dari kontaminasi bakteri, debu, dan cipratan cairan tubuh. Pembersihan lampu operasi harus dilakukan dengan sangat hati-hati untuk mencegah kerusakan pada lensa optik dan sistem kelistrikan:
+
+### 1. Waktu Pembersihan yang Direkomendasikan
+- **Sebelum Operasi Pertama:** Lap ringan seluruh bagian kubah lampu (lighthead) dan gagang kontrol untuk menghilangkan debu halus yang menempel semalaman.
+- **Antara Tindakan Operasi (Between Cases):** Lakukan disinfeksi pada gagang lampu (sterilizable handle) dan bagian bawah kubah lampu yang paling dekat dengan medan bedah menggunakan disinfektan tingkat menengah (intermediate-level disinfectant).
+- **Pembersihan Harian (End of Day):** Bersihkan seluruh bagian lampu termasuk lengan suspensi, kotak kontrol dinding, dan kaca pelindung utama secara menyeluruh setelah semua operasi selesai untuk hari itu.
+
+### 2. Teknik Pembersihan yang Benar
+- Selalu matikan aliran listrik utama (main power switch) dan biarkan lampu mendingin jika Anda masih menggunakan model halogen.
+- Gunakan kain microfiber yang lembut dan lembap. Jangan pernah menyemprotkan cairan disinfektan langsung to lensa optik untuk menghindari rembesan cairan ke dalam kubah lampu yang dapat memicu korsleting listrik atau merusak lapisan anti-refleksi lensa.
+- Gunakan disinfektan non-alkohol atau yang direkomendasikan pabrikan alkes. Penggunaan alkohol konsentrasi tinggi pada penutup plastik akrilik dapat memicu keretakan halus (crazing) yang merusak pembiasan cahaya.
+
+---
+
+## Langkah Perawatan Mekanis dan Kelistrikan
+
+Sistem suspensi lampu operasi terdiri dari lengan artikulasi dengan pegas (spring arms) yang memungkinkan lampu diposisikan pada berbagai sudut secara stabil tanpa merosot (drift).
+
+### 1. Pengecekan Kestabilan Lengan Suspensi (Suspension Arm Adjustment)
+- **Gejala Kerusakan:** Lampu operasi perlahan bergeser turun setelah dilepaskan oleh dokter, atau terasa sangat berat saat digerakkan.
+- **Tindakan:** Buka penutup sendi lengan suspensi dan atur ketegangan pegas menggunakan kunci Allen/L. Kencangkan baut pengunci gesekan (friction brakes) secara bertahap hingga lampu tetap diam di posisi manapun ia dilepaskan, namun tetap mudah digerakkan dengan satu tangan.
+
+### 2. Inspeksi Kabel dan Cincin Geser (Slip Rings)
+Lampu operasi langit-langit (ceiling-mounted) dirancang untuk dapat berputar 360 derajat tanpa memuntir kabel internal. Hal ini dimungkinkan oleh komponen yang disebut slip rings atau cincin kontak listrik.
+- **Tindakan:** Periksa apakah putaran lampu terasa kasar atau tersendat. Bersihkan debu karbon yang menumpuk pada slip rings secara berkala menggunakan cairan pembersih kontak listrik (contact cleaner) khusus alkes yang cepat kering.
+
+---
+
+## Pentingnya Kalibrasi Intensitas Cahaya (Lux Calibration)
+
+Seiring berjalannya waktu, emisi cahaya dari LED maupun halogen akan mengalami degradasi (penurunan intensitas). Kalibrasi lux bertujuan memastikan tingkat pencahayaan tetap sesuai standar keselamatan bedah (biasanya berkisar antara 100.000 hingga 160.000 Lux pada jarak 1 meter).
+- **Alat Kalibrasi:** Gunakan Lux Meter (Light Meter) terkalibrasi. Pengecekan dilakukan pada titik fokus bidang bedah untuk memverifikasi pencahayaan tanpa bayangan (shadowless effect).
+- **Frekuensi:** Lakukan kalibrasi minimal setiap 6 hingga 12 bulan sekali oleh teknisi elektromedis profesional, lengkap dengan sertifikat kalibrasi resmi.
+
+---
+
+## Layanan Service Lampu Operasi Profesional dari BKS
+
+Jika lampu operasi di rumah sakit Anda menunjukkan gejala redup, berkedip, lengan suspensi anjlok, atau gagal menyala akibat kerusakan sistem kelistrikan utama, segera hubungi ahlinya. Menunda perbaikan alkes vital ini dapat mengacaukan jadwal operasi pasien dan menurunkan kualitas pelayanan kesehatan Anda.
+
+**PT Bakti Kawan Service (BKS)** menyediakan solusi [Service Lampu Rumah Sakit](/layanan/service-lampu-rumah-sakit) yang komprehensif. Kami menangani reparasi lampu operasi langit-langit (ceiling mount), lampu operasi mobile (stand mount), penggantian ballast elektrikal, rekondisi lengan suspensi yang loyo, hingga penggantian modul LED original.
+
+Untuk menjaga integritas dan kenyamanan ruang bedah secara total, kami juga menawarkan layanan integrasi seperti [Service Meja Operasi](/layanan/service-meja-operasi) untuk menjaga kelancaran sistem hidrolik meja bedah, reparasi ranjang pasien pasca-operasi melalui [Service Bed Pasien dan Alkes](/layanan/service-bed-pasien), serta pemeliharaan lemari penyimpanan obat steril melalui [Service Lemari Alkes](/layanan/service-lemari-alkes).
+
+Jamin kejelasan visibilitas tindakan bedah di rumah sakit Anda bersama PT Bakti Kawan Service. Hubungi tim kami hari ini untuk konsultasi dan jadwalkan inspeksi teknis!
+
+[Hubungi Tim Teknisi Lampu Operasi BKS Sekarang →](/konsultasi)
+`,
+    coverImage: '/images/blog/blog-service-lampu-operasi.png',
+    category: 'Alat Kesehatan',
+    tags: ['service lampu rumah sakit', 'lampu operasi', 'kalibrasi alkes', 'maintenance lampu bedah', 'perbaikan lampu rs'],
+    author: {
+      name: 'Tim Ahli BKS',
+      role: 'Surgical Equipment Specialist',
+      avatar: '/images/team/author-default.webp',
+    },
+    publishedAt: '2026-07-23T10:00:00Z',
+    readingTime: 6,
+    metaTitle: 'Standar Perawatan & Kalibrasi Lampu Operasi RS | BKS',
+    metaDescription: 'Panduan lengkap perawatan, pembersihan lensa optik, penyetelan suspensi arm, dan kalibrasi intensitas lux lampu operasi rumah sakit dari tim ahli BKS.'
+  },
+  {
+    slug: 'pentingnya-perawatan-dan-modifikasi-furniture-ambulance',
+    title: 'Pentingnya Perawatan, Reparasi, dan Modifikasi Furniture di Dalam Ambulance',
+    excerpt: 'Ambulance adalah ruang darurat berjalan. Ketahui mengapa perawatan stretcher, kabinet alkes, dan modifikasi layout furniture sangat krusial bagi keselamatan pasien.',
+    content: `
+# Pentingnya Perawatan, Reparasi, dan Modifikasi Furniture di Dalam Ambulance
+
+Mobil ambulance merupakan unit tanggap darurat yang bertindak sebagai jembatan penyelamat hidup (life-saving bridge) antara lokasi kejadian darurat medis dan rumah sakit rujukan. Di dalam kabin ambulance, setiap ruang dimanfaatkan secara efisien untuk menampung peralatan medis resusitasi, obat-obatan kritis, tabung oksigen, serta pasien beserta petugas medis pendamping.
+
+Mengingat guncangan hebat dan gaya sentrifugal yang terjadi saat ambulance melaju kencang menerobos kemacetan jalan raya, semua furniture di dalam kabin (termasuk stretcher/ranjang ambulance, lemari alkes, bangku perawat, dan bracket peralatan) harus dalam kondisi kokoh, terikat aman, dan berfungsi 100% tanpa cela. Kerusakan sekecil apa pun pada engsel lemari obat atau kegagalan roda stretcher mengunci dapat berakibat fatal bagi pasien dan staf medis di dalamnya.
+
+## Komponen Furniture Ambulance yang Wajib Dirawat Rutin
+
+Untuk menjamin kelaikan operasional armada ambulance, tim pemeliharaan armada rumah sakit atau klinik harus melakukan pemeriksaan berkala pada komponen-komponen furniture kritis berikut:
+
+### 1. Stretcher dan Cot Ambulance (Ranjang Pasien)
+Stretcher adalah komponen paling dinamis di dalam ambulance yang berfungsi memindahkan pasien dari lokasi darurat ke dalam mobil, dan sebaliknya.
+- **Sistem Pelipatan Kaki (Loading Mechanism):** Kaki-kaki stretcher dirancang untuk melipat secara otomatis saat didorong masuk ke dalam kabin ambulance. Bersihkan sendi-sendi engsel kaki stretcher dari debu aspal dan lumasi menggunakan pelumas kering (dry lubricant) agar tidak macet saat pemindahan pasien.
+- **Sistem Pengunci Stretcher (Stretcher Lock/Catch):** Di dalam kabin, stretcher harus terkunci rapat pada landasan besi (stretcher base). Uji kekuatan pengunci ini secara berkala. Stretcher tidak boleh bergeser atau terangkat saat mobil melakukan pengereman mendadak.
+
+### 2. Kabinet Alkes dan Lemari Obat (Medical Cabinets)
+Kabinet di dalam ambulance biasanya terbuat dari bahan PVC foam board, akrilik tebal, atau stainless steel untuk menahan guncangan dan mempermudah pembersihan.
+- **Kunci Latch Pintu:** Pintu kabinet obat harus dilengkapi dengan sistem kunci pencet (push lock) atau kunci slot yang sangat kuat. Pastikan tidak ada pintu kabinet yang kendor. Pintu kabinet yang mendadak terbuka saat ambulance berbelok tajam dapat menumpahkan botol obat atau alkes berat yang berpotensi mencederai kepala pasien.
+- **Engsel Pintu Hidrolik (Soft Close/Gas Spring):** Periksa gas spring penahan pintu kabinet atas. Jika tekanan gasnya sudah melemah, segera ganti agar pintu tidak jatuh menimpa tangan petugas medis yang sedang mengambil peralatan darurat.
+
+### 3. Bangku Petugas Medis dan Dokter (Companion Seats)
+Kursi pendamping di dalam ambulance biasanya dilapisi vinyl tebal yang tahan air dan cairan disinfektan.
+- **Sabuk Pengaman (Seatbelt):** Karena tingginya risiko kecelakaan lalu lintas pada kendaraan darurat, sabuk pengaman pada bangku petugas medis wajib diinspeksi. Pastikan gesper pengunci sabuk berfungsi dengan sempurna.
+- **Kondisi Kulit Kursi:** Jika kulit jok robek, segera lakukan pelapisan ulang (reupholstery) menggunakan bahan vinyl medical grade yang tahan terhadap paparan cairan kimia disinfektan terus-menerus.
+
+---
+
+## Pentingnya Modifikasi Layout Interior Ambulance
+
+Seiring berkembangnya standar pelayanan medis, jenis peralatan alkes yang harus dibawa di dalam ambulance pun ikut bertambah. Hal ini menuntut adanya modifikasi layout interior agar kabin tetap terasa lapang dan ergonomis bagi petugas medis untuk melakukan tindakan darurat (seperti CPR atau intubasi):
+- **Optimalisasi Ruang Penyimpanan:** Modifikasi penambahan bracket khusus untuk tabung oksigen berukuran besar, gantungan infus yang terintegrasi pada atap kabin, dan dudukan monitor pasien (patient monitor bracket) yang anti-getar.
+- **Kemudahan Akses Alkes:** Menata kembali posisi lemari obat agar instrumen penyelamat nyawa (seperti defibrilator dan alat bantu napas) berada dalam jangkauan tangan petugas tanpa perlu melepas sabuk pengaman mereka.
+
+---
+
+## Solusi Reparasi dan Modifikasi Ambulance Profesional dari BKS
+
+Merawat dan memodifikasi interior ambulance membutuhkan keahlian mekanis, estetika interior, serta pemahaman mendalam tentang standar keselamatan kendaraan medis. Pengerjaan yang asal-asalan justru dapat membahayakan keselamatan penumpang dan melanggar aturan lalu lintas jalan raya.
+
+**PT Bakti Kawan Service (BKS)** hadir menawarkan layanan khusus [Service Ambulance](/layanan/service-ambulance) yang komprehensif. Kami melayani perbaikan stretcher mekanis yang macet, penggantian roda medical grade anti-statis pada stretcher, pemasangan baru kabinet obat dari material PVC foam board tahan rayap dan anti-air, hingga pembuatan bracket alkes khusus yang dirancang presisi menahan guncangan jalan raya.
+
+Selain interior ambulance, kami juga siap membantu Anda merawat aset penunjang medis rumah sakit lainnya. Dapatkan layanan pemeliharaan peralatan IGD Anda melalui [Service Troli Alkes](/layanan/service-troli-alkes), restorasi sofa ruang tunggu maupun kursi direktur rumah sakit lewat [Service Sofa & Kursi Kantor](/layanan/service-sofa-kursi-kantor), serta perbaikan furniture besi struktural rumah sakit melalui divisi [Service Furniture Rumah & Besi](/layanan/service-furniture-rumah-besi).
+
+Pastikan armada ambulance Anda selalu dalam kondisi siap siaga menyelamatkan nyawa pasien tanpa kendala furniture yang rusak atau tidak praktis. Hubungi tim ahli BKS sekarang untuk konsultasi desain interior dan estimasi biaya service!
+
+[Hubungi Konsultan Restorasi Ambulance BKS Hari Ini →](/konsultasi)
+`,
+    coverImage: '/images/blog/blog-service-ambulance.png',
+    category: 'Fasilitas Medis',
+    tags: ['service ambulance', 'stretcher ambulance', 'troli emergency', 'modifikasi ambulance', 'furniture alkes'],
+    author: {
+      name: 'Tim Ahli BKS',
+      role: 'Ambulance Fleet Engineer',
+      avatar: '/images/team/author-default.webp',
+    },
+    publishedAt: '2026-07-24T08:00:00Z',
+    readingTime: 6,
+    metaTitle: 'Pentingnya Perawatan & Modifikasi Layout Furniture Ambulance | BKS',
+    metaDescription: 'Tips merawat stretcher mekanis, mengamankan kabinet obat, dan modifikasi layout interior ambulance medis agar aman dan ergonomis bagi petugas medis.'
   }
-\n] {
+]
+
+export function getBlogPostBySlug(slug: string): BlogPost | undefined {
+  return BLOG_POSTS.find((p) => p.slug === slug)
+}
+
+export function getBlogPosts(): BlogPost[] {
   return BLOG_POSTS.sort(
     (a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime()
   )
