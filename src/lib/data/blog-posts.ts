@@ -1470,7 +1470,91 @@ Pastikan armada ambulance Anda selalu dalam kondisi siap siaga menyelamatkan nya
     readingTime: 6,
     metaTitle: 'Pentingnya Perawatan & Modifikasi Layout Furniture Ambulance | BKS',
     metaDescription: 'Tips merawat stretcher mekanis, mengamankan kabinet obat, dan modifikasi layout interior ambulance medis agar aman dan ergonomis bagi petugas medis.'
+  },
+  {
+    slug: 'panduan-lengkap-pemeliharaan-reparasi-dan-kalibrasi-meja-operasi',
+    title: 'Panduan Lengkap Pemeliharaan, Reparasi, dan Kalibrasi Meja Operasi (Operating Table) Rumah Sakit',
+    excerpt: 'Meja operasi yang macet membahayakan kelancaran tindakan bedah. Pelajari cara merawat sistem hidrolik, kelistrikan, kontroler, serta kapan harus menggunakan jasa service profesional.',
+    content: `
+# Panduan Lengkap Pemeliharaan, Reparasi, dan Kalibrasi Meja Operasi (Operating Table) Rumah Sakit
+
+Di dalam kamar bedah (operating room), setiap detail peralatan medis memegang peranan krusial dalam menunjang keberhasilan pembedahan. Salah satu alkes yang paling vital namun sering kali luput dari perhatian pemeliharaan mendalam adalah **Meja Operasi (Operating Table / Surgical Table)**. Meja operasi bukan sekadar tempat tidur datar; ia adalah sistem mekanis, hidrolik, dan elektronik canggih yang dirancang untuk memposisikan tubuh pasien secara sangat presisi demi mempermudah akses dokter bedah ke organ target.
+
+Jika meja operasi mendadak macet saat operasi sedang berlangsung, sistem hidroliknya bocor, atau terjadi malfungsi pada tombol pengaturan posisi, keselamatan pasien di atas meja bedah langsung terancam. Penundaan tindakan bedah karena kegagalan alat dapat berakibat fatal. Oleh karena itu, protokol pemeliharaan preventif (preventive maintenance), kalibrasi posisi kemiringan, serta pemahaman tentang penanganan kerusakan adalah keharusan mutlak bagi faskes Anda.
+
+---
+
+## Memahami Cara Kerja Meja Operasi Modern
+
+Untuk merawat meja operasi dengan benar, kita harus mengenali jenis dan mekanisme penggerak utamanya. Secara garis besar, meja operasi terbagi menjadi dua kategori:
+
+1. **Meja Operasi Elektro-Hidrolik:** Menggunakan motor listrik untuk memompa cairan hidrolik ke berbagai silinder piston. Piston inilah yang mendorong bagian kepala, punggung, kaki, dan tinggi meja. Pengoperasiannya dikendalikan melalui remote control (hand pendant) atau panel cadangan di kolom dasar meja (column control).
+2. **Meja Operasi Mekanik-Hidrolik:** Posisi digerakkan secara manual menggunakan engkol kaki (pedal pompa hidrolik) untuk menaik-turunkan meja, serta tuas mekanis manual di bagian bawah kasur untuk menyesuaikan sudut kemiringan (tilt, Trendelenburg, backrest).
+
+Kedua jenis ini memiliki kelebihan masing-masing, namun sistem hidrolik adalah kesamaan utama yang membutuhkan pemeliharaan paling intensif.
+
+---
+
+## 4 Komponen Kritis Meja Operasi yang Wajib Dirawat
+
+Berikut adalah komponen-komponen meja operasi yang paling sering mengalami keausan dan memerlukan pengawasan rutin oleh teknisi elektromedis:
+
+### 1. Sistem Hidrolik dan Seal Piston (Hydraulic Oil & Seals)
+Oli hidrolik bertindak sebagai media transmisi daya mekanis.
+- **Masalah:** Penurunan level oli hidrolik akibat kebocoran mikro pada cincin karet penyekat (O-ring/seal). Kebocoran ini ditandai dengan meja yang perlahan-lahan turun dengan sendirinya (*drift*) saat menahan beban pasien, atau munculnya rembesan oli di lantai bawah kolom meja.
+- **Tindakan:** Cek level oli hidrolik setiap 6 bulan sekali. Gunakan jenis oli hidrolik khusus medis (medical-grade hydraulic fluid) dengan viskositas yang direkomendasikan pabrik. Segera ganti karet seal yang sudah mengeras atau robek.
+
+### 2. Sistem Kelistrikan dan Aktuator Elektro-Hidrolik (Kabel & Baterai)
+Pada meja operasi elektrik, keandalan sistem baterai cadangan sangat krusial saat pemadaman listrik darurat.
+- **Masalah:** Kabel remote control yang tertekuk atau terjepit rangka logam saat meja bergerak dapat menyebabkan kabel putus di dalam, memicu malfungsi tombol kontroler. Selain itu, baterai isi ulang (rechargeable battery) yang tidak pernah dirawat akan kehilangan kapasitas simpannya (soak).
+- **Tindakan:** Selalu gantung remote pada tempatnya setelah digunakan. Lakukan pengujian kapasitas baterai minimal sebulan sekali dengan mengoperasikan meja operasi hanya menggunakan daya baterai tanpa terhubung ke kabel power dinding.
+
+### 3. Rangka Logam, Slide Rel, dan Sistem Pengunci Lantai (Brakes)
+Meja operasi harus stabil secara mutlak dan tidak boleh bergeser 1 milimeter pun saat dokter sedang melakukan sayatan presisi.
+- **Masalah:** Sistem pengunci lantai (floor locks / brake pads) yang digerakkan oleh piston hidrolik bawah kolom meja aus atau tidak mencengkeram lantai dengan rata. Hal ini membuat meja mudah goyang saat tersenggol.
+- **Tindakan:** Bersihkan bantalan rem bawah meja dari sisa debu dan cairan pembersih lantai yang licin. Lumasi bagian slide rails (rel geser penahan aksesoris) agar klem penahan tangan atau penyangga kepala dapat meluncur lancar.
+
+### 4. Kasur dan Bantalan Meja Operasi (Mattress Pads)
+Bantalan kasur meja operasi dirancang khusus untuk mendistribusikan tekanan tubuh pasien secara merata guna mencegah luka tekan (decubitus ulcer) selama operasi panjang.
+- **Masalah:** Bahan pembungkus luar kasur robek akibat gesekan alat bedah tajam, membiarkan cairan disinfektan atau darah merembes ke dalam busa dalam kasur. Kasur yang merembes cairan tubuh berisiko menjadi agen penyebaran infeksi silang.
+- **Tindakan:** Inspeksi permukaan kasur setiap kali sebelum digunakan. Jika ditemukan robekan sekecil apa pun, segera lakukan pelapisan ulang (reupholstery) dengan material antistatis dan antibakteri khusus ruang bedah.
+
+---
+
+## Protokol Disinfeksi Ruang Operasi yang Benar
+
+Meja operasi terpapar cairan tubuh dan agen pembersih kimia keras setiap harinya. Terapkan langkah pembersihan aman berikut:
+- **Hindari Alkohol Kadar Tinggi pada Lensa Sensor:** Jika meja memiliki sensor inframerah atau panel kontrol sentuh, hindari cairan pembersih abrasif.
+- **Seka, Jangan Disiram:** Jangan pernah menyiram air atau menyemprotkan cairan disinfektan secara berlebihan ke bagian dasar kolom meja operasi elektrik. Rembesan air ke dalam sasis bawah akan merusak pompa elektro-hidrolik dan PCB modul utama.
+
+---
+
+## Solusi Jasa Reparasi dan Kalibrasi Meja Operasi BKS
+
+Mengingat meja operasi adalah perangkat life-support tidak langsung dengan mekanisme presisi tinggi, perbaikan sistem hidrolik utama dan kalibrasi sudut kemiringan ( Trendelenburg / Lateral tilt ) harus dikerjakan oleh teknisi ahli.
+
+**PT Bakti Kawan Service (BKS)** menawarkan program komprehensif [Service Meja Operasi](/layanan/service-meja-operasi) untuk rumah sakit dan faskes Anda. Kami melayani penggantian seal hidrolik bocor, kuras dan isi ulang oli hidrolik, reparasi modul control box, hingga modifikasi dan pembuatan aksesoris meja operasi custom (seperti armboard, shoulder support, dan headrest).
+
+Untuk mendukung kesiapan faskes Anda di area ruang operasi dan perawatan lainnya secara terpadu, kami juga menyediakan layanan [Service Lampu Rumah Sakit](/layanan/service-lampu-rumah-sakit) untuk memastikan lampu bedah bebas flicker, layanan reparasi ranjang rawat inap lewat [Service Bed Pasien dan Alkes](/layanan/service-bed-pasien), perbaikan lemari instrumen steril melalui [Service Lemari Alkes](/layanan/service-lemari-alkes), serta pemeliharaan troli logistik faskes melalui [Service Troli Alkes](/layanan/service-troli-alkes).
+
+Jamin kestabilan dan keandalan posisi pasien di meja bedah Anda demi keselamatan operasi yang maksimal. Hubungi PT Bakti Kawan Service sekarang untuk konsultasi gratis dan jadwalkan inspeksi teknis alkes Anda!
+
+[Hubungi Tim Teknisi Spesialis Meja Operasi BKS Sekarang →](/konsultasi)
+`,
+    coverImage: '/images/blog/blog-service-meja-operasi.png',
+    category: 'Alat Kesehatan',
+    tags: ['service meja operasi', 'operating table', 'meja bedah', 'perbaikan alkes', 'kalibrasi alkes'],
+    author: {
+      name: 'Tim Ahli BKS',
+      role: 'Surgical Equipment Specialist',
+      avatar: '/images/team/author-default.webp',
+    },
+    publishedAt: '2026-07-27T06:00:00Z',
+    readingTime: 6,
+    metaTitle: 'Panduan Service & Pemeliharaan Meja Operasi RS | BKS',
+    metaDescription: 'Cara merawat sistem hidrolik, baterai cadangan, dan rem meja operasi rumah sakit. Solusi jasa reparasi dan kalibrasi meja bedah elektro-hidrolik dari BKS.'
   }
+
 ]
 
 export function getBlogPostBySlug(slug: string): BlogPost | undefined {
