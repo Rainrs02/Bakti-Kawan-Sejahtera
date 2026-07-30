@@ -1555,6 +1555,215 @@ Jamin kestabilan dan keandalan posisi pasien di meja bedah Anda demi keselamatan
     metaDescription: 'Cara merawat sistem hidrolik, baterai cadangan, dan rem meja operasi rumah sakit. Solusi jasa reparasi dan kalibrasi meja bedah elektro-hidrolik dari BKS.'
   }
 
+,
+  {
+    slug: 'tips-memilih-dan-merawat-furniture-hotel',
+    title: 'Tips Memilih dan Merawat Furniture Hotel untuk Meningkatkan Kenyamanan Tamu',
+    excerpt: 'Bisnis perhotelan sangat bergantung pada kenyamanan tamu. Temukan tips memilih dan merawat furniture hotel seperti headboard, dipan, dan sofa lobby agar tahan lama.',
+    content: 
+`# Tips Memilih dan Merawat Furniture Hotel untuk Meningkatkan Kenyamanan Tamu
+
+Dalam industri hospitality atau perhotelan, kenyamanan dan kepuasan tamu adalah segalanya. Ketika seorang tamu memutuskan untuk menginap di sebuah hotel, mereka mengharapkan sebuah pengalaman yang menyenangkan, santai, dan bebas dari stres. Salah satu elemen penunjang fisik yang paling krusial dalam menciptakan pengalaman tersebut adalah furnitur (furniture). Mulai dari sofa yang menyambut mereka di area lobi, meja resepsionis tempat mereka check-in, hingga dipan tempat tidur dan sandaran kepala (headboard) di dalam kamar pribadi mereka.
+
+Furnitur hotel bukan sekadar pelengkap ruangan, melainkan investasi aset jangka panjang yang secara langsung memengaruhi ulasan (review) tamu, reputasi brand hotel, dan efisiensi biaya operasional (CAPEX). Furnitur yang tampak kusam, tergores, bergoyang, atau kulit sintetisnya mengelupas akan merusak citra profesionalisme hotel di mata tamu secara instan. Sebaliknya, furnitur yang kokoh, ergonomis, bersih, dan berestetika tinggi akan memberikan kesan mewah dan premium. Oleh karena itu, penting bagi manajemen hotel untuk memahami cara memilih furnitur yang tepat serta menerapkan prosedur perawatan rutin yang efektif.
+
+## Kriteria Utama dalam Memilih Furniture Hotel
+
+Memilih furnitur untuk hotel memiliki standar yang sangat berbeda dibandingkan dengan memilih furnitur rumah tangga biasa. Furnitur hotel harus mampu menahan beban penggunaan yang konstan (traffic tinggi) dari berbagai tamu dengan karakteristik yang berbeda-beda. Berikut adalah kriteria utama yang wajib diperhatikan:
+
+### 1. Daya Tahan Maksimal (Contract Grade)
+Pastikan furnitur yang dipilih memenuhi standar *contract grade* atau *commercial grade*. Ini berarti furnitur tersebut dirancang dan diuji secara khusus untuk menahan gesekan, tekanan, dan beban kerja harian yang jauh lebih berat dibanding furnitur rumah biasa. Rangka kayu solid yang kuat atau rangka logam tebal adalah pilihan terbaik untuk struktur utama tempat tidur, lemari pakaian, dan meja rias.
+
+### 2. Kemudahan Perawatan dan Sanitasi
+Dalam dunia hospitality, waktu perputaran kamar (room turnaround) harus secepat mungkin. Oleh karena itu, pilihlah material pelapis (upholstery) yang mudah dibersihkan dan tahan terhadap noda cairan. Kulit sintetis premium (*synthetic leather*) atau kain khusus yang dilapisi pelindung anti-noda (*water-repellent fabric*) sangat direkomendasikan untuk kursi kamar dan sofa lobi hotel. Bahan-bahan ini memungkinkan staf housekeeping membersihkan noda tumpahan minuman atau debu hanya dengan sekali usap menggunakan kain microfiber basah.
+
+### 3. Keamanan Struktural (Safety)
+Semua sudut tajam pada furnitur sebaiknya dihindari untuk mencegah cedera fisik bagi tamu, terutama anak-anak. Dipan tempat tidur harus kokoh dan tidak boleh bergeser atau menimbulkan bunyi berderit saat tamu berbaring. Selain itu, pastikan semua laci meja nakas dan lemari pakaian dilengkapi dengan sistem penahan rel agar laci tidak terlepas sepenuhnya saat ditarik dengan keras.
+
+---
+
+## Panduan Merawat Furniture Kamar Hotel
+
+Merawat furnitur kamar hotel membutuhkan konsistensi dan protokol yang jelas bagi tim maintenance internal. Berikut adalah panduan langkah demi langkah perawatan furnitur berdasarkan jenis areanya:
+
+### 1. Perawatan Tempat Tidur, Divan, dan Headboard
+Divan tempat tidur dan *headboard* (sandaran kepala) sering kali berlapis kain beludru atau kulit sintetis.
+- **Pembersihan Rutin:** Gunakan mesin vakum dengan ujung sikat lembut seminggu sekali untuk menyedot debu, serbuk halus, dan ketombe yang terperangkap di celah-celah *headboard*.
+- **Pengecekan Struktur:** Setiap tiga bulan, lakukan pemeriksaan pada baut dan sekrup pengikat dipan tempat tidur. Kencangkan baut yang longgar untuk mencegah bunyi berderit yang mengganggu tidur tamu. Jika dipan bergoyang, pasang karet penahan (pad) di bawah kaki dipan. Anda juga dapat menggunakan layanan [Service Furniture Rumah Logam/Besi/Kayu](/layanan/service-furniture-rumah-besi) untuk mengatasi rangka ranjang hotel yang reyot.
+
+### 2. Perawatan Sofa dan Kursi Lobi
+Sofa lobi resepsionis adalah wajah pertama dari hotel Anda. Sofa ini menerima tekanan beban tertinggi setiap hari karena digunakan oleh tamu yang sedang menunggu proses check-in atau check-out.
+- **Rotasi Bantal:** Jika sofa memiliki bantalan duduk lepas-pasang, lakukan rotasi posisi bantal setiap dua minggu sekali agar tingkat keausan dan pemampatan busa terdistribusi secara merata.
+- **Penanganan Noda Segera:** Jika terjadi tumpahan kopi atau minuman berwarna pada sofa kain, segera bersihkan menggunakan larutan sabun ringan. Jangan menggosok noda terlalu keras karena dapat merusak tenunan kain. Jika sofa lobi Anda sudah terlanjur kusam atau busanya kempes, hubungi jasa ahli [Service Sofa & Kursi Kantor](/layanan/service-sofa-kursi-kantor) untuk melakukan restorasi dan penggantian kulit (reupholstery).
+
+### 3. Perawatan Meja Makan dan Kursi Restoran Hotel
+Restoran hotel merupakan area komersial yang rawan noda minyak dan tumpahan makanan panas.
+- **Perlindungan Permukaan:** Gunakan tatakan gelas atau alas piring untuk melindungi permukaan meja kayu dari suhu panas piring dan kelembapan gelas dingin.
+- **Penyetelan Rangka Kursi:** Kursi makan berbahan kayu rentan mengalami kelonggaran sambungan akibat pergerakan tamu yang sering menggeser kursi. Lakukan pengeleman ulang pada sambungan kayu yang mulai longgar sebelum rangka patah sepenuhnya. Untuk perbaikan skala massal, Anda dapat mempercayakannya pada divisi [Service Furniture Cafe / Restoran](/layanan/service-cafe-restoran).
+
+---
+
+## Menghemat Budget Operasional dengan Layanan Restorasi Profesional
+
+Banyak pemilik dan pengelola hotel yang terburu-buru membuang furnitur kamar atau sofa lobi yang tampak usang dan menggantinya dengan unit baru. Padahal, tindakan ini sangat menguras anggaran belanja tahunan (*Capital Expenditure* / CAPEX). Sebagian besar furnitur hotel lama memiliki rangka kayu solid yang sangat kokoh dan masih berkualitas tinggi. Kerusakan umumnya hanya terjadi pada lapisan luar yang kusam, robek, atau busa bagian dalam yang sedikit kempes.
+
+Solusi paling cerdas dan hemat biaya adalah melakukan restorasi dan pelapisan ulang (reupholstery) secara profesional. Dengan melakukan reupholstery, Anda dapat menghemat biaya hingga 40-60% dibandingkan membeli unit furnitur baru dari pabrikan. Selain menghemat anggaran, Anda juga memiliki kebebasan penuh dalam memilih warna dan corak material pelapis baru yang disesuaikan dengan konsep penyegaran interior (*rebranding*) hotel Anda.
+
+**PT Bakti Kawan Service (BKS)** adalah mitra tepercaya bagi banyak hotel terkemuka dalam menyediakan layanan [Service Furniture Hotel](/layanan/service-hotel). Kami berpengalaman menangani perbaikan massal furnitur kamar set hotel, restorasi bodi kayu nakas, pengeleman ulang edging HPL lemari wardrobe, pelapisan ulang headboard berukuran besar, hingga pemeliharaan trolley operasional hotel (seperti trolley bellboy, laundry trolley, dan food trolley restoran). Didukung oleh teknisi berpengalaman, pengerjaan yang rapi, dan garansi resmi, kami memastikan furnitur hotel Anda kembali tampil prima layaknya baru tanpa harus mengganggu kenyamanan menginap para tamu Anda.
+
+[Konsultasikan kebutuhan perawatan dan restorasi furniture hotel Anda bersama tim ahli BKS sekarang juga!](/konsultasi)
+`,
+    coverImage: '/images/blog/blog-furniture-hotel.png',
+    category: 'Furniture Hotel',
+    tags: ["furniture hotel","service hotel","reupholstery hotel","trolley hotel","restorasi furniture"],
+    author: {
+      name: 'Tim Ahli BKS',
+      role: 'Hospitality Maintenance Specialist',
+      avatar: '/images/team/author-default.webp'
+    },
+    publishedAt: '2026-07-30T09:00:00Z',
+    readingTime: 6,
+    metaTitle: 'Tips Memilih & Merawat Furniture Hotel Kamar & Lobby | BKS',
+    metaDescription: 'Panduan ahli merawat dipan tempat tidur, headboard, dan sofa lobby hotel. Pelajari keuntungan reupholstery untuk hemat budget operasional hingga 60%.'
+  },
+  {
+    slug: 'manajemen-perawatan-filing-cabinet-dan-lemari-arsip',
+    title: 'Panduan Manajemen Perawatan Filing Cabinet dan Lemari Arsip di Perkantoran Modern',
+    excerpt: 'Penyimpanan arsip penting harus terawat dengan baik. Temukan trik merawat filing cabinet besi, lemari arsip kayu, dan mobile file agar laci tidak macet.',
+    content: 
+`# Panduan Manajemen Perawatan Filing Cabinet dan Lemari Arsip di Perkantoran Modern
+
+Meskipun saat ini dunia bisnis terus bertransisi menuju sistem digitalisasi data (paperless office), keberadaan dokumen fisik dan arsip penting tetap memegang peranan yang tidak tergantikan di perkantoran modern. Dokumen kontrak kerja sama, sertifikat perusahaan, berkas keuangan, hingga data rekam medis pasien di klinik tetap wajib disimpan dalam bentuk fisik sebagai bukti legalitas utama. Di sinilah pentingnya peran lemari arsip (filing cabinet) dan sistem lemari bergerak (*mobile file* / *roll o'pack*).
+
+Sebagai wadah penyimpanan yang menampung tumpukan dokumen berat, filing cabinet logam maupun kayu sering kali diabaikan pemeliharaannya. Masalah biasanya baru disadari ketika laci tiba-tiba macet saat ingin ditarik, rel laci anjlok dari dudukannya akibat kelebihan beban, atau kunci sentral (*central lock*) patah dan terjebak di dalam lubang kunci. Kelalaian dalam merawat lemari arsip tidak hanya menghambat efisiensi kerja staf administrasi Anda, tetapi juga membahayakan keamanan dokumen sensitif perusahaan Anda.
+
+## Masalah Klasik yang Sering Terjadi pada Lemari Arsip Kantor
+
+Berdasarkan pengalaman tim teknisi lapangan kami di lapangan, terdapat beberapa masalah mekanis klasik yang paling sering dialami oleh lemari penyimpanan arsip di perkantoran:
+
+### 1. Rel Laci Macet dan Tersangkut (Drawer Slides Failure)
+Filing cabinet dirancang untuk menampung beban kertas yang berat. Di dalam rel laci terdapat bantalan peluru kecil (*ball bearings*) yang meluncur di sepanjang lintasan besi. Jika laci diisi berkas melebihi kapasitas maksimumnya, rel besi tersebut akan melengkung secara bertahap. Hal ini mengakibatkan peluru logam keluar dari lintasannya, membuat laci menjadi sangat berat untuk ditarik or bahkan macet total.
+
+### 2. Kerusakan Sistem Kunci Sentral (Central Lock System)
+Filing cabinet modern umumnya menggunakan satu kunci utama untuk mengunci seluruh laci secara serentak (*central locking*). Sistem ini bekerja menggunakan batang pengunci vertikal di dalam bodi lemari. Jika salah satu laci didorong terlalu keras saat mekanisme kunci sedang aktif, batang pengait internal dapat bengkok atau patah. Akibatnya, laci tidak bisa dibuka sama sekali meskipun kunci luar sudah diputar ke posisi terbuka.
+
+### 3. Keropos dan Karat pada Lemari Logam
+Di daerah berkelembapan tinggi atau perkantoran yang jarang menggunakan AC sentral secara konstan, lemari arsip berbahan pelat besi sangat rentan terhadap karat. Karat biasanya menyerang bagian bawah lemari (*skirting board*) yang sering terkena air pel lantai, atau bagian sudut sambungan las. Karat yang dibiarkan akan mengikis struktur logam, membuat lemari menjadi tidak stabil dan berbahaya jika sampai roboh.
+
+---
+
+## Tips Merawat Filing Cabinet dan Lemari Arsip Kantor
+
+Agar lemari arsip Anda memiliki masa pakai puluhan tahun dan terhindar dari kerusakan mekanis yang mahal, terapkan langkah-langkah pemeliharaan preventif berikut secara berkala:
+
+### 1. Manajemen Beban Dokumen secara Merata
+Hindari menumpuk dokumen terlalu padat pada satu laci saja, terutama laci paling atas. Distribusikan berkas secara merata ke seluruh laci. Letakkan dokumen yang paling berat di laci paling bawah untuk menjaga pusat gravitasi lemari tetap rendah, sehingga meminimalisir risiko lemari terjungkal ke depan saat laci atas ditarik.
+
+### 2. Pelumasan Rel Laci secara Berkala
+Lakukan pelumasan pada rel teleskopik laci setidaknya enam bulan sekali. Bersihkan sisa debu atau serpihan kertas yang menumpuk di jalur rel menggunakan vacuum cleaner atau kuas kecil. Setelah bersih, semprotkan pelumas khusus rantai atau oli silikon ringan. Hindari menggunakan oli kental bekas atau gemuk berlebih karena justru akan menarik debu untuk menempel kembali.
+
+### 3. Edukasi Karyawan Mengenai Cara Penggunaan yang Benar
+Ingatkan seluruh karyawan untuk menutup laci dengan perlahan. Jangan membanting laci lemari arsip. Selain itu, pastikan hanya membuka satu laci dalam satu waktu. Beberapa filing cabinet premium memiliki sistem *anti-tilt* (interlock) yang secara mekanis mencegah laci kedua dibuka jika laci pertama sedang terbuka, guna menghindari lemari roboh ke arah pengguna.
+
+---
+
+## Solusi Service dan Rekondisi Profesional Lemari Arsip Kantor
+
+Apabila filing cabinet di kantor Anda sudah terlanjur macet, kuncinya hilang, atau rangkanya mulai berkarat kusam, Anda tidak perlu buru-buru membeli lemari arsip yang baru. Biaya pengadaan lemari arsip logam berkualitas tinggi cukup mahal, dan proses pembuangan (*disposal*) lemari lama yang berukuran besar juga memakan tenaga dan biaya.
+
+Pilihan paling ekonomis dan efisien adalah menggunakan jasa reparasi profesional. **PT Bakti Kawan Service (BKS)** hadir dengan layanan handal [Service Lemari Arsip](/layanan/service-lemari-arsip). Tim teknisi kami terampil dalam:
+- Membuka paksa laci yang terkunci tanpa merusak bodi utama, serta mengganti sistem rumah kunci (*central lock cylinder*) dengan yang baru.
+- Meluruskan rel teleskopik laci yang bengkok dan mengganti bantalan peluru (*ball bearing*) agar laci meluncur lancar kembali.
+- Melakukan rekondisi bodi logam yang penyok, mengamplas karat, dan melakukan pengecatan ulang anti-karat dengan metode spray/epoksi agar bodi lemari kembali mulus.
+- Service sistem rel gerak mekanik pada lemari bergerak (*mobile file* / *roll o'pack*).
+
+Selain lemari arsip, kami juga siap membantu peremajaan aset furnitur kantor Anda lainnya secara paralel. Kami melayani [Service Meja Kantor](/layanan/service-meja-kantor) untuk perbaikan meja rapat dan reception desk, serta layanan [Service Sofa & Kursi Kantor](/layanan/service-sofa-kursi-kantor) untuk mengatasi masalah hidrolik kursi kerja staff maupun direktur yang ambles.
+
+Jangan biarkan dokumen penting Anda tersangkut di dalam laci yang macet. Segera hubungi PT Bakti Kawan Service untuk solusi perbaikan cepat dan bergaransi!
+
+[Hubungi Layanan Service Filing Cabinet BKS Sekarang Juga!](/konsultasi)
+`,
+    coverImage: '/images/blog/blog-lemari-arsip-kantor.png',
+    category: 'Furniture Kantor',
+    tags: ["lemari arsip","filing cabinet","service furniture kantor","mobile file","perawatan kantor"],
+    author: {
+      name: 'Tim Ahli BKS',
+      role: 'Office Furniture Specialist',
+      avatar: '/images/team/author-default.webp'
+    },
+    publishedAt: '2026-07-29T09:00:00Z',
+    readingTime: 7,
+    metaTitle: 'Panduan Merawat Filing Cabinet & Lemari Arsip Kantor | BKS',
+    metaDescription: 'Kenapa laci lemari arsip macet? Pelajari tips manajemen beban berkas, cara melumasi rel, dan solusi reparasi central lock lemari kantor dari BKS.'
+  },
+  {
+    slug: 'pentingnya-sanitasi-troli-dan-lemari-alkes-klinik',
+    title: 'Pentingnya Sanitasi dan Service Berkala Troli serta Lemari Alkes di Klinik Kesehatan',
+    excerpt: 'Keandalan alkes berdampak langsung pada patient safety. Temukan standar sanitasi troli emergency, lemari obat, dan info service profesional.',
+    content: 
+`# Pentingnya Sanitasi dan Service Berkala Troli serta Lemari Alkes di Klinik Kesehatan
+
+Klinik kesehatan, praktik dokter mandiri, puskesmas, dan laboratorium medis merupakan garda terdepan pelayanan kesehatan masyarakat. Di lingkungan medis ini, standar higienitas dan sterilisasi bukan sekadar opsi estetika, melainkan instrumen vital dalam pengendalian dan pencegahan infeksi silang (*infection control*). Salah satu media penularan bakteri nosokomial (HAI) yang sering luput dari perhatian adalah permukaan furnitur medis, khususnya troli alat kesehatan (troli instrumen/troli emergency) dan lemari penyimpanan obat (medicine cabinet).
+
+Kedua jenis furnitur alkes ini digunakan secara intensif setiap hari oleh paramedis untuk membawa obat-obatan gawat darurat, menaruh instrumen bedah minor yang steril, serta menyimpan ampul obat sensitif. Jika troli medis mengalami kerusakan roda seret yang mengumpulkan debu lantai, atau pintu kaca lemari obat retak yang berpotensi menjadi tempat berkembang biak bakteri, keselamatan pasien dan tenaga medis akan langsung terancam. Oleh karena itu, rutinitas sanitasi serta *preventive maintenance* (service berkala) mekanis furnitur alkes menjadi hal yang tidak boleh ditawar lagi.
+
+## Mengapa Troli dan Lemari Alkes Rentan Menjadi Sumber Kontaminasi?
+
+Kondisi fisik furnitur medis memengaruhi efektivitas proses disinfeksi harian yang dilakukan oleh staf kebersihan. Berikut adalah alasan mengapa kerusakan fisik furnitur alkes dapat memicu risiko kontaminasi mikroba patogen:
+
+### 1. Permukaan yang Mengelupas, Retak, atau Berkarat
+Bahan stainless steel grade medis (seperti SUS 304) atau bodi logam berlapis cat bubuk (*powder coating*) dirancang mulus tanpa pori agar disinfektan dapat bekerja membunuh kuman secara merata. Ketika permukaan cat terkelupas atau logam mulai berkarat, area tersebut menciptakan lekukan mikro dan celah kasar yang tidak rata. Celah-celah ini merupakan tempat perlindungan yang ideal bagi virus dan bakteri untuk bersembunyi dari usapan kain disinfektan.
+
+### 2. Kerusakan Seal Karet Pintu Lemari Obat
+Lemari instrumen bedah dan lemari narkotik membutuhkan segel penutup yang sangat rapat untuk mencegah kelembapan udara masuk dan mengkontaminasi kemasan obat yang steril. Jika segel karet pintu lemari sudah mengeras, retak, atau lepas dari jalurnya, udara luar beserta debu dan spora jamur akan mudah menyelinap masuk ke dalam kabinet penyimpanan.
+
+### 3. Roda Troli yang Macet Mengumpulkan Kotoran
+Roda troli (*caster*) bersentuhan langsung dengan lantai klinik yang mungkin terpapar cipratan cairan medis. Roda yang tidak dilengkapi pelindung benang (*thread guards*) akan mengumpulkan lilitan rambut dan serat benang di bagian as rodanya. Tumpukan kotoran ini akan menyerap cairan pel lantai, memicu karat pada bearing roda, dan menjadi media berkembang biak bakteri yang kemudian menyebar ke lorong-lorong klinik saat troli didorong.
+
+---
+
+## Protokol Sanitasi Troli Medis dan Lemari Alkes Sesuai Standar PPI
+
+Komite Pencegahan dan Pengendalian Infeksi (PPI) menetapkan langkah-langkah disinfeksi berkala untuk furnitur alkes. Pastikan staf medis Anda menerapkan langkah berikut secara disiplin:
+
+### 1. Metode Seka Satu Arah (One-Way Wipe)
+Saat membersihkan permukaan meja troli instrumen atau rak lemari alkes, gunakan kain microfiber steril yang dibasahi cairan disinfektan tingkat menengah. Lakukan gerakan menyeka satu arah (misalnya dari atas ke bawah atau dari dalam ke luar). Hindari menyeka dengan gerakan memutar atau bolak-balik karena justru akan menyebarkan mikroba dari area yang kotor ke area yang sudah bersih.
+
+### 2. Disinfeksi Roda Troli secara Rutin
+Roda troli medis wajib dibersihkan secara berkala. Semprotkan disinfektan spektrum luas langsung pada roda dan gunakan sikat kecil khusus untuk mengeluarkan gumpalan debu atau benang yang terlilit pada as roda. Setelah dibersihkan, semprotkan cairan pelumas silikon anti-karat agar putaran roda tetap lancar dan tidak bising.
+
+### 3. Hindari Penyemprotan Langsung pada Area Kelistrikan
+Beberapa lemari alkes dilengkapi pemanas atau sensor digital, dan beberapa troli memiliki terminal listrik bawaan. Jangan menyemprotkan disinfektan cair secara langsung ke area soket listrik atau sakelar control. Lembabkan kain disinfektan terlebih dahulu, lalu seka area luar secara hati-hati untuk menghindari risiko korsleting listrik.
+
+---
+
+## Solusi Jasa Reparasi dan Kalibrasi Alkes Profesional dari BKS
+
+Pemeliharaan alkes yang presisi membutuhkan penanganan dari teknisi elektromedis atau mekanik alkes yang memahami standar fasilitas kesehatan. Kesalahan pengelasan pada rangka logam atau penggunaan roda pengganti yang tidak memenuhi standar medis (*non-medical grade*) dapat mengganggu fungsionalitas dan keamanan operasional klinik.
+
+**PT Bakti Kawan Service (BKS)** menyediakan solusi terpadu untuk klinik, puskesmas, dan rumah sakit Anda. Divisi alkes kami siap membantu Anda melalui layanan:
+- [Service Troli Alkes](/layanan/service-troli-alkes): Mengganti roda troli darurat dengan roda senyap antibakteri (*silent wheels*), memperbaiki rel laci troli emergency (crash cart) yang anjlok, serta menyetel ulang tiang infus kustom yang terintegrasi pada troli.
+- [Service Lemari Alkes](/layanan/service-lemari-alkes): Mengganti kaca pintu lemari instrumen yang pecah dengan kaca tempered yang aman, memperbaiki engsel pintu lemari obat stainless steel agar menutup rapat, serta menginstalasi smart lock / double lock pada lemari penyimpanan obat narkotika.
+
+Kami juga melayani pemeliharaan alkes pendukung lainnya secara paralel seperti [Service Bed Pasien](/layanan/service-bed-pasien) untuk memulihkan fungsi hidrolik ranjang pasien, serta [Service Meja Operasi](/layanan/service-meja-operasi) untuk kalibrasi kemiringan meja bedah elektro-hidrolik.
+
+Jamin keamanan pasien (*patient safety*) dan penuhi standar akreditasi faskes Anda dengan menjaga kelayakan seluruh furnitur medis. Hubungi PT Bakti Kawan Service hari ini untuk inspeksi dan penawaran kontrak perawatan berkala!
+
+[Hubungi Tim Teknisi Alkes BKS untuk Konsultasi Gratis Sekarang Juga!](/konsultasi)
+`,
+    coverImage: '/images/blog/blog-troli-lemari-alkes.png',
+    category: 'Alat Kesehatan',
+    tags: ["troli alkes","lemari alkes","sanitasi klinik","reparasi alkes","patient safety"],
+    author: {
+      name: 'Tim Ahli BKS',
+      role: 'Clinical Equipment Specialist',
+      avatar: '/images/team/author-default.webp'
+    },
+    publishedAt: '2026-07-28T09:00:00Z',
+    readingTime: 6,
+    metaTitle: 'Pentingnya Sanitasi & Service Troli serta Lemari Alkes Klinik | BKS',
+    metaDescription: 'Panduan sanitasi troli emergency RS & lemari obat klinik sesuai PPI. Pelajari bahaya karat, debu roda, dan solusi perbaikan alkes bergaransi dari BKS.'
+  }
 ]
 
 export function getBlogPostBySlug(slug: string): BlogPost | undefined {
