@@ -5,8 +5,8 @@ import { MapPin, Phone, Mail, Clock, ArrowRight } from 'lucide-react'
 import { getWADirectLink, WA_ADMIN_NUMBER } from '@/lib/utils/whatsapp'
 
 export const metadata: Metadata = {
-  title: 'Kontak | Bakti Kawan Service',
-  description: 'Hubungi Bakti Kawan Service via WhatsApp, telepon, atau email. Fast response untuk Jabodetabek. Konsultasi gratis tersedia.',
+  title: 'Kontak | Asih Kawan Service',
+  description: 'Hubungi Asih Kawan Service via WhatsApp, telepon, atau email. Fast response untuk Jabodetabek. Konsultasi gratis tersedia.',
 }
 
 export default function KontakPage() {
@@ -109,7 +109,7 @@ export default function KontakPage() {
                   allowFullScreen
                   loading="lazy" 
                   referrerPolicy="no-referrer-when-downgrade"
-                  title="Google Maps Bakti Kawan Service"
+                  title="Google Maps Asih Kawan Service"
                   className="w-full h-full grayscale-[20%] hover:grayscale-0 transition-all duration-300"
                 ></iframe>
               </div>

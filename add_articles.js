@@ -57,7 +57,7 @@ Di era pasca-pandemi, kebersihan alkes adalah prioritas. Berikut prosedur standa
 
 Pengecekan ringan bisa dilakukan oleh staf internal. Namun, untuk kerusakan yang bersifat struktural dan membutuhkan kalibrasi mekanis tingkat lanjut, Anda membutuhkan teknisi spesialis alat kesehatan. 
 
-**PT Bakti Kawan Service (BKS)** menawarkan solusi [Service Bed Pasien dan Alkes](/layanan/service-bed-pasien) yang komprehensif, mencakup perbaikan dan rekondisi kursi roda rumah sakit. Kami dapat mereparasi as roda yang bengkok, mengganti *bearing caster* menjadi *silent wheel*, meluruskan *crossbrace* yang macet, hingga mengganti pelapis kursi (reupholstery) dengan material vinyl *medical-grade* anti-bakteri.
+**PT Asih Kawan Service (AKS)** menawarkan solusi [Service Bed Pasien dan Alkes](/layanan/service-bed-pasien) yang komprehensif, mencakup perbaikan dan rekondisi kursi roda rumah sakit. Kami dapat mereparasi as roda yang bengkok, mengganti *bearing caster* menjadi *silent wheel*, meluruskan *crossbrace* yang macet, hingga mengganti pelapis kursi (reupholstery) dengan material vinyl *medical-grade* anti-bakteri.
 
 Jangan biarkan armada kursi roda Anda berkarat di gudang hanya karena roda yang macet atau rem yang blong. Percayakan perbaikannya kepada kami! Apabila Anda juga memiliki masalah dengan troli logistik dan emergency, kami siap menanganinya melalui layanan [Service Troli Alkes](/layanan/service-troli-alkes). 
 
@@ -67,13 +67,13 @@ Jangan biarkan armada kursi roda Anda berkarat di gudang hanya karena roda yang 
     category: 'Alat Kesehatan',
     tags: ['kursi roda', 'service alkes', 'preventive maintenance', 'hospital mobility', 'perbaikan kursi roda'],
     author: {
-      name: 'Tim Ahli BKS',
+      name: 'Tim Ahli AKS',
       role: 'Alkes Maintenance Engineer',
       avatar: '/images/team/team-photo.webp',
     },
     publishedAt: '2026-07-16T09:00:00Z',
     readingTime: 6,
-    metaTitle: 'Panduan Service & Pemeliharaan Kursi Roda RS | BKS',
+    metaTitle: 'Panduan Service & Pemeliharaan Kursi Roda RS | AKS',
     metaDescription: 'Pelajari 4 komponen vital kursi roda rumah sakit yang wajib diinspeksi. Cegah kecelakaan pasien dengan service berkala dan reparasi alkes profesional.',
   },
   {
@@ -116,25 +116,25 @@ Agar investasi furniture interior klinik Anda awet bertahun-tahun, terapkan pand
 
 Apakah sofa ruang tunggu di klinik Anda saat ini sudah terlihat memalukan, robek di bagian lengan, atau warna cerahnya sudah berubah kusam? Anda tidak perlu menguras anggaran belanja tahunan (*CAPEX*) untuk membuang dan membeli baru!
 
-**PT Bakti Kawan Service** merupakan ahli restorasi estetika interior melalui layanan [Service Sofa & Kursi Kantor](/layanan/service-sofa-kursi-kantor). Kami menawarkan program **Reupholstery Premium** khusus untuk fasilitas kesehatan. Kami akan menguliti material lama yang rusak, menyuntikkan busa *high-density* baru agar kembali empuk bervolume, dan membungkusnya dengan Vinyl Medical-Grade yang elegan namun tangguh melawan cairan disinfektan.
+**PT Asih Kawan Service** merupakan ahli restorasi estetika interior melalui layanan [Service Sofa & Kursi Kantor](/layanan/service-sofa-kursi-kantor). Kami menawarkan program **Reupholstery Premium** khusus untuk fasilitas kesehatan. Kami akan menguliti material lama yang rusak, menyuntikkan busa *high-density* baru agar kembali empuk bervolume, dan membungkusnya dengan Vinyl Medical-Grade yang elegan namun tangguh melawan cairan disinfektan.
 
 Selain itu, jika ruang tunggu Anda dilengkapi dengan kabinet obat kaca atau lemari arsip rekam medis yang pintunya macet, tim teknisi kami siap menuntaskannya sekaligus lewat layanan [Service Lemari Alkes](/layanan/service-lemari-alkes).
 
 Ciptakan ruang tunggu yang menawan, menenangkan, dan paling penting: higienis untuk pasien kesayangan Anda. 
-[Klik di sini untuk mengatur jadwal survey gratis bersama tim konsultan BKS!](/konsultasi)
+[Klik di sini untuk mengatur jadwal survey gratis bersama tim konsultan AKS!](/konsultasi)
 \`,
     coverImage: '/images/blog/blog-sofa-tunggu.png',
     category: 'Furniture Medis',
     tags: ['sofa klinik', 'ruang tunggu', 'kebersihan klinik', 'medical grade vinyl', 'reupholstery sofa'],
     author: {
-      name: 'Tim Ahli BKS',
+      name: 'Tim Ahli AKS',
       role: 'Interior Maintenance Specialist',
       avatar: '/images/team/team-photo.webp',
     },
     publishedAt: '2026-07-17T10:00:00Z',
     readingTime: 7,
-    metaTitle: 'Kebersihan & Perawatan Sofa Tunggu Klinik | Bakti Kawan Service',
-    metaDescription: 'Kenapa kulit sofa ruang tunggu klinik cepat rusak? Pelajari tips merawatnya & manfaat mengganti material dengan bahan medical grade anti-mikroba dari BKS.',
+    metaTitle: 'Kebersihan & Perawatan Sofa Tunggu Klinik | Asih Kawan Service',
+    metaDescription: 'Kenapa kulit sofa ruang tunggu klinik cepat rusak? Pelajari tips merawatnya & manfaat mengganti material dengan bahan medical grade anti-mikroba dari AKS.',
   },
   {
     slug: 'cara-merawat-partisi-kantor-workstation',
@@ -174,7 +174,7 @@ Kaca buram (*frosted glass*) atau akrilik bening di atas partisi harus dibersihk
 
 Seiring berjalannya waktu (3-5 tahun), kain partisi Anda pasti akan mulai kendur, warnanya memudar drastis akibat paparan lampu neon/matahari, atau tiang *bracket*-nya goyang dan miring. Perbaikan mandiri seringkali berakhir merusak kerangka utamanya.
 
-Sebagai perusahaan spesialis peremajaan aset kantor, **PT Bakti Kawan Service** menawarkan layanan komprehensif [Service Meja Kantor & Partisi](/layanan/service-meja-kantor) untuk korporat Anda. Kami melayani:
+Sebagai perusahaan spesialis peremajaan aset kantor, **PT Asih Kawan Service** menawarkan layanan komprehensif [Service Meja Kantor & Partisi](/layanan/service-meja-kantor) untuk korporat Anda. Kami melayani:
 - **Re-Fabric (Pembalutan Ulang Kain):** Kami bisa mengelupas kain lama yang lusuh dan menggantinya dengan material *fabric* bertekstur modern dengan pilihan warna yang sejalan dengan identitas baru perusahaan (*re-branding*) Anda.
 - **Pengecatan dan Perkuatan Struktur:** Mengencangkan kembali baut-baut rakitan *knock-down* dan menstabilkan panel yang reyot.
 - **Modifikasi Ukuran:** Memotong atau meninggikan dimensi panel *workstation* mengikuti perombakan tata letak (layout) ruang kerja baru.
@@ -182,19 +182,19 @@ Sebagai perusahaan spesialis peremajaan aset kantor, **PT Bakti Kawan Service** 
 Apakah Anda juga sedang merapikan sistem penyimpanan dokumen di belakang meja resepsionis? Kami dapat memulihkan seluruh lemari arsip besi Anda secara paralel lewat layanan andalan kami di sektor [Service Lemari Arsip & Filing Cabinet](/layanan/service-lemari-arsip). 
 
 Tingkatkan fokus dan semangat tim Anda melalui lingkungan kerja yang tertata apik layaknya kantor baru!
-[Diskusikan rencana perawatan furniture kantor Anda bersama konsultan ahli BKS sekarang.](/konsultasi)
+[Diskusikan rencana perawatan furniture kantor Anda bersama konsultan ahli AKS sekarang.](/konsultasi)
 \`,
     coverImage: '/images/blog/blog-partisi-kantor.png',
     category: 'Furniture Kantor',
     tags: ['partisi kantor', 'workstation cubicle', 'perawatan kantor', 'cleaning fabric panel', 'service meja kantor'],
     author: {
-      name: 'Tim Ahli BKS',
+      name: 'Tim Ahli AKS',
       role: 'Project Manager Workspace',
       avatar: '/images/team/team-photo.webp',
     },
     publishedAt: '2026-07-18T11:00:00Z',
     readingTime: 6,
-    metaTitle: 'Cara Merawat & Membersihkan Partisi Kantor (Cubicle) | BKS',
+    metaTitle: 'Cara Merawat & Membersihkan Partisi Kantor (Cubicle) | AKS',
     metaDescription: 'Panduan lengkap merawat partisi panel kain, kaca akrilik, dan manajemen kabel workstation kantor agar awet. Solusi re-fabric partisi kubikal profesional.',
   },
   {
@@ -244,7 +244,7 @@ Jangan siksa tulang belakang tamu dan klien Anda! Segera bawa sofa Anda untuk di
 
 Mengganti busa sofa (injeksi busa / tambah busa) adalah solusi yang jauh lebih ramah di kantong dan ramah lingkungan dibandingkan membuang kerangka kayu solid yang sebenarnya masih sangat tangguh.
 
-**PT Bakti Kawan Service** merupakan ahlinya meremajakan titik kenyamanan furniture Anda. Lewat layanan [Service Sofa dan Kursi Kantor](/layanan/service-sofa-kursi-kantor), para staf ahli pabrikasi kami siap membongkar jahitan lama Anda, membuang busa busuknya, dan menyisipkan kombinasi sistem lapisan *Rebonded Foam* dan lapisan *Super HR Foam* yang presisi. Kami pastikan daya tahan lekukannya dijamin presisi dan awet bertahun-tahun.
+**PT Asih Kawan Service** merupakan ahlinya meremajakan titik kenyamanan furniture Anda. Lewat layanan [Service Sofa dan Kursi Kantor](/layanan/service-sofa-kursi-kantor), para staf ahli pabrikasi kami siap membongkar jahitan lama Anda, membuang busa busuknya, dan menyisipkan kombinasi sistem lapisan *Rebonded Foam* dan lapisan *Super HR Foam* yang presisi. Kami pastikan daya tahan lekukannya dijamin presisi dan awet bertahun-tahun.
 
 Khusus untuk pebisnis kuliner yang sofa *booth*-nya sudah hancur lebur akibat perlakuan konsumen, jangan ragu untuk berdiskusi dengan tim kami via divisi [Service Furniture Cafe & Restoran](/layanan/service-cafe-restoran).
 
@@ -255,7 +255,7 @@ Sofa yang kempes merugikan estetika dan nilai properti Anda.
     category: 'Tips & Panduan',
     tags: ['busa sofa', 'rebonded foam', 'high resilience foam', 'reupholstery', 'ganti busa kursi'],
     author: {
-      name: 'Tim Ahli BKS',
+      name: 'Tim Ahli AKS',
       role: 'Sofa Upholstery Master',
       avatar: '/images/team/team-photo.webp',
     },
@@ -266,7 +266,7 @@ Sofa yang kempes merugikan estetika dan nilai properti Anda.
   }
 ];
 
-const targetPath = 'd:\\\\Source Code Aplikasi Wasilah\\\\Bakti Kawan Sejahtera\\\\src\\\\lib\\\\data\\\\blog-posts.ts';
+const targetPath = 'd:\\\\Source Code Aplikasi Wasilah\\\\Asih Kawan Sejahtera\\\\src\\\\lib\\\\data\\\\blog-posts.ts';
 const content = fs.readFileSync(targetPath, 'utf8');
 const replacementIndex = content.lastIndexOf(']');
 

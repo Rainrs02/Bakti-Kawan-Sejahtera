@@ -6,8 +6,8 @@ import { CheckCircle, Target, Eye, ArrowRight } from 'lucide-react'
 import { COMPANY_STATS } from '@/lib/data/partners'
 
 export const metadata: Metadata = {
-  title: 'Tentang Kami | Bakti Kawan Service',
-  description: 'PT Bakti Kawan Service — Melayani service furniture alkes, kantor, dan komersial. Kenali visi, misi, tim, dan nilai-nilai perusahaan kami.',
+  title: 'Tentang Kami | Asih Kawan Service',
+  description: 'PT Asih Kawan Service — Melayani service furniture alkes, kantor, dan komersial. Kenali visi, misi, tim, dan nilai-nilai perusahaan kami.',
 }
 
 const TIMELINE = [
@@ -43,7 +43,7 @@ export default function TentangPage() {
                 <span className="gradient-text">Bekerja dengan Presisi</span>
               </h1>
               <p className="text-white/80 text-xl leading-relaxed mb-8">
-                PT Bakti Kawan Service didirikan dengan misi sederhana: memberikan layanan
+                PT Asih Kawan Service didirikan dengan misi sederhana: memberikan layanan
                 service furniture yang benar-benar profesional dan dapat dipercaya untuk fasilitas
                 kesehatan dan bisnis di Indonesia.
               </p>
@@ -53,15 +53,15 @@ export default function TentangPage() {
                 </Link>
               </div>
             </div>
-            {/* Logo BKS Prominent */}
+            {/* Logo AKS Prominent */}
             <div className="w-56 h-56 lg:w-80 lg:h-80 relative shrink-0 drop-shadow-[0_0_30px_rgba(255,255,255,0.1)] transition-transform hover:scale-105 duration-500">
               {/* Core light for dark logo visibility */}
               <div className="absolute inset-0 bg-white/30 blur-[60px] rounded-full scale-75" />
               {/* Outer orange aura */}
               <div className="absolute inset-0 bg-accent/20 blur-[80px] rounded-full scale-110" />
               <Image
-                src="/images/logo/logo.webp"
-                alt="Logo Bakti Kawan Service"
+                src="/images/logo/logo.png"
+                alt="Logo Asih Kawan Service"
                 fill
                 className="object-contain relative z-10 drop-shadow-xl"
                 priority
@@ -96,7 +96,7 @@ export default function TentangPage() {
               <h2 className="text-display-lg text-primary mb-6">Membangun Kepercayaan</h2>
               <div className="space-y-4 text-secondary leading-relaxed">
                 <p>
-                  Bakti Kawan Service lahir dari kesadaran bahwa fasilitas kesehatan di Indonesia
+                  Asih Kawan Service lahir dari kesadaran bahwa fasilitas kesehatan di Indonesia
                   membutuhkan mitra service furniture yang benar-benar dapat diandalkan. Di tahun 2020,
                   kami memulai dari workshop kecil di Kabupaten Bogor dengan 5 orang teknisi.
                 </p>
@@ -117,7 +117,7 @@ export default function TentangPage() {
               <div className="absolute top-0 right-0 w-3/4 h-[75%] rounded-3xl overflow-hidden shadow-2xl">
                 <Image
                   src="/images/team/team-photo-old.webp"
-                  alt="Tim profesional Bakti Kawan Service"
+                  alt="Tim profesional Asih Kawan Service"
                   fill
                   className="object-cover"
                  sizes="(max-width: 768px) 100vw, 50vw" />
@@ -126,7 +126,7 @@ export default function TentangPage() {
               <div className="absolute bottom-0 left-0 w-2/3 h-[65%] rounded-3xl overflow-hidden shadow-2xl border-4 border-bg z-10 hover:-translate-y-2 transition-transform duration-300">
                 <Image
                   src="/images/team/team-photo.webp"
-                  alt="Teknisi Bakti Kawan Service"
+                  alt="Teknisi Asih Kawan Service"
                   fill
                   className="object-cover"
                  sizes="(max-width: 768px) 100vw, 50vw" />

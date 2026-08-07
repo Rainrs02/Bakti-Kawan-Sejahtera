@@ -39,7 +39,7 @@ Kaca buram (*frosted glass*) atau akrilik bening di atas partisi harus dibersihk
 
 Seiring berjalannya waktu (3-5 tahun), kain partisi Anda pasti akan mulai kendur, warnanya memudar drastis akibat paparan lampu neon/matahari, atau tiang *bracket*-nya goyang dan miring. Perbaikan mandiri seringkali berakhir merusak kerangka utamanya.
 
-Sebagai perusahaan spesialis peremajaan aset kantor, **PT Bakti Kawan Service** menawarkan layanan komprehensif [Service Meja Kantor & Partisi](/layanan/service-meja-kantor) untuk korporat Anda. Kami melayani:
+Sebagai perusahaan spesialis peremajaan aset kantor, **PT Asih Kawan Service** menawarkan layanan komprehensif [Service Meja Kantor & Partisi](/layanan/service-meja-kantor) untuk korporat Anda. Kami melayani:
 - **Re-Fabric (Pembalutan Ulang Kain):** Kami bisa mengelupas kain lama yang lusuh dan menggantinya dengan material *fabric* bertekstur modern dengan pilihan warna yang sejalan dengan identitas baru perusahaan (*re-branding*) Anda.
 - **Pengecatan dan Perkuatan Struktur:** Mengencangkan kembali baut-baut rakitan *knock-down* dan menstabilkan panel yang reyot.
 - **Modifikasi Ukuran:** Memotong atau meninggikan dimensi panel *workstation* mengikuti perombakan tata letak (layout) ruang kerja baru.
@@ -47,24 +47,24 @@ Sebagai perusahaan spesialis peremajaan aset kantor, **PT Bakti Kawan Service** 
 Apakah Anda juga sedang merapikan sistem penyimpanan dokumen di belakang meja resepsionis? Kami dapat memulihkan seluruh lemari arsip besi Anda secara paralel lewat layanan andalan kami di sektor [Service Lemari Arsip & Filing Cabinet](/layanan/service-lemari-arsip). 
 
 Tingkatkan fokus dan semangat tim Anda melalui lingkungan kerja yang tertata apik layaknya kantor baru!
-[Diskusikan rencana perawatan furniture kantor Anda bersama konsultan ahli BKS sekarang.](/konsultasi)
+[Diskusikan rencana perawatan furniture kantor Anda bersama konsultan ahli AKS sekarang.](/konsultasi)
 \\\`,
     coverImage: '/images/blog/blog-partisi-kantor.png',
     category: 'Furniture Kantor',
     tags: ['partisi kantor', 'workstation cubicle', 'perawatan kantor', 'cleaning fabric panel', 'service meja kantor'],
     author: {
-      name: 'Tim Ahli BKS',
+      name: 'Tim Ahli AKS',
       role: 'Project Manager Workspace',
       avatar: '/images/team/author-default.webp',
     },
     publishedAt: '2026-07-18T11:00:00Z',
     readingTime: 6,
-    metaTitle: 'Cara Merawat & Membersihkan Partisi Kantor (Cubicle) | BKS',
+    metaTitle: 'Cara Merawat & Membersihkan Partisi Kantor (Cubicle) | AKS',
     metaDescription: 'Panduan lengkap merawat partisi panel kain, kaca akrilik, dan manajemen kabel workstation kantor agar awet. Solusi re-fabric partisi kubikal profesional.',
   }
 `;
 
-const targetPath = 'd:\\\\Source Code Aplikasi Wasilah\\\\Bakti Kawan Sejahtera\\\\src\\\\lib\\\\data\\\\blog-posts.ts';
+const targetPath = 'd:\\\\Source Code Aplikasi Wasilah\\\\Asih Kawan Sejahtera\\\\src\\\\lib\\\\data\\\\blog-posts.ts';
 const content = fs.readFileSync(targetPath, 'utf8');
 const replacementIndex = content.lastIndexOf(']');
 

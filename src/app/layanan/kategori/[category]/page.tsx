@@ -68,8 +68,8 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
       "name": catData.label,
       "provider": {
         "@type": "LocalBusiness",
-        "name": "PT Bakti Kawan Service",
-        "image": "https://servicealkes.com/images/logo/logo.webp",
+        "name": "PT Asih Kawan Service",
+        "image": "https://servicealkes.com/images/logo/logo.png",
         "url": "https://servicealkes.com",
         "telephone": "+6285134353440",
         "priceRange": "$$",

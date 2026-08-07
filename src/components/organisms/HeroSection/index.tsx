@@ -145,7 +145,7 @@ export default function HeroSection() {
             <div className="absolute bottom-0 left-0 w-[58%] h-[35%] rounded-2xl overflow-hidden shadow-xl">
               <Image
                 src="/images/gallery/produksi/Foto Teknisi (4).webp"
-                alt="Tim teknisi Bakti Kawan Service"
+                alt="Tim teknisi Asih Kawan Service"
                 fill
                 className="object-cover"
                 priority

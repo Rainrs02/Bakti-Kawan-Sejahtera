@@ -52,7 +52,7 @@ export function getWADirectLink(customMessage?: string): string {
     return `https://api.whatsapp.com/send?phone=${WA_ADMIN_NUMBER}&text=${encodeURIComponent(customMessage)}`
   }
   const defaultMessage = encodeURIComponent(
-    'Halo Bakti Kawan Service, saya ingin konsultasi mengenai layanan service furniture. Mohon informasinya. Terima kasih.'
+    'Halo Asih Kawan Service, saya ingin konsultasi mengenai layanan service furniture. Mohon informasinya. Terima kasih.'
   )
   return `https://api.whatsapp.com/send?phone=${WA_ADMIN_NUMBER}&text=${defaultMessage}`
 }

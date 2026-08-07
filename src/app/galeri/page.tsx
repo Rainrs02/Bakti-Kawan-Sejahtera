@@ -7,8 +7,8 @@ import { getWADirectLink } from '@/lib/utils/whatsapp'
 import { Phone } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Galeri | Bakti Kawan Service',
-  description: 'Galeri foto hasil service furniture alkes, kantor, dan komersial dari Bakti Kawan Service. Lihat kualitas pekerjaan kami.',
+  title: 'Galeri | Asih Kawan Service',
+  description: 'Galeri foto hasil service furniture alkes, kantor, dan komersial dari Asih Kawan Service. Lihat kualitas pekerjaan kami.',
 }
 
 const GALLERY_IMAGES = [

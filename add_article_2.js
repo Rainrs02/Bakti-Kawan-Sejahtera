@@ -41,29 +41,29 @@ Agar investasi furniture interior klinik Anda awet bertahun-tahun, terapkan pand
 
 Apakah sofa ruang tunggu di klinik Anda saat ini sudah terlihat memalukan, robek di bagian lengan, atau warna cerahnya sudah berubah kusam? Anda tidak perlu menguras anggaran belanja tahunan (*CAPEX*) untuk membuang dan membeli baru!
 
-**PT Bakti Kawan Service** merupakan ahli restorasi estetika interior melalui layanan [Service Sofa & Kursi Kantor](/layanan/service-sofa-kursi-kantor). Kami menawarkan program **Reupholstery Premium** khusus untuk fasilitas kesehatan. Kami akan menguliti material lama yang rusak, menyuntikkan busa *high-density* baru agar kembali empuk bervolume, dan membungkusnya dengan Vinyl Medical-Grade yang elegan namun tangguh melawan cairan disinfektan.
+**PT Asih Kawan Service** merupakan ahli restorasi estetika interior melalui layanan [Service Sofa & Kursi Kantor](/layanan/service-sofa-kursi-kantor). Kami menawarkan program **Reupholstery Premium** khusus untuk fasilitas kesehatan. Kami akan menguliti material lama yang rusak, menyuntikkan busa *high-density* baru agar kembali empuk bervolume, dan membungkusnya dengan Vinyl Medical-Grade yang elegan namun tangguh melawan cairan disinfektan.
 
 Selain itu, jika ruang tunggu Anda dilengkapi dengan kabinet obat kaca atau lemari arsip rekam medis yang pintunya macet, tim teknisi kami siap menuntaskannya sekaligus lewat layanan [Service Lemari Alkes](/layanan/service-lemari-alkes).
 
 Ciptakan ruang tunggu yang menawan, menenangkan, dan paling penting: higienis untuk pasien kesayangan Anda. 
-[Klik di sini untuk mengatur jadwal survey gratis bersama tim konsultan BKS!](/konsultasi)
+[Klik di sini untuk mengatur jadwal survey gratis bersama tim konsultan AKS!](/konsultasi)
 \\\`,
     coverImage: '/images/blog/blog-sofa-tunggu.png',
     category: 'Furniture Medis',
     tags: ['sofa klinik', 'ruang tunggu', 'kebersihan klinik', 'medical grade vinyl', 'reupholstery sofa'],
     author: {
-      name: 'Tim Ahli BKS',
+      name: 'Tim Ahli AKS',
       role: 'Interior Maintenance Specialist',
       avatar: '/images/team/author-default.webp',
     },
     publishedAt: '2026-07-17T10:00:00Z',
     readingTime: 7,
-    metaTitle: 'Kebersihan & Perawatan Sofa Tunggu Klinik | Bakti Kawan Service',
-    metaDescription: 'Kenapa kulit sofa ruang tunggu klinik cepat rusak? Pelajari tips merawatnya & manfaat mengganti material dengan bahan medical grade anti-mikroba dari BKS.',
+    metaTitle: 'Kebersihan & Perawatan Sofa Tunggu Klinik | Asih Kawan Service',
+    metaDescription: 'Kenapa kulit sofa ruang tunggu klinik cepat rusak? Pelajari tips merawatnya & manfaat mengganti material dengan bahan medical grade anti-mikroba dari AKS.',
   }
 `;
 
-const targetPath = 'd:\\\\Source Code Aplikasi Wasilah\\\\Bakti Kawan Sejahtera\\\\src\\\\lib\\\\data\\\\blog-posts.ts';
+const targetPath = 'd:\\\\Source Code Aplikasi Wasilah\\\\Asih Kawan Sejahtera\\\\src\\\\lib\\\\data\\\\blog-posts.ts';
 const content = fs.readFileSync(targetPath, 'utf8');
 const replacementIndex = content.lastIndexOf(']');
 

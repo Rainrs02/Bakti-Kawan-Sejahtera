@@ -95,7 +95,7 @@ export default function ConsultationForm({ initialCategory }: ConsultationFormPr
               const uploadData = new FormData();
               uploadData.append("file", file);
               uploadData.append("upload_preset", uploadPreset);
-              uploadData.append("folder", "bakti-kawan-sejahtera");
+              uploadData.append("folder", "asih-kawan-sejahtera");
 
               const cloudRes = await fetch(`https://api.cloudinary.com/v1_1/${cloudName}/auto/upload`, {
                 method: "POST",

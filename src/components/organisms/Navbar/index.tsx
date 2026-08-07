@@ -78,8 +78,8 @@ export default function Navbar() {
             >
               <div className="relative w-14 h-14 md:w-20 md:h-20">
                 <Image
-                  src="/images/logo/logo.webp"
-                  alt="Bakti Kawan Service"
+                  src="/images/logo/logo.png"
+                  alt="Asih Kawan Service"
                   fill
                   className="object-contain"
                   priority
@@ -91,7 +91,7 @@ export default function Navbar() {
                     'font-display font-bold text-lg md:text-xl leading-tight transition-colors text-primary'
                   )}
                 >
-                  Bakti Kawan
+                  Asih Kawan
                 </div>
                 <div className="text-accent text-sm font-semibold tracking-wider uppercase">
                   Service
@@ -275,10 +275,10 @@ export default function Navbar() {
               onClick={() => setMenuOpen(false)}
             >
               <div className="relative w-10 h-10">
-                <Image src="/images/logo/logo.webp" alt="BKS" fill className="object-contain"  sizes="(max-width: 768px) 100vw, 50vw" />
+                <Image src="/images/logo/logo.png" alt="AKS" fill className="object-contain"  sizes="(max-width: 768px) 100vw, 50vw" />
               </div>
               <div>
-                <div className="font-display font-bold text-sm text-primary">Bakti Kawan</div>
+                <div className="font-display font-bold text-sm text-primary">Asih Kawan</div>
                 <div className="text-accent text-xs font-semibold tracking-wider uppercase">Service</div>
               </div>
             </Link>

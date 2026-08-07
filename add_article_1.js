@@ -57,7 +57,7 @@ Di era pasca-pandemi, kebersihan alkes adalah prioritas. Berikut prosedur standa
 
 Pengecekan ringan bisa dilakukan oleh staf internal. Namun, untuk kerusakan yang bersifat struktural dan membutuhkan kalibrasi mekanis tingkat lanjut, Anda membutuhkan teknisi spesialis alat kesehatan. 
 
-**PT Bakti Kawan Service (BKS)** menawarkan solusi [Service Bed Pasien dan Alkes](/layanan/service-bed-pasien) yang komprehensif, mencakup perbaikan dan rekondisi kursi roda rumah sakit. Kami dapat mereparasi as roda yang bengkok, mengganti *bearing caster* menjadi *silent wheel*, meluruskan *crossbrace* yang macet, hingga mengganti pelapis kursi (reupholstery) dengan material vinyl *medical-grade* anti-bakteri.
+**PT Asih Kawan Service (AKS)** menawarkan solusi [Service Bed Pasien dan Alkes](/layanan/service-bed-pasien) yang komprehensif, mencakup perbaikan dan rekondisi kursi roda rumah sakit. Kami dapat mereparasi as roda yang bengkok, mengganti *bearing caster* menjadi *silent wheel*, meluruskan *crossbrace* yang macet, hingga mengganti pelapis kursi (reupholstery) dengan material vinyl *medical-grade* anti-bakteri.
 
 Jangan biarkan armada kursi roda Anda berkarat di gudang hanya karena roda yang macet atau rem yang blong. Percayakan perbaikannya kepada kami! Apabila Anda juga memiliki masalah dengan troli logistik dan emergency, kami siap menanganinya melalui layanan [Service Troli Alkes](/layanan/service-troli-alkes). 
 
@@ -67,18 +67,18 @@ Jangan biarkan armada kursi roda Anda berkarat di gudang hanya karena roda yang 
     category: 'Alat Kesehatan',
     tags: ['kursi roda', 'service alkes', 'preventive maintenance', 'hospital mobility', 'perbaikan kursi roda'],
     author: {
-      name: 'Tim Ahli BKS',
+      name: 'Tim Ahli AKS',
       role: 'Alkes Maintenance Engineer',
       avatar: '/images/team/author-default.webp',
     },
     publishedAt: '2026-07-16T09:00:00Z',
     readingTime: 6,
-    metaTitle: 'Panduan Service & Pemeliharaan Kursi Roda RS | BKS',
+    metaTitle: 'Panduan Service & Pemeliharaan Kursi Roda RS | AKS',
     metaDescription: 'Pelajari 4 komponen vital kursi roda rumah sakit yang wajib diinspeksi. Cegah kecelakaan pasien dengan service berkala dan reparasi alkes profesional.',
   }
 `;
 
-const targetPath = 'd:\\\\Source Code Aplikasi Wasilah\\\\Bakti Kawan Sejahtera\\\\src\\\\lib\\\\data\\\\blog-posts.ts';
+const targetPath = 'd:\\\\Source Code Aplikasi Wasilah\\\\Asih Kawan Sejahtera\\\\src\\\\lib\\\\data\\\\blog-posts.ts';
 const content = fs.readFileSync(targetPath, 'utf8');
 const replacementIndex = content.lastIndexOf(']');
 

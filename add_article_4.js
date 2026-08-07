@@ -48,7 +48,7 @@ Jangan siksa tulang belakang tamu dan klien Anda! Segera bawa sofa Anda untuk di
 
 Mengganti busa sofa (injeksi busa / tambah busa) adalah solusi yang jauh lebih ramah di kantong dan ramah lingkungan dibandingkan membuang kerangka kayu solid yang sebenarnya masih sangat tangguh.
 
-**PT Bakti Kawan Service** merupakan ahlinya meremajakan titik kenyamanan furniture Anda. Lewat layanan [Service Sofa dan Kursi Kantor](/layanan/service-sofa-kursi-kantor), para staf ahli pabrikasi kami siap membongkar jahitan lama Anda, membuang busa busuknya, dan menyisipkan kombinasi sistem lapisan *Rebonded Foam* dan lapisan *Super HR Foam* yang presisi. Kami pastikan daya tahan lekukannya dijamin presisi dan awet bertahun-tahun.
+**PT Asih Kawan Service** merupakan ahlinya meremajakan titik kenyamanan furniture Anda. Lewat layanan [Service Sofa dan Kursi Kantor](/layanan/service-sofa-kursi-kantor), para staf ahli pabrikasi kami siap membongkar jahitan lama Anda, membuang busa busuknya, dan menyisipkan kombinasi sistem lapisan *Rebonded Foam* dan lapisan *Super HR Foam* yang presisi. Kami pastikan daya tahan lekukannya dijamin presisi dan awet bertahun-tahun.
 
 Khusus untuk pebisnis kuliner yang sofa *booth*-nya sudah hancur lebur akibat perlakuan konsumen, jangan ragu untuk berdiskusi dengan tim kami via divisi [Service Furniture Cafe & Restoran](/layanan/service-cafe-restoran).
 
@@ -59,7 +59,7 @@ Sofa yang kempes merugikan estetika dan nilai properti Anda.
     category: 'Tips & Panduan',
     tags: ['busa sofa', 'rebonded foam', 'high resilience foam', 'reupholstery', 'ganti busa kursi'],
     author: {
-      name: 'Tim Ahli BKS',
+      name: 'Tim Ahli AKS',
       role: 'Sofa Upholstery Master',
       avatar: '/images/team/author-default.webp',
     },
@@ -70,7 +70,7 @@ Sofa yang kempes merugikan estetika dan nilai properti Anda.
   }
 `;
 
-const targetPath = 'd:\\\\Source Code Aplikasi Wasilah\\\\Bakti Kawan Sejahtera\\\\src\\\\lib\\\\data\\\\blog-posts.ts';
+const targetPath = 'd:\\\\Source Code Aplikasi Wasilah\\\\Asih Kawan Sejahtera\\\\src\\\\lib\\\\data\\\\blog-posts.ts';
 const content = fs.readFileSync(targetPath, 'utf8');
 const replacementIndex = content.lastIndexOf(']');
 

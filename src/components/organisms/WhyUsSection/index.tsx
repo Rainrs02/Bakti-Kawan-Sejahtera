@@ -63,7 +63,7 @@ export default function WhyUsSection() {
               <div className="absolute top-0 right-0 w-3/4 h-[75%] rounded-3xl overflow-hidden shadow-lg border border-border/20">
                 <Image
                   src="/images/team/team-photo-old.webp"
-                  alt="Tim teknisi profesional Bakti Kawan Service"
+                  alt="Tim teknisi profesional Asih Kawan Service"
                   fill
                   className="object-cover"
                   sizes="(max-width: 768px) 100vw, 33vw"
@@ -73,7 +73,7 @@ export default function WhyUsSection() {
               <div className="absolute bottom-0 left-0 w-2/3 h-[65%] rounded-3xl overflow-hidden shadow-xl border-4 border-bg z-10 hover:-translate-y-1 transition-transform duration-300">
                 <Image
                   src="/images/team/team-photo.webp"
-                  alt="Tim profesional Bakti Kawan Service"
+                  alt="Tim profesional Asih Kawan Service"
                   fill
                   className="object-cover"
                   sizes="(max-width: 768px) 100vw, 33vw"
@@ -94,7 +94,7 @@ export default function WhyUsSection() {
             <div className="bg-accent text-white rounded-2xl p-5">
               <div className="text-3xl font-serif mb-2 opacity-60">"</div>
               <p className="text-sm leading-relaxed mb-3 font-medium">
-                Bakti Kawan Service adalah mitra terpercaya kami. Respons cepat, teknisi profesional,
+                Asih Kawan Service adalah mitra terpercaya kami. Respons cepat, teknisi profesional,
                 dan hasil pekerjaan selalu memuaskan.
               </p>
               <div className="text-xs text-white/90 font-semibold">
